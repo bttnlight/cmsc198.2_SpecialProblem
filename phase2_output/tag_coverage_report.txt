@@ -1,0 +1,17 @@
+Phase 2 — NRC Emotion Lexicon Coverage Report
+==================================================
+Total tags in vocabulary : 10,539
+Full match               : 388
+Partial match            : 1,421
+No match (zero vector)   : 8,730
+Overall coverage         : 17.16%
+
+Emotion dimension counts (tags with non-zero activation):
+  anger          : 385 tags
+  fear           : 493 tags
+  anticipation   : 457 tags
+  trust          : 543 tags
+  surprise       : 454 tags
+  sadness        : 633 tags
+  joy            : 651 tags
+  disgust        : 299 tags
