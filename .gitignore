@@ -1,5 +1,5 @@
-venv/
-phase1_output/
-*.log
-__pycache__/
-*.pyc
+# venv/
+# phase1_output/
+# *.log
+# __pycache__/
+# *.pyc

@@ -1,0 +1,325 @@
+2026-04-12 21:10:47,525  INFO  ============================================================
+2026-04-12 21:10:47,526  INFO  Phase 2 — Semantic and Emotion-Aware Tag Representation
+2026-04-12 21:10:47,526  INFO    Phase 1 input : C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase1_output\clean_events.csv
+2026-04-12 21:10:47,526  INFO    Output dir    : C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase2_output
+2026-04-12 21:10:47,526  INFO    NRC lexicon   : C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\NRC-Emotion-Lexicon-Wordlevel-v0.92.txt
+2026-04-12 21:10:47,526  INFO  ============================================================
+2026-04-12 21:10:47,527  INFO  Loading clean events from Phase 1…
+2026-04-12 21:10:51,839  INFO    Loaded 377,468 events
+2026-04-12 21:10:51,839  INFO  
+[4.4.1] Building tag sentences…
+2026-04-12 21:10:51,905  INFO    Tag sentences (events with tags): 358,789
+2026-04-12 21:10:51,906  INFO  
+[4.4.1] Training Word2Vec skip-gram…
+2026-04-12 21:10:51,906  INFO    Training Word2Vec skip-gram model…
+2026-04-12 21:10:51,906  INFO      vector_size=100, window=5, min_count=5, epochs=10, sg=1
+2026-04-12 21:10:51,907  INFO  collecting all words and their counts
+2026-04-12 21:10:51,908  INFO  PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2026-04-12 21:10:51,927  INFO  PROGRESS: at sentence #10000, processed 95164 words, keeping 2737 word types
+2026-04-12 21:10:51,947  INFO  PROGRESS: at sentence #20000, processed 189568 words, keeping 4161 word types
+2026-04-12 21:10:51,967  INFO  PROGRESS: at sentence #30000, processed 284190 words, keeping 5154 word types
+2026-04-12 21:10:51,987  INFO  PROGRESS: at sentence #40000, processed 379984 words, keeping 5784 word types
+2026-04-12 21:10:52,008  INFO  PROGRESS: at sentence #50000, processed 475450 words, keeping 6339 word types
+2026-04-12 21:10:52,029  INFO  PROGRESS: at sentence #60000, processed 570411 words, keeping 6855 word types
+2026-04-12 21:10:52,049  INFO  PROGRESS: at sentence #70000, processed 666300 words, keeping 7243 word types
+2026-04-12 21:10:52,069  INFO  PROGRESS: at sentence #80000, processed 761596 words, keeping 7546 word types
+2026-04-12 21:10:52,090  INFO  PROGRESS: at sentence #90000, processed 857191 words, keeping 7814 word types
+2026-04-12 21:10:52,111  INFO  PROGRESS: at sentence #100000, processed 952429 words, keeping 8117 word types
+2026-04-12 21:10:52,132  INFO  PROGRESS: at sentence #110000, processed 1046417 words, keeping 8425 word types
+2026-04-12 21:10:52,154  INFO  PROGRESS: at sentence #120000, processed 1143730 words, keeping 8627 word types
+2026-04-12 21:10:52,175  INFO  PROGRESS: at sentence #130000, processed 1237432 words, keeping 8821 word types
+2026-04-12 21:10:52,200  INFO  PROGRESS: at sentence #140000, processed 1333222 words, keeping 8972 word types
+2026-04-12 21:10:52,222  INFO  PROGRESS: at sentence #150000, processed 1428302 words, keeping 9158 word types
+2026-04-12 21:10:52,245  INFO  PROGRESS: at sentence #160000, processed 1523891 words, keeping 9293 word types
+2026-04-12 21:10:52,267  INFO  PROGRESS: at sentence #170000, processed 1617441 words, keeping 9418 word types
+2026-04-12 21:10:52,290  INFO  PROGRESS: at sentence #180000, processed 1713448 words, keeping 9554 word types
+2026-04-12 21:10:52,312  INFO  PROGRESS: at sentence #190000, processed 1808835 words, keeping 9681 word types
+2026-04-12 21:10:52,334  INFO  PROGRESS: at sentence #200000, processed 1902984 words, keeping 9782 word types
+2026-04-12 21:10:52,356  INFO  PROGRESS: at sentence #210000, processed 1999024 words, keeping 9855 word types
+2026-04-12 21:10:52,379  INFO  PROGRESS: at sentence #220000, processed 2092388 words, keeping 9969 word types
+2026-04-12 21:10:52,402  INFO  PROGRESS: at sentence #230000, processed 2188064 words, keeping 10048 word types
+2026-04-12 21:10:52,428  INFO  PROGRESS: at sentence #240000, processed 2284564 words, keeping 10121 word types
+2026-04-12 21:10:52,451  INFO  PROGRESS: at sentence #250000, processed 2379404 words, keeping 10195 word types
+2026-04-12 21:10:52,474  INFO  PROGRESS: at sentence #260000, processed 2475311 words, keeping 10253 word types
+2026-04-12 21:10:52,497  INFO  PROGRESS: at sentence #270000, processed 2570445 words, keeping 10294 word types
+2026-04-12 21:10:52,520  INFO  PROGRESS: at sentence #280000, processed 2665502 words, keeping 10361 word types
+2026-04-12 21:10:52,542  INFO  PROGRESS: at sentence #290000, processed 2761003 words, keeping 10396 word types
+2026-04-12 21:10:52,568  INFO  PROGRESS: at sentence #300000, processed 2855476 words, keeping 10465 word types
+2026-04-12 21:10:52,591  INFO  PROGRESS: at sentence #310000, processed 2950696 words, keeping 10503 word types
+2026-04-12 21:10:52,615  INFO  PROGRESS: at sentence #320000, processed 3047542 words, keeping 10547 word types
+2026-04-12 21:10:52,637  INFO  PROGRESS: at sentence #330000, processed 3140429 words, keeping 10586 word types
+2026-04-12 21:10:52,659  INFO  PROGRESS: at sentence #340000, processed 3234462 words, keeping 10615 word types
+2026-04-12 21:10:52,683  INFO  PROGRESS: at sentence #350000, processed 3330973 words, keeping 10657 word types
+2026-04-12 21:10:52,703  INFO  collected 10693 word types from a corpus of 3415484 raw words and 358789 sentences
+2026-04-12 21:10:52,703  INFO  Creating a fresh vocabulary
+2026-04-12 21:10:52,803  INFO  Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 10539 unique words (98.56% of original 10693, drops 154)', 'datetime': '2026-04-12T21:10:52.734919', 'gensim': '4.4.0', 'python': '3.13.13 (tags/v3.13.13:01104ce, Apr  7 2026, 19:25:48) [MSC v.1944 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26200-SP0', 'event': 'prepare_vocab'}
+2026-04-12 21:10:52,803  INFO  Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 3414952 word corpus (99.98% of original 3415484, drops 532)', 'datetime': '2026-04-12T21:10:52.803909', 'gensim': '4.4.0', 'python': '3.13.13 (tags/v3.13.13:01104ce, Apr  7 2026, 19:25:48) [MSC v.1944 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26200-SP0', 'event': 'prepare_vocab'}
+2026-04-12 21:10:52,846  INFO  deleting the raw counts dictionary of 10693 items
+2026-04-12 21:10:52,847  INFO  sample=0.001 downsamples 71 most-common words
+2026-04-12 21:10:52,847  INFO  Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 2278069.076794586 word corpus (66.7%% of prior 3414952)', 'datetime': '2026-04-12T21:10:52.847436', 'gensim': '4.4.0', 'python': '3.13.13 (tags/v3.13.13:01104ce, Apr  7 2026, 19:25:48) [MSC v.1944 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26200-SP0', 'event': 'prepare_vocab'}
+2026-04-12 21:10:52,954  INFO  estimated required memory for 10539 words and 100 dimensions: 13700700 bytes
+2026-04-12 21:10:52,954  INFO  resetting layer weights
+2026-04-12 21:10:52,960  INFO  Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2026-04-12T21:10:52.960404', 'gensim': '4.4.0', 'python': '3.13.13 (tags/v3.13.13:01104ce, Apr  7 2026, 19:25:48) [MSC v.1944 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26200-SP0', 'event': 'build_vocab'}
+2026-04-12 21:10:52,960  INFO  Word2Vec lifecycle event {'msg': 'training model with 4 workers on 10539 vocabulary and 100 features, using sg=1 hs=0 sample=0.001 negative=5 window=5 shrink_windows=True', 'datetime': '2026-04-12T21:10:52.960776', 'gensim': '4.4.0', 'python': '3.13.13 (tags/v3.13.13:01104ce, Apr  7 2026, 19:25:48) [MSC v.1944 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26200-SP0', 'event': 'train'}
+2026-04-12 21:10:53,975  INFO  EPOCH 0 - PROGRESS: at 23.12% examples, 526581 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:10:54,985  INFO  EPOCH 0 - PROGRESS: at 45.97% examples, 522187 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:10:55,987  INFO  EPOCH 0 - PROGRESS: at 68.79% examples, 521123 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:10:57,008  INFO  EPOCH 0 - PROGRESS: at 92.52% examples, 522326 words/s, in_qsize 8, out_qsize 1
+2026-04-12 21:10:57,310  INFO  EPOCH 0: training on 3415484 raw words (2277708 effective words) took 4.3s, 525317 effective words/s
+2026-04-12 21:10:58,326  INFO  EPOCH 1 - PROGRESS: at 22.54% examples, 510609 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:10:59,340  INFO  EPOCH 1 - PROGRESS: at 45.97% examples, 519923 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:11:00,361  INFO  EPOCH 1 - PROGRESS: at 69.37% examples, 521002 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:11:01,377  INFO  EPOCH 1 - PROGRESS: at 93.10% examples, 522951 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:11:01,636  INFO  EPOCH 1: training on 3415484 raw words (2278050 effective words) took 4.3s, 527934 effective words/s
+2026-04-12 21:11:02,649  INFO  EPOCH 2 - PROGRESS: at 22.84% examples, 519018 words/s, in_qsize 6, out_qsize 1
+2026-04-12 21:11:03,650  INFO  EPOCH 2 - PROGRESS: at 45.97% examples, 523960 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:11:04,664  INFO  EPOCH 2 - PROGRESS: at 69.38% examples, 524895 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:11:05,670  INFO  EPOCH 2 - PROGRESS: at 93.67% examples, 530280 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:11:05,920  INFO  EPOCH 2: training on 3415484 raw words (2277657 effective words) took 4.3s, 533119 effective words/s
+2026-04-12 21:11:06,937  INFO  EPOCH 3 - PROGRESS: at 23.12% examples, 523510 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:11:07,945  INFO  EPOCH 3 - PROGRESS: at 46.87% examples, 531282 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:11:08,965  INFO  EPOCH 3 - PROGRESS: at 70.83% examples, 532904 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:11:09,968  INFO  EPOCH 3 - PROGRESS: at 95.17% examples, 536659 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:11:10,170  INFO  EPOCH 3: training on 3415484 raw words (2277106 effective words) took 4.2s, 537273 effective words/s
+2026-04-12 21:11:11,194  INFO  EPOCH 4 - PROGRESS: at 23.42% examples, 527214 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:11:12,198  INFO  EPOCH 4 - PROGRESS: at 46.87% examples, 530743 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:11:13,212  INFO  EPOCH 4 - PROGRESS: at 70.54% examples, 531242 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:11:14,220  INFO  EPOCH 4 - PROGRESS: at 93.67% examples, 528259 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:11:14,482  INFO  EPOCH 4: training on 3415484 raw words (2277628 effective words) took 4.3s, 529677 effective words/s
+2026-04-12 21:11:15,518  INFO  EPOCH 5 - PROGRESS: at 23.42% examples, 520402 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:11:16,535  INFO  EPOCH 5 - PROGRESS: at 47.44% examples, 530455 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:11:17,538  INFO  EPOCH 5 - PROGRESS: at 71.12% examples, 533387 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:11:18,551  INFO  EPOCH 5 - PROGRESS: at 95.46% examples, 535613 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:11:18,730  INFO  EPOCH 5: training on 3415484 raw words (2277496 effective words) took 4.2s, 537539 effective words/s
+2026-04-12 21:11:19,751  INFO  EPOCH 6 - PROGRESS: at 23.42% examples, 528923 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:11:20,764  INFO  EPOCH 6 - PROGRESS: at 47.44% examples, 535343 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:11:21,764  INFO  EPOCH 6 - PROGRESS: at 71.40% examples, 539266 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:11:22,770  INFO  EPOCH 6 - PROGRESS: at 95.46% examples, 539360 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:11:22,944  INFO  EPOCH 6: training on 3415484 raw words (2277570 effective words) took 4.2s, 541915 effective words/s
+2026-04-12 21:11:23,978  INFO  EPOCH 7 - PROGRESS: at 23.71% examples, 529084 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:11:24,995  INFO  EPOCH 7 - PROGRESS: at 48.02% examples, 537128 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:11:26,002  INFO  EPOCH 7 - PROGRESS: at 71.40% examples, 534867 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:11:27,013  INFO  EPOCH 7 - PROGRESS: at 95.46% examples, 535538 words/s, in_qsize 6, out_qsize 1
+2026-04-12 21:11:27,189  INFO  EPOCH 7: training on 3415484 raw words (2277343 effective words) took 4.2s, 537973 effective words/s
+2026-04-12 21:11:28,220  INFO  EPOCH 8 - PROGRESS: at 23.42% examples, 524004 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:11:29,229  INFO  EPOCH 8 - PROGRESS: at 47.44% examples, 533850 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:11:30,234  INFO  EPOCH 8 - PROGRESS: at 70.83% examples, 533222 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:11:31,237  INFO  EPOCH 8 - PROGRESS: at 94.88% examples, 535419 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:11:31,430  INFO  EPOCH 8: training on 3415484 raw words (2277559 effective words) took 4.2s, 538670 effective words/s
+2026-04-12 21:11:32,442  INFO  EPOCH 9 - PROGRESS: at 23.12% examples, 526145 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:11:33,444  INFO  EPOCH 9 - PROGRESS: at 46.87% examples, 534386 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:11:34,449  INFO  EPOCH 9 - PROGRESS: at 70.54% examples, 535475 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:11:35,453  INFO  EPOCH 9 - PROGRESS: at 95.17% examples, 540323 words/s, in_qsize 7, out_qsize 0
+2026-04-12 21:11:35,651  INFO  EPOCH 9: training on 3415484 raw words (2279034 effective words) took 4.2s, 541365 effective words/s
+2026-04-12 21:11:35,651  INFO  Word2Vec lifecycle event {'msg': 'training on 34154840 raw words (22777151 effective words) took 42.7s, 533539 effective words/s', 'datetime': '2026-04-12T21:11:35.651793', 'gensim': '4.4.0', 'python': '3.13.13 (tags/v3.13.13:01104ce, Apr  7 2026, 19:25:48) [MSC v.1944 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26200-SP0', 'event': 'train'}
+2026-04-12 21:11:35,652  INFO  Word2Vec lifecycle event {'params': 'Word2Vec<vocab=10539, vector_size=100, alpha=0.025>', 'datetime': '2026-04-12T21:11:35.652136', 'gensim': '4.4.0', 'python': '3.13.13 (tags/v3.13.13:01104ce, Apr  7 2026, 19:25:48) [MSC v.1944 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26200-SP0', 'event': 'created'}
+2026-04-12 21:11:35,652  INFO  Word2Vec lifecycle event {'fname_or_handle': 'C:\\Users\\blafe\\OneDrive\\Documents\\CMSC198.2\\cmsc198.2\\phase2_output\\word2vec_model.bin', 'separately': 'None', 'sep_limit': 10485760, 'ignore': frozenset(), 'datetime': '2026-04-12T21:11:35.652498', 'gensim': '4.4.0', 'python': '3.13.13 (tags/v3.13.13:01104ce, Apr  7 2026, 19:25:48) [MSC v.1944 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26200-SP0', 'event': 'saving'}
+2026-04-12 21:11:35,653  INFO  not storing attribute cum_table
+2026-04-12 21:11:35,738  INFO  saved C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase2_output\word2vec_model.bin
+2026-04-12 21:11:35,739  INFO    Model saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase2_output\word2vec_model.bin
+2026-04-12 21:11:35,739  INFO    Vocabulary size: 10,539 tags
+2026-04-12 21:11:35,753  INFO    Semantic embeddings built: 10,539 tags × 100 dims
+2026-04-12 21:11:35,839  INFO    Saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase2_output\semantic_embeddings.pkl  (4481.2 KB)
+2026-04-12 21:11:35,840  INFO    Tags in semantic vocabulary: 10,539
+2026-04-12 21:11:35,840  INFO  
+[4.4.2] Loading NRC Emotion Lexicon…
+2026-04-12 21:11:35,978  INFO    NRC lexicon loaded: 4,454 words with emotion associations
+2026-04-12 21:11:35,979  INFO  [4.4.2] Building emotion vectors for all tags…
+2026-04-12 21:11:39,980  INFO    Emotion vector mapping complete (10,539 tags):
+2026-04-12 21:11:39,981  INFO      Full match    : 388
+2026-04-12 21:11:39,981  INFO      Partial match : 1,421
+2026-04-12 21:11:39,981  INFO      No match      : 8,730
+2026-04-12 21:11:39,981  INFO      Coverage      : 17.16%
+2026-04-12 21:11:40,872  INFO    Saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase2_output\emotion_vectors.pkl  (734.4 KB)
+2026-04-12 21:11:40,886  INFO    Coverage report saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase2_output\tag_coverage_report.txt
+2026-04-12 21:11:40,886  INFO  
+[4.4.3] Building emotion-aware embeddings (concatenation)…
+2026-04-12 21:11:40,918  INFO    Emotion-aware embeddings built: 10,539 tags × 108 dims
+2026-04-12 21:11:40,919  INFO    Tags using zero emotion vector: 0
+2026-04-12 21:11:40,919  INFO    Shape check passed: (108,) ✓
+2026-04-12 21:11:40,963  INFO    Saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase2_output\emotion_aware_embeddings.pkl  (4851.8 KB)
+2026-04-12 21:11:40,963  INFO  
+2026-04-12 21:11:40,963  INFO  ============================================================
+2026-04-12 21:11:40,964  INFO  PHASE 2 SUMMARY
+2026-04-12 21:11:40,964  INFO  ============================================================
+2026-04-12 21:11:40,964  INFO    Semantic embeddings      : 10,539 tags × 100 dims
+2026-04-12 21:11:40,964  INFO    Emotion vectors          : 10,539 tags × 8 dims
+2026-04-12 21:11:40,964  INFO    Emotion-aware embeddings : 10,539 tags × 108 dims
+2026-04-12 21:11:40,965  INFO  
+2026-04-12 21:11:40,965  INFO    NRC emotion dimensions (fixed order):
+2026-04-12 21:11:40,965  INFO      [0] anger
+2026-04-12 21:11:40,965  INFO      [1] fear
+2026-04-12 21:11:40,965  INFO      [2] anticipation
+2026-04-12 21:11:40,966  INFO      [3] trust
+2026-04-12 21:11:40,966  INFO      [4] surprise
+2026-04-12 21:11:40,966  INFO      [5] sadness
+2026-04-12 21:11:40,966  INFO      [6] joy
+2026-04-12 21:11:40,966  INFO      [7] disgust
+2026-04-12 21:11:40,966  INFO  
+2026-04-12 21:11:40,967  INFO    Sample tag: 'rock'
+2026-04-12 21:11:40,967  INFO      Emotion vector : [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+2026-04-12 21:11:40,967  INFO      Full vector dim: 108
+2026-04-12 21:11:40,967  INFO  
+2026-04-12 21:11:40,967  INFO  Phase 2 complete. Ready for Phase 3.
+2026-04-20 22:43:47,198  INFO  ============================================================
+2026-04-20 22:43:47,226  INFO  Phase 2 — Semantic and Emotion-Aware Tag Representation
+2026-04-20 22:43:47,227  INFO    Phase 1 input : C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase1_output\clean_events.csv
+2026-04-20 22:43:47,227  INFO    Output dir    : C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase2_output
+2026-04-20 22:43:47,227  INFO    NRC lexicon   : C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\NRC-Emotion-Lexicon-Wordlevel-v0.92.txt
+2026-04-20 22:43:47,227  INFO  ============================================================
+2026-04-20 22:43:47,228  INFO  Loading clean events from Phase 1…
+2026-04-20 22:43:51,807  INFO    Loaded 377,468 events
+2026-04-20 22:43:51,807  INFO  
+[4.4.1] Building tag sentences…
+2026-04-20 22:43:51,884  INFO    Tag sentences (events with tags): 358,789
+2026-04-20 22:43:51,885  INFO  
+[4.4.1] Training Word2Vec skip-gram…
+2026-04-20 22:43:51,885  INFO    Semantic embeddings already exist — loading from C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase2_output\semantic_embeddings.pkl
+2026-04-20 22:43:52,606  INFO    Tags in semantic vocabulary: 10,539
+2026-04-20 22:43:52,607  INFO  
+[4.4.2] Loading NRC Emotion Lexicon…
+2026-04-20 22:43:52,879  INFO    NRC lexicon loaded: 4,454 words with emotion associations
+2026-04-20 22:43:52,879  INFO  [4.4.2] Building emotion vectors for all tags…
+2026-04-20 22:43:56,458  INFO    Emotion vector mapping complete (10,539 tags):
+2026-04-20 22:43:56,459  INFO      Full match    : 388
+2026-04-20 22:43:56,459  INFO      Partial match : 1,421
+2026-04-20 22:43:56,459  INFO      No match      : 8,730
+2026-04-20 22:43:56,459  INFO      Coverage      : 17.16%
+2026-04-20 22:43:56,527  INFO    Saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase2_output\emotion_vectors.pkl  (734.4 KB)
+2026-04-20 22:43:56,549  INFO    Coverage report saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase2_output\tag_coverage_report.txt
+2026-04-20 22:43:56,549  INFO  
+[4.4.3] Building emotion-aware embeddings (concatenation)…
+2026-04-20 22:43:56,576  INFO    Emotion-aware embeddings built: 10,539 tags × 108 dims
+2026-04-20 22:43:56,577  INFO    Tags using zero emotion vector: 0
+2026-04-20 22:43:56,577  INFO    Shape check passed: (108,) ✓
+2026-04-20 22:43:56,614  INFO    Saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase2_output\emotion_aware_embeddings.pkl  (4851.8 KB)
+2026-04-20 22:43:56,615  INFO  
+2026-04-20 22:43:56,615  INFO  ============================================================
+2026-04-20 22:43:56,615  INFO  PHASE 2 SUMMARY
+2026-04-20 22:43:56,615  INFO  ============================================================
+2026-04-20 22:43:56,615  INFO    Semantic embeddings      : 10,539 tags × 100 dims
+2026-04-20 22:43:56,615  INFO    Emotion vectors          : 10,539 tags × 8 dims
+2026-04-20 22:43:56,615  INFO    Emotion-aware embeddings : 10,539 tags × 108 dims
+2026-04-20 22:43:56,616  INFO  
+2026-04-20 22:43:56,616  INFO    NRC emotion dimensions (fixed order):
+2026-04-20 22:43:56,616  INFO      [0] anger
+2026-04-20 22:43:56,616  INFO      [1] fear
+2026-04-20 22:43:56,616  INFO      [2] anticipation
+2026-04-20 22:43:56,616  INFO      [3] trust
+2026-04-20 22:43:56,617  INFO      [4] surprise
+2026-04-20 22:43:56,617  INFO      [5] sadness
+2026-04-20 22:43:56,617  INFO      [6] joy
+2026-04-20 22:43:56,617  INFO      [7] disgust
+2026-04-20 22:43:56,617  INFO  
+2026-04-20 22:43:56,617  INFO    Sample tag: 'rock'
+2026-04-20 22:43:56,617  INFO      Emotion vector : [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+2026-04-20 22:43:56,618  INFO      Full vector dim: 108
+2026-04-20 22:43:56,618  INFO  
+2026-04-20 22:43:56,618  INFO  Phase 2 complete. Ready for Phase 3.
+2026-04-20 22:52:31,788  INFO  ============================================================
+2026-04-20 22:52:31,788  INFO  Phase 2 — Semantic and Emotion-Aware Tag Representation
+2026-04-20 22:52:31,789  INFO    Phase 1 input : C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase1_output\clean_events.csv
+2026-04-20 22:52:31,789  INFO    Output dir    : C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase2_output
+2026-04-20 22:52:31,789  INFO    NRC lexicon   : C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\NRC-Emotion-Lexicon-Wordlevel-v0.92.txt
+2026-04-20 22:52:31,789  INFO  ============================================================
+2026-04-20 22:52:31,790  INFO  Loading clean events from Phase 1…
+2026-04-20 22:52:34,353  INFO    Loaded 377,468 events
+2026-04-20 22:52:34,353  INFO  
+[4.4.1] Building tag sentences…
+2026-04-20 22:52:34,407  INFO    Tag sentences (events with tags): 358,789
+2026-04-20 22:52:34,407  INFO  
+[4.4.1] Training Word2Vec skip-gram…
+2026-04-20 22:52:34,407  INFO    Semantic embeddings already exist — loading from C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase2_output\semantic_embeddings.pkl
+2026-04-20 22:52:34,459  INFO    Tags in semantic vocabulary: 10,539
+2026-04-20 22:52:34,772  INFO  
+[4.4.2] Loading NRC Emotion Lexicon…
+2026-04-20 22:52:34,855  INFO    NRC lexicon loaded: 4,454 words with emotion associations
+2026-04-20 22:52:34,855  INFO  [4.4.2] Building emotion vectors for all tags…
+2026-04-20 22:52:38,043  INFO    Emotion vector mapping complete (10,539 tags):
+2026-04-20 22:52:38,043  INFO      Full match    : 388
+2026-04-20 22:52:38,043  INFO      Partial match : 1,421
+2026-04-20 22:52:38,044  INFO      No match      : 8,730
+2026-04-20 22:52:38,044  INFO      Coverage      : 17.16%
+2026-04-20 22:52:38,078  INFO    Saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase2_output\emotion_vectors.pkl  (734.4 KB)
+2026-04-20 22:52:38,093  INFO    Coverage report saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase2_output\tag_coverage_report.txt
+2026-04-20 22:52:38,093  INFO  
+[4.4.3] Building emotion-aware embeddings (concatenation)…
+2026-04-20 22:52:38,122  INFO    Emotion-aware embeddings built: 10,539 tags × 108 dims
+2026-04-20 22:52:38,122  INFO    Tags using zero emotion vector: 0
+2026-04-20 22:52:38,122  INFO    Shape check passed: (108,) ✓
+2026-04-20 22:52:38,161  INFO    Saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase2_output\emotion_aware_embeddings.pkl  (4851.8 KB)
+2026-04-20 22:52:38,162  INFO  
+2026-04-20 22:52:38,162  INFO  ============================================================
+2026-04-20 22:52:38,162  INFO  PHASE 2 SUMMARY
+2026-04-20 22:52:38,162  INFO  ============================================================
+2026-04-20 22:52:38,163  INFO    Semantic embeddings      : 10,539 tags × 100 dims
+2026-04-20 22:52:38,163  INFO    Emotion vectors          : 10,539 tags × 8 dims
+2026-04-20 22:52:38,163  INFO    Emotion-aware embeddings : 10,539 tags × 108 dims
+2026-04-20 22:52:38,163  INFO  
+2026-04-20 22:52:38,164  INFO    NRC emotion dimensions (fixed order):
+2026-04-20 22:52:38,164  INFO      [0] anger
+2026-04-20 22:52:38,164  INFO      [1] fear
+2026-04-20 22:52:38,164  INFO      [2] anticipation
+2026-04-20 22:52:38,164  INFO      [3] trust
+2026-04-20 22:52:38,164  INFO      [4] surprise
+2026-04-20 22:52:38,165  INFO      [5] sadness
+2026-04-20 22:52:38,165  INFO      [6] joy
+2026-04-20 22:52:38,165  INFO      [7] disgust
+2026-04-20 22:52:38,165  INFO  
+2026-04-20 22:52:38,165  INFO    Sample tag: 'rock'
+2026-04-20 22:52:38,166  INFO      Emotion vector : [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+2026-04-20 22:52:38,166  INFO      Full vector dim: 108
+2026-04-20 22:52:38,166  INFO  
+2026-04-20 22:52:38,166  INFO  Phase 2 complete. Ready for Phase 3.
+2026-04-20 22:53:09,729  INFO  ============================================================
+2026-04-20 22:53:09,730  INFO  Phase 2 — Semantic and Emotion-Aware Tag Representation
+2026-04-20 22:53:09,730  INFO    [UPDATED: Warriner et al. VAD lexicon, 3-dim continuous]
+2026-04-20 22:53:09,730  INFO    Phase 1 input  : C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase1_output\clean_events.csv
+2026-04-20 22:53:09,730  INFO    Output dir     : C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase2_output
+2026-04-20 22:53:09,730  INFO    Warriner file  : C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\BRM-emot-submit.csv
+2026-04-20 22:53:09,731  INFO    Embedding dims : 100 semantic + 3 VAD = 103 total
+2026-04-20 22:53:09,731  INFO  ============================================================
+2026-04-20 22:53:09,731  INFO  Loading clean events from Phase 1…
+2026-04-20 22:53:12,240  INFO    Loaded 377,468 events
+2026-04-20 22:53:12,240  INFO  
+[4.4.1] Building tag sentences…
+2026-04-20 22:53:12,293  INFO    Tag sentences (events with tags): 358,789
+2026-04-20 22:53:12,294  INFO  
+[4.4.1] Training Word2Vec skip-gram…
+2026-04-20 22:53:12,294  INFO    Semantic embeddings already exist — loading from C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase2_output\semantic_embeddings.pkl
+2026-04-20 22:53:12,342  INFO    Tags in semantic vocabulary: 10,539
+2026-04-20 22:53:12,343  INFO  
+[4.4.2] Loading Warriner et al. (2013) VAD lexicon…
+2026-04-20 22:53:12,702  INFO    Warriner lexicon loaded: 13,905 words with VAD scores
+2026-04-20 22:53:12,702  INFO  [4.4.2] Building VAD vectors for all tags…
+2026-04-20 22:53:15,965  INFO    VAD vector mapping complete (10,539 tags):
+2026-04-20 22:53:15,966  INFO      Full match    : 2,970
+2026-04-20 22:53:15,966  INFO      Partial match : 2,425
+2026-04-20 22:53:15,966  INFO      No match      : 5,144
+2026-04-20 22:53:15,966  INFO      Coverage      : 51.19%
+2026-04-20 22:53:16,002  INFO    Saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase2_output\emotion_vectors.pkl  (528.6 KB)
+2026-04-20 22:53:16,040  INFO    Coverage report saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase2_output\tag_coverage_report.txt
+2026-04-20 22:53:16,041  INFO  
+[4.4.3] Building emotion-aware embeddings (concatenation)…
+2026-04-20 22:53:16,067  INFO    Emotion-aware embeddings built: 10,539 tags × 103 dims (100 semantic + 3 VAD)
+2026-04-20 22:53:16,067  INFO    Tags using zero VAD vector: 0
+2026-04-20 22:53:16,067  INFO    Shape check passed: (103,) ✓
+2026-04-20 22:53:16,152  INFO    Saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase2_output\emotion_aware_embeddings.pkl  (4645.9 KB)
+2026-04-20 22:53:16,152  INFO  
+2026-04-20 22:53:16,152  INFO  ============================================================
+2026-04-20 22:53:16,152  INFO  PHASE 2 SUMMARY
+2026-04-20 22:53:16,153  INFO  ============================================================
+2026-04-20 22:53:16,153  INFO    Semantic embeddings      : 10,539 tags × 100 dims
+2026-04-20 22:53:16,153  INFO    VAD emotion vectors      : 10,539 tags × 3 dims
+2026-04-20 22:53:16,153  INFO    Emotion-aware embeddings : 10,539 tags × 103 dims
+2026-04-20 22:53:16,153  INFO  
+2026-04-20 22:53:16,154  INFO    VAD dimensions (Warriner et al. 2013):
+2026-04-20 22:53:16,154  INFO      [0] valence
+2026-04-20 22:53:16,154  INFO      [1] arousal
+2026-04-20 22:53:16,154  INFO      [2] dominance
+2026-04-20 22:53:16,154  INFO  
+2026-04-20 22:53:16,154  INFO    Sample tag: 'rock'
+2026-04-20 22:53:16,155  INFO      VAD vector     : [0.5899999737739563, 0.2680000066757202, 0.5320000052452087]  (valence=0.590, arousal=0.268, dominance=0.533)
+2026-04-20 22:53:16,155  INFO      Full vector dim: 103
+2026-04-20 22:53:16,155  INFO  
+2026-04-20 22:53:16,155  INFO  Phase 2 complete. Ready for Phase 3.
