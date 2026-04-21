@@ -85,8 +85,9 @@ LOG_FILE             = os.path.join(OUTPUT_DIR, "phase4.log")
 
 # Evaluation parameters — Section 4.6.3
 K_VALUES   = [5, 10, 20]
-NRC_EMOTIONS = ["anger", "fear", "anticipation", "trust",
-                "surprise", "sadness", "joy", "disgust"]
+# VAD dimensions from Warriner — 3-dim continuous (updated from NRC 8-dim binary)
+VAD_DIM    = 3
+VAD_DIMS   = ["valence", "arousal", "dominance"]
 
 # ── Logging ──────────────────────────────────────
 logging.basicConfig(
@@ -223,18 +224,13 @@ def build_user_emotion_profile(
     context_window: int = 50,
 ) -> dict[str, np.ndarray]:
     """
-    Build each user's emotion profile directly from NRC lexicon vectors,
+    Build each user's emotion profile directly from Warriner VAD vectors,
     independent of any embedding representation.
 
     Per Section 4.6.4: emotion alignment must be measured in a shared
-    lexicon-based emotion space independent of embedding representations.
-    This function computes that space correctly for BOTH models by
-    aggregating NRC emotion vectors of tags from the user's recent events.
-
-    This fixes the original implementation which incorrectly extracted
-    the last 8 dims of Word2Vec vectors for the semantic model —
-    those dims are not emotion dimensions and produced artificially
-    high cosine similarity (~0.90).
+    affective space independent of embedding representations.
+    Uses Warriner 3-dim continuous VAD vectors [valence, arousal, dominance].
+    Only tags with non-zero VAD vectors contribute to the profile.
     """
     by_user = defaultdict(list)
     for ev in train_events:
@@ -251,13 +247,13 @@ def build_user_emotion_profile(
             for tag in ev["tags"]:
                 if tag in emotion_vectors:
                     vec = emotion_vectors[tag]
-                    if vec.sum() > 0:   # only include tags with emotional signal
+                    if vec.sum() > 0:
                         emo_vecs.append(vec)
 
         if emo_vecs:
             user_emotion_profiles[user] = np.mean(emo_vecs, axis=0).astype(np.float32)
         else:
-            user_emotion_profiles[user] = np.zeros(8, dtype=np.float32)
+            user_emotion_profiles[user] = np.zeros(VAD_DIM, dtype=np.float32)
 
     return user_emotion_profiles
 
@@ -268,8 +264,8 @@ def build_track_emotion_profile(
     emotion_vectors: dict[str, np.ndarray],
 ) -> dict[str, np.ndarray]:
     """
-    Build each track's emotion profile directly from NRC lexicon vectors.
-    Same shared lexicon-based space as build_user_emotion_profile.
+    Build each track's emotion profile from Warriner VAD vectors.
+    Same shared affective space as build_user_emotion_profile.
     """
     track_tags = defaultdict(set)
     for ev in train_events:
@@ -286,7 +282,7 @@ def build_track_emotion_profile(
         if emo_vecs:
             track_emotion_profiles[key] = np.mean(emo_vecs, axis=0).astype(np.float32)
         else:
-            track_emotion_profiles[key] = np.zeros(8, dtype=np.float32)
+            track_emotion_profiles[key] = np.zeros(VAD_DIM, dtype=np.float32)
 
     return track_emotion_profiles
 
@@ -299,17 +295,15 @@ def compute_emotion_alignment(
     k: int = 10,
 ) -> dict:
     """
-    FIXED: Emotion alignment now computed in a pure NRC lexicon-based
-    emotion space for BOTH models (Section 4.6.4).
+    Emotion alignment computed in a shared Warriner VAD space for BOTH models.
 
-    Previously the semantic model incorrectly used the last 8 dims of
-    Word2Vec vectors, producing artificially high scores (~0.90).
-    Both models now use the same lexicon-derived 8-dim emotion vectors,
-    making the comparison fair and methodologically valid.
-
-    Alignment = cosine similarity between user's NRC emotion profile
-    and each recommended track's NRC emotion profile, averaged over
+    Alignment = cosine similarity between user's VAD emotion profile
+    and each recommended track's VAD emotion profile, averaged over
     top-k recommendations then averaged over all users.
+
+    Per Section 4.6.4: measured in a shared affective space independent
+    of embedding representations. Uses Warriner 3-dim continuous VAD
+    vectors [valence, arousal, dominance].
     """
     eval_users = [u for u in recommendations if u in user_emotion_profiles]
     per_user_alignment = []
@@ -318,7 +312,6 @@ def compute_emotion_alignment(
     for user in eval_users:
         ctx_emo = user_emotion_profiles[user]
 
-        # Skip users with all-zero emotion profile (no emotional tags in history)
         if ctx_emo.sum() == 0:
             zero_vector_users += 1
             continue
@@ -330,7 +323,7 @@ def compute_emotion_alignment(
         track_alignments = []
         for track_key_str, _ in recs:
             track_emo = track_emotion_profiles.get(
-                track_key_str, np.zeros(8, dtype=np.float32))
+                track_key_str, np.zeros(VAD_DIM, dtype=np.float32))
             sim = cosine_sim(ctx_emo, track_emo)
             track_alignments.append(sim)
 
@@ -692,8 +685,8 @@ if __name__ == "__main__":
     }
 
     # ── Step 4: Build shared NRC emotion space ────
-    log.info("\n[4.6.4] Building shared NRC emotion profiles…")
-    log.info("  (FIXED: both models now evaluated in pure lexicon space)")
+    log.info("\n[4.6.4] Building shared Warriner VAD emotion profiles…")
+    log.info("  (both models evaluated in shared 3-dim VAD space)")
     user_emo_profiles   = build_user_emotion_profile(
         train_events, emotion_vecs, context_window=50)
     track_emo_profiles  = build_track_emotion_profile(

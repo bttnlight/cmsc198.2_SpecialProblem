@@ -137,7 +137,7 @@ TOP_K_GENERATE    = 20      # generate top-20 so all K values are covered
 
 # Embedding dimensions
 SEM_DIM = 100
-EMO_DIM = 108
+EMO_DIM = 103   # UPDATED: 100 semantic + 3 VAD (was 108 with NRC 8-dim)
 
 # ── Logging ──────────────────────────────────────
 logging.basicConfig(

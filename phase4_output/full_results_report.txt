@@ -10,66 +10,66 @@ popularity                  5    0.0002    0.0063    0.0000    0.0004
 popularity                 10    0.0008    0.0089    0.0001    0.0012
 popularity                 20    0.0011    0.0075    0.0003    0.0022
 
-semantic                    5    0.0074    0.0536    0.0007    0.0067
+semantic                    5    0.0072    0.0524    0.0007    0.0066
 semantic                   10    0.0066    0.0407    0.0012    0.0090
 semantic                   20    0.0055    0.0277    0.0019    0.0109
 
-emotion-aware               5    0.0082    0.0556    0.0007    0.0054
-emotion-aware              10    0.0067    0.0406    0.0012    0.0089
-emotion-aware              20    0.0056    0.0285    0.0020    0.0113
+emotion-aware               5    0.0068    0.0502    0.0006    0.0058
+emotion-aware              10    0.0062    0.0398    0.0012    0.0090
+emotion-aware              20    0.0055    0.0286    0.0019    0.0113
 
 4.6.4  EMOTION ALIGNMENT
 -----------------------------------------------------------------
 Model                       K   Alignment         ±       N
 -----------------------------------------------------------------
-semantic                    5      0.5629    0.3797     980
-semantic                   10      0.5727    0.3690     980
-semantic                   20      0.5766    0.3586     980
+semantic                    5      0.9989    0.0033     999
+semantic                   10      0.9988    0.0044     999
+semantic                   20      0.9987    0.0044     999
 
-emotion-aware               5      0.5694    0.3793     980
-emotion-aware              10      0.5773    0.3696     980
-emotion-aware              20      0.5799    0.3593     980
+emotion-aware               5      0.9990    0.0018     999
+emotion-aware              10      0.9989    0.0038     999
+emotion-aware              20      0.9990    0.0021     999
 
 4.6.6  COMPARATIVE ANALYSIS (Statistical Tests)
 -----------------------------------------------------------------
   emotion-aware vs semantic [Precision@5]
     Test     : Wilcoxon signed-rank
-    Statistic: 111.0000   p-value: 0.5942  (not significant)
-    Cohen's d: 0.021 (negligible effect)
+    Statistic: 125.0000   p-value: 0.9584  (not significant)
+    Cohen's d: -0.012 (negligible effect)
     N users  : 999
 
   emotion-aware vs semantic [Recall@5]
     Test     : Wilcoxon signed-rank
-    Statistic: 115.0000   p-value: 0.7088  (not significant)
-    Cohen's d: 0.001 (negligible effect)
+    Statistic: 110.5000   p-value: 0.6033  (not significant)
+    Cohen's d: -0.018 (negligible effect)
     N users  : 999
 
   emotion-aware vs semantic [Precision@10]
     Test     : Wilcoxon signed-rank
-    Statistic: 172.0000   p-value: 0.6649  (not significant)
-    Cohen's d: 0.005 (negligible effect)
+    Statistic: 137.5000   p-value: 0.3111  (not significant)
+    Cohen's d: -0.018 (negligible effect)
     N users  : 999
 
   emotion-aware vs semantic [Recall@10]
     Test     : Wilcoxon signed-rank
-    Statistic: 181.5000   p-value: 0.8569  (not significant)
-    Cohen's d: -0.001 (negligible effect)
+    Statistic: 172.5000   p-value: 0.9392  (not significant)
+    Cohen's d: -0.007 (negligible effect)
     N users  : 999
 
   emotion-aware vs semantic [Precision@20]
     Test     : Wilcoxon signed-rank
-    Statistic: 299.0000   p-value: 0.7796  (not significant)
-    Cohen's d: 0.014 (negligible effect)
+    Statistic: 254.0000   p-value: 0.8437  (not significant)
+    Cohen's d: 0.005 (negligible effect)
     N users  : 999
 
   emotion-aware vs semantic [Recall@20]
     Test     : Wilcoxon signed-rank
-    Statistic: 270.0000   p-value: 0.4610  (not significant)
-    Cohen's d: 0.022 (negligible effect)
+    Statistic: 233.5000   p-value: 0.5682  (not significant)
+    Cohen's d: 0.018 (negligible effect)
     N users  : 999
 
   emotion-aware vs semantic [EmotionAlignment@10]
     Test     : Wilcoxon signed-rank
-    Statistic: 4526.0000   p-value: 0.1010  (not significant)
-    Cohen's d: 0.066 (negligible effect)
-    N users  : 980
+    Statistic: 10431.0000   p-value: 0.0000  (SIGNIFICANT)
+    Cohen's d: 0.073 (negligible effect)
+    N users  : 999

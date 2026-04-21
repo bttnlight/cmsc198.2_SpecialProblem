@@ -1,17 +1,17 @@
-Phase 2 — NRC Emotion Lexicon Coverage Report
+Phase 2 — Warriner et al. VAD Coverage Report
 ==================================================
-Total tags in vocabulary : 10,539
-Full match               : 388
-Partial match            : 1,421
-No match (zero vector)   : 8,730
-Overall coverage         : 17.16%
+Lexicon                  : Warriner et al. (2013) BRM
+Emotion dimensions       : Valence, Arousal, Dominance (3-dim continuous)
+Score normalization      : 1–9 scale → [0, 1]
 
-Emotion dimension counts (tags with non-zero activation):
-  anger          : 385 tags
-  fear           : 493 tags
-  anticipation   : 457 tags
-  trust          : 543 tags
-  surprise       : 454 tags
-  sadness        : 633 tags
-  joy            : 651 tags
-  disgust        : 299 tags
+Total tags in vocabulary : 10,539
+Full match               : 2,970
+Partial match            : 2,425
+No match (zero vector)   : 5,144
+Overall coverage         : 51.19%
+Tags with non-zero VAD   : 5,395
+
+VAD dimension statistics (matched tags only):
+  valence     : mean=0.590  std=0.136  min=0.081  max=0.934
+  arousal     : mean=0.412  std=0.104  min=0.084  max=0.842
+  dominance   : mean=0.563  std=0.094  min=0.177  max=0.842
