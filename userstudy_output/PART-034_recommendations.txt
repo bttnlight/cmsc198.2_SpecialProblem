@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-034
+Reported mood  : Calm / Relaxed
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Ed Sheeran — Castle on the Hill  [dataset]
+   2. Coldplay — Fix You  [dataset]
+   3. John Mayer — Gravity  [dataset]
+   4. Jack Johnson — Better Together  [dataset]
+   5. Jason Mraz — I'm Yours  [dataset]
+   6. John Mayer — Slow Dancing in a Burning Room  [dataset]
+   7. Jack Johnson — Banana Pancakes  [dataset]
+   8. Norah Jones — The Nearness of You  [dataset]
+   9. Ed Sheeran — Photograph  [dataset]
+  10. John Mayer — Your Body Is a Wonderland  [dataset]
+  11. Colbie Caillat — Bubbly  [dataset]
+  12. Jack Johnson — Sitting, Waiting, Wishing  [dataset]
+  13. Jason Mraz — Lucky  [dataset]
+  14. Ben Harper — Steal My Kisses  [dataset]
+  15. Norah Jones — Sunrise  [dataset]
+  16. Ingrid Michaelson — The Way I Am  [dataset]
+  17. Ed Sheeran — Lego House  [dataset]
+  18. John Mayer — Half of My Heart  [dataset]
+  19. Jack Johnson — Taylor  [dataset]
+  20. Colbie Caillat — Realize  [dataset]
+
+PLAYLIST A
+----------------------------------------
+   1. Jason Mraz — 1000 Things
+   2. Jason Mraz — The Boy'S Gone
+   3. Jason Mraz — No Stopping Us
+   4. Jason Mraz — I Feel Like Dancing
+   5. Jason Mraz — Please Don'T Tell Her (Album Version)
+   6. Jason Mraz — Love Someone
+   7. Jason Mraz — Only Human
+   8. Jason Mraz — I'M Yours (Radio Edit)
+   9. Jason Mraz — A Beautiful Mess
+  10. Jason Mraz — The Dynamo Of Volition
+
+PLAYLIST B
+----------------------------------------
+   1. Jason Mraz — Bella Luna (Album Version)
+   2. Jason Mraz — Wordplay (Album Version)
+   3. Jason Mraz — Please Don'T Tell Her (Album Version)
+   4. Jason Mraz — O. Lover (Album Version)
+   5. Jason Mraz — Love Someone
+   6. Jason Mraz — You And I Both
+   7. Jason Mraz — Only Human
+   8. Jason Mraz — Mr. Curiosity
+   9. Jason Mraz — I'M Yours (Radio Edit)
+  10. Jason Mraz — The Remedy (I Won'T Worry)
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: A → B
+────────────────────────────────────────────────────────────

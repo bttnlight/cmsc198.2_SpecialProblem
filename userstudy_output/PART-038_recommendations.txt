@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-038
+Reported mood  : Nostalgic
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Usher — Confessions Part II  [lastfm]
+   2. Alicia Keys — No One  [dataset]
+   3. Beyoncé — Irreplaceable  [dataset]
+   4. Chris Brown — With You  [lastfm]
+   5. Ne-Yo — So Sick  [dataset]
+   6. Rihanna — Hate That I Love You  [dataset]
+   7. Mary J. Blige — Be Without You  [dataset]
+   8. Usher — Yeah!  [dataset]
+   9. Ciara — Promise  [dataset]
+  10. Keyshia Cole — Love  [dataset]
+  11. Alicia Keys — If I Ain't Got You  [dataset]
+  12. John Legend — Ordinary People  [dataset]
+  13. Ne-Yo — Because of You  [dataset]
+  14. Beyoncé — Halo  [dataset]
+  15. R. Kelly — I Believe I Can Fly  [dataset]
+  16. Mario — Let Me Love You  [dataset]
+  17. Tank — Please Don't Go  [lastfm]
+  18. Fantasia — I Believe  [lastfm]
+  19. Mary J. Blige — Just Fine  [dataset]
+  20. Chris Brown — Forever  [dataset]
+
+PLAYLIST B
+----------------------------------------
+   1. Justin Timberlake — Losing My Way
+   2. Justin Timberlake — Chop Me Up
+   3. Justin Timberlake (Feat. Jay-Z) — Suit & Tie
+   4. Justin Timberlake — Sexy Ladies/Let Me Talk To You Prelude
+   5. Justin Timberlake — Futuresex/Lovesound
+   6. Justin Timberlake — (Another Song) All Over Again
+   7. Justin Timberlake — Can'T Stop The Feeling!
+   8. Justin Timberlake — Don'T Hold The Wall
+   9. Justin Timberlake — Take Back The Night
+  10. Justin Timberlake — Tunnel Vision
+
+PLAYLIST A
+----------------------------------------
+   1. Justin Timberlake — Futuresex / Lovesound
+   2. Justin Timberlake — Rock Your Body
+   3. Justin Timberlake — Damn Girl - Main Version - Explicit
+   4. Justin Timberlake — Like I Love You
+   5. Justin Timberlake — Losing My Way
+   6. Justin Timberlake — (Another Song) All Over Again
+   7. Justin Timberlake — Sexy Ladies/Let Me Talk To You Prelude
+   8. Justin Timberlake — Chop Me Up
+   9. Justin Timberlake — Futuresex/Lovesound
+  10. Justin Timberlake — Señorita
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: B → A
+────────────────────────────────────────────────────────────

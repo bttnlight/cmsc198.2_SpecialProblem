@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-011
+Reported mood  : Sad / Melancholic
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Lewis Capaldi — Someone You Loved  [dataset]
+   2. Lewis Capaldi — Before You Go  [lastfm]
+   3. Sam Smith — Stay With Me  [dataset]
+   4. Sam Smith — Leave Your Lover  [lastfm]
+   5. Adele — Someone Like You  [dataset]
+   6. Adele — When We Were Young  [dataset]
+   7. James Arthur — Say You Won't Let Go  [dataset]
+   8. James Bay — Let It Go  [dataset]
+   9. Ed Sheeran — The A Team  [dataset]
+  10. Ed Sheeran — Happier  [lastfm]
+  11. Birdy — Skinny Love  [dataset]
+  12. Birdy — Wings  [dataset]
+  13. Passenger — Let Her Go  [dataset]
+  14. JP Saxe — If the World Was Ending  [lastfm]
+  15. Julia Michaels — Issues  [lastfm]
+  16. Gnash — i hate u i love u  [lastfm]
+  17. Ruth B. — Lost Boy  [dataset]
+  18. Conan Gray — Heather  [lastfm]
+  19. Conan Gray — Astronomy  [dataset]
+  20. Lewis Capaldi — Bruises  [dataset]
+
+PLAYLIST A
+----------------------------------------
+   1. Olly Murs — Up
+   2. Olly Murs — Dance With Me Tonight
+   3. Olly Murs — This One'S For The Girls
+   4. Olly Murs — Bonkers
+   5. Olly Murs — Please Don'T Let Me Go
+   6. Olly Murs — Hey You Beautiful
+   7. Olly Murs — Kiss Me
+   8. Olly Murs — Heart Skips A Beat Feat. Rizzle Kicks
+   9. Olly Murs — Heart Skips A Beat
+  10. Olly Murs — Troublemaker
+
+PLAYLIST B
+----------------------------------------
+   1. Tom Odell — True Colours
+   2. Tom Odell — Another Love
+   3. Tom Odell — I Think It'S Going To Rain Today
+   4. Tom Odell — Heal
+   5. Tom Odell — If You Wanna Love Somebody
+   6. Tom Odell — Another Love - Tiësto Remix
+   7. Tom Odell — Another Love - Zwette Edit
+   8. Tom Odell — Can'T Pretend
+   9. Tom Odell — Butterflies (Feat. Aurora)
+  10. Tom Odell — Constellations
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: A → B
+────────────────────────────────────────────────────────────

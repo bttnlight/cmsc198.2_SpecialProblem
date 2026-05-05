@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-018
+Reported mood  : Nostalgic
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Eraserheads — Ang Huling El Bimbo  [lastfm]
+   2. Eraserheads — With a Smile  [lastfm]
+   3. Rivermaya — 214.0  [lastfm]
+   4. Rivermaya — Liwanag sa Dilim  [lastfm]
+   5. Parokya ni Edgar — Harana  [lastfm]
+   6. Parokya ni Edgar — Your Stupid Face  [lastfm]
+   7. Sugarfree — Mariposa  [lastfm]
+   8. Sugarfree — Tulog Na  [lastfm]
+   9. Hale — The Day You Said Goodnight  [lastfm]
+  10. Hale — Broken Sonnet  [lastfm]
+  11. Johnoy Danao — Paglisan  [lastfm]
+  12. Johnoy Danao — Nakapagtataka  [lastfm]
+  13. Bullet Dumas — Tayo Na Sa Simula  [lastfm]
+  14. Ariel Rivera — Ikaw  [lastfm]
+  15. Gary Valenciano — Natutulog Ba Ang Diyos  [lastfm]
+  16. December Avenue — Sa Ngalan ng Pag-ibig  [lastfm]
+  17. Bamboo — Noypi  [lastfm]
+  18. Sandwich — Betamax  [lastfm]
+  19. The Itchyworms — Akin Ka Na Lang  [lastfm]
+  20. Eraserheads — Ligaya  [lastfm]
+
+PLAYLIST A
+----------------------------------------
+   1. Zack Tabudlo — Give Me Your Forever
+   2. Grentperez — Everest
+   3. Tina Arena — Chains
+   4. Alana Davis — Love & Pride
+   5. Alana Davis — Murder
+   6. Alana Davis — One Day
+   7. Alana Davis — Turtle
+   8. Alana Davis — Crazy
+   9. Alana Davis — Weight Of The World
+  10. Alana Davis — Lullaby
+
+PLAYLIST B
+----------------------------------------
+   1. Grentperez — Everest
+   2. Zack Tabudlo — Give Me Your Forever
+   3. Tina Arena — Chains
+   4. Alana Davis — Murder
+   5. Alana Davis — Turtle
+   6. Alana Davis — Love & Pride
+   7. Alana Davis — Free
+   8. Alana Davis — Crazy
+   9. Alana Davis — One Day
+  10. Alana Davis — Lullaby
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: A → B
+────────────────────────────────────────────────────────────

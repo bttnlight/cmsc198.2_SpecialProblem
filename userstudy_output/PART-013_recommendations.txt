@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-013
+Reported mood  : Calm / Relaxed
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Nujabes — Feather  [lastfm]
+   2. Nujabes — Aruarian Dance  [lastfm]
+   3. j^p^n — Wrong  [lastfm]
+   4. Idealism — Serenity  [lastfm]
+   5. Philanthrope — Falling  [lastfm]
+   6. Harris Cole — Stay  [lastfm]
+   7. tenno — stargazing  [lastfm]
+   8. City Girl — Neon Impasse  [lastfm]
+   9. Kupla — Maple Syrup  [lastfm]
+  10. Potsu — i miss you  [lastfm]
+  11. Flovry — Forever Ago  [lastfm]
+  12. Sleepy Fish — petrichor  [lastfm]
+  13. Eevee — snowfall  [lastfm]
+  14. Pandrezz — The Feeling  [lastfm]
+  15. Saib — Take a Trip  [lastfm]
+  16. Brock Berrigan — Coffee Shop  [lastfm]
+  17. SwuM — at the beach  [lastfm]
+  18. Jinsang — Solitude  [lastfm]
+  19. Ambulo — Adrift  [lastfm]
+  20. Nujabes — Luv(sic) Part 3  [lastfm]
+
+PLAYLIST B
+----------------------------------------
+   1. Allem Iversom — Night Glow
+   2. Sleepy Fish — I Wish It Would Never Stop Snowing
+   3. Less.People — Faceless Woman
+   4. Oatmello — Fresh Snow
+   5. Jinsang — Affection
+   6. Philanthrope — The End
+   7. Philanthrope — Clockwork (Feat. Tusken.)
+   8. Goosetaf — Clouded Thoughts
+   9. Goosetaf — Dormant
+  10. Goosetaf — Carwash
+
+PLAYLIST A
+----------------------------------------
+   1. Sleepy Fish — I Wish It Would Never Stop Snowing
+   2. Allem Iversom — Night Glow
+   3. Less.People — Faceless Woman
+   4. Jinsang — Affection
+   5. Philanthrope — Clockwork (Feat. Tusken.)
+   6. Philanthrope — The End
+   7. Oatmello — Fresh Snow
+   8. Goosetaf — Dormant
+   9. Goosetaf — Carwash
+  10. Goosetaf — Clouded Thoughts
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: B → A
+────────────────────────────────────────────────────────────

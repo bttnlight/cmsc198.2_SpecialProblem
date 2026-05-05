@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-015
+Reported mood  : Mixed / Varies
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Slowdive — When the Sun Hits  [dataset]
+   2. Slowdive — Alison  [dataset]
+   3. My Bloody Valentine — Only Shallow  [dataset]
+   4. My Bloody Valentine — Sometimes  [dataset]
+   5. Cocteau Twins — Heaven or Las Vegas  [dataset]
+   6. Cocteau Twins — Pearly-Dewdrops' Drops  [dataset]
+   7. Beach House — Space Song  [dataset]
+   8. Beach House — Myth  [dataset]
+   9. Mazzy Star — Fade Into You  [dataset]
+  10. Mazzy Star — Halah  [dataset]
+  11. Ride — Vapour Trail  [dataset]
+  12. Lush — De-Luxe  [lastfm]
+  13. Alvvays — Archie, Marry Me  [dataset]
+  14. Alvvays — Dreams Tonite  [dataset]
+  15. Soccer Mommy — Circle the Drain  [dataset]
+  16. Japanese Breakfast — Everybody Wants to Love You  [dataset]
+  17. Snail Mail — Pristine  [dataset]
+  18. Car Seat Headrest — Drunk Drivers  [lastfm]
+  19. Angel Olsen — Intern  [dataset]
+  20. Slowdive — Sugar for the Pill  [dataset]
+
+PLAYLIST B
+----------------------------------------
+   1. Monster Movie — Good Grief
+   2. Ttssfu — Cat Piss Junkie
+   3. Ttssfu — Call U Back
+   4. Ttssfu — Upstairs
+   5. Ttssfu — Being Young
+   6. Ttssfu — Help
+   7. Ttssfu — Growing Older
+   8. Ttssfu — Wait It Out
+   9. Ttssfu — Asexual
+  10. Ttssfu — California
+
+PLAYLIST A
+----------------------------------------
+   1. Monster Movie — Good Grief
+   2. Ttssfu — Goat
+   3. Ttssfu — Call U Back
+   4. Ttssfu — Help
+   5. Ttssfu — Weekend
+   6. Ttssfu — California
+   7. Ttssfu — Forever
+   8. Ttssfu — Wait It Out
+   9. Ttssfu — Growing Older
+  10. Ttssfu — Sick
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: B → A
+────────────────────────────────────────────────────────────

@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-017
+Reported mood  : Calm / Relaxed
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. João Gilberto — The Girl from Ipanema  [lastfm]
+   2. João Gilberto — Chega de Saudade  [dataset]
+   3. Antonio Carlos Jobim — Wave  [lastfm]
+   4. Antonio Carlos Jobim — Corcovado  [lastfm]
+   5. Astrud Gilberto — Corcovado  [lastfm]
+   6. Stan Getz — Misty  [lastfm]
+   7. Caetano Veloso — Sozinho  [lastfm]
+   8. Seu Jorge — Tive Razão  [lastfm]
+   9. Bebel Gilberto — Tanto Tempo  [dataset]
+  10. Buena Vista Social Club — Chan Chan  [dataset]
+  11. Buena Vista Social Club — Quizás Quizás Quizás  [lastfm]
+  12. Cesária Évora — Sodade  [dataset]
+  13. Youssou N'Dour — 7 Seconds  [lastfm]
+  14. Fatoumata Diawara — Clandestin  [lastfm]
+  15. Tinariwen — Imidiwan  [lastfm]
+  16. Balthazar — Losers  [lastfm]
+  17. Beirut — Nantes  [dataset]
+  18. Beirut — Elephant Gun  [dataset]
+  19. Gotan Project — Santa María  [lastfm]
+  20. João Gilberto — Garota de Ipanema  [dataset]
+
+PLAYLIST A
+----------------------------------------
+   1. Milton Nascimento — Caçador De Mim
+   2. Milton Nascimento — O Que Será (A Flor Da Pele)
+   3. Milton Nascimento — Beijo Partido
+   4. Milton Nascimento — Para Lennon E Mccartney
+   5. Milton Nascimento — Caso Você Queira Saber
+   6. Milton Nascimento — Anima
+   7. Milton Nascimento — San Vicente
+   8. Milton Nascimento — Tudo O Que Você Podia Ser
+   9. Milton Nascimento — Me Deixa Em Paz
+  10. Milton Nascimento — Nuvem Cigana
+
+PLAYLIST B
+----------------------------------------
+   1. Sivuca — Adeus Maria Fulo
+   2. Quarteto Novo — Síntese
+   3. Milton Nascimento — San Vicente
+   4. Milton Nascimento — O Que Será (A Flor Da Pele)
+   5. Milton Nascimento — Caçador De Mim
+   6. Milton Nascimento — Me Deixa Em Paz
+   7. Milton Nascimento — Anima
+   8. Milton Nascimento — Caso Você Queira Saber
+   9. Milton Nascimento — Para Lennon E Mccartney
+  10. Milton Nascimento — Beijo Partido
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: A → B
+────────────────────────────────────────────────────────────

@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-025
+Reported mood  : Energetic / Motivated
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. The Clash — London Calling  [dataset]
+   2. The Clash — Should I Stay or Should I Go  [dataset]
+   3. Sex Pistols — Anarchy in the U.K.  [dataset]
+   4. The Ramones — Blitzkrieg Bop  [lastfm]
+   5. The Ramones — I Wanna Be Sedated  [lastfm]
+   6. The Cure — Boys Don't Cry  [dataset]
+   7. The Cure — Lovesong  [dataset]
+   8. Joy Division — Love Will Tear Us Apart  [dataset]
+   9. Joy Division — Atmosphere  [dataset]
+  10. Siouxsie and the Banshees — Cities in Dust  [dataset]
+  11. Bauhaus — Bela Lugosi's Dead  [dataset]
+  12. The Smiths — There Is a Light That Never Goes Out  [dataset]
+  13. The Smiths — How Soon Is Now?  [dataset]
+  14. Interpol — Obstacle 1  [dataset]
+  15. Interpol — Slow Hands  [dataset]
+  16. Editors — Munich  [dataset]
+  17. Bloc Party — Helicopter  [dataset]
+  18. Franz Ferdinand — Take Me Out  [dataset]
+  19. Arctic Monkeys — R U Mine?  [dataset]
+  20. The Cure — Close to Me  [dataset]
+
+PLAYLIST A
+----------------------------------------
+   1. Joy Division — Love Will Tear Us Apart - 2010 Remaster
+   2. Joy Division — The Eternal - 2007 Re-Mastered
+   3. Joy Division — Disorder - 2019 Digital Master
+   4. Joy Division — Atmosphere - 2020 Digital Remaster
+   5. Joy Division — Shadowplay - 2007 Remaster
+   6. Joy Division — I Remember Nothing - 2007 Remastered Version
+   7. Joy Division — Insight - 2007 Remaster
+   8. Joy Division — Isolation - 2007 Remaster
+   9. Joy Division — Twenty Four Hours - 2007 Remaster
+  10. Joy Division — Insight - 2007 Re-Mastered
+
+PLAYLIST B
+----------------------------------------
+   1. Joy Division — Love Will Tear Us Apart (The 1980 Martin Hannett Version)
+   2. Joy Division — Failures
+   3. Joy Division — 03. 24 Hours
+   4. Joy Division — Shadowplay - 2007 Remastered Version
+   5. Joy Division — Dead Souls
+   6. Joy Division — A Means To An End - 2007 Remaster
+   7. Joy Division — Digital Ambience Warmth, Rooms Warm-Up, Shakin Speaker Dust Off
+   8. Joy Division — Love Will Tear Us Apart - 2010 Remastered Version
+   9. Joy Division — Love Will Tear Us Apart - 2020 Remaster
+  10. Joy Division — Isolation
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: A → B
+────────────────────────────────────────────────────────────

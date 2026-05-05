@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-036
+Reported mood  : Energetic / Motivated
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. 100 gecs — money machine  [dataset]
+   2. Charli XCX — Speed Drive  [dataset]
+   3. Sophie — Immaterial  [dataset]
+   4. Bladee — Iceman  [lastfm]
+   5. Charli XCX — Gone  [lastfm]
+   6. Arca — Puro Quiero  [lastfm]
+   7. 100 gecs — hand crushed by a mallet  [dataset]
+   8. Yeule — Serotonin II  [lastfm]
+   9. Dorian Electra — Flamboyant  [lastfm]
+  10. Kim Petras — Heart to Break  [dataset]
+  11. Caroline Polachek — Bunny Is a Rider  [dataset]
+  12. Charli XCX — Vroom Vroom  [dataset]
+  13. sophie — Is It Cold in the Water?  [dataset]
+  14. Bladee — Fool  [lastfm]
+  15. A.G. Cook — Beautiful  [lastfm]
+  16. Grimes — Oblivion  [dataset]
+  17. Yeule — Ghost of You  [lastfm]
+  18. Caroline Polachek — Welcome to My Island  [dataset]
+  19. 100 gecs — Stupid Horse  [dataset]
+  20. Charli XCX — I Love It  [lastfm]
+
+PLAYLIST A
+----------------------------------------
+   1. 100 Gecs — Bloodstains
+   2. 100 Gecs — Xxxi_Wud_Nvrstøp_Üxxx
+   3. 100 Gecs — Stupid Horse (Remix) [Feat. Gfoty & Count Baldor]
+   4. 100 Gecs — I Got My Tooth Removed
+   5. 100 Gecs — The Most Wanted Person In The United States
+   6. 100 Gecs — Toothless
+   7. 100 Gecs — Gec 2 Ü (Danny L Harle Harlecore Remix)
+   8. 100 Gecs — Hollywood Baby
+   9. 100 Gecs — Mememe
+  10. Charli Xcx — Femmebot (Feat. Dorian Electra And Mykki Blanco)
+
+PLAYLIST B
+----------------------------------------
+   1. 100 Gecs — Stupid Horse (Remix) [Feat. Gfoty & Count Baldor]
+   2. 100 Gecs — Gec 2 Ü (Danny L Harle Harlecore Remix)
+   3. 100 Gecs — Hollywood Baby
+   4. 100 Gecs — Xxxi_Wud_Nvrstøp_Üxxx
+   5. 100 Gecs — Bloodstains
+   6. 100 Gecs — The Most Wanted Person In The United States
+   7. 100 Gecs — I Got My Tooth Removed
+   8. 100 Gecs — Toothless
+   9. 100 Gecs — Mememe
+  10. Charli Xcx — Everything Is Romantic
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: A → B
+────────────────────────────────────────────────────────────

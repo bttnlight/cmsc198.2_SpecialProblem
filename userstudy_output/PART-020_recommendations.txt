@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-020
+Reported mood  : Mixed / Varies
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Joni Mitchell — River  [dataset]
+   2. Joni Mitchell — A Case of You  [dataset]
+   3. Cat Stevens — Wild World  [dataset]
+   4. Cat Stevens — Father and Son  [dataset]
+   5. Paul Simon — The Sound of Silence  [dataset]
+   6. Paul Simon — Kathy's Song  [lastfm]
+   7. James Taylor — Fire and Rain  [dataset]
+   8. James Taylor — Carolina in My Mind  [dataset]
+   9. Carole King — So Far Away  [dataset]
+  10. Carole King — It's Too Late  [dataset]
+  11. Nick Drake — River Man  [dataset]
+  12. Tim Buckley — Song to the Siren  [lastfm]
+  13. Leonard Cohen — Hallelujah  [dataset]
+  14. Leonard Cohen — Bird on the Wire  [dataset]
+  15. Bob Dylan — The Times They Are A-Changin'  [dataset]
+  16. Bob Dylan — Blowin' in the Wind  [dataset]
+  17. Simon & Garfunkel — The Boxer  [dataset]
+  18. Simon & Garfunkel — Bridge Over Troubled Water  [dataset]
+  19. Joni Mitchell — Both Sides Now  [dataset]
+  20. Cat Stevens — Trouble  [dataset]
+
+PLAYLIST B
+----------------------------------------
+   1. Paul Simon — Graceland
+   2. Paul Simon — Armistice Day
+   3. Paul Simon — Paranoia Blues
+   4. Paul Simon — Hobo'S Blues
+   5. Paul Simon — Congratulations
+   6. Paul Simon — Papa Hobo
+   7. Paul Simon — Everything Put Together Falls
+   8. Paul Simon — Stranded In A Limousine
+   9. Paul Simon — American Tune
+  10. Paul Simon — Take Me To The Mardi Gras
+
+PLAYLIST A
+----------------------------------------
+   1. Paul Simon — Boy In The Bubble [12'' Extended Version]
+   2. Paul Simon — The Sounds Of Silence
+   3. Paul Simon — Father And Daughter
+   4. Paul Simon — Graceland
+   5. Paul Simon — All Around The World Or The Myth Of Fingerprints (Early Version) - Bonus Track
+   6. Paul Simon — The Late Great Johnny Ace
+   7. Paul Simon — Shelter Of Your Arms (Unreleased Work-In-Progress)
+   8. Paul Simon — All Around The World Or The Myth Of Fingerprints - Early Version
+   9. Paul Simon — Rene And Georgette Magritte With Their Dog After The War (Original Acoustic Demo)
+  10. Paul Simon — Homeless
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: B → A
+────────────────────────────────────────────────────────────

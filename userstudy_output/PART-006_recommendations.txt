@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-006
+Reported mood  : Energetic / Motivated
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Linkin Park — In The End  [dataset]
+   2. Linkin Park — Numb  [dataset]
+   3. System of a Down — Chop Suey!  [dataset]
+   4. System of a Down — B.Y.O.B.  [dataset]
+   5. Rage Against the Machine — Killing in the Name  [dataset]
+   6. Metallica — Enter Sandman  [dataset]
+   7. Metallica — The Unforgiven  [dataset]
+   8. Nirvana — Smells Like Teen Spirit  [dataset]
+   9. Nirvana — Come As You Are  [dataset]
+  10. Pearl Jam — Black  [dataset]
+  11. Alice in Chains — Would?  [dataset]
+  12. Soundgarden — Black Hole Sun  [dataset]
+  13. Tool — Sober  [dataset]
+  14. Tool — Schism  [dataset]
+  15. Deftones — Change  [lastfm]
+  16. Deftones — Be Quiet and Drive  [lastfm]
+  17. My Chemical Romance — Welcome to the Black Parade  [dataset]
+  18. My Chemical Romance — Famous Last Words  [dataset]
+  19. Bring Me the Horizon — Doomed  [lastfm]
+  20. Linkin Park — Crawling  [dataset]
+
+PLAYLIST A
+----------------------------------------
+   1. Deftones — My Own Summer (Shove It)
+   2. Scars On Broadway — Serious
+   3. Breaking Benjamin — So Cold
+   4. Breaking Benjamin — Follow
+   5. Breaking Benjamin — Diary Of Jane
+   6. Breaking Benjamin — Here We Are
+   7. Breaking Benjamin — Natural Life
+   8. Breaking Benjamin — Skin
+   9. Breaking Benjamin — Blow Me Away
+  10. Breaking Benjamin — Failure
+
+PLAYLIST B
+----------------------------------------
+   1. Deftones — My Own Summer (Shove It)
+   2. Scars On Broadway — Serious
+   3. Breaking Benjamin — Follow
+   4. Breaking Benjamin — Until The End
+   5. Breaking Benjamin — Dance With The Devil
+   6. Breaking Benjamin — The Diary Of Jane
+   7. Breaking Benjamin — Diary Of Jane - Single Version
+   8. Breaking Benjamin — Breath
+   9. Breaking Benjamin — Polyamorous
+  10. Breaking Benjamin — Failure
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: A → B
+────────────────────────────────────────────────────────────

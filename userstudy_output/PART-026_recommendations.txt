@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-026
+Reported mood  : Nostalgic
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Fall Out Boy — Sugar We're Goin Down  [dataset]
+   2. Fall Out Boy — Dance Dance  [dataset]
+   3. Panic! at the Disco — I Write Sins Not Tragedies  [dataset]
+   4. Panic! at the Disco — Nine in the Afternoon  [dataset]
+   5. My Chemical Romance — Helena  [dataset]
+   6. My Chemical Romance — I'm Not Okay  [lastfm]
+   7. Paramore — Misery Business  [dataset]
+   8. Paramore — The Only Exception  [dataset]
+   9. Green Day — Boulevard of Broken Dreams  [dataset]
+  10. Green Day — Wake Me Up When September Ends  [dataset]
+  11. Simple Plan — Welcome to My Life  [dataset]
+  12. Simple Plan — Perfect  [dataset]
+  13. Sum 41 — In Too Deep  [dataset]
+  14. Yellowcard — Ocean Avenue  [dataset]
+  15. Taking Back Sunday — Cute Without the 'E'  [lastfm]
+  16. Dashboard Confessional — Vindicated  [dataset]
+  17. Brand New — Sic Transit Gloria  [lastfm]
+  18. Thursday — Understanding in a Car Crash  [dataset]
+  19. Hawthorne Heights — Ohio Is for Lovers  [dataset]
+  20. Fall Out Boy — Thnks fr th Mmrs  [dataset]
+
+PLAYLIST A
+----------------------------------------
+   1. Good Charlotte — Interlude - The Fifth Chamber
+   2. Good Charlotte — Counting The Days
+   3. Good Charlotte — Alive
+   4. Good Charlotte — Right Where I Belong
+   5. Good Charlotte — 1979
+   6. Good Charlotte — Introduction To Cardiology
+   7. Good Charlotte — Like It'S Her Birthday
+   8. Good Charlotte — Let The Music Play
+   9. Good Charlotte — Harlow'S Song (Can'T Dream Without You)
+  10. Good Charlotte — Sex On The Radio
+
+PLAYLIST B
+----------------------------------------
+   1. Good Charlotte — I Don'T Wanna Be In Love (Dance Floor Anthem)
+   2. Good Charlotte — Hold On
+   3. Good Charlotte — Say Anything
+   4. Good Charlotte — We Believe
+   5. Good Charlotte — Cardiology
+   6. Good Charlotte — Last Night
+   7. Good Charlotte — Harlow'S Song (Can'T Dream Without You)
+   8. Good Charlotte — Sex On The Radio
+   9. Good Charlotte — Silver Screen Romance
+  10. Good Charlotte — Like It'S Her Birthday
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: A → B
+────────────────────────────────────────────────────────────

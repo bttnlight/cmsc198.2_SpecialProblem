@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-042
+Reported mood  : Energetic / Motivated
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Wet Leg — Chaise Longue  [dataset]
+   2. Fontaines D.C. — Televised Mind  [dataset]
+   3. Inhaler — My Honest Face  [lastfm]
+   4. Wet Leg — Ur Mum  [lastfm]
+   5. Yard Act — The Overload  [dataset]
+   6. Black Country New Road — Concorde  [dataset]
+   7. Shame — Alphabet  [lastfm]
+   8. Fontaines D.C. — I Love You  [dataset]
+   9. bdrmm — Grin  [lastfm]
+  10. Dry Cleaning — Scratchcard Lanyard  [dataset]
+  11. Wet Leg — Too Late Now  [dataset]
+  12. Squid — Narrator  [dataset]
+  13. Black Midi — Slow  [dataset]
+  14. Yard Act — 100% Endurance  [dataset]
+  15. Inhaler — Ice Cream Sundae  [lastfm]
+  16. Shame — The Lick  [lastfm]
+  17. Fontaines D.C. — Boys in the Better Land  [dataset]
+  18. Sorry — Right Round the Clock  [lastfm]
+  19. Wet Leg — Piece of Shit  [lastfm]
+  20. Black Country New Road — Athens, France  [dataset]
+
+PLAYLIST B
+----------------------------------------
+   1. Fontaines D.C. — Desire
+   2. Fontaines D.C. — Television Screens
+   3. Fontaines D.C. — Motorcycle Boy
+   4. Fontaines D.C. — Horseness Is The Whatness
+   5. Fontaines D.C. — Hurricane Laughter
+   6. Fontaines D.C. — Liberty Belle
+   7. Fontaines D.C. — Skinty Fia (Edit)
+   8. Fontaines D.C. — Roy'S Tune
+   9. Fontaines D.C. — Starburster
+  10. Fontaines D.C. — Romance
+
+PLAYLIST A
+----------------------------------------
+   1. Fontaines D.C. — Sha Sha Sha
+   2. Fontaines D.C. — Bloomsday
+   3. Fontaines D.C. — Sundowner
+   4. Fontaines D.C. — Motorcycle Boy
+   5. Fontaines D.C. — Horseness Is The Whatness
+   6. Fontaines D.C. — Hurricane Laughter
+   7. Fontaines D.C. — Desire
+   8. Fontaines D.C. — Television Screens
+   9. Fontaines D.C. — Roman Holiday
+  10. Fontaines D.C. — Bug
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: B → A
+────────────────────────────────────────────────────────────

@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-001
+Reported mood  : Sad / Melancholic
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Phoebe Bridgers — Funeral  [lastfm]
+   2. Phoebe Bridgers — Moon Song  [dataset]
+   3. Sufjan Stevens — Death With Dignity  [dataset]
+   4. Bon Iver — Skinny Love  [dataset]
+   5. Bon Iver — Holocene  [dataset]
+   6. The National — Sorrow  [dataset]
+   7. Mitski — Nobody  [dataset]
+   8. Mitski — First Love / Late Spring  [lastfm]
+   9. Nick Drake — Pink Moon  [dataset]
+  10. Elliott Smith — Between the Bars  [dataset]
+  11. Novo Amor — Anchor  [dataset]
+  12. Iron & Wine — Naked As We Came  [dataset]
+  13. Cigarettes After Sex — Apocalypse  [dataset]
+  14. Cigarettes After Sex — Heavenly  [dataset]
+  15. Daughter — Youth  [dataset]
+  16. Daughter — Medicine  [dataset]
+  17. The Antlers — Kettering  [lastfm]
+  18. Gregory Alan Isakov — The Stable Song  [dataset]
+  19. Sufjan Stevens — Futile Devices  [dataset]
+  20. Phoebe Bridgers — Savior Complex  [dataset]
+
+PLAYLIST B
+----------------------------------------
+   1. Elliott Smith — 2:45 Am (Remastered 2017)
+   2. Elliott Smith — Say Yes
+   3. Elliott Smith — Miss Misery
+   4. Elliott Smith — Angeles
+   5. Elliott Smith — 2:45 Am
+   6. Elliott Smith — Punch And Judy
+   7. Elliott Smith — Ballad Of Big Nothing
+   8. Elliott Smith — Happiness
+   9. Elliott Smith — Waltz #2 (Xo)
+  10. Elliott Smith — Cupid'S Trick
+
+PLAYLIST A
+----------------------------------------
+   1. Elliott Smith — Angeles
+   2. Elliott Smith — Ballad Of Big Nothing
+   3. Elliott Smith — Junk Bond Trader
+   4. Elliott Smith — Somebody That I Used To Know
+   5. Elliott Smith — Waltz #2 [Xo]
+   6. Elliott Smith — Everything Means Nothing To Me
+   7. Elliott Smith — Tomorrow Tomorrow
+   8. Elliott Smith — Say Yes
+   9. Elliott Smith — Between The Bars (Remastered 2017)
+  10. Elliott Smith — Pretty (Ugly Before)
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: B → A
+────────────────────────────────────────────────────────────

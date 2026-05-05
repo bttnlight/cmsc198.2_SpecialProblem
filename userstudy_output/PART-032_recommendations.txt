@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-032
+Reported mood  : Nostalgic
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. The Beatles — In My Life  [dataset]
+   2. The Beatles — Here Comes the Sun  [dataset]
+   3. The Beatles — Let It Be  [dataset]
+   4. Oasis — Wonderwall  [dataset]
+   5. Oasis — Champagne Supernova  [dataset]
+   6. Oasis — Don't Look Back in Anger  [dataset]
+   7. Blur — Song 2  [dataset]
+   8. Radiohead — Fake Plastic Trees  [dataset]
+   9. The Beatles — Blackbird  [dataset]
+  10. Oasis — Half the World Away  [dataset]
+  11. Travis — Why Does It Always Rain on Me?  [dataset]
+  12. The Beatles — Norwegian Wood  [lastfm]
+  13. Radiohead — High and Dry  [dataset]
+  14. Oasis — Live Forever  [dataset]
+  15. The Verve — Bitter Sweet Symphony  [dataset]
+  16. Travis — Sing  [dataset]
+  17. Blur — Coffee & TV  [dataset]
+  18. The Beatles — The Long and Winding Road  [lastfm]
+  19. Oasis — Some Might Say  [dataset]
+  20. Radiohead — Street Spirit  [dataset]
+
+PLAYLIST B
+----------------------------------------
+   1. Paul Weller — I Walk On Gilded Splinters
+   2. Paul Weller — Porcelain Gods - Part One
+   3. Paul Weller — The Changingman
+   4. Paul Weller — Wild Wood (Sheared Wood Remix) [Paul Weller Vs. Portishead]
+   5. Paul Weller — The Eton Rifles
+   6. Paul Weller — It'S Written In The Stars
+   7. Paul Weller — I'M Where I Should Be
+   8. Paul Weller — No Tears To Cry
+   9. Paul Weller — Fly Little Bird
+  10. Paul Weller — I Didn'T Mean To Hurt You
+
+PLAYLIST A
+----------------------------------------
+   1. Paul Weller — Porcelain Gods - Part One
+   2. Paul Weller — It'S Written In The Stars
+   3. Paul Weller — The Eton Rifles
+   4. Paul Weller — The Changingman
+   5. Paul Weller — From The Floorboards Up
+   6. Paul Weller — I Walk On Gilded Splinters
+   7. Paul Weller — Gravity
+   8. Paul Weller — The Soul Searchers
+   9. Paul Weller — Glide
+  10. Paul Weller — Mayfly
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: B → A
+────────────────────────────────────────────────────────────

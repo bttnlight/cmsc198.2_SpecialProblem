@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-019
+Reported mood  : Happy / Upbeat
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Earth Wind & Fire — September  [dataset]
+   2. Earth Wind & Fire — Boogie Wonderland  [dataset]
+   3. Stevie Wonder — Superstition  [dataset]
+   4. Stevie Wonder — Sir Duke  [dataset]
+   5. Michael Jackson — Don't Stop 'Til You Get Enough  [dataset]
+   6. Michael Jackson — Off the Wall  [dataset]
+   7. James Brown — I Got You  [lastfm]
+   8. James Brown — Get Up Offa That Thing  [dataset]
+   9. Parliament — Give Up the Funk  [lastfm]
+  10. Kool & the Gang — Celebration  [dataset]
+  11. Chic — Le Freak  [dataset]
+  12. Chic — Good Times  [dataset]
+  13. Donna Summer — Hot Stuff  [dataset]
+  14. Gloria Gaynor — I Will Survive  [dataset]
+  15. Daft Punk — Get Lucky  [dataset]
+  16. Bruno Mars — Uptown Funk  [lastfm]
+  17. Bruno Mars — 24K Magic  [dataset]
+  18. Mark Ronson — Valerie  [dataset]
+  19. Jamiroquai — Virtual Insanity  [dataset]
+  20. Earth Wind & Fire — Let's Groove  [dataset]
+
+PLAYLIST A
+----------------------------------------
+   1. Rufus — Tell Me Something Good
+   2. Rufus & Chaka Khan — You Got The Love
+   3. Rufus & Chaka Khan — Tell Me Something Good
+   4. Rufus — You Got The Love
+   5. Rufus — Ain'T Nobody
+   6. Rufus & Chaka Khan — Stay
+   7. Earth, Wind & Fire — After The Love Has Gone
+   8. Earth, Wind & Fire — Happy Feelin'
+   9. Earth, Wind & Fire — In The Stone - Edit
+  10. Earth, Wind & Fire — In The Stone
+
+PLAYLIST B
+----------------------------------------
+   1. Rufus & Chaka Khan — You Got The Love
+   2. Rufus — Tell Me Something Good
+   3. Rufus & Chaka Khan — Tell Me Something Good
+   4. Rufus — Ain'T Nobody
+   5. Rufus — You Got The Love
+   6. Rufus & Chaka Khan — Stay
+   7. Earth, Wind & Fire — Can'T Hide Love
+   8. Earth, Wind & Fire — That'S The Way Of The World
+   9. Earth, Wind & Fire — Help Somebody
+  10. Earth, Wind & Fire — Love'S Holiday
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: A → B
+────────────────────────────────────────────────────────────

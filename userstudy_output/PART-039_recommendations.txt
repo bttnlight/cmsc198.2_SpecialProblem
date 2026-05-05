@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-039
+Reported mood  : Calm / Relaxed
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Bon Iver — Holocene  [dataset]
+   2. Iron & Wine — Flightless Bird  [lastfm]
+   3. Fleet Foxes — Helplessness Blues  [dataset]
+   4. Jose Gonzalez — Heartbeats  [dataset]
+   5. Nick Mulvey — Fever to the Form  [dataset]
+   6. Sufjan Stevens — Death With Dignity  [dataset]
+   7. Gregory Alan Isakov — Amsterdam  [dataset]
+   8. Iron & Wine — Boy With a Coin  [dataset]
+   9. The Paper Kites — Bloom  [lastfm]
+  10. Novo Amor — Carry You  [lastfm]
+  11. Ben Howard — Only Love  [dataset]
+  12. Lord Huron — The Night We Met  [dataset]
+  13. Jose Gonzalez — Stay Alive  [dataset]
+  14. Angus & Julia Stone — Big Jet Plane  [dataset]
+  15. Fleet Foxes — Mykonos  [dataset]
+  16. Nick Drake — From the Morning  [dataset]
+  17. Gregory Alan Isakov — Big Black Car  [dataset]
+  18. Bon Iver — Skinny Love  [dataset]
+  19. Iron & Wine — Naked As We Came  [dataset]
+  20. The Paper Kites — St. Clarity  [lastfm]
+
+PLAYLIST B
+----------------------------------------
+   1. Iron & Wine — Flightless Bird, American Mouth
+   2. Iron & Wine — Evening On The Ground (Lilith'S Song)
+   3. Iron & Wine — Woman King
+   4. Iron And Wine — Teeth In The Grass
+   5. Iron And Wine — Such Great Heights
+   6. Iron And Wine — Boy With A Coin
+   7. Iron & Wine — God Made The Automobile
+   8. Iron & Wine — Dead Man'S Will
+   9. Iron & Wine — Overhead
+  10. Iron & Wine — Lovesong Of The Buzzard
+
+PLAYLIST A
+----------------------------------------
+   1. Iron & Wine — Love Vigilantes
+   2. Iron & Wine — Pagan Angel And A Borrowed Car
+   3. Iron & Wine — God Made The Automobile
+   4. Iron & Wine — Singing Saw
+   5. Iron & Wine — Peng! 33
+   6. Iron & Wine — Communion Cups And Someone'S Coat
+   7. Iron & Wine — The Rooster Moans
+   8. Iron & Wine — New Mexico'S No Breeze
+   9. Iron & Wine — The Night Descending
+  10. Iron & Wine — Such Great Heights
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: B → A
+────────────────────────────────────────────────────────────

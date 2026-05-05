@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-003
+Reported mood  : Nostalgic
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Ben&Ben — Leaves  [lastfm]
+   2. Ben&Ben — Maybe The Night  [lastfm]
+   3. IV of Spades — Where Have You Been  [lastfm]
+   4. December Avenue — Huling Sandali  [lastfm]
+   5. December Avenue — Kung 'Di Rin Lang Ikaw  [lastfm]
+   6. Moira Dela Torre — Tagpuan  [lastfm]
+   7. Cup of Joe — Paraluman  [lastfm]
+   8. Zack Tabudlo — Naging Tayo  [lastfm]
+   9. Zack Tabudlo — Binibini  [lastfm]
+  10. Taylor Swift — All Too Well (10 Minute Version)  [lastfm]
+  11. Taylor Swift — The 1  [dataset]
+  12. Olivia Rodrigo — drivers license  [dataset]
+  13. Olivia Rodrigo — traitor  [dataset]
+  14. Lana Del Rey — Young and Beautiful  [dataset]
+  15. Lana Del Rey — Summertime Sadness  [dataset]
+  16. Ben&Ben — Ride Home  [lastfm]
+  17. Arthur Nery — Pasilyo  [lastfm]
+  18. Unique Salonga — Dati  [lastfm]
+  19. Moira Dela Torre — Paubaya  [lastfm]
+  20. Taylor Swift — Exile  [lastfm]
+
+PLAYLIST B
+----------------------------------------
+   1. Zack Tabudlo — Give Me Your Forever
+   2. Olivia Rodrigo — 1 Step Forward, 3 Steps Back
+   3. Grentperez — Everest
+   4. Gracie Abrams — That’S So True
+   5. Olivia Rodrigo — Favorite Crime
+   6. Olivia Rodrigo — Happier
+   7. Olivia Rodrigo — Lacy
+   8. Reneé Rapp — Too Well
+   9. Jewel Owusu — Spark
+  10. Sabrina Carpenter — Because I Liked A Boy
+
+PLAYLIST A
+----------------------------------------
+   1. Zack Tabudlo — Give Me Your Forever
+   2. Olivia Rodrigo — 1 Step Forward, 3 Steps Back
+   3. Grentperez — Everest
+   4. Gracie Abrams — That’S So True
+   5. Olivia Rodrigo — Happier
+   6. Olivia Rodrigo — Favorite Crime
+   7. Sabrina Carpenter — Because I Liked A Boy
+   8. Olivia Rodrigo — Lacy
+   9. Chappell Roan — Casual
+  10. Reneé Rapp — Too Well
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: B → A
+────────────────────────────────────────────────────────────

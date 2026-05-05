@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-008
+Reported mood  : Energetic / Motivated
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Travis Scott — SICKO MODE  [dataset]
+   2. Travis Scott — Goosebumps  [dataset]
+   3. Playboi Carti — Magnolia  [dataset]
+   4. Playboi Carti — wokeuplikethis*  [lastfm]
+   5. Lil Uzi Vert — XO Tour Llif3  [dataset]
+   6. Lil Uzi Vert — Money Longer  [lastfm]
+   7. Young Thug — Digits  [lastfm]
+   8. Future — Mask Off  [dataset]
+   9. Future — Low Life  [lastfm]
+  10. Gunna — Drip Too Hard  [lastfm]
+  11. Lil Baby — Emotionally Scarred  [lastfm]
+  12. Lil Baby — The Bigger Picture  [lastfm]
+  13. Roddy Ricch — The Box  [lastfm]
+  14. Pop Smoke — Dior  [dataset]
+  15. Pop Smoke — Welcome to the Party  [lastfm]
+  16. NBA YoungBoy — Outside Today  [lastfm]
+  17. DaBaby — ROCKSTAR  [lastfm]
+  18. Polo G — Pop Out  [lastfm]
+  19. Travis Scott — HIGHEST IN THE ROOM  [dataset]
+  20. Playboi Carti — Over  [lastfm]
+
+PLAYLIST A
+----------------------------------------
+   1. Young Thug — Me Or Us
+   2. Young Thug — Oh Yeah
+   3. Young Thug — Feel It
+   4. Young Thug — On Fire
+   5. Young Thug — Get High (Feat. Snoop Dogg & Lil Durk)
+   6. Young Thug — You Said
+   7. Young Thug — Just Might Be
+   8. Young Thug — For Y'All (Feat. Jacquees)
+   9. Young Thug — Millions
+  10. Young Thug — With That (Feat. Duke)
+
+PLAYLIST B
+----------------------------------------
+   1. Young Thug — Tomorrow Til Infinity
+   2. Young Thug — King Troup
+   3. Young Thug — Family Don'T Matter (Feat. Millie Go Lightly)
+   4. Young Thug — Me Or Us
+   5. Young Thug — Feel It
+   6. Young Thug — Get High (Feat. Snoop Dogg & Lil Durk)
+   7. Young Thug — On Fire
+   8. Young Thug — You Said
+   9. Young Thug — Relationship (Feat. Future)
+  10. Young Thug — Do U Love Me
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: A → B
+────────────────────────────────────────────────────────────

@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-023
+Reported mood  : Happy / Upbeat
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Harry Styles — As It Was  [dataset]
+   2. Harry Styles — Watermelon Sugar  [dataset]
+   3. Dua Lipa — Levitating  [dataset]
+   4. Dua Lipa — Don't Start Now  [dataset]
+   5. Billie Eilish — bad guy  [dataset]
+   6. Billie Eilish — Happier Than Ever  [dataset]
+   7. Ariana Grande — 7 rings  [dataset]
+   8. Ariana Grande — thank u next  [dataset]
+   9. Doja Cat — Say So  [dataset]
+  10. Doja Cat — Woman  [lastfm]
+  11. Lizzo — Good as Hell  [dataset]
+  12. Lizzo — Juice  [dataset]
+  13. Post Malone — Circles  [dataset]
+  14. Post Malone — Sunflower  [lastfm]
+  15. Ed Sheeran — Shape of You  [dataset]
+  16. Ed Sheeran — Bad Habits  [dataset]
+  17. Justin Bieber — Peaches  [lastfm]
+  18. Justin Bieber — Stay  [lastfm]
+  19. Charlie Puth — Attention  [lastfm]
+  20. Harry Styles — Adore You  [dataset]
+
+PLAYLIST B
+----------------------------------------
+   1. Anna Wise — Count My Blessings
+   2. Alexis Jordan — Happiness
+   3. Alexis Jordan — Happiness (Dave Audé Mix - Official Fifa Women'S World Cup 2011 (Tm) Song)
+   4. Gwen Stefani — Now That You Got It
+   5. Gwen Stefani — Don'T Get It Twisted
+   6. Gwen Stefani — Danger Zone
+   7. Gwen Stefani — You Make It Feel Like Christmas (With Blake Shelton)
+   8. Gwen Stefani — The Sweet Escape
+   9. Gwen Stefani — 4 In The Morning
+  10. Gwen Stefani — Serious
+
+PLAYLIST A
+----------------------------------------
+   1. Anna Wise — Count My Blessings
+   2. Alexis Jordan — Happiness (Dave Audé Mix - Official Fifa Women'S World Cup 2011 (Tm) Song)
+   3. Alexis Jordan — Happiness
+   4. Gwen Stefani — Used To Love You
+   5. Gwen Stefani — Make Me Like You
+   6. Gwen Stefani — The Sweet Escape
+   7. Gwen Stefani — What You Waiting For? Jacques Lu Cont Mix
+   8. Gwen Stefani — The Real Thing
+   9. Gwen Stefani — Serious
+  10. Gwen Stefani — Don'T Get It Twisted
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: B → A
+────────────────────────────────────────────────────────────

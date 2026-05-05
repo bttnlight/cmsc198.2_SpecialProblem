@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-040
+Reported mood  : Mixed / Varies
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Eminem — Till I Collapse  [dataset]
+   2. Lewis Capaldi — Someone You Loved  [dataset]
+   3. Travis Scott — SICKO MODE  [dataset]
+   4. Sam Smith — Too Good at Goodbyes  [dataset]
+   5. Kanye West — Stronger  [dataset]
+   6. Adele — Someone Like You  [dataset]
+   7. Kendrick Lamar — m.A.A.d city  [dataset]
+   8. James Arthur — Say You Won't Let Go  [dataset]
+   9. Future — Mask Off  [dataset]
+  10. Ed Sheeran — Happier  [lastfm]
+  11. 21 Savage — Bank Account  [lastfm]
+  12. Passenger — Let Her Go  [dataset]
+  13. Drake — God's Plan  [dataset]
+  14. Birdy — Skinny Love  [dataset]
+  15. Lil Baby — Emotionally Scarred  [lastfm]
+  16. Coldplay — The Scientist  [dataset]
+  17. Roddy Ricch — The Box  [lastfm]
+  18. Kodaline — All I Want  [dataset]
+  19. Pop Smoke — Dior  [dataset]
+  20. Gregory Alan Isakov — The Stable Song  [dataset]
+
+PLAYLIST B
+----------------------------------------
+   1. Iann Dior — Sick And Tired (Feat. Machine Gun Kelly & Travis Barker)
+   2. Iann Dior — Good Day
+   3. Rizzle Kicks — Jive
+   4. Rizzle Kicks — Don'T Bring Me Down
+   5. Rizzle Kicks — Prophet (Better Watch It)
+   6. Rizzle Kicks — When I Was A Youngster
+   7. Rizzle Kicks — This Means War
+   8. Rizzle Kicks — Mama Do The Hump
+   9. Rizzle Kicks — Skip To The Good Bit
+  10. Rizzle Kicks — Down With The Trumpets
+
+PLAYLIST A
+----------------------------------------
+   1. Iann Dior — Sick And Tired (Feat. Machine Gun Kelly & Travis Barker)
+   2. Iann Dior — Good Day
+   3. Rizzle Kicks — Don'T Bring Me Down
+   4. Rizzle Kicks — Jive
+   5. Rizzle Kicks — Lost Generation
+   6. Rizzle Kicks — Skip To The Good Bit
+   7. Rizzle Kicks — This Means War
+   8. Rizzle Kicks — I Love You More Than You Think
+   9. Rizzle Kicks — When I Was A Youngster
+  10. Rizzle Kicks — Lunatic
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: B → A
+────────────────────────────────────────────────────────────

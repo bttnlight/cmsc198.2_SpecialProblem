@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-029
+Reported mood  : Calm / Relaxed
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Hans Zimmer — Time  [dataset]
+   2. Hans Zimmer — Cornfield Chase  [dataset]
+   3. John Williams — Hedwig's Theme  [dataset]
+   4. John Williams — Duel of the Fates  [lastfm]
+   5. Ennio Morricone — The Ecstasy of Gold  [dataset]
+   6. Ennio Morricone — Gabriel's Oboe  [dataset]
+   7. Yoko Shimomura — Dearly Beloved  [lastfm]
+   8. Yoko Shimomura — Hollow Bastion  [lastfm]
+   9. Nobuo Uematsu — One-Winged Angel  [lastfm]
+  10. Nobuo Uematsu — To Zanarkand  [lastfm]
+  11. Austin Wintory — Journey  [lastfm]
+  12. Gustavo Santaolalla — The Last of Us Theme  [lastfm]
+  13. Lorne Balfe — This Is Home  [lastfm]
+  14. Ramin Djawadi — Game of Thrones Main Title  [lastfm]
+  15. Ramin Djawadi — Light of the Seven  [dataset]
+  16. Thomas Newman — Any Other Name  [dataset]
+  17. Jonny Greenwood — There Will Be Blood  [lastfm]
+  18. Cliff Martinez — Waving Goodbye  [lastfm]
+  19. Michael Giacchino — Married Life  [lastfm]
+  20. Hans Zimmer — No Time for Caution  [lastfm]
+
+PLAYLIST B
+----------------------------------------
+   1. Brian Tyler — Nuremberg Suite Part Iii - Hope
+   2. Brian Tyler — Apex
+   3. Brian Tyler — Waves Of Intuition
+   4. Austin Wintory — This City Is My Prison
+   5. Steve Jablonsky — Tessa
+   6. Steve Jablonsky — Purity Of Heart
+   7. Michael Giacchino — End Title
+   8. Michael Giacchino — Married Life - From "Up"/Score
+   9. Michael Giacchino — Give Her My Budapest
+  10. Michael Giacchino — Mother Of A Mother
+
+PLAYLIST A
+----------------------------------------
+   1. Brian Tyler — Waves Of Intuition
+   2. Brian Tyler — Apex
+   3. Brian Tyler — Nuremberg Suite Part Iii - Hope
+   4. Steve Jablonsky — Purity Of Heart
+   5. Steve Jablonsky — Tessa
+   6. Austin Wintory — This City Is My Prison
+   7. Carter Burwell — Lovers
+   8. Carter Burwell — Meeting Miriam
+   9. Carter Burwell — Bella'S Lullaby
+  10. Carter Burwell — Overture
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: B → A
+────────────────────────────────────────────────────────────

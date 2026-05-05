@@ -1,0 +1,61 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-035
+Reported mood  : Sad / Melancholic
+Matched tracks : 19 / 20
+Context tracks : 19
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Arthur Russell — A Little Lost  [dataset]
+   2. Broadcast — Pendulum  [lastfm]
+   3. Felt — Primitive Painters  [dataset]
+   4. Talk Talk — New Grass  [dataset]
+   6. Judee Sill — Jesus Was a Cross Maker  [dataset]
+   7. Townes Van Zandt — Pancho and Lefty  [dataset]
+   8. Scott Walker — Jackie  [dataset]
+   9. Galaxie 500 — Tugboat  [lastfm]
+  10. Red House Painters — Have You Forgotten  [dataset]
+  11. Low — Words  [dataset]
+  12. Sparklehorse — Homecoming Queen  [lastfm]
+  13. Songs: Ohia — Farewell Transmission  [dataset]
+  14. Vic Chesnutt — Flirted With You All My Life  [lastfm]
+  15. Will Oldham — I See a Darkness  [lastfm]
+  16. Smog — Cold Blooded Old Times  [dataset]
+  17. Mark Hollis — A Life  [lastfm]
+  18. Broadcast — Come On Let's Go  [dataset]
+  19. Arthur Russell — Losing My Taste for the Night Life  [lastfm]
+  20. Talk Talk — I Believe in You  [lastfm]
+
+PLAYLIST B
+----------------------------------------
+   1. The Dirty Projectors — Boredom Is A Product
+   2. Dirty Projectors — Cool Your Heart
+   3. Dirty Projectors — Keep Your Name
+   4. Dirty Projectors — Break-Thru
+   5. Dirty Projectors — Stillness Is The Move
+   6. Dirty Projectors — Cannibal Resource
+   7. The Dirty Projectors — Two Brown Finches
+   8. Dirty Projectors — Rise Above
+   9. The Dirty Projectors — Like Fake Blood In Crisp October
+  10. The Dirty Projectors — My Offwhite Flag
+
+PLAYLIST A
+----------------------------------------
+   1. Dirty Projectors — Cannibal Resource
+   2. The Dirty Projectors — The Glad Fact
+   3. Dirty Projectors — Temecula Sunrise
+   4. Dirty Projectors — No Intention
+   5. Dirty Projectors — Rise Above
+   6. Dirty Projectors — As I Went Out One Morning
+   7. Dirty Projectors — Useful Chamber
+   8. Dirty Projectors — Swing Lo Magellan
+   9. Dirty Projectors — Right Now
+  10. Dirty Projectors — Break-Thru
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: B → A
+────────────────────────────────────────────────────────────

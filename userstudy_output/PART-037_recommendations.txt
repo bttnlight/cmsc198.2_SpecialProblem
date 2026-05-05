@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-037
+Reported mood  : Sad / Melancholic
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Arthur Nery — Cruel Summer  [lastfm]
+   2. Zack Tabudlo — Kung Ayaw Mo Na  [lastfm]
+   3. Ben&Ben — Lifetime  [lastfm]
+   4. Unique Salonga — Ikaw Kaya  [lastfm]
+   5. This Band — Kahit Ayaw Mo Na  [lastfm]
+   6. Moira Dela Torre — Tagpuan  [lastfm]
+   7. IV of Spades — Mundo  [lastfm]
+   8. Taylor Swift — All Too Well (10 Minute Version)  [lastfm]
+   9. Lana Del Rey — Hope is a Dangerous Thing  [lastfm]
+  10. juan karlos — Buwan  [lastfm]
+  11. December Avenue — Huling Sandali  [lastfm]
+  12. Conan Gray — Astronomy  [dataset]
+  13. Ben&Ben — Leaves  [lastfm]
+  14. Zack Tabudlo — Binibini  [lastfm]
+  15. Olivia Rodrigo — enough for you  [dataset]
+  16. Adie — Paraluman  [lastfm]
+  17. Unique Salonga — Daisy  [lastfm]
+  18. Phoebe Bridgers — Savior Complex  [dataset]
+  19. Arthur Nery — Pasilyo  [lastfm]
+  20. Ben&Ben — Maybe The Night  [lastfm]
+
+PLAYLIST A
+----------------------------------------
+   1. Zack Tabudlo — Give Me Your Forever
+   2. Grentperez — Everest
+   3. Sarah Kinsley — Realms
+   4. Sarah Kinsley — Oh No Darling!
+   5. Sarah Kinsley — Truth Of Pursuit
+   6. Sarah Kinsley — Glint
+   7. Sarah Kinsley — Lonely Touch
+   8. Sarah Kinsley — Lovegod
+   9. Sarah Kinsley — Fleeting
+  10. Olivia Rodrigo — 1 Step Forward, 3 Steps Back
+
+PLAYLIST B
+----------------------------------------
+   1. Zack Tabudlo — Give Me Your Forever
+   2. Grentperez — Everest
+   3. Sarah Kinsley — Glint
+   4. Sarah Kinsley — Realms
+   5. Sarah Kinsley — Fleeting
+   6. Sarah Kinsley — Lovegod
+   7. Sarah Kinsley — Lonely Touch
+   8. Sarah Kinsley — Truth Of Pursuit
+   9. Sarah Kinsley — Oh No Darling!
+  10. Olivia Rodrigo — 1 Step Forward, 3 Steps Back
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: A → B
+────────────────────────────────────────────────────────────

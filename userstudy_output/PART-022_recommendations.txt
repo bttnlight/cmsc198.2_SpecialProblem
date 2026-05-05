@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-022
+Reported mood  : Mixed / Varies
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Radiohead — Karma Police  [dataset]
+   2. Radiohead — Exit Music (For a Film)  [dataset]
+   3. Radiohead — Pyramid Song  [dataset]
+   4. Arcade Fire — Wake Up  [dataset]
+   5. Arcade Fire — Rebellion (Lies)  [dataset]
+   6. Talking Heads — This Must Be the Place  [lastfm]
+   7. Talking Heads — Once in a Lifetime  [dataset]
+   8. David Bowie — Life on Mars?  [dataset]
+   9. Björk — Jóga  [dataset]
+  10. Björk — Hyperballad  [dataset]
+  11. St. Vincent — Digital Witness  [dataset]
+  12. St. Vincent — Los Ageless  [dataset]
+  13. TV on the Radio — Wolf Like Me  [dataset]
+  14. Animal Collective — My Girls  [dataset]
+  15. Grizzly Bear — Two Weeks  [dataset]
+  16. Fleet Foxes — White Winter Hymnal  [dataset]
+  17. Fleet Foxes — Helplessness Blues  [dataset]
+  18. Sufjan Stevens — Chicago  [dataset]
+  19. The Microphones — The Glow Pt. 2  [lastfm]
+  20. Radiohead — How to Disappear Completely  [dataset]
+
+PLAYLIST A
+----------------------------------------
+   1. Tv On The Radio — Golden Age
+   2. Tv On The Radio — Careful You
+   3. Tv On The Radio — Dlz
+   4. Tv On The Radio — Hours
+   5. Tv On The Radio — Province
+   6. Tv On The Radio — Playhouses
+   7. Tv On The Radio — Lover'S Day
+   8. Tv On The Radio — Satellite
+   9. Tv On The Radio — A Method
+  10. Tv On The Radio — Dreams
+
+PLAYLIST B
+----------------------------------------
+   1. Tv On The Radio — Family Tree
+   2. Tv On The Radio — Love Dog
+   3. Tv On The Radio — Lover'S Day
+   4. Tv On The Radio — Dreams
+   5. Tv On The Radio — Crying
+   6. Tv On The Radio — Test Pilot
+   7. Tv On The Radio — Ride
+   8. Tv On The Radio — Right Now
+   9. Tv On The Radio — Keep Your Heart
+  10. Tv On The Radio — You
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: A → B
+────────────────────────────────────────────────────────────

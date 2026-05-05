@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-004
+Reported mood  : Energetic / Motivated
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Daft Punk — Get Lucky  [dataset]
+   2. Daft Punk — Harder Better Faster Stronger  [dataset]
+   3. Calvin Harris — Feel So Close  [dataset]
+   4. Calvin Harris — Summer  [dataset]
+   5. Kygo — Firestone  [dataset]
+   6. Kygo — Stole the Show  [dataset]
+   7. The Chainsmokers — Closer  [dataset]
+   8. Flume — Never Be Like You  [dataset]
+   9. Flume — Say It  [lastfm]
+  10. Fred Again.. — Marea  [lastfm]
+  11. Four Tet — Kool FM  [dataset]
+  12. Disclosure — Latch  [dataset]
+  13. Odesza — A Moment Apart  [dataset]
+  14. Odesza — Line of Sight  [dataset]
+  15. Kaytranada — 0.1  [lastfm]
+  16. Bonobo — Kiara  [dataset]
+  17. Tourist — Run  [lastfm]
+  18. Lane 8 — No Captain  [lastfm]
+  19. Rufus Du Sol — Underwater  [lastfm]
+  20. Fred Again.. — Bleu  [lastfm]
+
+PLAYLIST A
+----------------------------------------
+   1. Kidnap Kid — Stronger
+   2. Kidnap Kid — So Close - Club Mix
+   3. Monogem — Soy Lo Que Soy
+   4. Dusky — Skin Deep - Global Communication Remix
+   5. Dusky — Nobody Else
+   6. Dusky — Keep On
+   7. Dusky — Square Miso - Anjunadeep 09 Mix
+   8. Dusky — Stick By This
+   9. Dusky — Boris Borisson'S Trip To Morrisons (Edit)
+  10. Dusky — Manticore
+
+PLAYLIST B
+----------------------------------------
+   1. Kidnap Kid — So Close - Club Mix
+   2. Kidnap Kid — Stronger
+   3. Monogem — Soy Lo Que Soy
+   4. Tourist — Wait
+   5. Tourist — Apollo
+   6. Tourist — Someone Else
+   7. Tourist — We Thought You Were Sleeping
+   8. Tourist — Kin
+   9. Tourist — Elixir
+  10. Tourist — Hush
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: A → B
+────────────────────────────────────────────────────────────

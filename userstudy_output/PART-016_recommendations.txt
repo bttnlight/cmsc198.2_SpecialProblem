@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-016
+Reported mood  : Energetic / Motivated
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Eminem — Lose Yourself  [dataset]
+   2. Eminem — Till I Collapse  [dataset]
+   3. Kanye West — Stronger  [dataset]
+   4. Jay-Z — Run This Town  [lastfm]
+   5. The Weeknd — Blinding Lights  [dataset]
+   6. The Weeknd — Can't Feel My Face  [dataset]
+   7. AC/DC — Thunderstruck  [dataset]
+   8. AC/DC — Back in Black  [dataset]
+   9. Survivor — Eye of the Tiger  [dataset]
+  10. Flo Rida — Good Feeling  [dataset]
+  11. David Guetta — Titanium  [lastfm]
+  12. Imagine Dragons — Believer  [dataset]
+  13. Imagine Dragons — Whatever It Takes  [dataset]
+  14. Twenty One Pilots — Heathens  [dataset]
+  15. Skrillex — Bangarang  [lastfm]
+  16. Knife Party — Internet Friends  [dataset]
+  17. Nero — Promises  [dataset]
+  18. Deadmau5 — Strobe  [dataset]
+  19. Martin Garrix — Animals  [dataset]
+  20. Eminem — Not Afraid  [dataset]
+
+PLAYLIST A
+----------------------------------------
+   1. Black Eyed Peas — #Wheresthelove (Feat. The World)
+   2. Black Eyed Peas — Bridging The Gaps
+   3. Black Eyed Peas — Weekends
+   4. Black Eyed Peas — Party All The Time
+   5. Black Eyed Peas — Request + Line
+   6. Black Eyed Peas — Alive
+   7. Black Eyed Peas — Pump It Harder
+   8. Black Eyed Peas — One Tribe
+   9. Black Eyed Peas — Out Of My Head
+  10. Black Eyed Peas — Now Generation
+
+PLAYLIST B
+----------------------------------------
+   1. Black Eyed Peas — Rock That Body (Skrillex Remix)
+   2. Black Eyed Peas — Shut Up
+   3. Black Eyed Peas — Electric City
+   4. Black Eyed Peas — Imma Be
+   5. Black Eyed Peas — Pump It Harder
+   6. Black Eyed Peas — Alive
+   7. Black Eyed Peas — Don'T Lie
+   8. Black Eyed Peas — I Gotta Feeling
+   9. Black Eyed Peas — #Wheresthelove (Feat. The World)
+  10. Black Eyed Peas — Showdown
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: A → B
+────────────────────────────────────────────────────────────

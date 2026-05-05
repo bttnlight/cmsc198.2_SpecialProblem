@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-021
+Reported mood  : Mixed / Varies
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. The Weeknd — Call Out My Name  [lastfm]
+   2. The Weeknd — Often  [dataset]
+   3. Daniel Caesar — Get You  [lastfm]
+   4. Daniel Caesar — Best Part  [lastfm]
+   5. H.E.R. — Best Part  [lastfm]
+   6. Jhené Aiko — The Worst  [lastfm]
+   7. Jhené Aiko — Bed Peace  [lastfm]
+   8. Sza — 20 Something  [lastfm]
+   9. Sza — Drew Barrymore  [dataset]
+  10. Ravyn Lenae — Sticky  [lastfm]
+  11. Ari Lennox — Shea Butter Baby  [lastfm]
+  12. Ari Lennox — Up Late  [lastfm]
+  13. Ro James — Permission  [lastfm]
+  14. dvsn — In Between  [lastfm]
+  15. dvsn — With Me  [lastfm]
+  16. Majid Jordan — Gave Your Love Away  [lastfm]
+  17. PartyNextDoor — Recognize  [lastfm]
+  18. 6LACK — PRBLMS  [dataset]
+  19. 6LACK — Nonchalant  [lastfm]
+  20. The Weeknd — Earned It  [dataset]
+
+PLAYLIST B
+----------------------------------------
+   1. The Weeknd — Mood Music
+   2. The Weeknd — The Hills
+   3. The Weeknd — House Of Balloons / Glass Table Girls
+   4. The Weeknd — Wicked Games - Explicit
+   5. The Weeknd — Six Feet Under
+   6. The Weeknd — Wake Me Up (Feat. Justice)
+   7. The Weeknd — Enemy
+   8. The Weeknd — Save Your Tears
+   9. The Weeknd — Pray For Me (With Kendrick Lamar)
+  10. The Weeknd — Dark Times (Feat. Ed Sheeran)
+
+PLAYLIST A
+----------------------------------------
+   1. The Weeknd — In Your Eyes (Remix) Feat. Doja Cat
+   2. The Weeknd — Save Your Tears (Remix) (With Ariana Grande) - Bonus Track
+   3. The Weeknd — Die For You (With Ariana Grande) - Remix
+   4. The Weeknd — Can'T Feel My Face
+   5. The Weeknd — The Hills
+   6. The Weeknd — Wicked Games (Original)
+   7. The Weeknd — Save Your Tears (With Ariana Grande) (Remix)
+   8. The Weeknd — Mood Music
+   9. The Weeknd — Save Your Tears
+  10. The Weeknd — What You Need
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: B → A
+────────────────────────────────────────────────────────────
