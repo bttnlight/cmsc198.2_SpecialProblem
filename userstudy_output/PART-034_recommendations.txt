@@ -28,35 +28,35 @@ PARTICIPANT'S INPUT TRACKS (most recent first):
   19. Jack Johnson — Taylor  [dataset]
   20. Colbie Caillat — Realize  [dataset]
 
-PLAYLIST A
-----------------------------------------
-   1. Jason Mraz — 1000 Things
-   2. Jason Mraz — The Boy'S Gone
-   3. Jason Mraz — No Stopping Us
-   4. Jason Mraz — I Feel Like Dancing
-   5. Jason Mraz — Please Don'T Tell Her (Album Version)
-   6. Jason Mraz — Love Someone
-   7. Jason Mraz — Only Human
-   8. Jason Mraz — I'M Yours (Radio Edit)
-   9. Jason Mraz — A Beautiful Mess
-  10. Jason Mraz — The Dynamo Of Volition
-
 PLAYLIST B
 ----------------------------------------
    1. Jason Mraz — Bella Luna (Album Version)
    2. Jason Mraz — Wordplay (Album Version)
-   3. Jason Mraz — Please Don'T Tell Her (Album Version)
-   4. Jason Mraz — O. Lover (Album Version)
-   5. Jason Mraz — Love Someone
-   6. Jason Mraz — You And I Both
-   7. Jason Mraz — Only Human
-   8. Jason Mraz — Mr. Curiosity
-   9. Jason Mraz — I'M Yours (Radio Edit)
-  10. Jason Mraz — The Remedy (I Won'T Worry)
+   3. David Gray — My Oh My
+   4. David Gray — Babylon
+   5. Matt Nathanson — Gone
+   6. Matt Nathanson — Uptown Girl
+   7. Joshua Radin — I'D Rather Be With You
+   8. Joshua Radin — Next To Me
+   9. Nizlopi — Girls
+  10. Nizlopi — Wash Away
+
+PLAYLIST A
+----------------------------------------
+   1. Jason Mraz — 1000 Things
+   2. Jason Mraz — The Boy'S Gone
+   3. David Gray — Draw The Line
+   4. David Gray — Babylon
+   5. Matt Nathanson — Come On Get Higher
+   6. Matt Nathanson — Angel
+   7. Joshua Radin — Star Mile
+   8. Joshua Radin — You Got Growin' Up To Do [Featuring Patty Griffin]
+   9. Nizlopi — Jcb
+  10. Nizlopi — Girls
 
 ────────────────────────────────────────────────────────────
 INTERNAL RECORD (researcher only — do not share):
   Playlist A = Semantic model
   Playlist B = Emotion-Aware model
-  Order shown to participant: A → B
+  Order shown to participant: B → A
 ────────────────────────────────────────────────────────────

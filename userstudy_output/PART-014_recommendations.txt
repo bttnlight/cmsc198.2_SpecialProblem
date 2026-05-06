@@ -28,35 +28,35 @@ PARTICIPANT'S INPUT TRACKS (most recent first):
   19. Burna Boy — Kilometre  [lastfm]
   20. Wizkid — Come Closer  [lastfm]
 
-PLAYLIST B
-----------------------------------------
-   1. Wizkid — Essence (Feat. Tems)
-   2. Wizkid — Piece Of My Heart (Feat. Brent Faiyaz)
-   3. Wizkid — Turbulence
-   4. Fireboy Dml — Diana
-   5. Rema — Calm Down (With Selena Gomez)
-   6. Burna Boy — Higher
-   7. Omah Lay — Holy Ghost
-   8. Ckay — Addicted (Feat. The Cavemen.)
-   9. Ckay — Samson And Delilah (Feat. Mayra Andrade)
-  10. Bnxn — Gwagwalada
-
 PLAYLIST A
 ----------------------------------------
+   1. Wizkid — Essence (Feat. Tems)
+   2. Wizkid — Turbulence
+   3. Fireboy Dml — Diana
+   4. Rema — Calm Down (With Selena Gomez)
+   5. Burna Boy — Higher
+   6. Omah Lay — Holy Ghost
+   7. Ckay — Addicted (Feat. The Cavemen.)
+   8. Ckay — Samson And Delilah (Feat. Mayra Andrade)
+   9. Bnxn — Gwagwalada
+  10. Davido — Kante (Feat. Fave)
+
+PLAYLIST B
+----------------------------------------
    1. Wizkid — Piece Of My Heart (Feat. Brent Faiyaz)
-   2. Wizkid — Essence (Feat. Tems)
-   3. Wizkid — Turbulence
-   4. Fireboy Dml — Diana
-   5. Rema — Calm Down (With Selena Gomez)
-   6. Burna Boy — Higher
-   7. Omah Lay — Holy Ghost
+   2. Wizkid — Turbulence
+   3. Fireboy Dml — Diana
+   4. Rema — Calm Down (With Selena Gomez)
+   5. Burna Boy — Higher
+   6. Omah Lay — Holy Ghost
+   7. Ckay — Samson And Delilah (Feat. Mayra Andrade)
    8. Ckay — Addicted (Feat. The Cavemen.)
-   9. Ckay — Samson And Delilah (Feat. Mayra Andrade)
-  10. Bnxn — Gwagwalada
+   9. Bnxn — Gwagwalada
+  10. Davido — Kante (Feat. Fave)
 
 ────────────────────────────────────────────────────────────
 INTERNAL RECORD (researcher only — do not share):
   Playlist A = Semantic model
   Playlist B = Emotion-Aware model
-  Order shown to participant: B → A
+  Order shown to participant: A → B
 ────────────────────────────────────────────────────────────

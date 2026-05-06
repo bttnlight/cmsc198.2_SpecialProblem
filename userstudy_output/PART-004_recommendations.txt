@@ -28,6 +28,19 @@ PARTICIPANT'S INPUT TRACKS (most recent first):
   19. Rufus Du Sol — Underwater  [lastfm]
   20. Fred Again.. — Bleu  [lastfm]
 
+PLAYLIST B
+----------------------------------------
+   1. Kidnap Kid — Stronger
+   2. Kidnap Kid — So Close - Club Mix
+   3. Monogem — Soy Lo Que Soy
+   4. Tourist — Apollo
+   5. Tourist — We Thought You Were Sleeping
+   6. Jim-E Stack — Deadstream
+   7. Dusky — Skin Deep
+   8. Dusky — Stick By This
+   9. Freeform Five — Leviathan (Feat. Róisín Murphy)
+  10. Freeform Five — No More Conversations
+
 PLAYLIST A
 ----------------------------------------
    1. Kidnap Kid — Stronger
@@ -35,28 +48,15 @@ PLAYLIST A
    3. Monogem — Soy Lo Que Soy
    4. Dusky — Skin Deep - Global Communication Remix
    5. Dusky — Nobody Else
-   6. Dusky — Keep On
-   7. Dusky — Square Miso - Anjunadeep 09 Mix
-   8. Dusky — Stick By This
-   9. Dusky — Boris Borisson'S Trip To Morrisons (Edit)
-  10. Dusky — Manticore
-
-PLAYLIST B
-----------------------------------------
-   1. Kidnap Kid — So Close - Club Mix
-   2. Kidnap Kid — Stronger
-   3. Monogem — Soy Lo Que Soy
-   4. Tourist — Wait
-   5. Tourist — Apollo
-   6. Tourist — Someone Else
-   7. Tourist — We Thought You Were Sleeping
-   8. Tourist — Kin
-   9. Tourist — Elixir
-  10. Tourist — Hush
+   6. Tourist — Holding On (Feat. Josef Salvat & Niia)
+   7. Tourist — April
+   8. Jim-E Stack — Deadstream
+   9. Freeform Five — No More Conversations
+  10. Freeform Five — Leviathan (Feat. Róisín Murphy)
 
 ────────────────────────────────────────────────────────────
 INTERNAL RECORD (researcher only — do not share):
   Playlist A = Semantic model
   Playlist B = Emotion-Aware model
-  Order shown to participant: A → B
+  Order shown to participant: B → A
 ────────────────────────────────────────────────────────────

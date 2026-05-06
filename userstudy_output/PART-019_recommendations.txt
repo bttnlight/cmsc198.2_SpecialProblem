@@ -28,35 +28,35 @@ PARTICIPANT'S INPUT TRACKS (most recent first):
   19. Jamiroquai — Virtual Insanity  [dataset]
   20. Earth Wind & Fire — Let's Groove  [dataset]
 
-PLAYLIST A
-----------------------------------------
-   1. Rufus — Tell Me Something Good
-   2. Rufus & Chaka Khan — You Got The Love
-   3. Rufus & Chaka Khan — Tell Me Something Good
-   4. Rufus — You Got The Love
-   5. Rufus — Ain'T Nobody
-   6. Rufus & Chaka Khan — Stay
-   7. Earth, Wind & Fire — After The Love Has Gone
-   8. Earth, Wind & Fire — Happy Feelin'
-   9. Earth, Wind & Fire — In The Stone - Edit
-  10. Earth, Wind & Fire — In The Stone
-
 PLAYLIST B
 ----------------------------------------
    1. Rufus & Chaka Khan — You Got The Love
    2. Rufus — Tell Me Something Good
    3. Rufus & Chaka Khan — Tell Me Something Good
    4. Rufus — Ain'T Nobody
-   5. Rufus — You Got The Love
-   6. Rufus & Chaka Khan — Stay
-   7. Earth, Wind & Fire — Can'T Hide Love
-   8. Earth, Wind & Fire — That'S The Way Of The World
-   9. Earth, Wind & Fire — Help Somebody
-  10. Earth, Wind & Fire — Love'S Holiday
+   5. Earth, Wind & Fire — Can'T Hide Love
+   6. Earth, Wind & Fire — That'S The Way Of The World
+   7. Earth Wind & Fire — Shining Star
+   8. Rick James — Mary Jane
+   9. Rick James — Give It To Me Baby
+  10. Commodores — Brick House
+
+PLAYLIST A
+----------------------------------------
+   1. Rufus — Tell Me Something Good
+   2. Rufus & Chaka Khan — You Got The Love
+   3. Rufus & Chaka Khan — Tell Me Something Good
+   4. Rufus — You Got The Love
+   5. Earth, Wind & Fire — After The Love Has Gone
+   6. Earth, Wind & Fire — Happy Feelin'
+   7. Earth Wind & Fire — Shining Star
+   8. Rick James — Ghetto Life
+   9. Rick James — Ebony Eyes
+  10. Commodores — Machine Gun
 
 ────────────────────────────────────────────────────────────
 INTERNAL RECORD (researcher only — do not share):
   Playlist A = Semantic model
   Playlist B = Emotion-Aware model
-  Order shown to participant: A → B
+  Order shown to participant: B → A
 ────────────────────────────────────────────────────────────

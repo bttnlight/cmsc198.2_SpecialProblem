@@ -28,35 +28,35 @@ PARTICIPANT'S INPUT TRACKS (most recent first):
   19. Oasis — Some Might Say  [dataset]
   20. Radiohead — Street Spirit  [dataset]
 
-PLAYLIST B
-----------------------------------------
-   1. Paul Weller — I Walk On Gilded Splinters
-   2. Paul Weller — Porcelain Gods - Part One
-   3. Paul Weller — The Changingman
-   4. Paul Weller — Wild Wood (Sheared Wood Remix) [Paul Weller Vs. Portishead]
-   5. Paul Weller — The Eton Rifles
-   6. Paul Weller — It'S Written In The Stars
-   7. Paul Weller — I'M Where I Should Be
-   8. Paul Weller — No Tears To Cry
-   9. Paul Weller — Fly Little Bird
-  10. Paul Weller — I Didn'T Mean To Hurt You
-
 PLAYLIST A
 ----------------------------------------
    1. Paul Weller — Porcelain Gods - Part One
    2. Paul Weller — It'S Written In The Stars
-   3. Paul Weller — The Eton Rifles
-   4. Paul Weller — The Changingman
-   5. Paul Weller — From The Floorboards Up
-   6. Paul Weller — I Walk On Gilded Splinters
-   7. Paul Weller — Gravity
-   8. Paul Weller — The Soul Searchers
-   9. Paul Weller — Glide
-  10. Paul Weller — Mayfly
+   3. The Rascals — Freakbeat Phantom
+   4. The Rascals — People Watching
+   5. Coldplay — Lovers In Japan (Live At Brixton)
+   6. Coldplay — Viva La Vida (Chark Mu Electric Remix)
+   7. Kasabian — Days Are Forgotten
+   8. Kasabian — Goodbye Kiss
+   9. Kula Shaker — Great Hosannah
+  10. Kula Shaker — 2 Styx
+
+PLAYLIST B
+----------------------------------------
+   1. Paul Weller — I Walk On Gilded Splinters
+   2. Paul Weller — Porcelain Gods - Part One
+   3. The Rascals — People Watching
+   4. The Rascals — Stockings To Suit
+   5. Coldplay — Lovers In Japan
+   6. Coldplay — Bonus Track
+   7. Kasabian — Where Did All The Love Go?
+   8. Kasabian — West Rider Silver Bullet
+   9. Kula Shaker — Ballad Of A Thin Man
+  10. Kula Shaker — Be Merciful
 
 ────────────────────────────────────────────────────────────
 INTERNAL RECORD (researcher only — do not share):
   Playlist A = Semantic model
   Playlist B = Emotion-Aware model
-  Order shown to participant: B → A
+  Order shown to participant: A → B
 ────────────────────────────────────────────────────────────

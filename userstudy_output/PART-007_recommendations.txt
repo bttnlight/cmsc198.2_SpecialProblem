@@ -28,35 +28,35 @@ PARTICIPANT'S INPUT TRACKS (most recent first):
   19. Gregory Porter — Liquid Spirit  [dataset]
   20. Norah Jones — Sunrise  [dataset]
 
-PLAYLIST A
-----------------------------------------
-   1. Nina Simone — Lilac Wine [The Album Leaf Remix] [Mix]
-   2. Nina Simone — Sinnerman
-   3. Nina Simone — Little Girl Blue [Postal Service Remix] [Mix]
-   4. Nina Simone — The Look Of Love (Madison Park Vs Lenny B Remix)
-   5. Nina Simone — Sinnerman - Album Version (Stereo)
-   6. Nina Simone — House Of The Rising Sun (Live) - Live
-   7. Nina Simone — Feeling Good - Solidisco Remix
-   8. Nina Simone — Tell Me More And More And Then Some
-   9. Nina Simone — Plain Gold Ring
-  10. Nina Simone — Suzanne
-
 PLAYLIST B
 ----------------------------------------
    1. Nina Simone — Sinnerman (Felix Da Housecat'S
    2. Nina Simone — Sinner Man
-   3. Nina Simone — Ain'T Got No (I Got Life)
-   4. Nina Simone — I Wish I Knew How It Would Feel To Be Free
-   5. Nina Simone — Feelin' Good
-   6. Nina Simone — House Of The Rising Sun
-   7. Nina Simone — See-Line Woman
-   8. Nina Simone — The Other Woman
-   9. Nina Simone — Buck
-  10. Nina Simone — I Was Just A Stupid Dog To Them
+   3. Norah Jones — What Am I To You?
+   4. Norah Jones — December
+   5. Billie Holiday — Don'T Explain - Dzihan & Kamien Remix
+   6. Billie Holiday — Speak Low (Bent Remix)
+   7. Madeleine Peyroux — Between The Bars
+   8. Madeleine Peyroux — Muddy Water
+   9. Curtis Stigers — John The Revelator
+  10. Peter Cincotti — You Stepped Out Of A Dream
+
+PLAYLIST A
+----------------------------------------
+   1. Nina Simone — Lilac Wine [The Album Leaf Remix] [Mix]
+   2. Nina Simone — Sinnerman
+   3. Norah Jones — I'Ve Got To See You Again
+   4. Norah Jones — Humble Me
+   5. Madeleine Peyroux — Don'T Cry Baby
+   6. Madeleine Peyroux — No More
+   7. Billie Holiday — Fine And Mellow
+   8. Billie Holiday — Let'S Do It - 2000 Remastered Version
+   9. Curtis Stigers — John The Revelator
+  10. Peter Cincotti — Some Kind Of Wonderful
 
 ────────────────────────────────────────────────────────────
 INTERNAL RECORD (researcher only — do not share):
   Playlist A = Semantic model
   Playlist B = Emotion-Aware model
-  Order shown to participant: A → B
+  Order shown to participant: B → A
 ────────────────────────────────────────────────────────────

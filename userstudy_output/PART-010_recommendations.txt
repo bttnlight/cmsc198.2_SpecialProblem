@@ -28,35 +28,35 @@ PARTICIPANT'S INPUT TRACKS (most recent first):
   19. TWICE — Feel Special  [dataset]
   20. aespa — Black Mamba  [lastfm]
 
-PLAYLIST A
-----------------------------------------
-   1. 少女時代 — Flower Power
-   2. 少女時代 — Animal
-   3. 少女時代 — T.O.P
-   4. Boa — Every Heart
-   5. Boa — Lookin' (Feat. The Quiett)
-   6. Boa — Eat You Up
-   7. Wonder Girls — The Dj Is Mine (Afrojack Remix)
-   8. Wonder Girls — Nobody
-   9. Twice — Strategy (From The Netflix Film Kpop Demon Hunters)
-  10. Twice — What Is Love?
-
 PLAYLIST B
 ----------------------------------------
    1. 少女時代 — T.O.P
    2. 少女時代 — Animal
-   3. 少女時代 — Flower Power
-   4. Boa — Eat You Up
-   5. Boa — Lookin' (Feat. The Quiett)
-   6. Boa — Every Heart
-   7. Wonder Girls — Nobody
-   8. Wonder Girls — The Dj Is Mine (Afrojack Remix)
+   3. Boa — Eat You Up
+   4. Boa — Lookin' (Feat. The Quiett)
+   5. Wonder Girls — Nobody
+   6. Wonder Girls — The Dj Is Mine (Afrojack Remix)
+   7. 소녀시대-태티서 — Omg (Oh My God)
+   8. Twice — What Is Love
+   9. Twice — Behind The Mask
+  10. Bibi — Apocalypse
+
+PLAYLIST A
+----------------------------------------
+   1. 少女時代 — Animal
+   2. 少女時代 — Flower Power
+   3. Boa — Lookin' (Feat. The Quiett)
+   4. Boa — Every Heart
+   5. Wonder Girls — The Dj Is Mine (Afrojack Remix)
+   6. Wonder Girls — Nobody
+   7. Twice — What Is Love
+   8. Twice — Takedown (Jeongyeon, Jihyo, Chaeyoung) (From The Netflix Film Kpop Demon Hunters)
    9. 소녀시대-태티서 — Omg (Oh My God)
-  10. Twice — What Is Love
+  10. Bibi — Apocalypse
 
 ────────────────────────────────────────────────────────────
 INTERNAL RECORD (researcher only — do not share):
   Playlist A = Semantic model
   Playlist B = Emotion-Aware model
-  Order shown to participant: A → B
+  Order shown to participant: B → A
 ────────────────────────────────────────────────────────────

@@ -28,35 +28,35 @@ PARTICIPANT'S INPUT TRACKS (most recent first):
   19. Gotan Project — Santa María  [lastfm]
   20. João Gilberto — Garota de Ipanema  [dataset]
 
-PLAYLIST A
-----------------------------------------
-   1. Milton Nascimento — Caçador De Mim
-   2. Milton Nascimento — O Que Será (A Flor Da Pele)
-   3. Milton Nascimento — Beijo Partido
-   4. Milton Nascimento — Para Lennon E Mccartney
-   5. Milton Nascimento — Caso Você Queira Saber
-   6. Milton Nascimento — Anima
-   7. Milton Nascimento — San Vicente
-   8. Milton Nascimento — Tudo O Que Você Podia Ser
-   9. Milton Nascimento — Me Deixa Em Paz
-  10. Milton Nascimento — Nuvem Cigana
-
 PLAYLIST B
 ----------------------------------------
    1. Sivuca — Adeus Maria Fulo
    2. Quarteto Novo — Síntese
    3. Milton Nascimento — San Vicente
    4. Milton Nascimento — O Que Será (A Flor Da Pele)
-   5. Milton Nascimento — Caçador De Mim
-   6. Milton Nascimento — Me Deixa Em Paz
-   7. Milton Nascimento — Anima
-   8. Milton Nascimento — Caso Você Queira Saber
-   9. Milton Nascimento — Para Lennon E Mccartney
-  10. Milton Nascimento — Beijo Partido
+   5. Sérgio Mendes — Mas Que Nada (Feat. Black Eyed Peas)
+   6. Sergio Mendes — Sambinha Bossa Nova
+   7. Sergio Mendes — Maria Moita
+   8. Sérgio Mendes — Mas Que Nada
+   9. Arthur Verocai — Velho Parente
+  10. Arthur Verocai — Seriado
+
+PLAYLIST A
+----------------------------------------
+   1. Milton Nascimento — Caçador De Mim
+   2. Milton Nascimento — O Que Será (A Flor Da Pele)
+   3. Sivuca — Adeus Maria Fulo
+   4. Quarteto Novo — Síntese
+   5. Sérgio Mendes — Mas Que Nada (Feat. Black Eyed Peas)
+   6. Sergio Mendes — Loose Ends
+   7. Sérgio Mendes — Mas Que Nada
+   8. Sergio Mendes — Oba-La-La
+   9. Arthur Verocai — Caboclo
+  10. Arthur Verocai — Na Boca Do Sol
 
 ────────────────────────────────────────────────────────────
 INTERNAL RECORD (researcher only — do not share):
   Playlist A = Semantic model
   Playlist B = Emotion-Aware model
-  Order shown to participant: A → B
+  Order shown to participant: B → A
 ────────────────────────────────────────────────────────────

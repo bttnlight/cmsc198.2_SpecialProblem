@@ -28,35 +28,35 @@ PARTICIPANT'S INPUT TRACKS (most recent first):
   19. Bring Me the Horizon — Doomed  [lastfm]
   20. Linkin Park — Crawling  [dataset]
 
-PLAYLIST A
-----------------------------------------
-   1. Deftones — My Own Summer (Shove It)
-   2. Scars On Broadway — Serious
-   3. Breaking Benjamin — So Cold
-   4. Breaking Benjamin — Follow
-   5. Breaking Benjamin — Diary Of Jane
-   6. Breaking Benjamin — Here We Are
-   7. Breaking Benjamin — Natural Life
-   8. Breaking Benjamin — Skin
-   9. Breaking Benjamin — Blow Me Away
-  10. Breaking Benjamin — Failure
-
 PLAYLIST B
 ----------------------------------------
    1. Deftones — My Own Summer (Shove It)
    2. Scars On Broadway — Serious
    3. Breaking Benjamin — Follow
    4. Breaking Benjamin — Until The End
-   5. Breaking Benjamin — Dance With The Devil
-   6. Breaking Benjamin — The Diary Of Jane
-   7. Breaking Benjamin — Diary Of Jane - Single Version
-   8. Breaking Benjamin — Breath
-   9. Breaking Benjamin — Polyamorous
-  10. Breaking Benjamin — Failure
+   5. Staind — So Far Away
+   6. Staind — Me
+   7. System Of A Down — Soldier Side - Intro
+   8. System Of A Down — Holy Mountains
+   9. Chevelle — Antisaint
+  10. Chevelle — Face To The Floor
+
+PLAYLIST A
+----------------------------------------
+   1. Deftones — My Own Summer (Shove It)
+   2. Scars On Broadway — Serious
+   3. Breaking Benjamin — So Cold
+   4. Breaking Benjamin — Follow
+   5. Staind — So Far Away
+   6. Staind — Fray
+   7. Korn — Somebody Someone
+   8. Korn — Y’All Want A Single
+   9. Koяn — Make Me Bad
+  10. Koяn — It'S Gonna Go Away
 
 ────────────────────────────────────────────────────────────
 INTERNAL RECORD (researcher only — do not share):
   Playlist A = Semantic model
   Playlist B = Emotion-Aware model
-  Order shown to participant: A → B
+  Order shown to participant: B → A
 ────────────────────────────────────────────────────────────

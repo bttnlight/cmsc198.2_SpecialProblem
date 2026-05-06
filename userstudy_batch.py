@@ -307,6 +307,9 @@ def build_context_vector(context_tracks: list, embeddings: dict) -> np.ndarray |
 # Recommendation generation
 # ────────────────────────────────────────────────
 
+MAX_TRACKS_PER_ARTIST = 2   # diversity constraint — Section 4.5.3
+
+
 def generate_recommendations(
     ctx_vec: np.ndarray,
     candidate_keys: list,
@@ -314,19 +317,38 @@ def generate_recommendations(
     exclude_keys: set,
     k: int,
 ) -> list[tuple]:
-    """Returns list of (artist, track, score)."""
+    """
+    Returns list of (artist, track, score), ranked by cosine similarity.
+
+    A diversity constraint (re-ranking) is applied: no more than
+    MAX_TRACKS_PER_ARTIST tracks from the same artist appear in the
+    top-k results. This prevents artist-level clustering from dominating
+    the playlist when many tracks from one artist share near-identical
+    tag representations (Section 4.5.3).
+    """
     sims           = cosine_similarity(ctx_vec.reshape(1, -1), candidate_matrix)[0]
     ranked_indices = np.argsort(sims)[::-1]
 
-    results = []
+    results       = []
+    artist_counts = defaultdict(int)   # track how many songs per artist
+
     for idx in ranked_indices:
         ckey = candidate_keys[idx]
         if ckey in exclude_keys:
             continue
         artist, track = ckey.split("||", 1)
+        artist_norm   = artist.lower().strip()
+
+        # Diversity filter: skip if artist already has MAX_TRACKS_PER_ARTIST
+        if artist_counts[artist_norm] >= MAX_TRACKS_PER_ARTIST:
+            continue
+
+        artist_counts[artist_norm] += 1
         results.append((artist.title(), track.title(), float(sims[idx])))
+
         if len(results) >= k:
             break
+
     return results
 
 

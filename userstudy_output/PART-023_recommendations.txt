@@ -28,19 +28,6 @@ PARTICIPANT'S INPUT TRACKS (most recent first):
   19. Charlie Puth — Attention  [lastfm]
   20. Harry Styles — Adore You  [dataset]
 
-PLAYLIST B
-----------------------------------------
-   1. Anna Wise — Count My Blessings
-   2. Alexis Jordan — Happiness
-   3. Alexis Jordan — Happiness (Dave Audé Mix - Official Fifa Women'S World Cup 2011 (Tm) Song)
-   4. Gwen Stefani — Now That You Got It
-   5. Gwen Stefani — Don'T Get It Twisted
-   6. Gwen Stefani — Danger Zone
-   7. Gwen Stefani — You Make It Feel Like Christmas (With Blake Shelton)
-   8. Gwen Stefani — The Sweet Escape
-   9. Gwen Stefani — 4 In The Morning
-  10. Gwen Stefani — Serious
-
 PLAYLIST A
 ----------------------------------------
    1. Anna Wise — Count My Blessings
@@ -48,15 +35,28 @@ PLAYLIST A
    3. Alexis Jordan — Happiness
    4. Gwen Stefani — Used To Love You
    5. Gwen Stefani — Make Me Like You
-   6. Gwen Stefani — The Sweet Escape
-   7. Gwen Stefani — What You Waiting For? Jacques Lu Cont Mix
-   8. Gwen Stefani — The Real Thing
-   9. Gwen Stefani — Serious
-  10. Gwen Stefani — Don'T Get It Twisted
+   6. Mark Morrison — Return Of The Mack - C & J Street Mix
+   7. Raye & 070 Shake — Escapism.
+   8. Pixie Lott — Mama Do (Uh Oh, Uh Oh)
+   9. Pixie Lott — Broken Arrow
+  10. Ariana Grande — Best Mistake (Feat. Big Sean)
+
+PLAYLIST B
+----------------------------------------
+   1. Anna Wise — Count My Blessings
+   2. Alexis Jordan — Happiness
+   3. Alexis Jordan — Happiness (Dave Audé Mix - Official Fifa Women'S World Cup 2011 (Tm) Song)
+   4. Gwen Stefani — Now That You Got It
+   5. Gwen Stefani — Don'T Get It Twisted
+   6. Raye & 070 Shake — Escapism.
+   7. Pixie Lott — All About Tonight
+   8. Pixie Lott — Broken Arrow
+   9. Halsey — Without Me
+  10. Kacy Hill — Experience
 
 ────────────────────────────────────────────────────────────
 INTERNAL RECORD (researcher only — do not share):
   Playlist A = Semantic model
   Playlist B = Emotion-Aware model
-  Order shown to participant: B → A
+  Order shown to participant: A → B
 ────────────────────────────────────────────────────────────

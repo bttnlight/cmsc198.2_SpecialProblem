@@ -28,35 +28,35 @@ PARTICIPANT'S INPUT TRACKS (most recent first):
   19. Michael Giacchino — Married Life  [lastfm]
   20. Hans Zimmer — No Time for Caution  [lastfm]
 
-PLAYLIST B
-----------------------------------------
-   1. Brian Tyler — Nuremberg Suite Part Iii - Hope
-   2. Brian Tyler — Apex
-   3. Brian Tyler — Waves Of Intuition
-   4. Austin Wintory — This City Is My Prison
-   5. Steve Jablonsky — Tessa
-   6. Steve Jablonsky — Purity Of Heart
-   7. Michael Giacchino — End Title
-   8. Michael Giacchino — Married Life - From "Up"/Score
-   9. Michael Giacchino — Give Her My Budapest
-  10. Michael Giacchino — Mother Of A Mother
-
 PLAYLIST A
 ----------------------------------------
    1. Brian Tyler — Waves Of Intuition
    2. Brian Tyler — Apex
-   3. Brian Tyler — Nuremberg Suite Part Iii - Hope
-   4. Steve Jablonsky — Purity Of Heart
-   5. Steve Jablonsky — Tessa
-   6. Austin Wintory — This City Is My Prison
-   7. Carter Burwell — Lovers
-   8. Carter Burwell — Meeting Miriam
-   9. Carter Burwell — Bella'S Lullaby
-  10. Carter Burwell — Overture
+   3. Steve Jablonsky — Purity Of Heart
+   4. Steve Jablonsky — Tessa
+   5. Austin Wintory — This City Is My Prison
+   6. Carter Burwell — Lovers
+   7. Carter Burwell — Meeting Miriam
+   8. Michael Giacchino — Married Life - From "Up"/Score
+   9. Michael Giacchino — Stuff We Did
+  10. Harry Gregson-Williams — Black Man In America
+
+PLAYLIST B
+----------------------------------------
+   1. Brian Tyler — Nuremberg Suite Part Iii - Hope
+   2. Brian Tyler — Apex
+   3. Austin Wintory — This City Is My Prison
+   4. Steve Jablonsky — Tessa
+   5. Steve Jablonsky — Purity Of Heart
+   6. Michael Giacchino — End Title
+   7. Michael Giacchino — Married Life - From "Up"/Score
+   8. Harry Gregson-Williams — Fireworks And Lanterns
+   9. Harry Gregson-Williams — Mars
+  10. Thomas Newman — That'S The Deal
 
 ────────────────────────────────────────────────────────────
 INTERNAL RECORD (researcher only — do not share):
   Playlist A = Semantic model
   Playlist B = Emotion-Aware model
-  Order shown to participant: B → A
+  Order shown to participant: A → B
 ────────────────────────────────────────────────────────────

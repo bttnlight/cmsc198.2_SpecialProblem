@@ -28,35 +28,35 @@ PARTICIPANT'S INPUT TRACKS (most recent first):
   19. Deep Forest — Sweet Lullaby  [dataset]
   20. Enya — May It Be  [dataset]
 
-PLAYLIST A
-----------------------------------------
-   1. Patrick O'Hearn — Along The Waterfront
-   2. Patrick O'Hearn — Beyond This Moment
-   3. Patrick O'Hearn — Northwest Passage
-   4. Patrick O'Hearn — Traveler'S Rest
-   5. Patrick O'Hearn — Lets Move On
-   6. Patrick O'Hearn — Like So Much Lost Time
-   7. Patrick O'Hearn — Panning The Sands
-   8. Patrick O'Hearn — A Lovely Place To Be
-   9. Patrick O'Hearn — So Flows The Current
-  10. Michael Brook — Doges
-
 PLAYLIST B
 ----------------------------------------
    1. Patrick O'Hearn — Traveler'S Rest
    2. Patrick O'Hearn — Like So Much Lost Time
-   3. Patrick O'Hearn — So Flows The Current
-   4. Patrick O'Hearn — Northwest Passage
-   5. Patrick O'Hearn — Lets Move On
-   6. Patrick O'Hearn — A Lovely Place To Be
-   7. Patrick O'Hearn — Beyond This Moment
-   8. Patrick O'Hearn — Panning The Sands
-   9. Patrick O'Hearn — Along The Waterfront
-  10. Michael Brook — Darkerroom
+   3. Michael Brook — Darkerroom
+   4. Michael Brook — Rockpaperscissors
+   5. Vangelis — Tears In Rain
+   6. Vangelis — Starstuff
+   7. Diane Arkenstone — The Elektrik Sky
+   8. Double Fantasy — Heartbreaker
+   9. Enigma — Shadows In Silence
+  10. Enigma — Principles Of Lust: Sadeness / Find Love / Sadeness (Reprise)
+
+PLAYLIST A
+----------------------------------------
+   1. Patrick O'Hearn — Along The Waterfront
+   2. Patrick O'Hearn — Beyond This Moment
+   3. Michael Brook — Doges
+   4. Michael Brook — Darkerroom
+   5. Vangelis — Damask Rose
+   6. Vangelis — Love Theme
+   7. Enigma — T.N.T. For The Brain (Midnight Man Mix)
+   8. Enigma — Callas Went Away
+   9. Double Fantasy — Heartbreaker
+  10. Diane Arkenstone — The Elektrik Sky
 
 ────────────────────────────────────────────────────────────
 INTERNAL RECORD (researcher only — do not share):
   Playlist A = Semantic model
   Playlist B = Emotion-Aware model
-  Order shown to participant: A → B
+  Order shown to participant: B → A
 ────────────────────────────────────────────────────────────

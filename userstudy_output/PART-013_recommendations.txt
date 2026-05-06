@@ -34,11 +34,11 @@ PLAYLIST B
    2. Sleepy Fish — I Wish It Would Never Stop Snowing
    3. Less.People — Faceless Woman
    4. Oatmello — Fresh Snow
-   5. Jinsang — Affection
-   6. Philanthrope — The End
+   5. Raimu — Kaigan
+   6. Raimu — Towards Something New
    7. Philanthrope — Clockwork (Feat. Tusken.)
-   8. Goosetaf — Clouded Thoughts
-   9. Goosetaf — Dormant
+   8. Philanthrope — The End
+   9. Jinsang — Affection
   10. Goosetaf — Carwash
 
 PLAYLIST A
@@ -46,13 +46,13 @@ PLAYLIST A
    1. Sleepy Fish — I Wish It Would Never Stop Snowing
    2. Allem Iversom — Night Glow
    3. Less.People — Faceless Woman
-   4. Jinsang — Affection
-   5. Philanthrope — Clockwork (Feat. Tusken.)
-   6. Philanthrope — The End
-   7. Oatmello — Fresh Snow
-   8. Goosetaf — Dormant
-   9. Goosetaf — Carwash
-  10. Goosetaf — Clouded Thoughts
+   4. Oatmello — Fresh Snow
+   5. Philanthrope — The End
+   6. Philanthrope — Clockwork (Feat. Tusken.)
+   7. Raimu — Kaigan
+   8. Raimu — Towards Something New
+   9. Jinsang — Affection
+  10. Goosetaf — Carwash
 
 ────────────────────────────────────────────────────────────
 INTERNAL RECORD (researcher only — do not share):

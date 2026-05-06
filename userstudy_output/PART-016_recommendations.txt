@@ -28,35 +28,35 @@ PARTICIPANT'S INPUT TRACKS (most recent first):
   19. Martin Garrix — Animals  [dataset]
   20. Eminem — Not Afraid  [dataset]
 
-PLAYLIST A
-----------------------------------------
-   1. Black Eyed Peas — #Wheresthelove (Feat. The World)
-   2. Black Eyed Peas — Bridging The Gaps
-   3. Black Eyed Peas — Weekends
-   4. Black Eyed Peas — Party All The Time
-   5. Black Eyed Peas — Request + Line
-   6. Black Eyed Peas — Alive
-   7. Black Eyed Peas — Pump It Harder
-   8. Black Eyed Peas — One Tribe
-   9. Black Eyed Peas — Out Of My Head
-  10. Black Eyed Peas — Now Generation
-
 PLAYLIST B
 ----------------------------------------
    1. Black Eyed Peas — Rock That Body (Skrillex Remix)
    2. Black Eyed Peas — Shut Up
-   3. Black Eyed Peas — Electric City
-   4. Black Eyed Peas — Imma Be
-   5. Black Eyed Peas — Pump It Harder
-   6. Black Eyed Peas — Alive
-   7. Black Eyed Peas — Don'T Lie
-   8. Black Eyed Peas — I Gotta Feeling
-   9. Black Eyed Peas — #Wheresthelove (Feat. The World)
-  10. Black Eyed Peas — Showdown
+   3. The Black Eyed Peas — Where Is The Love?
+   4. The Black Eyed Peas — I Gotta Feeling
+   5. Will Smith — Miami (Album Version)
+   6. Will Smith — Nod Ya Head (The Remix) (Album Version)
+   7. Debbie — The Rain Isn'T Over
+   8. Far East Movement — Turn Up The Love
+   9. Far East Movement — Live My Life
+  10. Missy Elliott — Shake Your Pom Pom
+
+PLAYLIST A
+----------------------------------------
+   1. Black Eyed Peas — #Wheresthelove (Feat. The World)
+   2. Black Eyed Peas — Bridging The Gaps
+   3. The Black Eyed Peas — Where Is The Love?
+   4. The Black Eyed Peas — Imma Be
+   5. Will Smith — Black Suits Comin
+   6. Will Smith — Men In Black - From "Men In Black" Soundtrack
+   7. Debbie — The Rain Isn'T Over
+   8. Far East Movement — Live My Life
+   9. Far East Movement — Turn Up The Love
+  10. Missy Elliott — Work It (Remix Featuring 50 Cent)
 
 ────────────────────────────────────────────────────────────
 INTERNAL RECORD (researcher only — do not share):
   Playlist A = Semantic model
   Playlist B = Emotion-Aware model
-  Order shown to participant: A → B
+  Order shown to participant: B → A
 ────────────────────────────────────────────────────────────

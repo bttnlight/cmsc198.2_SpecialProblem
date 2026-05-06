@@ -28,35 +28,35 @@ PARTICIPANT'S INPUT TRACKS (most recent first):
   19. Joni Mitchell — Both Sides Now  [dataset]
   20. Cat Stevens — Trouble  [dataset]
 
-PLAYLIST B
-----------------------------------------
-   1. Paul Simon — Graceland
-   2. Paul Simon — Armistice Day
-   3. Paul Simon — Paranoia Blues
-   4. Paul Simon — Hobo'S Blues
-   5. Paul Simon — Congratulations
-   6. Paul Simon — Papa Hobo
-   7. Paul Simon — Everything Put Together Falls
-   8. Paul Simon — Stranded In A Limousine
-   9. Paul Simon — American Tune
-  10. Paul Simon — Take Me To The Mardi Gras
-
 PLAYLIST A
 ----------------------------------------
    1. Paul Simon — Boy In The Bubble [12'' Extended Version]
    2. Paul Simon — The Sounds Of Silence
-   3. Paul Simon — Father And Daughter
-   4. Paul Simon — Graceland
-   5. Paul Simon — All Around The World Or The Myth Of Fingerprints (Early Version) - Bonus Track
-   6. Paul Simon — The Late Great Johnny Ace
-   7. Paul Simon — Shelter Of Your Arms (Unreleased Work-In-Progress)
-   8. Paul Simon — All Around The World Or The Myth Of Fingerprints - Early Version
-   9. Paul Simon — Rene And Georgette Magritte With Their Dog After The War (Original Acoustic Demo)
-  10. Paul Simon — Homeless
+   3. Cat Stevens — Here Comes My Baby
+   4. Cat Stevens — Cat Stevens - Father And Son
+   5. James Taylor — Mexico - 2019 Remaster
+   6. James Taylor — Shower The People
+   7. Crosby & Nash — Through Here Quite Often (2006 Remastered Lp Version)
+   8. Carole King — (You Make Me Feel Like) A Natural Woman
+   9. Carole King — Have Yourself A Merry Little Christmas
+  10. Jim Croce — Which Way Are You Goin’?
+
+PLAYLIST B
+----------------------------------------
+   1. Paul Simon — Graceland
+   2. Paul Simon — Armistice Day
+   3. Cat Stevens — Oh Very Young
+   4. Cat Stevens — Cat Stevens - Father And Son
+   5. James Taylor — Your Smiling Face
+   6. James Taylor — Fire And Rain - 2019 Remaster
+   7. Crosby & Nash — Through Here Quite Often (2006 Remastered Lp Version)
+   8. Carole King — Tapestry
+   9. Carole King — Smackwater Jack
+  10. Seals & Crofts — Summer Breeze
 
 ────────────────────────────────────────────────────────────
 INTERNAL RECORD (researcher only — do not share):
   Playlist A = Semantic model
   Playlist B = Emotion-Aware model
-  Order shown to participant: B → A
+  Order shown to participant: A → B
 ────────────────────────────────────────────────────────────

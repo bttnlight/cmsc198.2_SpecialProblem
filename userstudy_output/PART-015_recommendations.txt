@@ -28,35 +28,35 @@ PARTICIPANT'S INPUT TRACKS (most recent first):
   19. Angel Olsen — Intern  [dataset]
   20. Slowdive — Sugar for the Pill  [dataset]
 
-PLAYLIST B
-----------------------------------------
-   1. Monster Movie — Good Grief
-   2. Ttssfu — Cat Piss Junkie
-   3. Ttssfu — Call U Back
-   4. Ttssfu — Upstairs
-   5. Ttssfu — Being Young
-   6. Ttssfu — Help
-   7. Ttssfu — Growing Older
-   8. Ttssfu — Wait It Out
-   9. Ttssfu — Asexual
-  10. Ttssfu — California
-
 PLAYLIST A
 ----------------------------------------
    1. Monster Movie — Good Grief
    2. Ttssfu — Goat
    3. Ttssfu — Call U Back
-   4. Ttssfu — Help
-   5. Ttssfu — Weekend
-   6. Ttssfu — California
-   7. Ttssfu — Forever
-   8. Ttssfu — Wait It Out
-   9. Ttssfu — Growing Older
-  10. Ttssfu — Sick
+   4. Warpaint — Billie Holiday
+   5. Warpaint — Warpaint
+   6. Airiel — Cinnamon
+   7. Airiel — Airtight Angels
+   8. Pale Saints — Babymaker
+   9. Pale Saints — Kinky Love
+  10. Bang Bang Machine — Geek Love
+
+PLAYLIST B
+----------------------------------------
+   1. Monster Movie — Good Grief
+   2. Ttssfu — Cat Piss Junkie
+   3. Ttssfu — Call U Back
+   4. Warpaint — So Good
+   5. Warpaint — New Song (Soulwax Remix)
+   6. Airiel — Where It Belongs
+   7. Airiel — This Is Why I Can'T Sleep
+   8. Pale Saints — Kinky Love
+   9. Pale Saints — Babymaker
+  10. Bang Bang Machine — Geek Love
 
 ────────────────────────────────────────────────────────────
 INTERNAL RECORD (researcher only — do not share):
   Playlist A = Semantic model
   Playlist B = Emotion-Aware model
-  Order shown to participant: B → A
+  Order shown to participant: A → B
 ────────────────────────────────────────────────────────────
