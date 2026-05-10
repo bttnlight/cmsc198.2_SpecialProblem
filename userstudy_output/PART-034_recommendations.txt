@@ -28,35 +28,35 @@ PARTICIPANT'S INPUT TRACKS (most recent first):
   19. Jack Johnson — Taylor  [dataset]
   20. Colbie Caillat — Realize  [dataset]
 
-PLAYLIST B
-----------------------------------------
-   1. Jason Mraz — Bella Luna (Album Version)
-   2. Jason Mraz — Wordplay (Album Version)
-   3. David Gray — My Oh My
-   4. David Gray — Babylon
-   5. Matt Nathanson — Gone
-   6. Matt Nathanson — Uptown Girl
-   7. Joshua Radin — I'D Rather Be With You
-   8. Joshua Radin — Next To Me
-   9. Nizlopi — Girls
-  10. Nizlopi — Wash Away
-
 PLAYLIST A
 ----------------------------------------
    1. Jason Mraz — 1000 Things
-   2. Jason Mraz — The Boy'S Gone
-   3. David Gray — Draw The Line
-   4. David Gray — Babylon
-   5. Matt Nathanson — Come On Get Higher
-   6. Matt Nathanson — Angel
-   7. Joshua Radin — Star Mile
-   8. Joshua Radin — You Got Growin' Up To Do [Featuring Patty Griffin]
-   9. Nizlopi — Jcb
-  10. Nizlopi — Girls
+   2. David Gray — Draw The Line
+   3. Matt Nathanson — Come On Get Higher
+   4. Joshua Radin — Star Mile
+   5. Nizlopi — Jcb
+   6. Matt Wertz — Heartbreaker
+   7. Ray Lamontagne — Empty
+   8. Newton Faulkner — Face (Her)
+   9. Gavin Degraw — Follow Through
+  10. Howie Day — Collide
+
+PLAYLIST B
+----------------------------------------
+   1. Jason Mraz — Bella Luna (Album Version)
+   2. David Gray — My Oh My
+   3. Matt Nathanson — Gone
+   4. Joshua Radin — I'D Rather Be With You
+   5. Nizlopi — Girls
+   6. Matt Wertz — Heartbreaker
+   7. Ray Lamontagne — Drive-In Movies
+   8. Newton Faulkner — Face (Her)
+   9. Gavin Degraw — Meaning
+  10. Howie Day — She Says
 
 ────────────────────────────────────────────────────────────
 INTERNAL RECORD (researcher only — do not share):
   Playlist A = Semantic model
   Playlist B = Emotion-Aware model
-  Order shown to participant: B → A
+  Order shown to participant: A → B
 ────────────────────────────────────────────────────────────

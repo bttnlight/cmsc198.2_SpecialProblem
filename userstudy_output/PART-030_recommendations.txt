@@ -28,35 +28,35 @@ PARTICIPANT'S INPUT TRACKS (most recent first):
   19. Rex Orange County — Pluto Projector  [lastfm]
   20. Clairo — Softly  [lastfm]
 
-PLAYLIST A
-----------------------------------------
-   1. Clairo — Thank You
-   2. Clairo — Terrapin
-   3. Another Michael — Water Pressure
-   4. Sales — Chinese New Year
-   5. Sales — Off And On
-   6. Soccer Mommy — Still Clean
-   7. Soccer Mommy — Newdemo
-   8. Tokyo Tea Room — Waiting By The Phone
-   9. Lowertown — Clown Car
-  10. Frankie Cosmos — Being Alive
-
 PLAYLIST B
 ----------------------------------------
    1. Clairo — Closer To You
-   2. Clairo — Add Up My Love
-   3. Another Michael — Water Pressure
-   4. Sales — Off And On
-   5. Sales — Chinese New Year
-   6. Soccer Mommy — Driver
-   7. Soccer Mommy — Still Clean
-   8. Tokyo Tea Room — Waiting By The Phone
-   9. Lowertown — Clown Car
-  10. Frankie Cosmos — Being Alive
+   2. Another Michael — Water Pressure
+   3. Sales — Off And On
+   4. Soccer Mommy — Driver
+   5. Tokyo Tea Room — Waiting By The Phone
+   6. Lowertown — Clown Car
+   7. Frankie Cosmos — Being Alive
+   8. Beabadoobee — Sorry
+   9. Münechild — Someday
+  10. Slow Pulp — Idaho
+
+PLAYLIST A
+----------------------------------------
+   1. Clairo — Thank You
+   2. Another Michael — Water Pressure
+   3. Sales — Chinese New Year
+   4. Soccer Mommy — Still Clean
+   5. Tokyo Tea Room — Waiting By The Phone
+   6. Lowertown — Clown Car
+   7. Frankie Cosmos — Being Alive
+   8. Beabadoobee — Sorry
+   9. Münechild — Someday
+  10. Slow Pulp — New Horse
 
 ────────────────────────────────────────────────────────────
 INTERNAL RECORD (researcher only — do not share):
   Playlist A = Semantic model
   Playlist B = Emotion-Aware model
-  Order shown to participant: A → B
+  Order shown to participant: B → A
 ────────────────────────────────────────────────────────────

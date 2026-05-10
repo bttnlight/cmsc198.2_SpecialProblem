@@ -28,35 +28,35 @@ PARTICIPANT'S INPUT TRACKS (most recent first):
   19. Martin Garrix — Animals  [dataset]
   20. Eminem — Not Afraid  [dataset]
 
-PLAYLIST B
-----------------------------------------
-   1. Black Eyed Peas — Rock That Body (Skrillex Remix)
-   2. Black Eyed Peas — Shut Up
-   3. The Black Eyed Peas — Where Is The Love?
-   4. The Black Eyed Peas — I Gotta Feeling
-   5. Will Smith — Miami (Album Version)
-   6. Will Smith — Nod Ya Head (The Remix) (Album Version)
-   7. Debbie — The Rain Isn'T Over
-   8. Far East Movement — Turn Up The Love
-   9. Far East Movement — Live My Life
-  10. Missy Elliott — Shake Your Pom Pom
-
 PLAYLIST A
 ----------------------------------------
    1. Black Eyed Peas — #Wheresthelove (Feat. The World)
-   2. Black Eyed Peas — Bridging The Gaps
-   3. The Black Eyed Peas — Where Is The Love?
-   4. The Black Eyed Peas — Imma Be
-   5. Will Smith — Black Suits Comin
-   6. Will Smith — Men In Black - From "Men In Black" Soundtrack
-   7. Debbie — The Rain Isn'T Over
-   8. Far East Movement — Live My Life
-   9. Far East Movement — Turn Up The Love
-  10. Missy Elliott — Work It (Remix Featuring 50 Cent)
+   2. The Black Eyed Peas — Where Is The Love?
+   3. Will Smith — Black Suits Comin
+   4. Debbie — The Rain Isn'T Over
+   5. Far East Movement — Live My Life
+   6. Missy Elliott — Work It (Remix Featuring 50 Cent)
+   7. Missy Elliot — Whatcha Gon' Do F. Timbaland
+   8. Kevin Rudolf — Don'T Cry
+   9. Solomon — Can I Call You Rose? (Cover)
+  10. Mike Posner — Please Don'T Go
+
+PLAYLIST B
+----------------------------------------
+   1. Black Eyed Peas — Rock That Body (Skrillex Remix)
+   2. The Black Eyed Peas — Where Is The Love?
+   3. Will Smith — Miami (Album Version)
+   4. Debbie — The Rain Isn'T Over
+   5. Far East Movement — Turn Up The Love
+   6. Missy Elliott — Shake Your Pom Pom
+   7. Missy Elliot — Whatcha Gon' Do F. Timbaland
+   8. Kevin Rudolf — Don'T Cry
+   9. Solomon — Can I Call You Rose? (Cover)
+  10. Fergie — M.I.L.F. $
 
 ────────────────────────────────────────────────────────────
 INTERNAL RECORD (researcher only — do not share):
   Playlist A = Semantic model
   Playlist B = Emotion-Aware model
-  Order shown to participant: B → A
+  Order shown to participant: A → B
 ────────────────────────────────────────────────────────────

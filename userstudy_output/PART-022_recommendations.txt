@@ -28,35 +28,35 @@ PARTICIPANT'S INPUT TRACKS (most recent first):
   19. The Microphones — The Glow Pt. 2  [lastfm]
   20. Radiohead — How to Disappear Completely  [dataset]
 
+PLAYLIST B
+----------------------------------------
+   1. Tv On The Radio — Dreams
+   2. As Tall As Lions — Ghost Of York
+   3. Radiohead — Daydreaming
+   4. Anna Calvi — I See A Darkness
+   5. Mutemath — Stare At The Sun
+   6. John Parish And Polly Jean Harvey — Black Hearted Love
+   7. These New Puritans — Three Thousand
+   8. Cloud Cult — Story Of The Grandson Of Jesus
+   9. The Invisible — Wings
+  10. Beck — O Maria
+
 PLAYLIST A
 ----------------------------------------
    1. As Tall As Lions — Ghost Of York
    2. Tv On The Radio — Careful You
-   3. Tv On The Radio — No Future Shock
-   4. Radiohead — Packt Like Sardines In A Crushd Tin Box
-   5. Radiohead — Lotus Flower (Jacques Greene Rmx)
-   6. Anna Calvi — I See A Darkness
-   7. Anna Calvi — Jezebel - Version Française
-   8. Mutemath — Stare At The Sun
-   9. Mutemath — Picture
-  10. John Parish And Polly Jean Harvey — Black Hearted Love
-
-PLAYLIST B
-----------------------------------------
-   1. Tv On The Radio — Dreams
-   2. Tv On The Radio — Young Liars
-   3. As Tall As Lions — Ghost Of York
-   4. Radiohead — Daydreaming
-   5. Radiohead — Packt Like Sardines In A Crushd Tin Box
-   6. Anna Calvi — I See A Darkness
-   7. Anna Calvi — Jezebel - Version Française
-   8. Mutemath — Stare At The Sun
-   9. Mutemath — Spotlight
-  10. John Parish And Polly Jean Harvey — Black Hearted Love
+   3. Radiohead — Packt Like Sardines In A Crushd Tin Box
+   4. Anna Calvi — I See A Darkness
+   5. Mutemath — Stare At The Sun
+   6. John Parish And Polly Jean Harvey — Black Hearted Love
+   7. These New Puritans — Hologram
+   8. Cloud Cult — The Tornado Lessons
+   9. The Invisible — Generational
+  10. Beck — Gimme
 
 ────────────────────────────────────────────────────────────
 INTERNAL RECORD (researcher only — do not share):
   Playlist A = Semantic model
   Playlist B = Emotion-Aware model
-  Order shown to participant: A → B
+  Order shown to participant: B → A
 ────────────────────────────────────────────────────────────

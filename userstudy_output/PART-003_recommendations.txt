@@ -28,35 +28,35 @@ PARTICIPANT'S INPUT TRACKS (most recent first):
   19. Moira Dela Torre — Paubaya  [lastfm]
   20. Taylor Swift — Exile  [lastfm]
 
-PLAYLIST A
-----------------------------------------
-   1. Zack Tabudlo — Give Me Your Forever
-   2. Olivia Rodrigo — 1 Step Forward, 3 Steps Back
-   3. Grentperez — Everest
-   4. Gracie Abrams — That’S So True
-   5. Olivia Rodrigo — Happier
-   6. Sabrina Carpenter — Because I Liked A Boy
-   7. Chappell Roan — Casual
-   8. Reneé Rapp — Too Well
-   9. Jewel Owusu — Spark
-  10. Chloe Moriondo — Dreams
-
 PLAYLIST B
 ----------------------------------------
    1. Zack Tabudlo — Give Me Your Forever
    2. Olivia Rodrigo — 1 Step Forward, 3 Steps Back
    3. Grentperez — Everest
    4. Gracie Abrams — That’S So True
-   5. Olivia Rodrigo — Favorite Crime
-   6. Reneé Rapp — Too Well
-   7. Jewel Owusu — Spark
-   8. Sabrina Carpenter — Because I Liked A Boy
-   9. Chappell Roan — Casual
-  10. Vienna Teng — The Tower
+   5. Reneé Rapp — Too Well
+   6. Jewel Owusu — Spark
+   7. Sabrina Carpenter — Because I Liked A Boy
+   8. Chappell Roan — Casual
+   9. Vienna Teng — The Tower
+  10. Sarah Kinsley — Lonely Touch
+
+PLAYLIST A
+----------------------------------------
+   1. Zack Tabudlo — Give Me Your Forever
+   2. Olivia Rodrigo — 1 Step Forward, 3 Steps Back
+   3. Grentperez — Everest
+   4. Gracie Abrams — That’S So True
+   5. Sabrina Carpenter — Because I Liked A Boy
+   6. Chappell Roan — Casual
+   7. Reneé Rapp — Too Well
+   8. Jewel Owusu — Spark
+   9. Chloe Moriondo — Dreams
+  10. Sarah Kinsley — Realms
 
 ────────────────────────────────────────────────────────────
 INTERNAL RECORD (researcher only — do not share):
   Playlist A = Semantic model
   Playlist B = Emotion-Aware model
-  Order shown to participant: A → B
+  Order shown to participant: B → A
 ────────────────────────────────────────────────────────────

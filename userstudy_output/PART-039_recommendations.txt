@@ -28,35 +28,35 @@ PARTICIPANT'S INPUT TRACKS (most recent first):
   19. Iron & Wine — Naked As We Came  [dataset]
   20. The Paper Kites — St. Clarity  [lastfm]
 
-PLAYLIST B
-----------------------------------------
-   1. Iron & Wine — Flightless Bird, American Mouth
-   2. Iron & Wine — Evening On The Ground (Lilith'S Song)
-   3. Iron And Wine — Teeth In The Grass
-   4. Iron And Wine — Such Great Heights
-   5. Sharon Van Etten — I Know
-   6. Sharon Van Etten — Nothing Will Change
-   7. Sufjan Stevens — Oh God Where Are You Now? (In Pickerel Lake? Pigeon? Marquette? Mackinaw?)
-   8. Sufjan Stevens — Enchanting Ghost
-   9. Rosie Thomas — Silent Night
-  10. Rosie Thomas — All The Way To New York City
-
 PLAYLIST A
 ----------------------------------------
    1. Iron & Wine — Love Vigilantes
-   2. Iron & Wine — Pagan Angel And A Borrowed Car
-   3. Iron And Wine — Such Great Heights
-   4. Iron And Wine — Teeth In The Grass
-   5. Sharon Van Etten — Live Forever
-   6. Sharon Van Etten — Trouble
-   7. Bon Iver — U (Man Like)
-   8. Bon Iver — Naeem
-   9. Sufjan Stevens — The Dress Looks Nice On You
-  10. Sufjan Stevens — Now That I'M Older
+   2. Iron And Wine — Such Great Heights
+   3. Sharon Van Etten — Live Forever
+   4. Bon Iver — U (Man Like)
+   5. Sufjan Stevens — The Dress Looks Nice On You
+   6. Rosie Thomas — The One I Love
+   7. Conor Oberst — Get Into It
+   8. Elliott Smith — Strung Out Again
+   9. Lucy Rose — Pink
+  10. Waxahatchee — You Found Me
+
+PLAYLIST B
+----------------------------------------
+   1. Iron & Wine — Flightless Bird, American Mouth
+   2. Iron And Wine — Teeth In The Grass
+   3. Sharon Van Etten — I Know
+   4. Sufjan Stevens — Oh God Where Are You Now? (In Pickerel Lake? Pigeon? Marquette? Mackinaw?)
+   5. Rosie Thomas — Silent Night
+   6. Bon Iver — 666 (Live - Apr 03 2022 - The Pavilion At Toyota Music Factory, Irving, Tx.)
+   7. Elliott Smith — 2:45 Am
+   8. Conor Oberst — Get Into It
+   9. Lucy Rose — Could You Help Me
+  10. Waxahatchee — Slow You Down
 
 ────────────────────────────────────────────────────────────
 INTERNAL RECORD (researcher only — do not share):
   Playlist A = Semantic model
   Playlist B = Emotion-Aware model
-  Order shown to participant: B → A
+  Order shown to participant: A → B
 ────────────────────────────────────────────────────────────

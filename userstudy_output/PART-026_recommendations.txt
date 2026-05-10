@@ -28,35 +28,35 @@ PARTICIPANT'S INPUT TRACKS (most recent first):
   19. Hawthorne Heights — Ohio Is for Lovers  [dataset]
   20. Fall Out Boy — Thnks fr th Mmrs  [dataset]
 
-PLAYLIST B
-----------------------------------------
-   1. Good Charlotte — I Don'T Wanna Be In Love (Dance Floor Anthem)
-   2. Good Charlotte — Hold On
-   3. Paramore — Running Out Of Time
-   4. Paramore — The News
-   5. Fall Out Boy — The Phoenix
-   6. Fall Out Boy — America'S Suitehearts
-   7. The All-American Rejects — One More Sad Song
-   8. The All-American Rejects — Why Worry
-   9. Simple Plan — Your Love Is A Lie
-  10. Simple Plan — I Almost Had You
-
 PLAYLIST A
 ----------------------------------------
    1. Good Charlotte — Interlude - The Fifth Chamber
-   2. Good Charlotte — Counting The Days
-   3. Paramore — Decode - Twilight Soundtrack Version
-   4. Paramore — Oh Star
-   5. Fall Out Boy — I'Ve Got A Dark Alley And A Bad Idea That Says You Should Shut ...
-   6. Fall Out Boy — Our Lawyer Made Us Change The
-   7. The All-American Rejects — Move Along
-   8. The All-American Rejects — Real World
-   9. Simple Plan — Time To Say Goodbye
-  10. Simple Plan — Jet Lag (Feat. Natasha Bedingfield)
+   2. Paramore — Decode - Twilight Soundtrack Version
+   3. Fall Out Boy — I'Ve Got A Dark Alley And A Bad Idea That Says You Should Shut ...
+   4. The All-American Rejects — Move Along
+   5. Simple Plan — Time To Say Goodbye
+   6. All Time Low — Coffee Shop Soundtrack
+   7. Acceptance — Breathless
+   8. The Audition — It'S Too Late
+   9. The Summer Obsession — Over My Head
+  10. There For Tomorrow — A Little Faster
+
+PLAYLIST B
+----------------------------------------
+   1. Good Charlotte — I Don'T Wanna Be In Love (Dance Floor Anthem)
+   2. Paramore — Running Out Of Time
+   3. Fall Out Boy — The Phoenix
+   4. The All-American Rejects — One More Sad Song
+   5. Simple Plan — Your Love Is A Lie
+   6. Acceptance — Permanent
+   7. All Time Low — Stella
+   8. The Audition — Approach The Bench
+   9. The Summer Obsession — Over My Head
+  10. Sugarcult — The Investigation
 
 ────────────────────────────────────────────────────────────
 INTERNAL RECORD (researcher only — do not share):
   Playlist A = Semantic model
   Playlist B = Emotion-Aware model
-  Order shown to participant: B → A
+  Order shown to participant: A → B
 ────────────────────────────────────────────────────────────

@@ -28,35 +28,35 @@ PARTICIPANT'S INPUT TRACKS (most recent first):
   19. Massive Attack — Teardrop  [dataset]
   20. Kendrick Lamar — Father Time  [lastfm]
 
-PLAYLIST A
-----------------------------------------
-   1. The Internet — Roll (Burbank Funk)
-   2. The Internet — Hold On
-   3. Jon Bellion — He Is The Same
-   4. Jon Bellion — Fashion
-   5. Bryce Vine — Drew Barrymore (Feat. Wale)
-   6. The Silhouettes Project — July
-   7. Curtis Waters — Stunnin' (Feat. Harm Franklin)
-   8. Iann Dior — Good Day
-   9. Iann Dior — Sick And Tired (Feat. Machine Gun Kelly & Travis Barker)
-  10. Cassie — Long Way 2 Go (Acappella)
-
 PLAYLIST B
 ----------------------------------------
    1. Jon Bellion — All Time Low
-   2. Jon Bellion — A Haunted House
-   3. The Internet — It Gets Better (With Time)
-   4. The Internet — Dontcha
-   5. Bryce Vine — Drew Barrymore (Feat. Wale)
-   6. The Silhouettes Project — July
-   7. Curtis Waters — Stunnin' (Feat. Harm Franklin)
-   8. Missy Elliott — Lose Control (Featuring Ciara & Fat Man Scoop) (Explicit Album Version)
-   9. Missy Elliott — I'M Really Hot
+   2. The Internet — It Gets Better (With Time)
+   3. Bryce Vine — Drew Barrymore (Feat. Wale)
+   4. The Silhouettes Project — July
+   5. Curtis Waters — Stunnin' (Feat. Harm Franklin)
+   6. Missy Elliott — Lose Control (Featuring Ciara & Fat Man Scoop) (Explicit Album Version)
+   7. Missy Elliot — Lick Shots
+   8. Black Eyed Peas — Bebot
+   9. The Black Eyed Peas — I Gotta Feeling
+  10. Solomon — Can I Call You Rose? (Cover)
+
+PLAYLIST A
+----------------------------------------
+   1. The Internet — Roll (Burbank Funk)
+   2. Jon Bellion — He Is The Same
+   3. Bryce Vine — Drew Barrymore (Feat. Wale)
+   4. The Silhouettes Project — July
+   5. Curtis Waters — Stunnin' (Feat. Harm Franklin)
+   6. Iann Dior — Good Day
+   7. Cassie — Long Way 2 Go (Acappella)
+   8. Blackbear — Dirty Laundry (Acoustic)
+   9. Missy Elliott — Work It (Main)
   10. Missy Elliot — Lick Shots
 
 ────────────────────────────────────────────────────────────
 INTERNAL RECORD (researcher only — do not share):
   Playlist A = Semantic model
   Playlist B = Emotion-Aware model
-  Order shown to participant: A → B
+  Order shown to participant: B → A
 ────────────────────────────────────────────────────────────

@@ -28,35 +28,35 @@ PARTICIPANT'S INPUT TRACKS (most recent first):
   19. Common — The Light  [dataset]
   20. The Light — Promises  [lastfm]
 
-PLAYLIST A
-----------------------------------------
-   1. Kirk Franklin — Looking For You
-   2. Kirk Franklin — Revolution
-   3. Bebe & Cece Winans — Jingle Bells
-   4. Fred Hammond — This Is The Day
-   5. Mary Mary — Shackles (Praise You)
-   6. Mary Mary — Shackles
-   7. Group 1 Crew — Clap Ya Hands
-   8. Group 1 Crew — Forgive Me
-   9. Cece Winans — I Promise (Wedding Song)
-  10. Passion — Don'T Stop My Love (François Kevorkian Mix)
-
 PLAYLIST B
 ----------------------------------------
    1. Kirk Franklin — Revolution
-   2. Kirk Franklin — Looking For You
-   3. Bebe & Cece Winans — Jingle Bells
-   4. Fred Hammond — This Is The Day
-   5. Mary Mary — Shackles
-   6. Mary Mary — Shackles (Praise You)
-   7. Group 1 Crew — (Everybody'S Gotta) Song To Sing
-   8. Group 1 Crew — Can'T Go On
-   9. Cece Winans — I Promise (Wedding Song)
-  10. Passion — Don'T Stop My Love (François Kevorkian Mix)
+   2. Bebe & Cece Winans — Jingle Bells
+   3. Fred Hammond — This Is The Day
+   4. Mary Mary — Shackles
+   5. Group 1 Crew — (Everybody'S Gotta) Song To Sing
+   6. Cece Winans — I Promise (Wedding Song)
+   7. Passion — Don'T Stop My Love (François Kevorkian Mix)
+   8. Bob Carlisle — Butterfly Kisses
+   9. Michael W. Smith — Mighty To Save
+  10. Watermark — Gloria
+
+PLAYLIST A
+----------------------------------------
+   1. Kirk Franklin — Looking For You
+   2. Bebe & Cece Winans — Jingle Bells
+   3. Fred Hammond — This Is The Day
+   4. Mary Mary — Shackles (Praise You)
+   5. Group 1 Crew — Clap Ya Hands
+   6. Cece Winans — I Promise (Wedding Song)
+   7. Passion — Don'T Stop My Love (François Kevorkian Mix)
+   8. Bob Carlisle — Butterfly Kisses
+   9. Michael W. Smith — The River Is Rising
+  10. Watermark — Gloria
 
 ────────────────────────────────────────────────────────────
 INTERNAL RECORD (researcher only — do not share):
   Playlist A = Semantic model
   Playlist B = Emotion-Aware model
-  Order shown to participant: A → B
+  Order shown to participant: B → A
 ────────────────────────────────────────────────────────────

@@ -28,19 +28,6 @@ PARTICIPANT'S INPUT TRACKS (most recent first):
   19. Ambulo — Adrift  [lastfm]
   20. Nujabes — Luv(sic) Part 3  [lastfm]
 
-PLAYLIST B
-----------------------------------------
-   1. Allem Iversom — Night Glow
-   2. Sleepy Fish — I Wish It Would Never Stop Snowing
-   3. Less.People — Faceless Woman
-   4. Oatmello — Fresh Snow
-   5. Raimu — Kaigan
-   6. Raimu — Towards Something New
-   7. Philanthrope — Clockwork (Feat. Tusken.)
-   8. Philanthrope — The End
-   9. Jinsang — Affection
-  10. Goosetaf — Carwash
-
 PLAYLIST A
 ----------------------------------------
    1. Sleepy Fish — I Wish It Would Never Stop Snowing
@@ -48,15 +35,28 @@ PLAYLIST A
    3. Less.People — Faceless Woman
    4. Oatmello — Fresh Snow
    5. Philanthrope — The End
+   6. Raimu — Kaigan
+   7. Jinsang — Affection
+   8. Goosetaf — Carwash
+   9. Elior — Alphawave
+  10. Toonorth — Grizzly Peak
+
+PLAYLIST B
+----------------------------------------
+   1. Allem Iversom — Night Glow
+   2. Sleepy Fish — I Wish It Would Never Stop Snowing
+   3. Less.People — Faceless Woman
+   4. Oatmello — Fresh Snow
+   5. Raimu — Kaigan
    6. Philanthrope — Clockwork (Feat. Tusken.)
-   7. Raimu — Kaigan
-   8. Raimu — Towards Something New
-   9. Jinsang — Affection
-  10. Goosetaf — Carwash
+   7. Jinsang — Affection
+   8. Goosetaf — Carwash
+   9. Elior — Dark Road
+  10. Toonorth — Grizzly Peak
 
 ────────────────────────────────────────────────────────────
 INTERNAL RECORD (researcher only — do not share):
   Playlist A = Semantic model
   Playlist B = Emotion-Aware model
-  Order shown to participant: B → A
+  Order shown to participant: A → B
 ────────────────────────────────────────────────────────────

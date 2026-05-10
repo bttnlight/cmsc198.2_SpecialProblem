@@ -28,35 +28,35 @@ PARTICIPANT'S INPUT TRACKS (most recent first):
   19. Bring Me the Horizon — Doomed  [lastfm]
   20. Linkin Park — Crawling  [dataset]
 
-PLAYLIST B
-----------------------------------------
-   1. Deftones — My Own Summer (Shove It)
-   2. Scars On Broadway — Serious
-   3. Breaking Benjamin — Follow
-   4. Breaking Benjamin — Until The End
-   5. Staind — So Far Away
-   6. Staind — Me
-   7. System Of A Down — Soldier Side - Intro
-   8. System Of A Down — Holy Mountains
-   9. Chevelle — Antisaint
-  10. Chevelle — Face To The Floor
-
 PLAYLIST A
 ----------------------------------------
    1. Deftones — My Own Summer (Shove It)
    2. Scars On Broadway — Serious
    3. Breaking Benjamin — So Cold
-   4. Breaking Benjamin — Follow
-   5. Staind — So Far Away
-   6. Staind — Fray
-   7. Korn — Somebody Someone
-   8. Korn — Y’All Want A Single
-   9. Koяn — Make Me Bad
-  10. Koяn — It'S Gonna Go Away
+   4. Staind — So Far Away
+   5. Korn — Somebody Someone
+   6. Koяn — Make Me Bad
+   7. System Of A Down — Chic ’N’ Stu
+   8. Chevelle — The Red
+   9. Godsmack — Voodoo
+  10. Sevendust — Live Again
+
+PLAYLIST B
+----------------------------------------
+   1. Deftones — My Own Summer (Shove It)
+   2. Scars On Broadway — Serious
+   3. Breaking Benjamin — Follow
+   4. Staind — So Far Away
+   5. System Of A Down — Soldier Side - Intro
+   6. Chevelle — Antisaint
+   7. Koяn — A.D.I.D.A.S.
+   8. Korn — Y'All Want A Single
+   9. Godsmack — Serenity
+  10. Drowning Pool — Feel Like I Do
 
 ────────────────────────────────────────────────────────────
 INTERNAL RECORD (researcher only — do not share):
   Playlist A = Semantic model
   Playlist B = Emotion-Aware model
-  Order shown to participant: B → A
+  Order shown to participant: A → B
 ────────────────────────────────────────────────────────────

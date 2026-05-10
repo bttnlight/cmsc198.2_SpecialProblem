@@ -28,35 +28,35 @@ PARTICIPANT'S INPUT TRACKS (most recent first):
   19. Gotan Project — Santa María  [lastfm]
   20. João Gilberto — Garota de Ipanema  [dataset]
 
+PLAYLIST A
+----------------------------------------
+   1. Milton Nascimento — Caçador De Mim
+   2. Sivuca — Adeus Maria Fulo
+   3. Quarteto Novo — Síntese
+   4. Sérgio Mendes — Mas Que Nada (Feat. Black Eyed Peas)
+   5. Sergio Mendes — Loose Ends
+   6. Arthur Verocai — Caboclo
+   7. Astrud Gilberto — It Might As Well Be Spring
+   8. Sergio Mendes & Brasil '66 — Mas Que Nada
+   9. Sérgio Mendes & Brasil '66 — Mas Que Nada
+  10. Rosa Passos — Oh, Dona Ignez!
+
 PLAYLIST B
 ----------------------------------------
    1. Sivuca — Adeus Maria Fulo
    2. Quarteto Novo — Síntese
    3. Milton Nascimento — San Vicente
-   4. Milton Nascimento — O Que Será (A Flor Da Pele)
-   5. Sérgio Mendes — Mas Que Nada (Feat. Black Eyed Peas)
-   6. Sergio Mendes — Sambinha Bossa Nova
-   7. Sergio Mendes — Maria Moita
-   8. Sérgio Mendes — Mas Que Nada
-   9. Arthur Verocai — Velho Parente
-  10. Arthur Verocai — Seriado
-
-PLAYLIST A
-----------------------------------------
-   1. Milton Nascimento — Caçador De Mim
-   2. Milton Nascimento — O Que Será (A Flor Da Pele)
-   3. Sivuca — Adeus Maria Fulo
-   4. Quarteto Novo — Síntese
-   5. Sérgio Mendes — Mas Que Nada (Feat. Black Eyed Peas)
-   6. Sergio Mendes — Loose Ends
-   7. Sérgio Mendes — Mas Que Nada
-   8. Sergio Mendes — Oba-La-La
-   9. Arthur Verocai — Caboclo
-  10. Arthur Verocai — Na Boca Do Sol
+   4. Sérgio Mendes — Mas Que Nada (Feat. Black Eyed Peas)
+   5. Sergio Mendes — Sambinha Bossa Nova
+   6. Arthur Verocai — Velho Parente
+   7. Astrud Gilberto — The Gentle Rain [Rjd2 Remix] [Mix]
+   8. Sergio Mendes & Brasil '66 — Mas Que Nada
+   9. Sérgio Mendes & Brasil '66 — Mas Que Nada
+  10. Rosa Passos — Jardim
 
 ────────────────────────────────────────────────────────────
 INTERNAL RECORD (researcher only — do not share):
   Playlist A = Semantic model
   Playlist B = Emotion-Aware model
-  Order shown to participant: B → A
+  Order shown to participant: A → B
 ────────────────────────────────────────────────────────────

@@ -28,35 +28,35 @@ PARTICIPANT'S INPUT TRACKS (most recent first):
   19. Gregory Porter — Liquid Spirit  [dataset]
   20. Norah Jones — Sunrise  [dataset]
 
-PLAYLIST B
-----------------------------------------
-   1. Nina Simone — Sinnerman (Felix Da Housecat'S
-   2. Nina Simone — Sinner Man
-   3. Norah Jones — What Am I To You?
-   4. Norah Jones — December
-   5. Billie Holiday — Don'T Explain - Dzihan & Kamien Remix
-   6. Billie Holiday — Speak Low (Bent Remix)
-   7. Madeleine Peyroux — Between The Bars
-   8. Madeleine Peyroux — Muddy Water
-   9. Curtis Stigers — John The Revelator
-  10. Peter Cincotti — You Stepped Out Of A Dream
-
 PLAYLIST A
 ----------------------------------------
    1. Nina Simone — Lilac Wine [The Album Leaf Remix] [Mix]
-   2. Nina Simone — Sinnerman
-   3. Norah Jones — I'Ve Got To See You Again
-   4. Norah Jones — Humble Me
-   5. Madeleine Peyroux — Don'T Cry Baby
-   6. Madeleine Peyroux — No More
-   7. Billie Holiday — Fine And Mellow
-   8. Billie Holiday — Let'S Do It - 2000 Remastered Version
-   9. Curtis Stigers — John The Revelator
-  10. Peter Cincotti — Some Kind Of Wonderful
+   2. Norah Jones — I'Ve Got To See You Again
+   3. Madeleine Peyroux — Don'T Cry Baby
+   4. Billie Holiday — Fine And Mellow
+   5. Curtis Stigers — John The Revelator
+   6. Peter Cincotti — Some Kind Of Wonderful
+   7. Jamie Cullum — Singin' In The Rain
+   8. Lizz Wright — A Taste Of Honey
+   9. Cassandra Wilson — I Can'T Stand The Rain
+  10. Dee Dee Bridgewater — Compared To What
+
+PLAYLIST B
+----------------------------------------
+   1. Nina Simone — Sinnerman (Felix Da Housecat'S
+   2. Norah Jones — What Am I To You?
+   3. Billie Holiday — Don'T Explain - Dzihan & Kamien Remix
+   4. Madeleine Peyroux — Between The Bars
+   5. Curtis Stigers — John The Revelator
+   6. Peter Cincotti — You Stepped Out Of A Dream
+   7. Jamie Cullum — Old Devil Moon
+   8. Cassandra Wilson — 'Round Midnight
+   9. Lizz Wright — Sweeping Through The City
+  10. Dee Dee Bridgewater — Compared To What
 
 ────────────────────────────────────────────────────────────
 INTERNAL RECORD (researcher only — do not share):
   Playlist A = Semantic model
   Playlist B = Emotion-Aware model
-  Order shown to participant: B → A
+  Order shown to participant: A → B
 ────────────────────────────────────────────────────────────

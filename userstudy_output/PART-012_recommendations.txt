@@ -28,35 +28,35 @@ PARTICIPANT'S INPUT TRACKS (most recent first):
   19. Elton John — Tiny Dancer  [dataset]
   20. Fleetwood Mac — Landslide  [dataset]
 
-PLAYLIST B
-----------------------------------------
-   1. Bob Seger — Old Time Rock And Roll
-   2. Bob Seger — Roll Me Away
-   3. Fleetwood Mac — Dreams - Live 1977
-   4. Fleetwood Mac — Monday Morning - Live 1977
-   5. Chris Rea — Josephine
-   6. Chris Rea — Texas
-   7. Bob Seger & The Silver Bullet Band — The Famous Final Scene
-   8. Bob Seger & The Silver Bullet Band — Roll Me Away
-   9. Tom Petty And The Heartbreakers — The Waiting
-  10. Tom Petty — Time To Move On
-
 PLAYLIST A
 ----------------------------------------
    1. Bob Seger — Roll Me Away
-   2. Bob Seger — You'Ll Accomp'Ny Me
-   3. Fleetwood Mac — Over My Head
-   4. Fleetwood Mac — Say You Love Me
-   5. Bob Seger & The Silver Bullet Band — The Famous Final Scene
-   6. Bob Seger & The Silver Bullet Band — Roll Me Away
-   7. Chris Rea — Josephine
-   8. Chris Rea — Texas
-   9. Tom Petty — Alright For Now
-  10. Tom Petty — While My Guitar Gently Weeps
+   2. Fleetwood Mac — Over My Head
+   3. Bob Seger & The Silver Bullet Band — The Famous Final Scene
+   4. Chris Rea — Josephine
+   5. Tom Petty — Alright For Now
+   6. Tom Petty & The Heartbreakers — Sins Of My Youth
+   7. Tom Petty And The Heartbreakers — I Won'T Back Down
+   8. Heart — Heart - Barracuda
+   9. Firefall — Love That Got Away
+  10. Dire Straits — Setting Me Up
+
+PLAYLIST B
+----------------------------------------
+   1. Bob Seger — Old Time Rock And Roll
+   2. Fleetwood Mac — Dreams - Live 1977
+   3. Chris Rea — Josephine
+   4. Bob Seger & The Silver Bullet Band — The Famous Final Scene
+   5. Tom Petty And The Heartbreakers — The Waiting
+   6. Tom Petty — Time To Move On
+   7. Tom Petty & The Heartbreakers — American Girl
+   8. Heart — All I Wanna Do Is Make Love To You
+   9. Firefall — Love That Got Away
+  10. Dire Straits — Hand In Hand
 
 ────────────────────────────────────────────────────────────
 INTERNAL RECORD (researcher only — do not share):
   Playlist A = Semantic model
   Playlist B = Emotion-Aware model
-  Order shown to participant: B → A
+  Order shown to participant: A → B
 ────────────────────────────────────────────────────────────

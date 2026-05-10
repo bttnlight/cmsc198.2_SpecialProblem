@@ -27,35 +27,35 @@ PARTICIPANT'S INPUT TRACKS (most recent first):
   19. Arthur Russell — Losing My Taste for the Night Life  [lastfm]
   20. Talk Talk — I Believe in You  [lastfm]
 
-PLAYLIST B
-----------------------------------------
-   1. The Dirty Projectors — Boredom Is A Product
-   2. Dirty Projectors — Cool Your Heart
-   3. Dirty Projectors — Keep Your Name
-   4. The Dirty Projectors — Two Brown Finches
-   5. Angel Olsen — Endless Road
-   6. Angel Olsen — For You
-   7. My Brightest Diamond — From The Top Of The World
-   8. My Brightest Diamond — We Were Sparkling
-   9. Department Of Eagles — Winter Coat
-  10. Department Of Eagles — On Glaze
-
 PLAYLIST A
 ----------------------------------------
    1. Dirty Projectors — Cannibal Resource
    2. The Dirty Projectors — The Glad Fact
-   3. Dirty Projectors — Temecula Sunrise
-   4. The Dirty Projectors — Boredom Is A Product
-   5. My Brightest Diamond — We Were Sparkling
-   6. My Brightest Diamond — Feeling Good
-   7. Angel Olsen — Lark
-   8. Angel Olsen — Pops
-   9. Department Of Eagles — The Horse You Ride
-  10. Department Of Eagles — Winter Coat
+   3. My Brightest Diamond — We Were Sparkling
+   4. Angel Olsen — Lark
+   5. Department Of Eagles — The Horse You Ride
+   6. The Antlers — Shiva
+   7. Radical Face — Asleep On A Train
+   8. Anjimile — To Meet You There
+   9. Fleet Foxes — Maestranza
+  10. The Dodos — Park Song
+
+PLAYLIST B
+----------------------------------------
+   1. The Dirty Projectors — Boredom Is A Product
+   2. Dirty Projectors — Cool Your Heart
+   3. Angel Olsen — Endless Road
+   4. My Brightest Diamond — From The Top Of The World
+   5. Department Of Eagles — Winter Coat
+   6. Radical Face — Welcome Home
+   7. Fleet Foxes — Heard Them Stirring
+   8. Ugly Casanova — Ice On The Sheets
+   9. The Dodos — Companions
+  10. Lisa Germano — Phantom Love
 
 ────────────────────────────────────────────────────────────
 INTERNAL RECORD (researcher only — do not share):
   Playlist A = Semantic model
   Playlist B = Emotion-Aware model
-  Order shown to participant: B → A
+  Order shown to participant: A → B
 ────────────────────────────────────────────────────────────

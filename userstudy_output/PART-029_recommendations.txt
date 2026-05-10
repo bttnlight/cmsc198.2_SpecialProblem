@@ -28,35 +28,35 @@ PARTICIPANT'S INPUT TRACKS (most recent first):
   19. Michael Giacchino — Married Life  [lastfm]
   20. Hans Zimmer — No Time for Caution  [lastfm]
 
-PLAYLIST A
-----------------------------------------
-   1. Brian Tyler — Waves Of Intuition
-   2. Brian Tyler — Apex
-   3. Steve Jablonsky — Purity Of Heart
-   4. Steve Jablonsky — Tessa
-   5. Austin Wintory — This City Is My Prison
-   6. Carter Burwell — Lovers
-   7. Carter Burwell — Meeting Miriam
-   8. Michael Giacchino — Married Life - From "Up"/Score
-   9. Michael Giacchino — Stuff We Did
-  10. Harry Gregson-Williams — Black Man In America
-
 PLAYLIST B
 ----------------------------------------
    1. Brian Tyler — Nuremberg Suite Part Iii - Hope
-   2. Brian Tyler — Apex
+   2. Austin Wintory — This City Is My Prison
+   3. Steve Jablonsky — Tessa
+   4. Michael Giacchino — End Title
+   5. Harry Gregson-Williams — Fireworks And Lanterns
+   6. Thomas Newman — That'S The Deal
+   7. Carter Burwell — Technopop
+   8. Klaus Badelt — Will And Elizabeth
+   9. John Debney — The Man Village
+  10. Elliot Goldenthal — Winged Serpent - Voice
+
+PLAYLIST A
+----------------------------------------
+   1. Brian Tyler — Waves Of Intuition
+   2. Steve Jablonsky — Purity Of Heart
    3. Austin Wintory — This City Is My Prison
-   4. Steve Jablonsky — Tessa
-   5. Steve Jablonsky — Purity Of Heart
-   6. Michael Giacchino — End Title
-   7. Michael Giacchino — Married Life - From "Up"/Score
-   8. Harry Gregson-Williams — Fireworks And Lanterns
-   9. Harry Gregson-Williams — Mars
-  10. Thomas Newman — That'S The Deal
+   4. Carter Burwell — Lovers
+   5. Michael Giacchino — Married Life - From "Up"/Score
+   6. Harry Gregson-Williams — Black Man In America
+   7. Thomas Newman — Secret Room - From “Spectre” Soundtrack
+   8. Klaus Badelt — Swords Crossed
+   9. John Debney — The Man Village
+  10. Elliot Goldenthal — Winged Serpent - Voice
 
 ────────────────────────────────────────────────────────────
 INTERNAL RECORD (researcher only — do not share):
   Playlist A = Semantic model
   Playlist B = Emotion-Aware model
-  Order shown to participant: A → B
+  Order shown to participant: B → A
 ────────────────────────────────────────────────────────────

@@ -307,7 +307,7 @@ def build_context_vector(context_tracks: list, embeddings: dict) -> np.ndarray |
 # Recommendation generation
 # ────────────────────────────────────────────────
 
-MAX_TRACKS_PER_ARTIST = 2   # diversity constraint — Section 4.5.3
+MAX_TRACKS_PER_ARTIST = 1   # diversity constraint — Section 4.5.3
 
 
 def generate_recommendations(
