@@ -1,0 +1,13 @@
+group,model,k,precision_mean,recall_mean,n_users
+high_density,semantic,5,0.0072,0.000541,500
+high_density,semantic,10,0.0072,0.001099,500
+high_density,semantic,20,0.0059,0.001793,500
+high_density,emotion-aware,5,0.0068,0.000512,500
+high_density,emotion-aware,10,0.0064,0.001043,500
+high_density,emotion-aware,20,0.0061,0.001931,500
+low_density,semantic,5,0.007214,0.000833,499
+low_density,semantic,10,0.006012,0.001311,499
+low_density,semantic,20,0.00501,0.001958,499
+low_density,emotion-aware,5,0.006814,0.000756,499
+low_density,emotion-aware,10,0.006012,0.001314,499
+low_density,emotion-aware,20,0.00491,0.001948,499

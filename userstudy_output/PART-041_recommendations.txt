@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-041
+Reported mood  : Sad / Melancholic
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Cigarettes After Sex — Apocalypse  [dataset]
+   2. The xx — Intro  [dataset]
+   3. Cigarettes After Sex — Each Time You Fall in Love  [dataset]
+   4. Lana Del Rey — Cinnamon Girl  [lastfm]
+   5. The xx — Angels  [dataset]
+   6. Beach House — Myth  [dataset]
+   7. Cigarettes After Sex — Sesame Syrup  [lastfm]
+   8. Lana Del Rey — The Greatest  [lastfm]
+   9. Mazzy Star — Fade Into You  [dataset]
+  10. The xx — On Hold  [dataset]
+  11. Grouper — Dragging a Dead Deer Up a Hill  [lastfm]
+  12. Cigarettes After Sex — Young & Dumb  [dataset]
+  13. Mount Eerie — Real Death  [lastfm]
+  14. Lana Del Rey — White Dress  [dataset]
+  15. Beach House — Zebra  [dataset]
+  16. The xx — Night Time  [dataset]
+  17. Cigarettes After Sex — Truly  [dataset]
+  18. Low — Lullaby  [lastfm]
+  19. Lana Del Rey — hope is a dangerous thing  [lastfm]
+  20. Beach House — Silver Soul  [dataset]
+
+PLAYLIST B
+----------------------------------------
+   1. Beach House — I Do Not Care For The Winter Sun
+   2. Monster Movie — Good Grief
+   3. Cigarettes After Sex — Sunsetz
+   4. Hana Vu — Crying On The Subway
+   5. Dream, Ivory — Bite Your Tongue
+   6. Fazerdaze — Lucky Girl
+   7. Wild Nothing — Reichpop
+   8. Geowulf — Broken Hearts
+   9. Japanese Breakfast — The Body Is A Blade
+  10. Frankie Rose — Dancing Down The Hall
+
+PLAYLIST A
+----------------------------------------
+   1. Beach House — 10 Mile Stereo
+   2. Cigarettes After Sex — Heavenly
+   3. Monster Movie — Good Grief
+   4. Hana Vu — Crying On The Subway
+   5. Wild Nothing — A Dancing Shell
+   6. Dream, Ivory — Bite Your Tongue
+   7. Fazerdaze — Lucky Girl
+   8. Blouse — They Always Fly Away
+   9. Japanese Breakfast — Be Sweet
+  10. Geowulf — Champagne
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: B → A
+────────────────────────────────────────────────────────────

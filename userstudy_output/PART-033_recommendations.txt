@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-033
+Reported mood  : Mixed / Varies
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Playboi Carti — New Tank  [dataset]
+   2. Enya — Only Time  [dataset]
+   3. Metallica — Nothing Else Matters  [dataset]
+   4. Ariana Grande — Into You  [dataset]
+   5. Nujabes — Feather  [lastfm]
+   6. Eminem — Rap God  [dataset]
+   7. Bon Iver — Calgary  [dataset]
+   8. Doja Cat — Streets  [lastfm]
+   9. Hans Zimmer — Cornfield Chase  [dataset]
+  10. Tyler the Creator — Garden Shed  [lastfm]
+  11. Lana Del Rey — Video Games  [dataset]
+  12. AC/DC — Highway to Hell  [dataset]
+  13. Jhené Aiko — While We're Young  [lastfm]
+  14. Yanni — Santorini  [lastfm]
+  15. SZA — Broken Clocks  [dataset]
+  16. Nirvana — Heart-Shaped Box  [dataset]
+  17. Frank Ocean — Self Control  [dataset]
+  18. Twice — What is Love?  [dataset]
+  19. Massive Attack — Teardrop  [dataset]
+  20. Kendrick Lamar — Father Time  [lastfm]
+
+PLAYLIST B
+----------------------------------------
+   1. Jon Bellion — All Time Low
+   2. The Internet — It Gets Better (With Time)
+   3. Bryce Vine — Drew Barrymore (Feat. Wale)
+   4. The Silhouettes Project — July
+   5. Curtis Waters — Stunnin' (Feat. Harm Franklin)
+   6. Missy Elliott — Lose Control (Featuring Ciara & Fat Man Scoop) (Explicit Album Version)
+   7. Missy Elliot — Lick Shots
+   8. Black Eyed Peas — Bebot
+   9. The Black Eyed Peas — I Gotta Feeling
+  10. Solomon — Can I Call You Rose? (Cover)
+
+PLAYLIST A
+----------------------------------------
+   1. The Internet — Roll (Burbank Funk)
+   2. Jon Bellion — He Is The Same
+   3. Bryce Vine — Drew Barrymore (Feat. Wale)
+   4. The Silhouettes Project — July
+   5. Curtis Waters — Stunnin' (Feat. Harm Franklin)
+   6. Iann Dior — Good Day
+   7. Cassie — Long Way 2 Go (Acappella)
+   8. Blackbear — Dirty Laundry (Acoustic)
+   9. Missy Elliott — Work It (Main)
+  10. Missy Elliot — Lick Shots
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: B → A
+────────────────────────────────────────────────────────────

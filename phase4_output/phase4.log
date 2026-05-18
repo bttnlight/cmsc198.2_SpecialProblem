@@ -1,0 +1,95 @@
+2026-04-20 22:58:30,035  INFO  ============================================================
+2026-04-20 22:58:30,035  INFO  Phase 4 — Experimental Evaluation (Offline)
+2026-04-20 22:58:30,036  INFO    Output dir : C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase4_output
+2026-04-20 22:58:30,036  INFO  ============================================================
+2026-04-20 22:58:30,036  INFO  Loading Phase 3 outputs…
+2026-04-20 22:58:33,419  INFO    Test events  : 75,797
+2026-04-20 22:58:33,429  INFO    Test users   : 1,000
+2026-04-20 22:58:33,429  INFO  
+Building ground truth from test events…
+2026-04-20 22:58:33,518  INFO    Users with ground truth: 1,000
+2026-04-20 22:58:33,519  INFO    Avg relevant tracks per user: 65.0
+2026-04-20 22:58:33,580  INFO  
+[4.6.3] Computing Precision@K and Recall@K…
+2026-04-20 22:58:33,581  INFO    Popularity baseline:
+2026-04-20 22:58:33,581  INFO    [popularity] Evaluating 1,000 users…
+2026-04-20 22:58:33,589  INFO      K= 5  Precision=0.0002 (±0.0063)  Recall=0.0000 (±0.0004)
+2026-04-20 22:58:33,590  INFO      K=10  Precision=0.0008 (±0.0089)  Recall=0.0001 (±0.0012)
+2026-04-20 22:58:33,590  INFO      K=20  Precision=0.0011 (±0.0075)  Recall=0.0003 (±0.0022)
+2026-04-20 22:58:33,591  INFO    Semantic model:
+2026-04-20 22:58:33,591  INFO    [semantic] Evaluating 999 users…
+2026-04-20 22:58:33,602  INFO      K= 5  Precision=0.0072 (±0.0524)  Recall=0.0007 (±0.0066)
+2026-04-20 22:58:33,603  INFO      K=10  Precision=0.0066 (±0.0407)  Recall=0.0012 (±0.0090)
+2026-04-20 22:58:33,603  INFO      K=20  Precision=0.0055 (±0.0277)  Recall=0.0019 (±0.0109)
+2026-04-20 22:58:33,604  INFO    Emotion-aware model:
+2026-04-20 22:58:33,604  INFO    [emotion-aware] Evaluating 999 users…
+2026-04-20 22:58:33,614  INFO      K= 5  Precision=0.0068 (±0.0502)  Recall=0.0006 (±0.0058)
+2026-04-20 22:58:33,615  INFO      K=10  Precision=0.0062 (±0.0398)  Recall=0.0012 (±0.0090)
+2026-04-20 22:58:33,615  INFO      K=20  Precision=0.0055 (±0.0286)  Recall=0.0019 (±0.0113)
+2026-04-20 22:58:33,615  INFO  
+[4.6.4] Building shared Warriner VAD emotion profiles…
+2026-04-20 22:58:33,616  INFO    (both models evaluated in shared 3-dim VAD space)
+2026-04-20 22:58:41,354  INFO    Users with non-zero emotion profile: 999 / 1,000
+2026-04-20 22:58:41,354  INFO  
+[4.6.4] Computing emotion alignment (shared lexicon space)…
+2026-04-20 22:58:41,400  INFO    [semantic] Emotion alignment @5: 0.9989 (±0.0033)  n=999  (zero-profile users skipped: 0)
+2026-04-20 22:58:41,445  INFO    [emotion-aware] Emotion alignment @5: 0.9990 (±0.0018)  n=999  (zero-profile users skipped: 0)
+2026-04-20 22:58:41,519  INFO    [semantic] Emotion alignment @10: 0.9988 (±0.0044)  n=999  (zero-profile users skipped: 0)
+2026-04-20 22:58:41,594  INFO    [emotion-aware] Emotion alignment @10: 0.9989 (±0.0038)  n=999  (zero-profile users skipped: 0)
+2026-04-20 22:58:41,773  INFO    [semantic] Emotion alignment @20: 0.9987 (±0.0044)  n=999  (zero-profile users skipped: 0)
+2026-04-20 22:58:41,905  INFO    [emotion-aware] Emotion alignment @20: 0.9990 (±0.0021)  n=999  (zero-profile users skipped: 0)
+2026-04-20 22:58:41,905  INFO  
+[4.6.6] Statistical comparisons (semantic vs emotion-aware)…
+2026-04-20 22:58:41,907  INFO      emotion-aware vs semantic [Precision@5]: Wilcoxon signed-rank, p=0.9584 (✗ not significant), d=-0.012 (negligible)
+2026-04-20 22:58:41,909  INFO      emotion-aware vs semantic [Recall@5]: Wilcoxon signed-rank, p=0.6033 (✗ not significant), d=-0.018 (negligible)
+2026-04-20 22:58:41,911  INFO      emotion-aware vs semantic [Precision@10]: Wilcoxon signed-rank, p=0.3111 (✗ not significant), d=-0.018 (negligible)
+2026-04-20 22:58:41,912  INFO      emotion-aware vs semantic [Recall@10]: Wilcoxon signed-rank, p=0.9392 (✗ not significant), d=-0.007 (negligible)
+2026-04-20 22:58:41,914  INFO      emotion-aware vs semantic [Precision@20]: Wilcoxon signed-rank, p=0.8437 (✗ not significant), d=0.005 (negligible)
+2026-04-20 22:58:41,915  INFO      emotion-aware vs semantic [Recall@20]: Wilcoxon signed-rank, p=0.5682 (✗ not significant), d=0.018 (negligible)
+2026-04-20 22:58:41,917  INFO      emotion-aware vs semantic [EmotionAlignment@10]: Wilcoxon signed-rank, p=0.0000 (✓ significant), d=0.073 (negligible)
+2026-04-20 22:58:41,917  INFO  
+[Stratified] Evaluating by emotional tag density…
+2026-04-20 22:58:47,635  INFO    Stratification median density : 0.6495
+2026-04-20 22:58:47,636  INFO    High-density users            : 500
+2026-04-20 22:58:47,636  INFO    Low-density users             : 499
+2026-04-20 22:58:47,641  INFO    [high_density][semantic] K=5: P=0.0072  R=0.0005  n=500
+2026-04-20 22:58:47,648  INFO    [high_density][semantic] K=10: P=0.0072  R=0.0011  n=500
+2026-04-20 22:58:47,653  INFO    [high_density][semantic] K=20: P=0.0059  R=0.0018  n=500
+2026-04-20 22:58:47,658  INFO    [high_density][emotion-aware] K=5: P=0.0068  R=0.0005  n=500
+2026-04-20 22:58:47,663  INFO    [high_density][emotion-aware] K=10: P=0.0064  R=0.0010  n=500
+2026-04-20 22:58:47,671  INFO    [high_density][emotion-aware] K=20: P=0.0061  R=0.0019  n=500
+2026-04-20 22:58:47,676  INFO    [low_density][semantic] K=5: P=0.0072  R=0.0008  n=499
+2026-04-20 22:58:47,680  INFO    [low_density][semantic] K=10: P=0.0060  R=0.0013  n=499
+2026-04-20 22:58:47,687  INFO    [low_density][semantic] K=20: P=0.0050  R=0.0020  n=499
+2026-04-20 22:58:47,692  INFO    [low_density][emotion-aware] K=5: P=0.0068  R=0.0008  n=499
+2026-04-20 22:58:47,698  INFO    [low_density][emotion-aware] K=10: P=0.0060  R=0.0013  n=499
+2026-04-20 22:58:47,707  INFO    [low_density][emotion-aware] K=20: P=0.0049  R=0.0019  n=499
+2026-04-20 22:58:47,707  INFO  
+Saving results…
+2026-04-20 22:58:47,709  INFO    Evaluation results saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase4_output\evaluation_results.csv
+2026-04-20 22:58:47,710  INFO    Emotion alignment results saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase4_output\emotion_alignment.csv
+2026-04-20 22:58:47,712  INFO    Stratified results saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase4_output\stratified_results.csv
+2026-04-20 22:58:47,719  INFO    Full report saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase4_output\full_results_report.txt
+2026-04-20 22:58:47,719  INFO  
+2026-04-20 22:58:47,720  INFO  ============================================================
+2026-04-20 22:58:47,720  INFO  PHASE 4 SUMMARY
+2026-04-20 22:58:47,721  INFO  ============================================================
+2026-04-20 22:58:47,721  INFO    Model                    P@5    P@10    P@20     R@5    R@10    R@20
+2026-04-20 22:58:47,721  INFO    --------------------------------------------------------------
+2026-04-20 22:58:47,722  INFO    popularity            0.0002  0.0008  0.0011  0.0000  0.0001  0.0003
+2026-04-20 22:58:47,722  INFO    semantic              0.0072  0.0066  0.0055  0.0007  0.0012  0.0019
+2026-04-20 22:58:47,723  INFO    emotion-aware         0.0068  0.0062  0.0055  0.0006  0.0012  0.0019
+2026-04-20 22:58:47,723  INFO  
+2026-04-20 22:58:47,724  INFO    Model                  Align@5  Align@10  Align@20
+2026-04-20 22:58:47,724  INFO    --------------------------------------------------
+2026-04-20 22:58:47,724  INFO    semantic                0.9989    0.9988    0.9987
+2026-04-20 22:58:47,725  INFO    emotion-aware           0.9990    0.9989    0.9990
+2026-04-20 22:58:47,725  INFO  
+2026-04-20 22:58:47,726  INFO    STRATIFIED RESULTS (emotion-aware vs semantic, P@10):
+2026-04-20 22:58:47,726  INFO    Group                  Semantic  Emo-Aware   Difference
+2026-04-20 22:58:47,726  INFO    -------------------------------------------------------
+2026-04-20 22:58:47,727  INFO    high_density             0.0072     0.0064      -0.0008
+2026-04-20 22:58:47,727  INFO    low_density              0.0060     0.0060      +0.0000
+2026-04-20 22:58:47,728  INFO  
+2026-04-20 22:58:47,728  INFO  Phase 4 offline evaluation complete.
+2026-04-20 22:58:47,728  INFO  Full report: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase4_output\full_results_report.txt

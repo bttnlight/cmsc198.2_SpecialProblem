@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-008
+Reported mood  : Energetic / Motivated
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Travis Scott — SICKO MODE  [dataset]
+   2. Travis Scott — Goosebumps  [dataset]
+   3. Playboi Carti — Magnolia  [dataset]
+   4. Playboi Carti — wokeuplikethis*  [lastfm]
+   5. Lil Uzi Vert — XO Tour Llif3  [dataset]
+   6. Lil Uzi Vert — Money Longer  [lastfm]
+   7. Young Thug — Digits  [lastfm]
+   8. Future — Mask Off  [dataset]
+   9. Future — Low Life  [lastfm]
+  10. Gunna — Drip Too Hard  [lastfm]
+  11. Lil Baby — Emotionally Scarred  [lastfm]
+  12. Lil Baby — The Bigger Picture  [lastfm]
+  13. Roddy Ricch — The Box  [lastfm]
+  14. Pop Smoke — Dior  [dataset]
+  15. Pop Smoke — Welcome to the Party  [lastfm]
+  16. NBA YoungBoy — Outside Today  [lastfm]
+  17. DaBaby — ROCKSTAR  [lastfm]
+  18. Polo G — Pop Out  [lastfm]
+  19. Travis Scott — HIGHEST IN THE ROOM  [dataset]
+  20. Playboi Carti — Over  [lastfm]
+
+PLAYLIST A
+----------------------------------------
+   1. Young Thug — Me Or Us
+   2. Kodak Black — No Flockin'
+   3. Travis Scott — Carousel
+   4. Travi$ Scott — Antidote
+   5. Ty Dolla $Ign — Paranoid (Feat. B.O.B)
+   6. Ty Dolla Sign — Campaign (Ft. Future)
+   7. Youngboy Never Broke Again — What You Is
+   8. Lil Yachty — Fucked Over
+   9. Metro Boomin — Around Me (Feat. Don Toliver)
+  10. Rico Nasty — Jungle - Rico Nasty Remix
+
+PLAYLIST B
+----------------------------------------
+   1. Young Thug — Tomorrow Til Infinity
+   2. Kodak Black — Already (Chanel Beads Remix)
+   3. Travis Scott — Stargazing
+   4. Travi$ Scott — Never Catch Me
+   5. Ty Dolla $Ign — Back Up (Feat. 24Hrs)
+   6. Ty Dolla Sign — Campaign (Ft. Future)
+   7. Youngboy Never Broke Again — We Poppin' (Feat. Birdman)
+   8. Lil Yachty — Minnesota
+   9. Rico Nasty — Jungle - Rico Nasty Remix
+  10. Metro Boomin — Around Me (Feat. Don Toliver)
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: A → B
+────────────────────────────────────────────────────────────

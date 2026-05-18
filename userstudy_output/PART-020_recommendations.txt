@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-020
+Reported mood  : Mixed / Varies
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Joni Mitchell — River  [dataset]
+   2. Joni Mitchell — A Case of You  [dataset]
+   3. Cat Stevens — Wild World  [dataset]
+   4. Cat Stevens — Father and Son  [dataset]
+   5. Paul Simon — The Sound of Silence  [dataset]
+   6. Paul Simon — Kathy's Song  [lastfm]
+   7. James Taylor — Fire and Rain  [dataset]
+   8. James Taylor — Carolina in My Mind  [dataset]
+   9. Carole King — So Far Away  [dataset]
+  10. Carole King — It's Too Late  [dataset]
+  11. Nick Drake — River Man  [dataset]
+  12. Tim Buckley — Song to the Siren  [lastfm]
+  13. Leonard Cohen — Hallelujah  [dataset]
+  14. Leonard Cohen — Bird on the Wire  [dataset]
+  15. Bob Dylan — The Times They Are A-Changin'  [dataset]
+  16. Bob Dylan — Blowin' in the Wind  [dataset]
+  17. Simon & Garfunkel — The Boxer  [dataset]
+  18. Simon & Garfunkel — Bridge Over Troubled Water  [dataset]
+  19. Joni Mitchell — Both Sides Now  [dataset]
+  20. Cat Stevens — Trouble  [dataset]
+
+PLAYLIST A
+----------------------------------------
+   1. Paul Simon — Boy In The Bubble [12'' Extended Version]
+   2. Cat Stevens — Here Comes My Baby
+   3. James Taylor — Mexico - 2019 Remaster
+   4. Crosby & Nash — Through Here Quite Often (2006 Remastered Lp Version)
+   5. Carole King — (You Make Me Feel Like) A Natural Woman
+   6. Jim Croce — Which Way Are You Goin’?
+   7. Seals & Crofts — We May Never Pass This Way (Again)
+   8. Seals And Crofts — Summer Breeze
+   9. Jackson Browne — Love Minus Zero/No Limit
+  10. Dan Fogelberg — Stolen Moments
+
+PLAYLIST B
+----------------------------------------
+   1. Paul Simon — Graceland
+   2. Cat Stevens — Oh Very Young
+   3. James Taylor — Your Smiling Face
+   4. Crosby & Nash — Through Here Quite Often (2006 Remastered Lp Version)
+   5. Carole King — Tapestry
+   6. Seals & Crofts — Summer Breeze
+   7. Seals And Crofts — Summer Breeze
+   8. Jim Croce — Box #10
+   9. Jackson Browne — Running On Empty
+  10. Dan Fogelberg — Stolen Moments
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: A → B
+────────────────────────────────────────────────────────────

@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-032
+Reported mood  : Nostalgic
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. The Beatles — In My Life  [dataset]
+   2. The Beatles — Here Comes the Sun  [dataset]
+   3. The Beatles — Let It Be  [dataset]
+   4. Oasis — Wonderwall  [dataset]
+   5. Oasis — Champagne Supernova  [dataset]
+   6. Oasis — Don't Look Back in Anger  [dataset]
+   7. Blur — Song 2  [dataset]
+   8. Radiohead — Fake Plastic Trees  [dataset]
+   9. The Beatles — Blackbird  [dataset]
+  10. Oasis — Half the World Away  [dataset]
+  11. Travis — Why Does It Always Rain on Me?  [dataset]
+  12. The Beatles — Norwegian Wood  [lastfm]
+  13. Radiohead — High and Dry  [dataset]
+  14. Oasis — Live Forever  [dataset]
+  15. The Verve — Bitter Sweet Symphony  [dataset]
+  16. Travis — Sing  [dataset]
+  17. Blur — Coffee & TV  [dataset]
+  18. The Beatles — The Long and Winding Road  [lastfm]
+  19. Oasis — Some Might Say  [dataset]
+  20. Radiohead — Street Spirit  [dataset]
+
+PLAYLIST A
+----------------------------------------
+   1. Paul Weller — Porcelain Gods - Part One
+   2. The Rascals — Freakbeat Phantom
+   3. Coldplay — Lovers In Japan (Live At Brixton)
+   4. Kasabian — Days Are Forgotten
+   5. Kula Shaker — Great Hosannah
+   6. Mansun — Serotonin
+   7. Cast — Sandstorm
+   8. Athlete — Wires
+   9. The Coral — Waiting For The Heartaches
+  10. Suede — Can'T Get Enough
+
+PLAYLIST B
+----------------------------------------
+   1. Paul Weller — I Walk On Gilded Splinters
+   2. The Rascals — People Watching
+   3. Coldplay — Lovers In Japan
+   4. Kasabian — Where Did All The Love Go?
+   5. Kula Shaker — Ballad Of A Thin Man
+   6. Mansun — The Chad Who Loved Me
+   7. Athlete — Tourist
+   8. Cast — Promised Land
+   9. The Coral — Skeleton Key
+  10. Snow Patrol — The Planets Bend Between Us
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: A → B
+────────────────────────────────────────────────────────────

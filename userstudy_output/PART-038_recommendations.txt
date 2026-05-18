@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-038
+Reported mood  : Nostalgic
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Usher — Confessions Part II  [lastfm]
+   2. Alicia Keys — No One  [dataset]
+   3. Beyoncé — Irreplaceable  [dataset]
+   4. Chris Brown — With You  [lastfm]
+   5. Ne-Yo — So Sick  [dataset]
+   6. Rihanna — Hate That I Love You  [dataset]
+   7. Mary J. Blige — Be Without You  [dataset]
+   8. Usher — Yeah!  [dataset]
+   9. Ciara — Promise  [dataset]
+  10. Keyshia Cole — Love  [dataset]
+  11. Alicia Keys — If I Ain't Got You  [dataset]
+  12. John Legend — Ordinary People  [dataset]
+  13. Ne-Yo — Because of You  [dataset]
+  14. Beyoncé — Halo  [dataset]
+  15. R. Kelly — I Believe I Can Fly  [dataset]
+  16. Mario — Let Me Love You  [dataset]
+  17. Tank — Please Don't Go  [lastfm]
+  18. Fantasia — I Believe  [lastfm]
+  19. Mary J. Blige — Just Fine  [dataset]
+  20. Chris Brown — Forever  [dataset]
+
+PLAYLIST B
+----------------------------------------
+   1. Justin Timberlake — Losing My Way
+   2. Justin Timberlake (Feat. Jay-Z) — Suit & Tie
+   3. Kelly Rowland — Better Without You
+   4. Ne-Yo — Sexy Love
+   5. Keyshia Cole — You Complete Me
+   6. Omarion — Entourage
+   7. Ashanti — Only U
+   8. Aaliyah — Old School
+   9. Mary J. Blige — Right Now
+  10. Mary J Blige — 007 - Mary J. Blige - Real Love (Remix) Ft. The Notorious B.I.G.
+
+PLAYLIST A
+----------------------------------------
+   1. Justin Timberlake — Futuresex / Lovesound
+   2. Justin Timberlake (Feat. Jay-Z) — Suit & Tie
+   3. Kelly Rowland — Obsession
+   4. Ne-Yo — Sexy Love
+   5. Keyshia Cole — Superstar
+   6. Omarion — Entourage
+   7. Aaliyah — No One Knows How To Love Me Quite Like You Do
+   8. Ashanti — I Found It In You  Version (Explicit))
+   9. Mary J Blige — 007 - Mary J. Blige - Real Love (Remix) Ft. The Notorious B.I.G.
+  10. Mary J. Blige — Seven Days
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: B → A
+────────────────────────────────────────────────────────────

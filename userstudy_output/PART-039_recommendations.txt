@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-039
+Reported mood  : Calm / Relaxed
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Bon Iver — Holocene  [dataset]
+   2. Iron & Wine — Flightless Bird  [lastfm]
+   3. Fleet Foxes — Helplessness Blues  [dataset]
+   4. Jose Gonzalez — Heartbeats  [dataset]
+   5. Nick Mulvey — Fever to the Form  [dataset]
+   6. Sufjan Stevens — Death With Dignity  [dataset]
+   7. Gregory Alan Isakov — Amsterdam  [dataset]
+   8. Iron & Wine — Boy With a Coin  [dataset]
+   9. The Paper Kites — Bloom  [lastfm]
+  10. Novo Amor — Carry You  [lastfm]
+  11. Ben Howard — Only Love  [dataset]
+  12. Lord Huron — The Night We Met  [dataset]
+  13. Jose Gonzalez — Stay Alive  [dataset]
+  14. Angus & Julia Stone — Big Jet Plane  [dataset]
+  15. Fleet Foxes — Mykonos  [dataset]
+  16. Nick Drake — From the Morning  [dataset]
+  17. Gregory Alan Isakov — Big Black Car  [dataset]
+  18. Bon Iver — Skinny Love  [dataset]
+  19. Iron & Wine — Naked As We Came  [dataset]
+  20. The Paper Kites — St. Clarity  [lastfm]
+
+PLAYLIST A
+----------------------------------------
+   1. Iron & Wine — Love Vigilantes
+   2. Iron And Wine — Such Great Heights
+   3. Sharon Van Etten — Live Forever
+   4. Bon Iver — U (Man Like)
+   5. Sufjan Stevens — The Dress Looks Nice On You
+   6. Rosie Thomas — The One I Love
+   7. Conor Oberst — Get Into It
+   8. Elliott Smith — Strung Out Again
+   9. Lucy Rose — Pink
+  10. Waxahatchee — You Found Me
+
+PLAYLIST B
+----------------------------------------
+   1. Iron & Wine — Flightless Bird, American Mouth
+   2. Iron And Wine — Teeth In The Grass
+   3. Sharon Van Etten — I Know
+   4. Sufjan Stevens — Oh God Where Are You Now? (In Pickerel Lake? Pigeon? Marquette? Mackinaw?)
+   5. Rosie Thomas — Silent Night
+   6. Bon Iver — 666 (Live - Apr 03 2022 - The Pavilion At Toyota Music Factory, Irving, Tx.)
+   7. Elliott Smith — 2:45 Am
+   8. Conor Oberst — Get Into It
+   9. Lucy Rose — Could You Help Me
+  10. Waxahatchee — Slow You Down
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: A → B
+────────────────────────────────────────────────────────────

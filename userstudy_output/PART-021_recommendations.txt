@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-021
+Reported mood  : Mixed / Varies
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. The Weeknd — Call Out My Name  [lastfm]
+   2. The Weeknd — Often  [dataset]
+   3. Daniel Caesar — Get You  [lastfm]
+   4. Daniel Caesar — Best Part  [lastfm]
+   5. H.E.R. — Best Part  [lastfm]
+   6. Jhené Aiko — The Worst  [lastfm]
+   7. Jhené Aiko — Bed Peace  [lastfm]
+   8. Sza — 20 Something  [lastfm]
+   9. Sza — Drew Barrymore  [dataset]
+  10. Ravyn Lenae — Sticky  [lastfm]
+  11. Ari Lennox — Shea Butter Baby  [lastfm]
+  12. Ari Lennox — Up Late  [lastfm]
+  13. Ro James — Permission  [lastfm]
+  14. dvsn — In Between  [lastfm]
+  15. dvsn — With Me  [lastfm]
+  16. Majid Jordan — Gave Your Love Away  [lastfm]
+  17. PartyNextDoor — Recognize  [lastfm]
+  18. 6LACK — PRBLMS  [dataset]
+  19. 6LACK — Nonchalant  [lastfm]
+  20. The Weeknd — Earned It  [dataset]
+
+PLAYLIST A
+----------------------------------------
+   1. The Weeknd — In Your Eyes (Remix) Feat. Doja Cat
+   2. Majid Jordan — My Love (Feat. Drake) [Remix]
+   3. Partynextdoor — Wus Good / Curious
+   4. Frank Ocean — Super Rich Kids
+   5. Solange — Dreams
+   6. Jhene Aiko — To Love & Die
+   7. Jhené Aiko — Sativa
+   8. Tinashe — Hmu For A Good Time - Bonus Track
+   9. Khalid — Know Your Worth
+  10. Sza — Smoking On My Ex Pack
+
+PLAYLIST B
+----------------------------------------
+   1. The Weeknd — Mood Music
+   2. Majid Jordan — My Love (Feat. Drake) [Remix]
+   3. Partynextdoor — Wild Bitches
+   4. Solange — T.O.N.Y.
+   5. Frank Ocean — At Your Best (You Are Love)
+   6. Jhene Aiko — Spotless Mind
+   7. Jhené Aiko — Sativa
+   8. Tinashe — Nasty - Match My Chic Remix
+   9. Khalid — Please Don'T Fall In Love With Me
+  10. Sza — Anything
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: A → B
+────────────────────────────────────────────────────────────

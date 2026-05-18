@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-025
+Reported mood  : Energetic / Motivated
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. The Clash — London Calling  [dataset]
+   2. The Clash — Should I Stay or Should I Go  [dataset]
+   3. Sex Pistols — Anarchy in the U.K.  [dataset]
+   4. The Ramones — Blitzkrieg Bop  [lastfm]
+   5. The Ramones — I Wanna Be Sedated  [lastfm]
+   6. The Cure — Boys Don't Cry  [dataset]
+   7. The Cure — Lovesong  [dataset]
+   8. Joy Division — Love Will Tear Us Apart  [dataset]
+   9. Joy Division — Atmosphere  [dataset]
+  10. Siouxsie and the Banshees — Cities in Dust  [dataset]
+  11. Bauhaus — Bela Lugosi's Dead  [dataset]
+  12. The Smiths — There Is a Light That Never Goes Out  [dataset]
+  13. The Smiths — How Soon Is Now?  [dataset]
+  14. Interpol — Obstacle 1  [dataset]
+  15. Interpol — Slow Hands  [dataset]
+  16. Editors — Munich  [dataset]
+  17. Bloc Party — Helicopter  [dataset]
+  18. Franz Ferdinand — Take Me Out  [dataset]
+  19. Arctic Monkeys — R U Mine?  [dataset]
+  20. The Cure — Close to Me  [dataset]
+
+PLAYLIST A
+----------------------------------------
+   1. Joy Division — Love Will Tear Us Apart - 2010 Remaster
+   2. The Pretenders — Back On The Chain Gang - 2007 Remastered Version
+   3. Pretenders — I'Ll Stand By You
+   4. Stranglers — Golden Brown
+   5. The Stranglers — Golden Brown
+   6. The Sound — Longest Days
+   7. The Cure — The Lovecats
+   8. The Damned — New Rose
+   9. The Boomtown Rats — I Don'T Like Mondays
+  10. Elvis Costello — Welcome To The Working Week
+
+PLAYLIST B
+----------------------------------------
+   1. Joy Division — Love Will Tear Us Apart (The 1980 Martin Hannett Version)
+   2. The Pretenders — Have Yourself A Merry Little Christmas
+   3. Pretenders — 2000 Miles - 2007 Remaster
+   4. The Sound — Skeletons
+   5. Stranglers — Golden Brown
+   6. The Stranglers — Golden Brown
+   7. The Cure — The Lovecats
+   8. The Damned — It'S A Real Time Thing
+   9. Elvis Costello — Welcome To The Working Week
+  10. The Boomtown Rats — Lookin' After No. 1
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: A → B
+────────────────────────────────────────────────────────────

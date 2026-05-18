@@ -1,0 +1,7 @@
+model,k,alignment_mean,alignment_std,n_users
+semantic,5,0.998872,0.003295,999
+semantic,10,0.998775,0.004423,999
+semantic,20,0.998733,0.004432,999
+emotion-aware,5,0.998988,0.001754,999
+emotion-aware,10,0.998908,0.003812,999
+emotion-aware,20,0.998986,0.002097,999

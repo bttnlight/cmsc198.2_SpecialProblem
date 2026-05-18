@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-022
+Reported mood  : Mixed / Varies
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Radiohead — Karma Police  [dataset]
+   2. Radiohead — Exit Music (For a Film)  [dataset]
+   3. Radiohead — Pyramid Song  [dataset]
+   4. Arcade Fire — Wake Up  [dataset]
+   5. Arcade Fire — Rebellion (Lies)  [dataset]
+   6. Talking Heads — This Must Be the Place  [lastfm]
+   7. Talking Heads — Once in a Lifetime  [dataset]
+   8. David Bowie — Life on Mars?  [dataset]
+   9. Björk — Jóga  [dataset]
+  10. Björk — Hyperballad  [dataset]
+  11. St. Vincent — Digital Witness  [dataset]
+  12. St. Vincent — Los Ageless  [dataset]
+  13. TV on the Radio — Wolf Like Me  [dataset]
+  14. Animal Collective — My Girls  [dataset]
+  15. Grizzly Bear — Two Weeks  [dataset]
+  16. Fleet Foxes — White Winter Hymnal  [dataset]
+  17. Fleet Foxes — Helplessness Blues  [dataset]
+  18. Sufjan Stevens — Chicago  [dataset]
+  19. The Microphones — The Glow Pt. 2  [lastfm]
+  20. Radiohead — How to Disappear Completely  [dataset]
+
+PLAYLIST B
+----------------------------------------
+   1. Tv On The Radio — Dreams
+   2. As Tall As Lions — Ghost Of York
+   3. Radiohead — Daydreaming
+   4. Anna Calvi — I See A Darkness
+   5. Mutemath — Stare At The Sun
+   6. John Parish And Polly Jean Harvey — Black Hearted Love
+   7. These New Puritans — Three Thousand
+   8. Cloud Cult — Story Of The Grandson Of Jesus
+   9. The Invisible — Wings
+  10. Beck — O Maria
+
+PLAYLIST A
+----------------------------------------
+   1. As Tall As Lions — Ghost Of York
+   2. Tv On The Radio — Careful You
+   3. Radiohead — Packt Like Sardines In A Crushd Tin Box
+   4. Anna Calvi — I See A Darkness
+   5. Mutemath — Stare At The Sun
+   6. John Parish And Polly Jean Harvey — Black Hearted Love
+   7. These New Puritans — Hologram
+   8. Cloud Cult — The Tornado Lessons
+   9. The Invisible — Generational
+  10. Beck — Gimme
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: B → A
+────────────────────────────────────────────────────────────

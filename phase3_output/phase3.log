@@ -1,0 +1,201 @@
+2026-04-12 21:35:08,435  INFO  ============================================================
+2026-04-12 21:35:08,436  INFO  Phase 3 — Context Inference and Recommendation Generation
+2026-04-12 21:35:08,436  INFO    Output dir : C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase3_output
+2026-04-12 21:35:08,436  INFO  ============================================================
+2026-04-12 21:35:08,436  INFO  Loading Phase 1 and Phase 2 outputs…
+2026-04-12 21:35:11,815  INFO    Events loaded            : 377,468
+2026-04-12 21:35:11,816  INFO    Semantic embeddings      : 10,539 tags
+2026-04-12 21:35:11,816  INFO    Emotion-aware embeddings : 10,539 tags
+2026-04-12 21:35:11,816  INFO  
+[4.6.2] Time-aware train-test split (80/20 per user)…
+2026-04-12 21:35:12,481  INFO    Train events : 301,671
+2026-04-12 21:35:12,481  INFO    Test events  : 75,797
+2026-04-12 21:35:12,482  INFO    Users with <5 test events (excluded from eval): 0
+2026-04-12 21:35:14,239  INFO    Saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase3_output\train_events.pkl  (51825.5 KB)
+2026-04-12 21:35:14,585  INFO    Saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase3_output\test_events.pkl  (12959.9 KB)
+2026-04-12 21:35:14,782  INFO  
+[4.5.2] Building track representations…
+2026-04-12 21:35:20,074  INFO    [semantic] Track representations: 166,630 tracks × 100 dims
+2026-04-12 21:35:20,074  INFO    [semantic] Tracks with no embeddings (excluded): 0
+2026-04-12 21:35:21,211  INFO    Saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase3_output\track_representations_semantic.pkl  (74811.5 KB)
+2026-04-12 21:35:26,496  INFO    [emotion-aware] Track representations: 166,630 tracks × 108 dims
+2026-04-12 21:35:26,496  INFO    [emotion-aware] Tracks with no embeddings (excluded): 0
+2026-04-12 21:35:27,670  INFO    Saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase3_output\track_representations_emotion.pkl  (80019.4 KB)
+2026-04-12 21:35:27,671  INFO  
+[4.5.1] Building user context vectors (window=20)…
+2026-04-12 21:35:27,880  INFO    [semantic] User context vectors: 997 users × 100 dims
+2026-04-12 21:35:27,880  INFO    [semantic] Users with no context (excluded): 3
+2026-04-12 21:35:27,890  INFO    Saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase3_output\user_context_semantic.pkl  (425.7 KB)
+2026-04-12 21:35:28,092  INFO    [emotion-aware] User context vectors: 997 users × 108 dims
+2026-04-12 21:35:28,093  INFO    [emotion-aware] Users with no context (excluded): 3
+2026-04-12 21:35:28,102  INFO    Saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase3_output\user_context_emotion.pkl  (456.9 KB)
+2026-04-12 21:35:28,102  INFO  
+[4.5.3] Generating recommendations…
+2026-04-12 21:35:28,376  INFO    [popularity] Recommendations generated for 1,000 users
+2026-04-12 21:35:28,396  INFO    Saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase3_output\recommendations_popularity.pkl  (270.4 KB)
+2026-04-12 21:36:38,333  INFO    [semantic] Recommendations generated for 997 users
+2026-04-12 21:36:38,354  INFO    Saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase3_output\recommendations_semantic.pkl  (807.6 KB)
+2026-04-12 21:37:50,570  INFO    [emotion-aware] Recommendations generated for 997 users
+2026-04-12 21:37:50,589  INFO    Saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase3_output\recommendations_emotion.pkl  (808.9 KB)
+2026-04-12 21:37:50,605  INFO  
+2026-04-12 21:37:50,605  INFO  ============================================================
+2026-04-12 21:37:50,606  INFO  PHASE 3 SUMMARY
+2026-04-12 21:37:50,606  INFO  ============================================================
+2026-04-12 21:37:50,606  INFO    Train events              : 301,671
+2026-04-12 21:37:50,607  INFO    Test events               : 75,797
+2026-04-12 21:37:50,607  INFO    Users with test data      : 1,000
+2026-04-12 21:37:50,607  INFO  
+2026-04-12 21:37:50,607  INFO    Track representations
+2026-04-12 21:37:50,607  INFO      Semantic  : 166,630 tracks × 100 dims
+2026-04-12 21:37:50,608  INFO      Emotion   : 166,630 tracks × 108 dims
+2026-04-12 21:37:50,608  INFO  
+2026-04-12 21:37:50,608  INFO    User context vectors
+2026-04-12 21:37:50,608  INFO      Semantic  : 997 users × 100 dims
+2026-04-12 21:37:50,609  INFO      Emotion   : 997 users × 108 dims
+2026-04-12 21:37:50,609  INFO  
+2026-04-12 21:37:50,609  INFO    Recommendations (top-20)
+2026-04-12 21:37:50,609  INFO      Popularity : 1,000 users
+2026-04-12 21:37:50,609  INFO      Semantic   : 997 users
+2026-04-12 21:37:50,610  INFO      Emotion    : 997 users
+2026-04-12 21:37:50,610  INFO  
+2026-04-12 21:37:50,610  INFO    Sample recommendations for user '0xDEAD':
+2026-04-12 21:37:50,610  INFO      Emotion-aware top-5:
+2026-04-12 21:37:50,611  INFO        krewella — goddess  (score: 0.9595)
+2026-04-12 21:37:50,611  INFO        krewella — play hard  (score: 0.9595)
+2026-04-12 21:37:50,611  INFO        krewella — louder (dj fresh cover)  (score: 0.9595)
+2026-04-12 21:37:50,611  INFO        krewella — lights & thunder (feat. gareth emery)  (score: 0.9595)
+2026-04-12 21:37:50,611  INFO        krewella — killin' it  (score: 0.9595)
+2026-04-12 21:37:50,612  INFO  
+2026-04-12 21:37:50,612  INFO  Phase 3 complete. Ready for Phase 4 evaluation.
+2026-04-12 22:24:30,672  INFO  ============================================================
+2026-04-12 22:24:30,672  INFO  Phase 3 — Context Inference and Recommendation Generation
+2026-04-12 22:24:30,673  INFO    [UPDATED: window=50, recency-weighted aggregation]
+2026-04-12 22:24:30,673  INFO    Output dir : C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase3_output
+2026-04-12 22:24:30,673  INFO  ============================================================
+2026-04-12 22:24:30,673  INFO  Loading Phase 1 and Phase 2 outputs…
+2026-04-12 22:24:34,323  INFO    Events loaded            : 377,468
+2026-04-12 22:24:34,324  INFO    Semantic embeddings      : 10,539 tags
+2026-04-12 22:24:34,324  INFO    Emotion-aware embeddings : 10,539 tags
+2026-04-12 22:24:34,324  INFO  
+[4.6.2] Time-aware train-test split (80/20 per user)…
+2026-04-12 22:24:34,325  INFO    Train/test split already exists — loading from disk.
+2026-04-12 22:24:36,377  INFO  
+[4.5.2] Building track representations…
+2026-04-12 22:24:36,377  INFO    Semantic track reps already exist — loading.
+2026-04-12 22:24:38,230  INFO    Emotion track reps already exist — loading.
+2026-04-12 22:24:42,458  INFO  
+[4.5.1] Building user context vectors (window=20)…
+2026-04-12 22:24:43,866  INFO    [semantic] User context vectors: 999 users × 100 dims
+2026-04-12 22:24:43,866  INFO    [semantic] Users with no context (excluded): 1
+2026-04-12 22:24:43,877  INFO    Saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase3_output\user_context_semantic.pkl  (426.6 KB)
+2026-04-12 22:24:45,406  INFO    [emotion-aware] User context vectors: 999 users × 108 dims
+2026-04-12 22:24:45,406  INFO    [emotion-aware] Users with no context (excluded): 1
+2026-04-12 22:24:45,418  INFO    Saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase3_output\user_context_emotion.pkl  (457.8 KB)
+2026-04-12 22:24:45,418  INFO  
+[4.5.3] Generating recommendations…
+2026-04-12 22:24:45,794  INFO    [popularity] Recommendations generated for 1,000 users
+2026-04-12 22:24:45,819  INFO    Saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase3_output\recommendations_popularity.pkl  (270.4 KB)
+2026-04-12 22:25:58,143  INFO    [semantic] Recommendations generated for 999 users
+2026-04-12 22:25:58,171  INFO    Saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase3_output\recommendations_semantic.pkl  (771.2 KB)
+2026-04-12 22:27:11,477  INFO    [emotion-aware] Recommendations generated for 999 users
+2026-04-12 22:27:11,497  INFO    Saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase3_output\recommendations_emotion.pkl  (776.7 KB)
+2026-04-12 22:27:11,513  INFO  
+2026-04-12 22:27:11,513  INFO  ============================================================
+2026-04-12 22:27:11,513  INFO  PHASE 3 SUMMARY
+2026-04-12 22:27:11,514  INFO  ============================================================
+2026-04-12 22:27:11,514  INFO    Train events              : 301,671
+2026-04-12 22:27:11,514  INFO    Test events               : 75,797
+2026-04-12 22:27:11,514  INFO    Users with test data      : 1,000
+2026-04-12 22:27:11,514  INFO    Context window size       : 50 events (updated from 20)
+2026-04-12 22:27:11,515  INFO    Aggregation               : recency-weighted (decay=1.0)
+2026-04-12 22:27:11,515  INFO  
+2026-04-12 22:27:11,515  INFO    Track representations
+2026-04-12 22:27:11,515  INFO      Semantic  : 166,630 tracks × 100 dims
+2026-04-12 22:27:11,515  INFO      Emotion   : 166,630 tracks × 108 dims
+2026-04-12 22:27:11,516  INFO  
+2026-04-12 22:27:11,516  INFO    User context vectors
+2026-04-12 22:27:11,516  INFO      Semantic  : 999 users × 100 dims
+2026-04-12 22:27:11,516  INFO      Emotion   : 999 users × 108 dims
+2026-04-12 22:27:11,516  INFO  
+2026-04-12 22:27:11,517  INFO    Recommendations (top-20)
+2026-04-12 22:27:11,517  INFO      Popularity : 1,000 users
+2026-04-12 22:27:11,517  INFO      Semantic   : 999 users
+2026-04-12 22:27:11,518  INFO      Emotion    : 999 users
+2026-04-12 22:27:11,518  INFO  
+2026-04-12 22:27:11,518  INFO    Sample recommendations for user '0xDEAD':
+2026-04-12 22:27:11,518  INFO      Emotion-aware top-5:
+2026-04-12 22:27:11,518  INFO        seven lions — serpent of old (feat. ciscandra nostalgia)  (score: 0.9705)
+2026-04-12 22:27:11,519  INFO        seven lions — free  (score: 0.9705)
+2026-04-12 22:27:11,519  INFO        seven lions — she was feat. birds of paradise  (score: 0.9705)
+2026-04-12 22:27:11,519  INFO        cazzette — weapon (vicetone remix)  (score: 0.9678)
+2026-04-12 22:27:11,519  INFO        cazzette — beam me up  (score: 0.9678)
+2026-04-12 22:27:11,520  INFO  
+2026-04-12 22:27:11,520  INFO  Phase 3 complete. Ready for Phase 4 evaluation.
+2026-04-20 22:54:31,603  INFO  ============================================================
+2026-04-20 22:54:31,618  INFO  Phase 3 — Context Inference and Recommendation Generation
+2026-04-20 22:54:31,619  INFO    [UPDATED: window=50, recency-weighted aggregation]
+2026-04-20 22:54:31,619  INFO    Output dir : C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase3_output
+2026-04-20 22:54:31,620  INFO  ============================================================
+2026-04-20 22:54:31,620  INFO  Loading Phase 1 and Phase 2 outputs…
+2026-04-20 22:54:34,212  INFO    Events loaded            : 377,468
+2026-04-20 22:54:34,213  INFO    Semantic embeddings      : 10,539 tags
+2026-04-20 22:54:34,213  INFO    Emotion-aware embeddings : 10,539 tags
+2026-04-20 22:54:34,213  INFO  
+[4.6.2] Time-aware train-test split (80/20 per user)…
+2026-04-20 22:54:34,214  INFO    Train/test split already exists — loading from disk.
+2026-04-20 22:54:35,972  INFO  
+[4.5.2] Building track representations…
+2026-04-20 22:54:40,479  INFO    [semantic] Track representations: 166,630 tracks × 100 dims
+2026-04-20 22:54:40,479  INFO    [semantic] Tracks with no embeddings (excluded): 0
+2026-04-20 22:54:41,132  INFO    Saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase3_output\track_representations_semantic.pkl  (74811.5 KB)
+2026-04-20 22:54:45,321  INFO    [emotion-aware] Track representations: 166,630 tracks × 103 dims
+2026-04-20 22:54:45,321  INFO    [emotion-aware] Tracks with no embeddings (excluded): 0
+2026-04-20 22:54:47,388  INFO    Saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase3_output\track_representations_emotion.pkl  (76764.5 KB)
+2026-04-20 22:54:47,388  INFO  
+[4.5.1] Building user context vectors (window=20)…
+2026-04-20 22:54:48,263  INFO    [semantic] User context vectors: 999 users × 100 dims
+2026-04-20 22:54:48,263  INFO    [semantic] Users with no context (excluded): 1
+2026-04-20 22:54:48,272  INFO    Saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase3_output\user_context_semantic.pkl  (426.6 KB)
+2026-04-20 22:54:49,157  INFO    [emotion-aware] User context vectors: 999 users × 103 dims
+2026-04-20 22:54:49,158  INFO    [emotion-aware] Users with no context (excluded): 1
+2026-04-20 22:54:49,166  INFO    Saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase3_output\user_context_emotion.pkl  (438.3 KB)
+2026-04-20 22:54:49,166  INFO  
+[4.5.3] Generating recommendations…
+2026-04-20 22:54:49,399  INFO    [popularity] Recommendations generated for 1,000 users
+2026-04-20 22:54:49,417  INFO    Saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase3_output\recommendations_popularity.pkl  (270.4 KB)
+2026-04-20 22:55:50,353  INFO    [semantic] Recommendations generated for 999 users
+2026-04-20 22:55:50,372  INFO    Saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase3_output\recommendations_semantic.pkl  (771.2 KB)
+2026-04-20 22:56:50,911  INFO    [emotion-aware] Recommendations generated for 999 users
+2026-04-20 22:56:50,925  INFO    Saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase3_output\recommendations_emotion.pkl  (771.1 KB)
+2026-04-20 22:56:50,938  INFO  
+2026-04-20 22:56:50,938  INFO  ============================================================
+2026-04-20 22:56:50,938  INFO  PHASE 3 SUMMARY
+2026-04-20 22:56:50,938  INFO  ============================================================
+2026-04-20 22:56:50,938  INFO    Train events              : 301,671
+2026-04-20 22:56:50,938  INFO    Test events               : 75,797
+2026-04-20 22:56:50,939  INFO    Users with test data      : 1,000
+2026-04-20 22:56:50,939  INFO    Context window size       : 50 events (updated from 20)
+2026-04-20 22:56:50,939  INFO    Aggregation               : recency-weighted (decay=1.0)
+2026-04-20 22:56:50,939  INFO  
+2026-04-20 22:56:50,939  INFO    Track representations
+2026-04-20 22:56:50,940  INFO      Semantic  : 166,630 tracks × 100 dims
+2026-04-20 22:56:50,940  INFO      Emotion   : 166,630 tracks × 103 dims
+2026-04-20 22:56:50,940  INFO  
+2026-04-20 22:56:50,940  INFO    User context vectors
+2026-04-20 22:56:50,940  INFO      Semantic  : 999 users × 100 dims
+2026-04-20 22:56:50,940  INFO      Emotion   : 999 users × 103 dims
+2026-04-20 22:56:50,941  INFO  
+2026-04-20 22:56:50,941  INFO    Recommendations (top-20)
+2026-04-20 22:56:50,941  INFO      Popularity : 1,000 users
+2026-04-20 22:56:50,941  INFO      Semantic   : 999 users
+2026-04-20 22:56:50,941  INFO      Emotion    : 999 users
+2026-04-20 22:56:50,941  INFO  
+2026-04-20 22:56:50,941  INFO    Sample recommendations for user '0xDEAD':
+2026-04-20 22:56:50,942  INFO      Emotion-aware top-5:
+2026-04-20 22:56:50,942  INFO        seven lions — she was feat. birds of paradise  (score: 0.9718)
+2026-04-20 22:56:50,942  INFO        seven lions — free  (score: 0.9718)
+2026-04-20 22:56:50,942  INFO        seven lions — serpent of old (feat. ciscandra nostalgia)  (score: 0.9718)
+2026-04-20 22:56:50,942  INFO        cazzette — beam me up  (score: 0.9689)
+2026-04-20 22:56:50,942  INFO        cazzette — weapon (vicetone remix)  (score: 0.9689)
+2026-04-20 22:56:50,943  INFO  
+2026-04-20 22:56:50,943  INFO  Phase 3 complete. Ready for Phase 4 evaluation.

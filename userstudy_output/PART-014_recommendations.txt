@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-014
+Reported mood  : Happy / Upbeat
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Burna Boy — Burna Boy Last Last  [lastfm]
+   2. Burna Boy — Ye  [lastfm]
+   3. Wizkid — Essence  [lastfm]
+   4. Wizkid — Ojuelegba  [lastfm]
+   5. Davido — Fall  [lastfm]
+   6. Davido — If  [lastfm]
+   7. Tems — Free Mind  [dataset]
+   8. Tems — Essence  [lastfm]
+   9. Rema — Calm Down  [dataset]
+  10. Rema — Bounce  [lastfm]
+  11. Fireboy DML — Peru  [lastfm]
+  12. Omah Lay — Bad Influence  [lastfm]
+  13. Ayra Starr — Rush  [lastfm]
+  14. Ayra Starr — Bloody Samaritan  [lastfm]
+  15. CKay — Love Nwantiti  [lastfm]
+  16. Oxlade — KU LO SA  [lastfm]
+  17. Asake — Joha  [lastfm]
+  18. Asake — Sungba  [lastfm]
+  19. Burna Boy — Kilometre  [lastfm]
+  20. Wizkid — Come Closer  [lastfm]
+
+PLAYLIST A
+----------------------------------------
+   1. Wizkid — Essence (Feat. Tems)
+   2. Fireboy Dml — Diana
+   3. Rema — Calm Down (With Selena Gomez)
+   4. Burna Boy — Higher
+   5. Omah Lay — Holy Ghost
+   6. Ckay — Addicted (Feat. The Cavemen.)
+   7. Bnxn — Gwagwalada
+   8. Davido — Kante (Feat. Fave)
+   9. Asake — Terminator
+  10. Tems — What You Need - A Colors Show
+
+PLAYLIST B
+----------------------------------------
+   1. Wizkid — Piece Of My Heart (Feat. Brent Faiyaz)
+   2. Fireboy Dml — Diana
+   3. Rema — Calm Down (With Selena Gomez)
+   4. Burna Boy — Higher
+   5. Omah Lay — Holy Ghost
+   6. Ckay — Samson And Delilah (Feat. Mayra Andrade)
+   7. Bnxn — Gwagwalada
+   8. Davido — Kante (Feat. Fave)
+   9. Asake — Remember
+  10. Tems — Burning
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: A → B
+────────────────────────────────────────────────────────────
