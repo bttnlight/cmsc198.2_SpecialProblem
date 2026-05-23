@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-028
+Reported mood  : Energetic / Motivated
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Bad Bunny — Tití Me Preguntó  [dataset]
+   2. Bad Bunny — Me Porto Bonito  [lastfm]
+   3. J Balvin — Con Calma  [lastfm]
+   4. J Balvin — Reggaeton  [lastfm]
+   5. Daddy Yankee — Gasolina  [lastfm]
+   6. Daddy Yankee — Con Calma  [lastfm]
+   7. Maluma — Hawái  [lastfm]
+   8. Maluma — Felices los 4  [lastfm]
+   9. Shakira — Hips Don't Lie  [dataset]
+  10. Shakira — Waka Waka  [lastfm]
+  11. Ozuna — Taki Taki  [lastfm]
+  12. Nicky Jam — El Perdón  [lastfm]
+  13. Enrique Iglesias — Bailando  [lastfm]
+  14. KAROL G — MAMIII  [lastfm]
+  15. KAROL G — Provenza  [lastfm]
+  16. Rauw Alejandro — Todo de Ti  [dataset]
+  17. Anuel AA — China  [lastfm]
+  18. Myke Towers — La Playa  [lastfm]
+  19. Bad Bunny — Dakiti  [lastfm]
+  20. J Balvin — Safari  [dataset]
+
+PLAYLIST A
+----------------------------------------
+   1. J Balvin — Azul
+   2. Sebastian Yatra — Tacones Rojos
+   3. Aventura — Yo Quisiera Amarla
+   4. Don Omar — Hooka
+   5. Wisin & Yandel — Tu Cuerpo Me Llama
+   6. Zion Y Lennox — Hace Tiempo
+   7. Cali Y El Dandee — Por Fin Te Encontré
+   8. Karol G — Coleccionando Heridas
+   9. Maluma — Hp
+  10. Yeиdry — Nena
+
+PLAYLIST B
+----------------------------------------
+   1. J Balvin — Machika
+   2. Sebastian Yatra — Dos Oruguitas
+   3. Aventura — Angelito
+   4. Wisin & Yandel — Rakata
+   5. Don Omar — Hooka
+   6. Cali Y El Dandee — Por Fin Te Encontré
+   7. Karol G — Amargura
+   8. Maluma — Hp
+   9. Zion Y Lennox — Hace Tiempo
+  10. Yeиdry — Nena
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: A → B
+────────────────────────────────────────────────────────────

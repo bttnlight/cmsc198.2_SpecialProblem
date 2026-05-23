@@ -1,53 +1,6 @@
 """
 Phase 3 — Context Inference and Recommendation Generation
 ==========================================================
-UPDATED VERSION — Changes from original:
-
-  CHANGE 1 (Fix #4): Context window increased from 20 → 50 events.
-    Rationale: With avg 377 events per user, a 50-event window produces
-    more stable context vectors with richer emotional tag coverage while
-    remaining within short-term session behavior. The original 20-event
-    window was insufficient to accumulate meaningful emotional signal
-    given that only 17.16% of tags carry NRC emotion labels.
-
-  CHANGE 2 (Fix #3): Recency-weighted aggregation replaces equal weighting.
-    Rationale: More recent events are stronger signals of current emotional
-    state. An exponential decay weight is applied per event, with the most
-    recent event receiving the highest weight. This replaces the equal-
-    weighting assumption of the original implementation while remaining
-    consistent with the theoretical trade-off discussed in Section 2.5.
-    Equal weighting is still used for track representations (unchanged)
-    since tracks have no temporal ordering.
-
-Re-run instructions
--------------------
-  Delete these files from phase3_output/ before running:
-    user_context_semantic.pkl
-    user_context_emotion.pkl
-    recommendations_semantic.pkl
-    recommendations_emotion.pkl
-    recommendations_popularity.pkl
-  Train/test split and track representations are unchanged — keep those.
-  Then run: python phase3_recommendation.py
-
-Original methodology sections implemented
-------------------------------------------
-Implements sections 4.5.1, 4.5.2, 4.5.3, and the train-test split
-from section 4.6.2 of the methodology.
-
-Steps
------
-  4.6.2  Time-aware 80/20 train-test split per user
-  4.5.1  Build user emotional-context vectors (mean of 20 most recent
-         training events' emotion-aware tag embeddings)
-  4.5.2  Build track representations (mean of track's tag embeddings)
-  4.5.3  Generate top-K recommendations via cosine similarity,
-         excluding tracks in the user's training history
-
-Three models are implemented (Section 4.6.1):
-  1. Popularity-based baseline   — ranks by global training frequency
-  2. Semantic tag-based model    — uses semantic embeddings only (100-dim)
-  3. Emotion-aware tag-based model — uses full 108-dim embeddings
 
 Inputs  (from phase1_output/ and phase2_output/)
 ------
@@ -59,9 +12,9 @@ Outputs (written to phase3_output/)
 -------
   train_events.pkl / test_events.pkl     — split datasets
   track_representations_semantic.pkl    — {track_key: array(100,)}
-  track_representations_emotion.pkl     — {track_key: array(108,)}
+  track_representations_emotion.pkl     — {track_key: array(103,)}
   user_context_semantic.pkl             — {user: array(100,)}
-  user_context_emotion.pkl              — {user: array(108,)}
+  user_context_emotion.pkl              — {user: array(103,)}
   recommendations_popularity.pkl        — {user: [(track_key, score), ...]}
   recommendations_semantic.pkl
   recommendations_emotion.pkl
@@ -123,21 +76,17 @@ RECS_SEMANTIC_FILE      = os.path.join(OUTPUT_DIR, "recommendations_semantic.pkl
 RECS_EMOTION_FILE       = os.path.join(OUTPUT_DIR, "recommendations_emotion.pkl")
 
 # ── Methodology parameters ────────────────────────
-# CHANGE 1: window size increased from 20 → 50
-CONTEXT_WINDOW    = 50      # Section 4.5.1 (updated from 20)
+CONTEXT_WINDOW    = 50     
 
-# CHANGE 2: recency decay for context aggregation
-# decay=1.0 means oldest event in window has weight e^-1 ≈ 0.37
-# relative to most recent event (weight = 1.0)
 RECENCY_DECAY     = 1.0
 
-TRAIN_RATIO       = 0.80    # Section 4.6.2: unchanged
-TOP_K_VALUES      = [5, 10, 20]   # Section 4.6.3
+TRAIN_RATIO       = 0.80  
+TOP_K_VALUES      = [5, 10, 20]  
 TOP_K_GENERATE    = 20      # generate top-20 so all K values are covered
 
 # Embedding dimensions
 SEM_DIM = 100
-EMO_DIM = 103   # UPDATED: 100 semantic + 3 VAD (was 108 with NRC 8-dim)
+EMO_DIM = 103 
 
 # ── Logging ──────────────────────────────────────
 logging.basicConfig(
@@ -374,9 +323,9 @@ def generate_recommendations_cosine(
     # Build candidate matrix once for efficiency
     candidate_keys = list(track_representations.keys())
     candidate_matrix = np.array(
-        [track_representations[k] for k in candidate_keys],
+        [track_representations[key] for key in candidate_keys],
         dtype=np.float32
-    )   # shape: (n_tracks, dim)
+    )
 
     recommendations = {}
 
@@ -391,10 +340,17 @@ def generate_recommendations_cosine(
         # Rank and exclude training tracks
         ranked_indices = np.argsort(sims)[::-1]
         top_k = []
+        seen_artists = set()                  
+
         for idx in ranked_indices:
             ckey = candidate_keys[idx]
-            if ckey not in seen:
-                top_k.append((ckey, float(sims[idx])))
+            if ckey in seen:
+                continue
+            artist = ckey.split("||")[0]            
+            if artist in seen_artists:              
+                continue                           
+            seen_artists.add(artist)            
+            top_k.append((ckey, float(sims[idx])))
             if len(top_k) >= k:
                 break
 
@@ -424,9 +380,16 @@ def generate_recommendations_popularity(
     for user in all_users:
         seen  = user_train_tracks.get(user, set())
         top_k = []
+        seen_artists = set()                     
+
         for ckey, count in ranked_global:
-            if ckey not in seen:
-                top_k.append((ckey, count / max_count))
+            if ckey in seen:
+                continue
+            artist = ckey.split("||")[0]           
+            if artist in seen_artists:              
+                continue                            
+            seen_artists.add(artist)           
+            top_k.append((ckey, count / max_count))
             if len(top_k) >= k:
                 break
         recommendations[user] = top_k
@@ -523,7 +486,7 @@ if __name__ == "__main__":
         save_pickle(track_rep_emo, TRACK_REP_EMO_FILE)
 
     # ── Step 4: User context vectors (Section 4.5.1) ──
-    log.info("\n[4.5.1] Building user context vectors (window=20)…")
+    log.info("\n[4.5.1] Building user context vectors (window=50)…")
 
     if os.path.exists(USER_CTX_SEM_FILE):
         log.info("  Semantic context vectors already exist — loading.")

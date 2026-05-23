@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-030
+Reported mood  : Happy / Upbeat
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Rex Orange County — Loving Is Easy  [dataset]
+   2. Rex Orange County — Best Friend  [lastfm]
+   3. Clairo — Pretty Girl  [lastfm]
+   4. Clairo — Alewife  [lastfm]
+   5. Cavetown — This Is Home  [lastfm]
+   6. Cavetown — Lemon Boy  [lastfm]
+   7. Cuco — Summertime Highness  [lastfm]
+   8. Cuco — Feelings  [lastfm]
+   9. Still Woozy — Goodie Bag  [dataset]
+  10. Still Woozy — BS  [lastfm]
+  11. Novo Amor — State Lines  [lastfm]
+  12. Current Joys — Still Life  [lastfm]
+  13. Men I Trust — Tailwhip  [dataset]
+  14. Men I Trust — Show Me How  [dataset]
+  15. Hozier — Movement  [lastfm]
+  16. Hozier — From Eden  [dataset]
+  17. girl in red — i wanna be your girlfriend  [lastfm]
+  18. girl in red — we fell in love in october  [lastfm]
+  19. Rex Orange County — Pluto Projector  [lastfm]
+  20. Clairo — Softly  [lastfm]
+
+PLAYLIST A
+----------------------------------------
+   1. Clairo — Amoeba
+   2. Another Michael — Water Pressure
+   3. Soccer Mommy — Circle The Drain
+   4. Sales — Off And On
+   5. Tokyo Tea Room — Waiting By The Phone
+   6. Frankie Cosmos — Owen
+   7. Beabadoobee — Real Man
+   8. Lowertown — Clown Car
+   9. Münechild — Someday
+  10. Strawberry Guy — Birch Tree
+
+PLAYLIST B
+----------------------------------------
+   1. Clairo — Slow Dance
+   2. Another Michael — Water Pressure
+   3. Soccer Mommy — Circle The Drain
+   4. Sales — Off And On
+   5. Tokyo Tea Room — Waiting By The Phone
+   6. Frankie Cosmos — Buses Splash With Rain
+   7. Beabadoobee — I Wish I Was Stephen Malkmus
+   8. Lowertown — Clown Car
+   9. Münechild — Someday
+  10. Strawberry Guy — What Would I Do?
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: A → B
+────────────────────────────────────────────────────────────

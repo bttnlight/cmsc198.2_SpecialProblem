@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-010
+Reported mood  : Mixed / Varies
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. BTS — Dynamite  [dataset]
+   2. BTS — Spring Day  [lastfm]
+   3. BLACKPINK — How You Like That  [dataset]
+   4. BLACKPINK — Stay  [lastfm]
+   5. aespa — Supernova  [lastfm]
+   6. NewJeans — Hype Boy  [dataset]
+   7. NewJeans — Supershy  [lastfm]
+   8. IU — Blueming  [lastfm]
+   9. IU — eight  [lastfm]
+  10. YOASOBI — Idol  [lastfm]
+  11. YOASOBI — The Blessing  [lastfm]
+  12. Kenshi Yonezu — Lemon  [lastfm]
+  13. Kenshi Yonezu — Pale Blue  [lastfm]
+  14. Fujii Kaze — Matsuri  [lastfm]
+  15. Fujii Kaze — Damn  [lastfm]
+  16. OFFICIAL HIGE DANDISM — Subtitle  [lastfm]
+  17. Ado — Usseewa  [lastfm]
+  18. BTS — Filter  [lastfm]
+  19. TWICE — Feel Special  [dataset]
+  20. aespa — Black Mamba  [lastfm]
+
+PLAYLIST B
+----------------------------------------
+   1. 少女時代 — Animal
+   2. Boa — Lookin' (Feat. The Quiett)
+   3. Wonder Girls — Nobody
+   4. 소녀시대-태티서 — Omg (Oh My God)
+   5. Twice — Hell In Heaven
+   6. Bibi — Apocalypse
+   7. Blackpink — Love To Hate Me
+   8. 2Ne1 — Mtbd - Cl Solo
+   9. 이효리 — Closer
+  10. Sunmi — Heroine
+
+PLAYLIST A
+----------------------------------------
+   1. 少女時代 — Animal
+   2. Boa — Lookin' (Feat. The Quiett)
+   3. Wonder Girls — The Dj Is Mine (Afrojack Remix)
+   4. Twice — What Is Love
+   5. 소녀시대-태티서 — Omg (Oh My God)
+   6. Bibi — Apocalypse
+   7. Blackpink — Love To Hate Me
+   8. 2Ne1 — Mtbd - Cl Solo
+   9. 이효리 — Closer
+  10. Sunmi — Heroine
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: B → A
+────────────────────────────────────────────────────────────

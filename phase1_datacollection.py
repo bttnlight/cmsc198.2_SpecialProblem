@@ -1,15 +1,6 @@
 """
 Phase 1 — Data Collection and Preprocessing
 ============================================
-VS Code / local Python version of the Colab notebook.
-
-Key improvements over the Colab version:
-  - Every user is saved to disk immediately after collection (no data loss on crash/interrupt)
-  - A per-user "done" registry (done_users.txt) lets you resume exactly where you left off
-  - A rotating progress log (progress.log) so you can monitor runs in a terminal
-  - No Google Drive or Colab dependencies — all output goes to OUTPUT_DIR (configurable)
-  - Tag cache is flushed every CACHE_FLUSH_INTERVAL users, not only at the end
-  - Graceful Ctrl+C handling: flushes cache and prints resume instructions before exiting
 
 Usage
 -----
@@ -59,7 +50,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 CACHE_FILE        = os.path.join(OUTPUT_DIR, "tag_cache.json")
 USERS_FILE        = os.path.join(OUTPUT_DIR, "eligible_users.txt")
-DONE_FILE         = os.path.join(OUTPUT_DIR, "done_users.txt")        # ← new: per-user resume registry
+DONE_FILE         = os.path.join(OUTPUT_DIR, "done_users.txt")        
 EVENTS_CSV        = os.path.join(OUTPUT_DIR, "raw_events.csv")
 PREPROCESSED_CSV  = os.path.join(OUTPUT_DIR, "preprocessed_events.csv")
 VALIDATED_CSV     = os.path.join(OUTPUT_DIR, "validated_events.csv")

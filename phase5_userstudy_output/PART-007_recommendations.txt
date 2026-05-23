@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-007
+Reported mood  : Calm / Relaxed
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Norah Jones — Come Away With Me  [dataset]
+   2. Norah Jones — Don't Know Why  [dataset]
+   3. Amy Winehouse — Back to Black  [dataset]
+   4. Amy Winehouse — Valerie  [dataset]
+   5. Corinne Bailey Rae — Put Your Records On  [dataset]
+   6. John Coltrane — A Love Supreme  [lastfm]
+   7. Miles Davis — So What  [dataset]
+   8. Bill Evans — Waltz for Debby  [dataset]
+   9. Ella Fitzgerald — The Very Thought of You  [lastfm]
+  10. Frank Sinatra — The Way You Look Tonight  [lastfm]
+  11. Nina Simone — Feeling Good  [dataset]
+  12. Nina Simone — I Put a Spell on You  [dataset]
+  13. Billie Holiday — The Very Thought of You  [dataset]
+  14. Chet Baker — Almost Blue  [lastfm]
+  15. Nat King Cole — Unforgettable  [dataset]
+  16. Michael Bublé — Feeling Good  [dataset]
+  17. Paolo Nutini — Pencil Full of Lead  [dataset]
+  18. Jamie Cullum — All at Sea  [dataset]
+  19. Gregory Porter — Liquid Spirit  [dataset]
+  20. Norah Jones — Sunrise  [dataset]
+
+PLAYLIST B
+----------------------------------------
+   1. Nina Simone — Sinnerman (Felix Da Housecat'S
+   2. Norah Jones — What Am I To You?
+   3. Billie Holiday — Don'T Explain - Dzihan & Kamien Remix
+   4. Madeleine Peyroux — Between The Bars
+   5. Curtis Stigers — John The Revelator
+   6. Peter Cincotti — You Stepped Out Of A Dream
+   7. Jamie Cullum — Old Devil Moon
+   8. Cassandra Wilson — 'Round Midnight
+   9. Lizz Wright — Sweeping Through The City
+  10. Dee Dee Bridgewater — Compared To What
+
+PLAYLIST A
+----------------------------------------
+   1. Nina Simone — Lilac Wine [The Album Leaf Remix] [Mix]
+   2. Norah Jones — I'Ve Got To See You Again
+   3. Madeleine Peyroux — Don'T Cry Baby
+   4. Billie Holiday — Fine And Mellow
+   5. Curtis Stigers — John The Revelator
+   6. Peter Cincotti — Some Kind Of Wonderful
+   7. Jamie Cullum — Singin' In The Rain
+   8. Lizz Wright — A Taste Of Honey
+   9. Cassandra Wilson — I Can'T Stand The Rain
+  10. Dee Dee Bridgewater — Compared To What
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: B → A
+────────────────────────────────────────────────────────────

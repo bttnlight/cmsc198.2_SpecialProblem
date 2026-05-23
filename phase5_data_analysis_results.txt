@@ -1,0 +1,118 @@
+======================================================================
+  SECTION 4.7.4— DATA ANALYSIS RESULTS
+  Generated : 2026-05-13 12:55:14
+  Input     : Stage_2__Playlist_Evaluation_Survey__Responses_.xlsx
+  Log saved : phase5_data_analysis_results.txt
+======================================================================
+
+Loaded 42 responses.
+
+======================================================================
+1. DESCRIPTIVE STATISTICS
+======================================================================
+Dimension               Mean_A   SD_A  Mean_B   SD_B  Diff(B-A)
+----------------------------------------------------------------------
+Perceived Relevance      3.810  0.671   4.048  0.661     +0.238
+Emotional Alignment      3.619  0.731   4.119  0.633     +0.500
+User Satisfaction        3.738  0.627   4.000  0.663     +0.262
+Everyday Listening       3.881  0.705   4.095  0.726     +0.214
+Emotional Coherence      3.571  0.668   3.952  0.795     +0.381
+
+======================================================================
+2. NORMALITY TEST (Shapiro-Wilk on difference scores)
+======================================================================
+Dimension                     W        p   Normal?
+----------------------------------------------------------------------
+Perceived Relevance      0.7818   0.0000   No  (-> use Wilcoxon)
+Emotional Alignment      0.8535   0.0001   No  (-> use Wilcoxon)
+User Satisfaction        0.7962   0.0000   No  (-> use Wilcoxon)
+Everyday Listening       0.7909   0.0000   No  (-> use Wilcoxon)
+Emotional Coherence      0.8611   0.0001   No  (-> use Wilcoxon)
+
+======================================================================
+3. WILCOXON SIGNED-RANK TEST  (Primary — Non-Parametric)
+======================================================================
+Dimension                     W        p     Sig?
+----------------------------------------------------------------------
+Perceived Relevance        52.5   0.0253    YES *
+Emotional Alignment        48.0   0.0004    YES *
+User Satisfaction          84.0   0.0343    YES *
+Everyday Listening         66.0   0.0495    YES *
+Emotional Coherence        88.5   0.0082    YES *
+
+======================================================================
+4. PAIRED-SAMPLE T-TEST  (Supplementary)
+======================================================================
+Dimension                     t        p     Sig?
+----------------------------------------------------------------------
+Perceived Relevance     -2.3538   0.0235    YES *
+Emotional Alignment     -4.1918   0.0001    YES *
+User Satisfaction       -2.2130   0.0325    YES *
+Everyday Listening      -2.0362   0.0482    YES *
+Emotional Coherence     -2.8908   0.0061    YES *
+
+======================================================================
+5. EFFECT SIZES  (Cohen's d from paired difference scores)
+======================================================================
+Dimension                     d   Interpretation
+----------------------------------------------------------------------
+Perceived Relevance      0.3632            small
+Emotional Alignment      0.6468           medium
+User Satisfaction        0.3415            small
+Everyday Listening       0.3142            small
+Emotional Coherence      0.4461            small
+
+======================================================================
+6. COMPARATIVE / CATEGORICAL QUESTION FREQUENCIES
+======================================================================
+
+Overall, which playlist did you prefer?
+--------------------------------------------------
+  Playlist B                                23  (54.8%)
+  Playlist A                                12  (28.6%)
+  No preference                              7  (16.7%)
+
+Which playlist felt more emotionally appropriate for your current mood?
+--------------------------------------------------
+  Playlist B                                20  (47.6%)
+  Playlist A                                12  (28.6%)
+  Both equally                              10  (23.8%)
+
+Which playlist felt more varied and interesting?
+--------------------------------------------------
+  Both equally                              29  (69.0%)
+  Playlist A                                 7  (16.7%)
+  Playlist B                                 6  (14.3%)
+
+Did the two playlists feel noticeably different from each other?
+--------------------------------------------------
+  Yes, slightly different                   38  (90.5%)
+  Yes, they felt very different              2  (4.8%)
+  No, they felt mostly the same              2  (4.8%)
+
+Which playlist do you feel better understood your taste in music — beyond just mood?
+--------------------------------------------------
+  Playlist B                                17  (40.5%)
+  Both equally                              13  (31.0%)
+  Playlist A                                 9  (21.4%)
+  Neither                                    3  (7.1%)
+
+======================================================================
+7. LIKELIHOOD TO USE AUTOMATIC PLAYLIST FEATURE
+======================================================================
+  N      : 42
+  Mean   : 3.810
+  SD     : 0.833
+  Min    : 2
+  Max    : 5
+  Median : 4.0
+
+======================================================================
+8. FULL SUMMARY TABLE
+======================================================================
+          Dimension  N  Mean_A  SD_A  Mean_B  SD_B  Mean_diff   SW_p  Normal  W_stat    p_w  Sig_w  t_stat    p_t  Sig_t  Cohens_d Effect_size
+Perceived Relevance 42   3.810 0.671   4.048 0.661      0.238 0.0000   False    52.5 0.0253   True -2.3538 0.0235   True    0.3632       small
+Emotional Alignment 42   3.619 0.731   4.119 0.633      0.500 0.0001   False    48.0 0.0004   True -4.1918 0.0001   True    0.6468      medium
+  User Satisfaction 42   3.738 0.627   4.000 0.663      0.262 0.0000   False    84.0 0.0343   True -2.2130 0.0325   True    0.3415       small
+ Everyday Listening 42   3.881 0.705   4.095 0.726      0.214 0.0000   False    66.0 0.0495   True -2.0362 0.0482   True    0.3142       small
+Emotional Coherence 42   3.571 0.668   3.952 0.795      0.381 0.0001   False    88.5 0.0082   True -2.8908 0.0061   True    0.4461       small

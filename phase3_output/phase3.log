@@ -199,3 +199,299 @@
 2026-04-20 22:56:50,942  INFO        cazzette — weapon (vicetone remix)  (score: 0.9689)
 2026-04-20 22:56:50,943  INFO  
 2026-04-20 22:56:50,943  INFO  Phase 3 complete. Ready for Phase 4 evaluation.
+2026-05-21 00:17:18,823  INFO  ============================================================
+2026-05-21 00:17:18,823  INFO  Phase 3 — Context Inference and Recommendation Generation
+2026-05-21 00:17:18,823  INFO    [UPDATED: window=50, recency-weighted aggregation]
+2026-05-21 00:17:18,824  INFO    Output dir : C:\Users\franc\Documents\BETTINA\cmsc198.2\phase3_output
+2026-05-21 00:17:18,824  INFO  ============================================================
+2026-05-21 00:17:18,824  INFO  Loading Phase 1 and Phase 2 outputs…
+2026-05-21 00:17:21,838  INFO    Events loaded            : 377,468
+2026-05-21 00:17:21,839  INFO    Semantic embeddings      : 10,539 tags
+2026-05-21 00:17:21,839  INFO    Emotion-aware embeddings : 10,539 tags
+2026-05-21 00:17:21,839  INFO  
+[4.6.2] Time-aware train-test split (80/20 per user)…
+2026-05-21 00:17:21,840  INFO    Train/test split already exists — loading from disk.
+2026-05-21 00:17:23,168  INFO  
+[4.5.2] Building track representations…
+2026-05-21 00:17:23,168  INFO    Semantic track reps already exist — loading.
+2026-05-21 00:17:23,795  INFO    Emotion track reps already exist — loading.
+2026-05-21 00:17:24,756  INFO  
+[4.5.1] Building user context vectors (window=50)…
+2026-05-21 00:17:24,756  INFO    Semantic context vectors already exist — loading.
+2026-05-21 00:17:24,783  INFO    Emotion context vectors already exist — loading.
+2026-05-21 00:17:24,799  INFO  
+[4.5.3] Generating recommendations…
+2026-05-21 00:17:25,078  INFO    [popularity] Recommendations generated for 1,000 users
+2026-05-21 00:17:25,109  INFO    Saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase3_output\recommendations_popularity.pkl  (270.3 KB)
+2026-05-21 00:18:33,876  INFO    [semantic] Recommendations generated for 999 users
+2026-05-21 00:18:33,892  INFO    Saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase3_output\recommendations_semantic.pkl  (738.7 KB)
+2026-05-21 00:19:43,795  INFO    [emotion-aware] Recommendations generated for 999 users
+2026-05-21 00:19:43,811  INFO    Saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase3_output\recommendations_emotion.pkl  (733.6 KB)
+2026-05-21 00:19:43,824  INFO  
+2026-05-21 00:19:43,825  INFO  ============================================================
+2026-05-21 00:19:43,825  INFO  PHASE 3 SUMMARY
+2026-05-21 00:19:43,825  INFO  ============================================================
+2026-05-21 00:19:43,825  INFO    Train events              : 301,671
+2026-05-21 00:19:43,825  INFO    Test events               : 75,797
+2026-05-21 00:19:43,826  INFO    Users with test data      : 1,000
+2026-05-21 00:19:43,826  INFO    Context window size       : 50 events (updated from 20)
+2026-05-21 00:19:43,826  INFO    Aggregation               : recency-weighted (decay=1.0)
+2026-05-21 00:19:43,826  INFO  
+2026-05-21 00:19:43,826  INFO    Track representations
+2026-05-21 00:19:43,827  INFO      Semantic  : 166,630 tracks × 100 dims
+2026-05-21 00:19:43,827  INFO      Emotion   : 166,630 tracks × 103 dims
+2026-05-21 00:19:43,827  INFO  
+2026-05-21 00:19:43,827  INFO    User context vectors
+2026-05-21 00:19:43,827  INFO      Semantic  : 999 users × 100 dims
+2026-05-21 00:19:43,827  INFO      Emotion   : 999 users × 103 dims
+2026-05-21 00:19:43,828  INFO  
+2026-05-21 00:19:43,828  INFO    Recommendations (top-20)
+2026-05-21 00:19:43,828  INFO      Popularity : 1,000 users
+2026-05-21 00:19:43,828  INFO      Semantic   : 999 users
+2026-05-21 00:19:43,828  INFO      Emotion    : 999 users
+2026-05-21 00:19:43,829  INFO  
+2026-05-21 00:19:43,829  INFO    Sample recommendations for user '0xDEAD':
+2026-05-21 00:19:43,829  INFO      Emotion-aware top-5:
+2026-05-21 00:19:43,829  INFO        seven lions — she was feat. birds of paradise  (score: 0.9718)
+2026-05-21 00:19:43,829  INFO        cazzette — beam me up  (score: 0.9689)
+2026-05-21 00:19:43,829  INFO        sebastian ingrosso — calling (lose my mind) - radio edit  (score: 0.9678)
+2026-05-21 00:19:43,830  INFO        fedde le grand — put your hands up for detroit (radio edit)  (score: 0.9678)
+2026-05-21 00:19:43,830  INFO        dimitri vangelis & wyman — running - radio edit  (score: 0.9627)
+2026-05-21 00:19:43,830  INFO  
+2026-05-21 00:19:43,830  INFO  Phase 3 complete. Ready for Phase 4 evaluation.
+2026-05-23 14:29:02,776  INFO  ============================================================
+2026-05-23 14:29:02,778  INFO  Phase 3 — Context Inference and Recommendation Generation
+2026-05-23 14:29:02,779  INFO    [UPDATED: tag-overlap pre-filter, min tag count filter]
+2026-05-23 14:29:02,779  INFO    Output dir        : C:\Users\franc\Documents\BETTINA\cmsc198.2\phase3_output
+2026-05-23 14:29:02,780  INFO    Min track tags    : 3   [CHANGE A]
+2026-05-23 14:29:02,780  INFO    Tag overlap filter: True  [CHANGE B]
+2026-05-23 14:29:02,780  INFO  ============================================================
+2026-05-23 14:29:02,780  INFO  Loading Phase 1 and Phase 2 outputs…
+2026-05-23 14:29:05,128  INFO    Events loaded            : 377,468
+2026-05-23 14:29:05,129  INFO    Semantic embeddings      : 10,539 tags
+2026-05-23 14:29:05,129  INFO    Emotion-aware embeddings : 10,539 tags
+2026-05-23 14:29:05,129  INFO  
+[4.6.2] Time-aware train-test split (80/20 per user)…
+2026-05-23 14:29:05,130  INFO    Train/test split already exists — loading from disk.
+2026-05-23 14:29:06,038  INFO  
+[4.5.2] Building track representations…
+2026-05-23 14:29:09,655  INFO    [semantic] Track representations : 162,672 tracks × 100 dims
+2026-05-23 14:29:09,655  INFO    [semantic] Excluded (no tags)    : 0
+2026-05-23 14:29:09,656  INFO    [semantic] Excluded (<3 tags)   : 3958  [CHANGE A]
+2026-05-23 14:29:10,538  INFO    Saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase3_output\track_representations_semantic.pkl  (73014.4 KB)
+2026-05-23 14:29:11,045  INFO    Saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase3_output\track_tags.pkl  (23913.1 KB)
+2026-05-23 14:29:14,795  INFO    [emotion-aware] Track representations : 162,672 tracks × 103 dims
+2026-05-23 14:29:14,796  INFO    [emotion-aware] Excluded (no tags)    : 0
+2026-05-23 14:29:14,796  INFO    [emotion-aware] Excluded (<3 tags)   : 3958  [CHANGE A]
+2026-05-23 14:29:15,401  INFO    Saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase3_output\track_representations_emotion.pkl  (74921.0 KB)
+2026-05-23 14:29:15,401  INFO  
+[4.5.1] Building user context vectors (window=50)…
+2026-05-23 14:29:16,434  INFO    [semantic] User context vectors : 999 users × 100 dims
+2026-05-23 14:29:16,434  INFO    [semantic] Users with no context (excluded): 1
+2026-05-23 14:29:16,444  INFO    Saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase3_output\user_context_semantic.pkl  (426.6 KB)
+2026-05-23 14:29:16,468  INFO    Saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase3_output\user_context_tags.pkl  (1135.6 KB)
+2026-05-23 14:29:17,509  INFO    [emotion-aware] User context vectors : 999 users × 103 dims
+2026-05-23 14:29:17,509  INFO    [emotion-aware] Users with no context (excluded): 1
+2026-05-23 14:29:17,567  INFO    Saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase3_output\user_context_emotion.pkl  (438.3 KB)
+2026-05-23 14:29:17,568  INFO  
+[4.5.3] Generating recommendations…
+2026-05-23 14:29:17,893  INFO    [popularity] Recommendations generated for 1,000 users
+2026-05-23 14:29:17,916  INFO    Saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase3_output\recommendations_popularity.pkl  (270.3 KB)
+2026-05-23 14:29:18,435  INFO    [semantic] Tag-overlap index built over 162,672 candidates  [CHANGE B]
+2026-05-23 14:31:28,918  INFO    [semantic] Avg filtered candidate pool : 145,625 tracks  [CHANGE B]
+2026-05-23 14:31:28,918  INFO    [semantic] Full pool size              : 162,672 tracks
+2026-05-23 14:31:28,919  INFO    [semantic] Recommendations generated for 999 users
+2026-05-23 14:31:28,968  INFO    Saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase3_output\recommendations_semantic.pkl  (736.2 KB)
+2026-05-23 14:31:29,449  INFO    [emotion-aware] Tag-overlap index built over 162,672 candidates  [CHANGE B]
+2026-05-23 14:33:49,030  INFO    [emotion-aware] Avg filtered candidate pool : 145,625 tracks  [CHANGE B]
+2026-05-23 14:33:49,030  INFO    [emotion-aware] Full pool size              : 162,672 tracks
+2026-05-23 14:33:49,030  INFO    [emotion-aware] Recommendations generated for 999 users
+2026-05-23 14:33:49,140  INFO    Saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase3_output\recommendations_emotion.pkl  (731.3 KB)
+2026-05-23 14:33:49,155  INFO  
+2026-05-23 14:33:49,155  INFO  ============================================================
+2026-05-23 14:33:49,156  INFO  PHASE 3 SUMMARY
+2026-05-23 14:33:49,156  INFO  ============================================================
+2026-05-23 14:33:49,156  INFO    Train events              : 301,671
+2026-05-23 14:33:49,156  INFO    Test events               : 75,797
+2026-05-23 14:33:49,156  INFO    Users with test data      : 1,000
+2026-05-23 14:33:49,157  INFO    Context window size       : 50 events
+2026-05-23 14:33:49,157  INFO    Aggregation               : recency-weighted (decay=1.0)
+2026-05-23 14:33:49,157  INFO    Min track tags filter     : 3  [CHANGE A]
+2026-05-23 14:33:49,157  INFO    Tag overlap pre-filter    : True  [CHANGE B]
+2026-05-23 14:33:49,157  INFO  
+2026-05-23 14:33:49,157  INFO    Track representations
+2026-05-23 14:33:49,158  INFO      Semantic  : 162,672 tracks × 100 dims
+2026-05-23 14:33:49,158  INFO      Emotion   : 162,672 tracks × 103 dims
+2026-05-23 14:33:49,158  INFO  
+2026-05-23 14:33:49,158  INFO    User context vectors
+2026-05-23 14:33:49,158  INFO      Semantic  : 999 users × 100 dims
+2026-05-23 14:33:49,159  INFO      Emotion   : 999 users × 103 dims
+2026-05-23 14:33:49,159  INFO  
+2026-05-23 14:33:49,159  INFO    Recommendations (top-20)
+2026-05-23 14:33:49,159  INFO      Popularity : 1,000 users
+2026-05-23 14:33:49,159  INFO      Semantic   : 999 users
+2026-05-23 14:33:49,159  INFO      Emotion    : 999 users
+2026-05-23 14:33:49,160  INFO  
+2026-05-23 14:33:49,160  INFO    Sample recommendations for user '0xDEAD':
+2026-05-23 14:33:49,160  INFO      Emotion-aware top-5:
+2026-05-23 14:33:49,160  INFO        seven lions — she was feat. birds of paradise  (score: 0.9718)
+2026-05-23 14:33:49,160  INFO        cazzette — beam me up  (score: 0.9689)
+2026-05-23 14:33:49,160  INFO        sebastian ingrosso — chaa chaa  (score: 0.9678)
+2026-05-23 14:33:49,161  INFO        fedde le grand — rockin' n' rollin' (out now)  (score: 0.9678)
+2026-05-23 14:33:49,161  INFO        dimitri vangelis & wyman — running - radio edit  (score: 0.9627)
+2026-05-23 14:33:49,161  INFO  
+2026-05-23 14:33:49,161  INFO  Phase 3 complete. Ready for Phase 4 evaluation.
+2026-05-23 14:44:57,375  INFO  ============================================================
+2026-05-23 14:44:57,375  INFO  Phase 3 — Context Inference and Recommendation Generation
+2026-05-23 14:44:57,375  INFO    [UPDATED: min-tag-count=10, per-user candidate pool]
+2026-05-23 14:44:57,375  INFO    Output dir        : C:\Users\franc\Documents\BETTINA\cmsc198.2\phase3_output
+2026-05-23 14:44:57,375  INFO    Min track tags    : 10   [CHANGE A]
+2026-05-23 14:44:57,376  INFO    Per-user pool     : True  [CHANGE B]
+2026-05-23 14:44:57,376  INFO  ============================================================
+2026-05-23 14:44:57,376  INFO  Loading Phase 1 and Phase 2 outputs…
+2026-05-23 14:44:59,749  INFO    Events loaded            : 377,468
+2026-05-23 14:44:59,750  INFO    Semantic embeddings      : 10,539 tags
+2026-05-23 14:44:59,750  INFO    Emotion-aware embeddings : 10,539 tags
+2026-05-23 14:44:59,750  INFO  
+[4.6.2] Time-aware train-test split (80/20 per user)…
+2026-05-23 14:44:59,751  INFO    Train/test split already exists — loading from disk.
+2026-05-23 14:45:00,621  INFO  
+[4.5.2] Building track representations…
+2026-05-23 14:45:04,075  INFO    [semantic] Track representations : 140,369 tracks × 100 dims
+2026-05-23 14:45:04,076  INFO    [semantic] Excluded (no tags)    : 0
+2026-05-23 14:45:04,076  INFO    [semantic] Excluded (<10 tags)  : 26261  [CHANGE A]
+2026-05-23 14:45:04,943  INFO    Saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase3_output\track_representations_semantic.pkl  (62995.7 KB)
+2026-05-23 14:45:05,422  INFO    Saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase3_output\track_tags.pkl  (21331.9 KB)
+2026-05-23 14:45:08,845  INFO    [emotion-aware] Track representations : 140,369 tracks × 103 dims
+2026-05-23 14:45:08,845  INFO    [emotion-aware] Excluded (no tags)    : 0
+2026-05-23 14:45:08,846  INFO    [emotion-aware] Excluded (<10 tags)  : 26261  [CHANGE A]
+2026-05-23 14:45:09,361  INFO    Saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase3_output\track_representations_emotion.pkl  (64640.8 KB)
+2026-05-23 14:45:09,361  INFO  
+[CHANGE B] Building per-user training history tag sets…
+2026-05-23 14:45:09,982  INFO    [CHANGE B] User training-history tag sets built: 999 users
+2026-05-23 14:45:09,983  INFO    [CHANGE B] Avg tags per user history: 266
+2026-05-23 14:45:10,045  INFO    Saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase3_output\user_track_tags.pkl  (3228.6 KB)
+2026-05-23 14:45:10,045  INFO  
+[4.5.1] Building user context vectors (window=50)…
+2026-05-23 14:45:11,078  INFO    [semantic] User context vectors : 999 users × 100 dims
+2026-05-23 14:45:11,079  INFO    [semantic] Users with no context (excluded): 1
+2026-05-23 14:45:11,089  INFO    Saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase3_output\user_context_semantic.pkl  (426.6 KB)
+2026-05-23 14:45:12,108  INFO    [emotion-aware] User context vectors : 999 users × 103 dims
+2026-05-23 14:45:12,108  INFO    [emotion-aware] Users with no context (excluded): 1
+2026-05-23 14:45:12,119  INFO    Saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase3_output\user_context_emotion.pkl  (438.3 KB)
+2026-05-23 14:45:12,119  INFO  
+[4.5.3] Generating recommendations…
+2026-05-23 14:45:12,442  INFO    [popularity] Recommendations generated for 1,000 users
+2026-05-23 14:45:12,466  INFO    Saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase3_output\recommendations_popularity.pkl  (270.3 KB)
+2026-05-23 14:45:12,896  INFO    [semantic] Per-user pool index built: 140,369 candidates  [CHANGE B]
+2026-05-23 14:47:14,210  INFO    [semantic] Avg per-user candidate pool : 137,857 tracks  [CHANGE B]
+2026-05-23 14:47:14,211  INFO    [semantic] Full pool size              : 140,369 tracks
+2026-05-23 14:47:14,211  INFO    [semantic] Recommendations generated for 999 users
+2026-05-23 14:47:14,271  INFO    Saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase3_output\recommendations_semantic.pkl  (730.0 KB)
+2026-05-23 14:47:14,689  INFO    [emotion-aware] Per-user pool index built: 140,369 candidates  [CHANGE B]
+2026-05-23 14:49:24,399  INFO    [emotion-aware] Avg per-user candidate pool : 137,857 tracks  [CHANGE B]
+2026-05-23 14:49:24,399  INFO    [emotion-aware] Full pool size              : 140,369 tracks
+2026-05-23 14:49:24,399  INFO    [emotion-aware] Recommendations generated for 999 users
+2026-05-23 14:49:24,468  INFO    Saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase3_output\recommendations_emotion.pkl  (723.9 KB)
+2026-05-23 14:49:24,485  INFO  
+2026-05-23 14:49:24,485  INFO  ============================================================
+2026-05-23 14:49:24,485  INFO  PHASE 3 SUMMARY
+2026-05-23 14:49:24,485  INFO  ============================================================
+2026-05-23 14:49:24,486  INFO    Train events              : 301,671
+2026-05-23 14:49:24,486  INFO    Test events               : 75,797
+2026-05-23 14:49:24,486  INFO    Users with test data      : 1,000
+2026-05-23 14:49:24,486  INFO    Context window size       : 50 events
+2026-05-23 14:49:24,486  INFO    Aggregation               : recency-weighted (decay=1.0)
+2026-05-23 14:49:24,487  INFO    Min track tags            : 10  [CHANGE A]
+2026-05-23 14:49:24,487  INFO    Per-user candidate pool   : True  [CHANGE B]
+2026-05-23 14:49:24,487  INFO  
+2026-05-23 14:49:24,487  INFO    Track representations
+2026-05-23 14:49:24,487  INFO      Semantic  : 140,369 tracks × 100 dims
+2026-05-23 14:49:24,487  INFO      Emotion   : 140,369 tracks × 103 dims
+2026-05-23 14:49:24,488  INFO  
+2026-05-23 14:49:24,488  INFO    User context vectors
+2026-05-23 14:49:24,488  INFO      Semantic  : 999 users × 100 dims
+2026-05-23 14:49:24,488  INFO      Emotion   : 999 users × 103 dims
+2026-05-23 14:49:24,488  INFO  
+2026-05-23 14:49:24,488  INFO    Recommendations (top-20)
+2026-05-23 14:49:24,488  INFO      Popularity : 1,000 users
+2026-05-23 14:49:24,489  INFO      Semantic   : 999 users
+2026-05-23 14:49:24,489  INFO      Emotion    : 999 users
+2026-05-23 14:49:24,489  INFO  
+2026-05-23 14:49:24,489  INFO    Sample recommendations for user '0xDEAD':
+2026-05-23 14:49:24,489  INFO      Emotion-aware top-5:
+2026-05-23 14:49:24,489  INFO        seven lions — serpent of old (feat. ciscandra nostalgia)  (score: 0.9718)
+2026-05-23 14:49:24,489  INFO        cazzette — weapon (vicetone remix)  (score: 0.9689)
+2026-05-23 14:49:24,489  INFO        sebastian ingrosso — chaa chaa  (score: 0.9678)
+2026-05-23 14:49:24,489  INFO        fedde le grand — put your hands up for detroit (radio edit)  (score: 0.9678)
+2026-05-23 14:49:24,490  INFO        qulinez — drop it  (score: 0.9626)
+2026-05-23 14:49:24,490  INFO  
+2026-05-23 14:49:24,490  INFO  Phase 3 complete. Ready for Phase 4 evaluation.
+2026-05-23 15:20:10,600  INFO  ============================================================
+2026-05-23 15:20:10,600  INFO  Phase 3 — Context Inference and Recommendation Generation
+2026-05-23 15:20:10,601  INFO    [UPDATED: window=50, recency-weighted aggregation]
+2026-05-23 15:20:10,601  INFO    Output dir : C:\Users\franc\Documents\BETTINA\cmsc198.2\phase3_output
+2026-05-23 15:20:10,601  INFO  ============================================================
+2026-05-23 15:20:10,601  INFO  Loading Phase 1 and Phase 2 outputs…
+2026-05-23 15:20:12,926  INFO    Events loaded            : 377,468
+2026-05-23 15:20:12,927  INFO    Semantic embeddings      : 10,539 tags
+2026-05-23 15:20:12,927  INFO    Emotion-aware embeddings : 10,539 tags
+2026-05-23 15:20:12,928  INFO  
+[4.6.2] Time-aware train-test split (80/20 per user)…
+2026-05-23 15:20:12,928  INFO    Train/test split already exists — loading from disk.
+2026-05-23 15:20:13,866  INFO  
+[4.5.2] Building track representations…
+2026-05-23 15:20:18,001  INFO    [semantic] Track representations: 166,630 tracks × 100 dims
+2026-05-23 15:20:18,001  INFO    [semantic] Tracks with no embeddings (excluded): 0
+2026-05-23 15:20:18,890  INFO    Saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase3_output\track_representations_semantic.pkl  (74811.5 KB)
+2026-05-23 15:20:22,516  INFO    [emotion-aware] Track representations: 166,630 tracks × 103 dims
+2026-05-23 15:20:22,516  INFO    [emotion-aware] Tracks with no embeddings (excluded): 0
+2026-05-23 15:20:23,173  INFO    Saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase3_output\track_representations_emotion.pkl  (76764.5 KB)
+2026-05-23 15:20:23,174  INFO  
+[4.5.1] Building user context vectors (window=50)…
+2026-05-23 15:20:24,186  INFO    [semantic] User context vectors: 999 users × 100 dims
+2026-05-23 15:20:24,187  INFO    [semantic] Users with no context (excluded): 1
+2026-05-23 15:20:24,203  INFO    Saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase3_output\user_context_semantic.pkl  (426.6 KB)
+2026-05-23 15:20:25,214  INFO    [emotion-aware] User context vectors: 999 users × 103 dims
+2026-05-23 15:20:25,214  INFO    [emotion-aware] Users with no context (excluded): 1
+2026-05-23 15:20:25,224  INFO    Saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase3_output\user_context_emotion.pkl  (438.3 KB)
+2026-05-23 15:20:25,224  INFO  
+[4.5.3] Generating recommendations…
+2026-05-23 15:20:25,517  INFO    [popularity] Recommendations generated for 1,000 users
+2026-05-23 15:20:25,539  INFO    Saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase3_output\recommendations_popularity.pkl  (270.3 KB)
+2026-05-23 15:21:34,521  INFO    [semantic] Recommendations generated for 999 users
+2026-05-23 15:21:34,539  INFO    Saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase3_output\recommendations_semantic.pkl  (738.4 KB)
+2026-05-23 15:22:45,826  INFO    [emotion-aware] Recommendations generated for 999 users
+2026-05-23 15:22:45,842  INFO    Saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase3_output\recommendations_emotion.pkl  (734.1 KB)
+2026-05-23 15:22:45,855  INFO  
+2026-05-23 15:22:45,855  INFO  ============================================================
+2026-05-23 15:22:45,855  INFO  PHASE 3 SUMMARY
+2026-05-23 15:22:45,855  INFO  ============================================================
+2026-05-23 15:22:45,856  INFO    Train events              : 301,671
+2026-05-23 15:22:45,856  INFO    Test events               : 75,797
+2026-05-23 15:22:45,856  INFO    Users with test data      : 1,000
+2026-05-23 15:22:45,856  INFO    Context window size       : 50 events (updated from 20)
+2026-05-23 15:22:45,856  INFO    Aggregation               : recency-weighted (decay=1.0)
+2026-05-23 15:22:45,857  INFO  
+2026-05-23 15:22:45,857  INFO    Track representations
+2026-05-23 15:22:45,857  INFO      Semantic  : 166,630 tracks × 100 dims
+2026-05-23 15:22:45,857  INFO      Emotion   : 166,630 tracks × 103 dims
+2026-05-23 15:22:45,857  INFO  
+2026-05-23 15:22:45,858  INFO    User context vectors
+2026-05-23 15:22:45,858  INFO      Semantic  : 999 users × 100 dims
+2026-05-23 15:22:45,858  INFO      Emotion   : 999 users × 103 dims
+2026-05-23 15:22:45,858  INFO  
+2026-05-23 15:22:45,858  INFO    Recommendations (top-20)
+2026-05-23 15:22:45,858  INFO      Popularity : 1,000 users
+2026-05-23 15:22:45,859  INFO      Semantic   : 999 users
+2026-05-23 15:22:45,859  INFO      Emotion    : 999 users
+2026-05-23 15:22:45,859  INFO  
+2026-05-23 15:22:45,859  INFO    Sample recommendations for user '0xDEAD':
+2026-05-23 15:22:45,859  INFO      Emotion-aware top-5:
+2026-05-23 15:22:45,859  INFO        seven lions — she was feat. birds of paradise  (score: 0.9718)
+2026-05-23 15:22:45,860  INFO        cazzette — beam me up  (score: 0.9689)
+2026-05-23 15:22:45,860  INFO        sebastian ingrosso — calling (lose my mind) - radio edit  (score: 0.9678)
+2026-05-23 15:22:45,860  INFO        fedde le grand — put your hands up for detroit (radio edit)  (score: 0.9678)
+2026-05-23 15:22:45,860  INFO        dimitri vangelis & wyman — running - radio edit  (score: 0.9627)
+2026-05-23 15:22:45,860  INFO  
+2026-05-23 15:22:45,860  INFO  Phase 3 complete. Ready for Phase 4 evaluation.
