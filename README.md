@@ -10,7 +10,6 @@ Three recommendation approaches are evaluated:
 2. Semantic tag-based recommender
 3. Emotion-aware tag-based recommender
 
-
 ### Phase 1 — Dataset Preparation
 
 Processes the raw Last.fm dataset and prepares listening events and tag information.
@@ -158,10 +157,8 @@ To reproduce the reported results:
 Bettina C. Ligero
 
 Bachelor of Science in Computer Science
-University of The Philippines Cebu
+University of the Philippines Cebu
 
-License
-
-This repository is provided for academic and research purposes.
+## Note
 
 This repository is provided for academic and research purposes.
