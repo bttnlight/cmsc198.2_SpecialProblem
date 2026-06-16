@@ -1,38 +1,12 @@
 """
 Phase 2 — Semantic and Emotion-Aware Tag Representation
 =========================================================
-UPDATED VERSION — Changes from original:
-
-  CHANGE (Option 2): NRC Emotion Lexicon replaced with Warriner et al.
-    (2013) affective norms dataset (BRM-emot-submit.csv).
-
-    Rationale: The NRC lexicon achieved only 17.16% coverage of the
-    music tag vocabulary because it was built from general English text
-    and does not contain music genre labels or descriptors. The Warriner
-    et al. dataset covers ~13,915 English words with continuous
-    Valence, Arousal, and Dominance (VAD) scores on a 1–9 scale,
-    providing substantially broader coverage and replacing binary
-    emotion categories with continuous affective dimensions.
-
-    Changes to embedding structure:
-      - Emotion vector: 8-dim binary NRC → 3-dim continuous VAD
-      - Emotion-aware embedding: 108-dim → 103-dim (100 semantic + 3 VAD)
-      - VAD scores are normalized to [0, 1] before concatenation
 
     The VAD dimensions map to:
       [0] Valence    — pleasantness (1=unhappy → 9=happy)
       [1] Arousal    — energy/activation (1=calm → 9=excited)
       [2] Dominance  — control/power (1=submissive → 9=dominant)
 
-Steps
------
-  4.4.1  Train Word2Vec skip-gram on tag co-occurrence sequences
-  4.4.2  Map each tag to a 3-dim Warriner VAD vector
-           - tokenization + lemmatization for lexical matching
-           - multi-word tags → average VAD vectors of component words
-           - tags with no lexicon match → zero vector
-  4.4.3  Concatenate semantic (100-dim) + VAD (3-dim) = 103-dim
-         emotion-aware tag embedding
 
 Inputs  (from phase1_output/)
 ------
@@ -119,7 +93,7 @@ EMOTION_AWARE_EMB_FILE  = os.path.join(OUTPUT_DIR, "emotion_aware_embeddings.pkl
 W2V_MODEL_FILE          = os.path.join(OUTPUT_DIR, "word2vec_model.bin")
 COVERAGE_REPORT_FILE    = os.path.join(OUTPUT_DIR, "tag_coverage_report.txt")
 
-# Word2Vec hyperparameters — Section 4.4.1 (unchanged)
+# Word2Vec hyperparameters 
 W2V_VECTOR_SIZE  = 100
 W2V_WINDOW       = 5
 W2V_MIN_COUNT    = 5
@@ -127,10 +101,10 @@ W2V_EPOCHS       = 10
 W2V_SG           = 1
 W2V_WORKERS      = 4
 
-# VAD dimensions — replaces NRC 8-dim binary categories
+# VAD dimensions
 VAD_DIMS = ["valence", "arousal", "dominance"]   # 3-dim continuous
-EMO_DIM  = 3    # CHANGED from 8
-TOTAL_DIM = W2V_VECTOR_SIZE + EMO_DIM   # 103-dim (CHANGED from 108)
+EMO_DIM  = 3   
+TOTAL_DIM = W2V_VECTOR_SIZE + EMO_DIM   # 103-dim 
 
 # ── Logging ──────────────────────────────────────
 logging.basicConfig(

@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-040
+Reported mood  : Mixed / Varies
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Eminem — Till I Collapse  [dataset]
+   2. Lewis Capaldi — Someone You Loved  [dataset]
+   3. Travis Scott — SICKO MODE  [dataset]
+   4. Sam Smith — Too Good at Goodbyes  [dataset]
+   5. Kanye West — Stronger  [dataset]
+   6. Adele — Someone Like You  [dataset]
+   7. Kendrick Lamar — m.A.A.d city  [dataset]
+   8. James Arthur — Say You Won't Let Go  [dataset]
+   9. Future — Mask Off  [dataset]
+  10. Ed Sheeran — Happier  [lastfm]
+  11. 21 Savage — Bank Account  [lastfm]
+  12. Passenger — Let Her Go  [dataset]
+  13. Drake — God's Plan  [dataset]
+  14. Birdy — Skinny Love  [dataset]
+  15. Lil Baby — Emotionally Scarred  [lastfm]
+  16. Coldplay — The Scientist  [dataset]
+  17. Roddy Ricch — The Box  [lastfm]
+  18. Kodaline — All I Want  [dataset]
+  19. Pop Smoke — Dior  [dataset]
+  20. Gregory Alan Isakov — The Stable Song  [dataset]
+
+PLAYLIST B
+----------------------------------------
+   1. Iann Dior — Sick And Tired (Feat. Machine Gun Kelly & Travis Barker)
+   2. Rizzle Kicks — Jive
+   3. B.O.B — So Good
+   4. Will Smith — Wild Wild West (Album Version - No Intro)
+   5. Kevin Abstract — Big Wheels
+   6. Ella Mai — Little Things
+   7. Sammy Adams — Watch Out (Produced By Job)
+   8. Jon Bellion — Ooh
+   9. Post Malone — I Like You (A Happier Song) (Feat. Doja Cat)
+  10. Lizzo — Tempo (Feat. Missy Elliott)
+
+PLAYLIST A
+----------------------------------------
+   1. Iann Dior — Sick And Tired (Feat. Machine Gun Kelly & Travis Barker)
+   2. Rizzle Kicks — Don'T Bring Me Down
+   3. B.O.B — Magic
+   4. Will Smith — Act Like You Know
+   5. Ella Mai — Dfmu
+   6. Kevin Abstract — American Boyfriend
+   7. Post Malone — Circles
+   8. Sammy Adams — Watch Out (Produced By Job)
+   9. Jon Bellion — Fashion
+  10. Brockhampton — Something About Him
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: B → A
+────────────────────────────────────────────────────────────

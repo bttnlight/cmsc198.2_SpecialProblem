@@ -1,95 +1,671 @@
-2026-04-20 22:58:30,035  INFO  ============================================================
-2026-04-20 22:58:30,035  INFO  Phase 4 — Experimental Evaluation (Offline)
-2026-04-20 22:58:30,036  INFO    Output dir : C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase4_output
-2026-04-20 22:58:30,036  INFO  ============================================================
-2026-04-20 22:58:30,036  INFO  Loading Phase 3 outputs…
-2026-04-20 22:58:33,419  INFO    Test events  : 75,797
-2026-04-20 22:58:33,429  INFO    Test users   : 1,000
-2026-04-20 22:58:33,429  INFO  
+2026-05-21 00:34:26,190  INFO  ============================================================
+2026-05-21 00:34:26,190  INFO  Phase 4 — Experimental Evaluation (Offline)
+2026-05-21 00:34:26,190  INFO    Output dir : C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output
+2026-05-21 00:34:26,190  INFO  ============================================================
+2026-05-21 00:34:26,191  INFO  Loading Phase 3 outputs…
+2026-05-21 00:34:28,369  INFO    Test events  : 75,797
+2026-05-21 00:34:28,379  INFO    Test users   : 1,000
+2026-05-21 00:34:28,379  INFO  
 Building ground truth from test events…
-2026-04-20 22:58:33,518  INFO    Users with ground truth: 1,000
-2026-04-20 22:58:33,519  INFO    Avg relevant tracks per user: 65.0
-2026-04-20 22:58:33,580  INFO  
+2026-05-21 00:34:28,434  INFO    Users with ground truth: 1,000
+2026-05-21 00:34:28,434  INFO    Avg relevant tracks per user: 65.0
+2026-05-21 00:34:28,435  INFO  
 [4.6.3] Computing Precision@K and Recall@K…
-2026-04-20 22:58:33,581  INFO    Popularity baseline:
-2026-04-20 22:58:33,581  INFO    [popularity] Evaluating 1,000 users…
-2026-04-20 22:58:33,589  INFO      K= 5  Precision=0.0002 (±0.0063)  Recall=0.0000 (±0.0004)
-2026-04-20 22:58:33,590  INFO      K=10  Precision=0.0008 (±0.0089)  Recall=0.0001 (±0.0012)
-2026-04-20 22:58:33,590  INFO      K=20  Precision=0.0011 (±0.0075)  Recall=0.0003 (±0.0022)
-2026-04-20 22:58:33,591  INFO    Semantic model:
-2026-04-20 22:58:33,591  INFO    [semantic] Evaluating 999 users…
-2026-04-20 22:58:33,602  INFO      K= 5  Precision=0.0072 (±0.0524)  Recall=0.0007 (±0.0066)
-2026-04-20 22:58:33,603  INFO      K=10  Precision=0.0066 (±0.0407)  Recall=0.0012 (±0.0090)
-2026-04-20 22:58:33,603  INFO      K=20  Precision=0.0055 (±0.0277)  Recall=0.0019 (±0.0109)
-2026-04-20 22:58:33,604  INFO    Emotion-aware model:
-2026-04-20 22:58:33,604  INFO    [emotion-aware] Evaluating 999 users…
-2026-04-20 22:58:33,614  INFO      K= 5  Precision=0.0068 (±0.0502)  Recall=0.0006 (±0.0058)
-2026-04-20 22:58:33,615  INFO      K=10  Precision=0.0062 (±0.0398)  Recall=0.0012 (±0.0090)
-2026-04-20 22:58:33,615  INFO      K=20  Precision=0.0055 (±0.0286)  Recall=0.0019 (±0.0113)
-2026-04-20 22:58:33,615  INFO  
+2026-05-21 00:34:28,435  INFO    Popularity baseline:
+2026-05-21 00:34:28,435  INFO    [popularity] Evaluating 1,000 users…
+2026-05-21 00:34:28,447  INFO      K= 5  Precision=0.0002 (±0.0063)  Recall=0.0000 (±0.0004)
+2026-05-21 00:34:28,448  INFO      K=10  Precision=0.0008 (±0.0089)  Recall=0.0001 (±0.0012)
+2026-05-21 00:34:28,449  INFO      K=20  Precision=0.0015 (±0.0087)  Recall=0.0004 (±0.0025)
+2026-05-21 00:34:28,449  INFO    Semantic model:
+2026-05-21 00:34:28,449  INFO    [semantic] Evaluating 999 users…
+2026-05-21 00:34:28,463  INFO      K= 5  Precision=0.0046 (±0.0313)  Recall=0.0004 (±0.0025)
+2026-05-21 00:34:28,463  INFO      K=10  Precision=0.0038 (±0.0206)  Recall=0.0006 (±0.0033)
+2026-05-21 00:34:28,464  INFO      K=20  Precision=0.0028 (±0.0129)  Recall=0.0009 (±0.0040)
+2026-05-21 00:34:28,464  INFO    Emotion-aware model:
+2026-05-21 00:34:28,464  INFO    [emotion-aware] Evaluating 999 users…
+2026-05-21 00:34:28,475  INFO      K= 5  Precision=0.0038 (±0.0273)  Recall=0.0003 (±0.0023)
+2026-05-21 00:34:28,475  INFO      K=10  Precision=0.0027 (±0.0162)  Recall=0.0004 (±0.0027)
+2026-05-21 00:34:28,476  INFO      K=20  Precision=0.0023 (±0.0109)  Recall=0.0007 (±0.0037)
+2026-05-21 00:34:28,476  INFO  
 [4.6.4] Building shared Warriner VAD emotion profiles…
-2026-04-20 22:58:33,616  INFO    (both models evaluated in shared 3-dim VAD space)
-2026-04-20 22:58:41,354  INFO    Users with non-zero emotion profile: 999 / 1,000
-2026-04-20 22:58:41,354  INFO  
+2026-05-21 00:34:28,477  INFO    (both models evaluated in shared 3-dim VAD space)
+2026-05-21 00:34:35,924  INFO    Users with non-zero emotion profile: 999 / 1,000
+2026-05-21 00:34:35,924  INFO  
 [4.6.4] Computing emotion alignment (shared lexicon space)…
-2026-04-20 22:58:41,400  INFO    [semantic] Emotion alignment @5: 0.9989 (±0.0033)  n=999  (zero-profile users skipped: 0)
-2026-04-20 22:58:41,445  INFO    [emotion-aware] Emotion alignment @5: 0.9990 (±0.0018)  n=999  (zero-profile users skipped: 0)
-2026-04-20 22:58:41,519  INFO    [semantic] Emotion alignment @10: 0.9988 (±0.0044)  n=999  (zero-profile users skipped: 0)
-2026-04-20 22:58:41,594  INFO    [emotion-aware] Emotion alignment @10: 0.9989 (±0.0038)  n=999  (zero-profile users skipped: 0)
-2026-04-20 22:58:41,773  INFO    [semantic] Emotion alignment @20: 0.9987 (±0.0044)  n=999  (zero-profile users skipped: 0)
-2026-04-20 22:58:41,905  INFO    [emotion-aware] Emotion alignment @20: 0.9990 (±0.0021)  n=999  (zero-profile users skipped: 0)
-2026-04-20 22:58:41,905  INFO  
+2026-05-21 00:34:35,984  INFO    [semantic] Emotion alignment @5: 0.9983 (±0.0145)  n=999  (zero-profile users skipped: 0)
+2026-05-21 00:34:36,034  INFO    [emotion-aware] Emotion alignment @5: 0.9983 (±0.0145)  n=999  (zero-profile users skipped: 0)
+2026-05-21 00:34:36,117  INFO    [semantic] Emotion alignment @10: 0.9983 (±0.0141)  n=999  (zero-profile users skipped: 0)
+2026-05-21 00:34:36,199  INFO    [emotion-aware] Emotion alignment @10: 0.9983 (±0.0141)  n=999  (zero-profile users skipped: 0)
+2026-05-21 00:34:36,358  INFO    [semantic] Emotion alignment @20: 0.9975 (±0.0187)  n=999  (zero-profile users skipped: 0)
+2026-05-21 00:34:36,517  INFO    [emotion-aware] Emotion alignment @20: 0.9979 (±0.0164)  n=999  (zero-profile users skipped: 0)
+2026-05-21 00:34:36,517  INFO  
 [4.6.6] Statistical comparisons (semantic vs emotion-aware)…
-2026-04-20 22:58:41,907  INFO      emotion-aware vs semantic [Precision@5]: Wilcoxon signed-rank, p=0.9584 (✗ not significant), d=-0.012 (negligible)
-2026-04-20 22:58:41,909  INFO      emotion-aware vs semantic [Recall@5]: Wilcoxon signed-rank, p=0.6033 (✗ not significant), d=-0.018 (negligible)
-2026-04-20 22:58:41,911  INFO      emotion-aware vs semantic [Precision@10]: Wilcoxon signed-rank, p=0.3111 (✗ not significant), d=-0.018 (negligible)
-2026-04-20 22:58:41,912  INFO      emotion-aware vs semantic [Recall@10]: Wilcoxon signed-rank, p=0.9392 (✗ not significant), d=-0.007 (negligible)
-2026-04-20 22:58:41,914  INFO      emotion-aware vs semantic [Precision@20]: Wilcoxon signed-rank, p=0.8437 (✗ not significant), d=0.005 (negligible)
-2026-04-20 22:58:41,915  INFO      emotion-aware vs semantic [Recall@20]: Wilcoxon signed-rank, p=0.5682 (✗ not significant), d=0.018 (negligible)
-2026-04-20 22:58:41,917  INFO      emotion-aware vs semantic [EmotionAlignment@10]: Wilcoxon signed-rank, p=0.0000 (✓ significant), d=0.073 (negligible)
-2026-04-20 22:58:41,917  INFO  
+2026-05-21 00:34:36,526  INFO      emotion-aware vs semantic [Precision@5]: Wilcoxon signed-rank, p=0.3938 (✗ not significant), d=-0.027 (negligible)
+2026-05-21 00:34:36,528  INFO      emotion-aware vs semantic [Recall@5]: Wilcoxon signed-rank, p=0.4072 (✗ not significant), d=-0.025 (negligible)
+2026-05-21 00:34:36,530  INFO      emotion-aware vs semantic [Precision@10]: Wilcoxon signed-rank, p=0.0782 (✗ not significant), d=-0.056 (negligible)
+2026-05-21 00:34:36,532  INFO      emotion-aware vs semantic [Recall@10]: Wilcoxon signed-rank, p=0.1839 (✗ not significant), d=-0.055 (negligible)
+2026-05-21 00:34:36,533  INFO      emotion-aware vs semantic [Precision@20]: Wilcoxon signed-rank, p=0.1562 (✗ not significant), d=-0.045 (negligible)
+2026-05-21 00:34:36,535  INFO      emotion-aware vs semantic [Recall@20]: Wilcoxon signed-rank, p=0.6405 (✗ not significant), d=-0.038 (negligible)
+2026-05-21 00:34:36,537  INFO      emotion-aware vs semantic [EmotionAlignment@10]: Wilcoxon signed-rank, p=0.0000 (✓ significant), d=0.123 (negligible)
+2026-05-21 00:34:36,538  INFO  
 [Stratified] Evaluating by emotional tag density…
-2026-04-20 22:58:47,635  INFO    Stratification median density : 0.6495
-2026-04-20 22:58:47,636  INFO    High-density users            : 500
-2026-04-20 22:58:47,636  INFO    Low-density users             : 499
-2026-04-20 22:58:47,641  INFO    [high_density][semantic] K=5: P=0.0072  R=0.0005  n=500
-2026-04-20 22:58:47,648  INFO    [high_density][semantic] K=10: P=0.0072  R=0.0011  n=500
-2026-04-20 22:58:47,653  INFO    [high_density][semantic] K=20: P=0.0059  R=0.0018  n=500
-2026-04-20 22:58:47,658  INFO    [high_density][emotion-aware] K=5: P=0.0068  R=0.0005  n=500
-2026-04-20 22:58:47,663  INFO    [high_density][emotion-aware] K=10: P=0.0064  R=0.0010  n=500
-2026-04-20 22:58:47,671  INFO    [high_density][emotion-aware] K=20: P=0.0061  R=0.0019  n=500
-2026-04-20 22:58:47,676  INFO    [low_density][semantic] K=5: P=0.0072  R=0.0008  n=499
-2026-04-20 22:58:47,680  INFO    [low_density][semantic] K=10: P=0.0060  R=0.0013  n=499
-2026-04-20 22:58:47,687  INFO    [low_density][semantic] K=20: P=0.0050  R=0.0020  n=499
-2026-04-20 22:58:47,692  INFO    [low_density][emotion-aware] K=5: P=0.0068  R=0.0008  n=499
-2026-04-20 22:58:47,698  INFO    [low_density][emotion-aware] K=10: P=0.0060  R=0.0013  n=499
-2026-04-20 22:58:47,707  INFO    [low_density][emotion-aware] K=20: P=0.0049  R=0.0019  n=499
-2026-04-20 22:58:47,707  INFO  
+2026-05-21 00:34:41,664  INFO    Stratification median density : 0.6495
+2026-05-21 00:34:41,665  INFO    High-density users            : 500
+2026-05-21 00:34:41,665  INFO    Low-density users             : 499
+2026-05-21 00:34:41,667  INFO    [high_density][semantic] K=5: P=0.0064  R=0.0005  n=500
+2026-05-21 00:34:41,669  INFO    [high_density][semantic] K=10: P=0.0046  R=0.0007  n=500
+2026-05-21 00:34:41,671  INFO    [high_density][semantic] K=20: P=0.0031  R=0.0009  n=500
+2026-05-21 00:34:41,674  INFO    [high_density][emotion-aware] K=5: P=0.0040  R=0.0003  n=500
+2026-05-21 00:34:41,679  INFO    [high_density][emotion-aware] K=10: P=0.0028  R=0.0004  n=500
+2026-05-21 00:34:41,682  INFO    [high_density][emotion-aware] K=20: P=0.0026  R=0.0008  n=500
+2026-05-21 00:34:41,686  INFO    [low_density][semantic] K=5: P=0.0028  R=0.0003  n=499
+2026-05-21 00:34:41,690  INFO    [low_density][semantic] K=10: P=0.0030  R=0.0005  n=499
+2026-05-21 00:34:41,695  INFO    [low_density][semantic] K=20: P=0.0025  R=0.0008  n=499
+2026-05-21 00:34:41,699  INFO    [low_density][emotion-aware] K=5: P=0.0036  R=0.0003  n=499
+2026-05-21 00:34:41,701  INFO    [low_density][emotion-aware] K=10: P=0.0026  R=0.0004  n=499
+2026-05-21 00:34:41,704  INFO    [low_density][emotion-aware] K=20: P=0.0020  R=0.0007  n=499
+2026-05-21 00:34:41,704  INFO  
 Saving results…
-2026-04-20 22:58:47,709  INFO    Evaluation results saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase4_output\evaluation_results.csv
-2026-04-20 22:58:47,710  INFO    Emotion alignment results saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase4_output\emotion_alignment.csv
-2026-04-20 22:58:47,712  INFO    Stratified results saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase4_output\stratified_results.csv
-2026-04-20 22:58:47,719  INFO    Full report saved: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase4_output\full_results_report.txt
-2026-04-20 22:58:47,719  INFO  
-2026-04-20 22:58:47,720  INFO  ============================================================
-2026-04-20 22:58:47,720  INFO  PHASE 4 SUMMARY
-2026-04-20 22:58:47,721  INFO  ============================================================
-2026-04-20 22:58:47,721  INFO    Model                    P@5    P@10    P@20     R@5    R@10    R@20
-2026-04-20 22:58:47,721  INFO    --------------------------------------------------------------
-2026-04-20 22:58:47,722  INFO    popularity            0.0002  0.0008  0.0011  0.0000  0.0001  0.0003
-2026-04-20 22:58:47,722  INFO    semantic              0.0072  0.0066  0.0055  0.0007  0.0012  0.0019
-2026-04-20 22:58:47,723  INFO    emotion-aware         0.0068  0.0062  0.0055  0.0006  0.0012  0.0019
-2026-04-20 22:58:47,723  INFO  
-2026-04-20 22:58:47,724  INFO    Model                  Align@5  Align@10  Align@20
-2026-04-20 22:58:47,724  INFO    --------------------------------------------------
-2026-04-20 22:58:47,724  INFO    semantic                0.9989    0.9988    0.9987
-2026-04-20 22:58:47,725  INFO    emotion-aware           0.9990    0.9989    0.9990
-2026-04-20 22:58:47,725  INFO  
-2026-04-20 22:58:47,726  INFO    STRATIFIED RESULTS (emotion-aware vs semantic, P@10):
-2026-04-20 22:58:47,726  INFO    Group                  Semantic  Emo-Aware   Difference
-2026-04-20 22:58:47,726  INFO    -------------------------------------------------------
-2026-04-20 22:58:47,727  INFO    high_density             0.0072     0.0064      -0.0008
-2026-04-20 22:58:47,727  INFO    low_density              0.0060     0.0060      +0.0000
-2026-04-20 22:58:47,728  INFO  
-2026-04-20 22:58:47,728  INFO  Phase 4 offline evaluation complete.
-2026-04-20 22:58:47,728  INFO  Full report: C:\Users\blafe\OneDrive\Documents\CMSC198.2\cmsc198.2\phase4_output\full_results_report.txt
+2026-05-21 00:34:41,705  INFO    Evaluation results saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\evaluation_results.csv
+2026-05-21 00:34:41,708  INFO    Emotion alignment results saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\emotion_alignment.csv
+2026-05-21 00:34:41,709  INFO    Stratified results saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\stratified_results.csv
+2026-05-21 00:34:41,714  INFO    Full report saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\full_results_report.txt
+2026-05-21 00:34:41,714  INFO  
+2026-05-21 00:34:41,714  INFO  ============================================================
+2026-05-21 00:34:41,715  INFO  PHASE 4 SUMMARY
+2026-05-21 00:34:41,715  INFO  ============================================================
+2026-05-21 00:34:41,716  INFO    Model                    P@5    P@10    P@20     R@5    R@10    R@20
+2026-05-21 00:34:41,716  INFO    --------------------------------------------------------------
+2026-05-21 00:34:41,716  INFO    popularity            0.0002  0.0008  0.0015  0.0000  0.0001  0.0004
+2026-05-21 00:34:41,716  INFO    semantic              0.0046  0.0038  0.0028  0.0004  0.0006  0.0009
+2026-05-21 00:34:41,717  INFO    emotion-aware         0.0038  0.0027  0.0023  0.0003  0.0004  0.0007
+2026-05-21 00:34:41,717  INFO  
+2026-05-21 00:34:41,717  INFO    Model                  Align@5  Align@10  Align@20
+2026-05-21 00:34:41,718  INFO    --------------------------------------------------
+2026-05-21 00:34:41,718  INFO    semantic                0.9983    0.9983    0.9975
+2026-05-21 00:34:41,718  INFO    emotion-aware           0.9983    0.9983    0.9979
+2026-05-21 00:34:41,718  INFO  
+2026-05-21 00:34:41,719  INFO    STRATIFIED RESULTS (emotion-aware vs semantic, P@10):
+2026-05-21 00:34:41,719  INFO    Group                  Semantic  Emo-Aware   Difference
+2026-05-21 00:34:41,719  INFO    -------------------------------------------------------
+2026-05-21 00:34:41,719  INFO    high_density             0.0046     0.0028      -0.0018
+2026-05-21 00:34:41,720  INFO    low_density              0.0030     0.0026      -0.0004
+2026-05-21 00:34:41,720  INFO  
+2026-05-21 00:34:41,720  INFO  Phase 4 offline evaluation complete.
+2026-05-21 00:34:41,720  INFO  Full report: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\full_results_report.txt
+2026-05-21 00:56:18,684  INFO  ============================================================
+2026-05-21 00:56:18,684  INFO  Phase 4 — Experimental Evaluation (Offline)
+2026-05-21 00:56:18,684  INFO    Output dir : C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output
+2026-05-21 00:56:18,684  INFO  ============================================================
+2026-05-21 00:56:18,685  INFO  Loading Phase 3 outputs…
+2026-05-21 00:56:20,534  INFO    Test events  : 75,797
+2026-05-21 00:56:20,545  INFO    Test users   : 1,000
+2026-05-21 00:56:20,545  INFO  
+Building ground truth from test events…
+2026-05-21 00:56:20,594  INFO    Users with ground truth: 1,000
+2026-05-21 00:56:20,595  INFO    Avg relevant tracks per user: 65.0
+2026-05-21 00:56:20,595  INFO  
+[4.6.3] Computing Precision@K and Recall@K…
+2026-05-21 00:56:20,595  INFO    Popularity baseline:
+2026-05-21 00:56:20,596  INFO    [popularity] Evaluating 1,000 users…
+2026-05-21 00:56:20,610  INFO      K= 5  Precision=0.0002 (±0.0063)  Recall=0.0000 (±0.0004)
+2026-05-21 00:56:20,611  INFO      K=10  Precision=0.0008 (±0.0089)  Recall=0.0001 (±0.0012)
+2026-05-21 00:56:20,611  INFO      K=20  Precision=0.0015 (±0.0087)  Recall=0.0004 (±0.0025)
+2026-05-21 00:56:20,611  INFO    Semantic model:
+2026-05-21 00:56:20,612  INFO    [semantic] Evaluating 999 users…
+2026-05-21 00:56:20,626  INFO      K= 5  Precision=0.0046 (±0.0313)  Recall=0.0004 (±0.0025)
+2026-05-21 00:56:20,626  INFO      K=10  Precision=0.0038 (±0.0206)  Recall=0.0006 (±0.0033)
+2026-05-21 00:56:20,627  INFO      K=20  Precision=0.0028 (±0.0129)  Recall=0.0009 (±0.0040)
+2026-05-21 00:56:20,627  INFO    Emotion-aware model:
+2026-05-21 00:56:20,627  INFO    [emotion-aware] Evaluating 999 users…
+2026-05-21 00:56:20,643  INFO      K= 5  Precision=0.0038 (±0.0273)  Recall=0.0003 (±0.0023)
+2026-05-21 00:56:20,643  INFO      K=10  Precision=0.0027 (±0.0162)  Recall=0.0004 (±0.0027)
+2026-05-21 00:56:20,644  INFO      K=20  Precision=0.0023 (±0.0109)  Recall=0.0007 (±0.0037)
+2026-05-21 00:56:20,644  INFO  
+[4.6.4] Building shared Warriner VAD emotion profiles…
+2026-05-21 00:56:20,644  INFO    (both models evaluated in shared 3-dim VAD space)
+2026-05-21 00:56:28,058  INFO    Users with non-zero emotion profile: 999 / 1,000
+2026-05-21 00:56:28,059  INFO  
+[4.6.4] Computing emotion alignment (shared lexicon space)…
+2026-05-21 00:56:28,108  INFO    [semantic] Emotion alignment @5: 0.9983 (±0.0145)  n=999  (zero-profile users skipped: 0)
+2026-05-21 00:56:28,158  INFO    [emotion-aware] Emotion alignment @5: 0.9983 (±0.0145)  n=999  (zero-profile users skipped: 0)
+2026-05-21 00:56:28,251  INFO    [semantic] Emotion alignment @10: 0.9983 (±0.0141)  n=999  (zero-profile users skipped: 0)
+2026-05-21 00:56:28,335  INFO    [emotion-aware] Emotion alignment @10: 0.9983 (±0.0141)  n=999  (zero-profile users skipped: 0)
+2026-05-21 00:56:28,490  INFO    [semantic] Emotion alignment @20: 0.9975 (±0.0187)  n=999  (zero-profile users skipped: 0)
+2026-05-21 00:56:28,647  INFO    [emotion-aware] Emotion alignment @20: 0.9979 (±0.0164)  n=999  (zero-profile users skipped: 0)
+2026-05-21 00:56:28,647  INFO  
+[4.6.6] Statistical comparisons (semantic vs emotion-aware)…
+2026-05-21 00:56:28,649  INFO      emotion-aware vs semantic [Precision@5]: Wilcoxon signed-rank, p=0.3938 (✗ not significant), d=-0.027 (negligible)
+2026-05-21 00:56:28,650  INFO      emotion-aware vs semantic [Recall@5]: Wilcoxon signed-rank, p=0.4072 (✗ not significant), d=-0.025 (negligible)
+2026-05-21 00:56:28,651  INFO      emotion-aware vs semantic [Precision@10]: Wilcoxon signed-rank, p=0.0782 (✗ not significant), d=-0.056 (negligible)
+2026-05-21 00:56:28,653  INFO      emotion-aware vs semantic [Recall@10]: Wilcoxon signed-rank, p=0.1839 (✗ not significant), d=-0.055 (negligible)
+2026-05-21 00:56:28,654  INFO      emotion-aware vs semantic [Precision@20]: Wilcoxon signed-rank, p=0.1562 (✗ not significant), d=-0.045 (negligible)
+2026-05-21 00:56:28,656  INFO      emotion-aware vs semantic [Recall@20]: Wilcoxon signed-rank, p=0.6405 (✗ not significant), d=-0.038 (negligible)
+2026-05-21 00:56:28,658  INFO      emotion-aware vs semantic [EmotionAlignment@10]: Wilcoxon signed-rank, p=0.0000 (✓ significant), d=0.123 (negligible)
+2026-05-21 00:56:28,658  INFO  
+[Stratified] Evaluating by emotional tag density…
+2026-05-21 00:56:37,504  INFO  ============================================================
+2026-05-21 00:56:37,505  INFO  Phase 4 — Experimental Evaluation (Offline)
+2026-05-21 00:56:37,505  INFO    Output dir : C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output
+2026-05-21 00:56:37,505  INFO  ============================================================
+2026-05-21 00:56:37,505  INFO  Loading Phase 3 outputs…
+2026-05-21 00:56:39,623  INFO    Test events  : 75,797
+2026-05-21 00:56:39,635  INFO    Test users   : 1,000
+2026-05-21 00:56:39,635  INFO  
+Building ground truth from test events…
+2026-05-21 00:56:39,690  INFO    Users with ground truth: 1,000
+2026-05-21 00:56:39,691  INFO    Avg relevant tracks per user: 65.0
+2026-05-21 00:56:39,691  INFO  
+[4.6.3] Computing Precision@K and Recall@K…
+2026-05-21 00:56:39,691  INFO    Popularity baseline:
+2026-05-21 00:56:39,691  INFO    [popularity] Evaluating 1,000 users…
+2026-05-21 00:56:39,702  INFO      K= 5  Precision=0.0002 (±0.0063)  Recall=0.0000 (±0.0004)
+2026-05-21 00:56:39,703  INFO      K=10  Precision=0.0008 (±0.0089)  Recall=0.0001 (±0.0012)
+2026-05-21 00:56:39,707  INFO      K=20  Precision=0.0015 (±0.0087)  Recall=0.0004 (±0.0025)
+2026-05-21 00:56:39,708  INFO    Semantic model:
+2026-05-21 00:56:39,708  INFO    [semantic] Evaluating 999 users…
+2026-05-21 00:56:39,725  INFO      K= 5  Precision=0.0046 (±0.0313)  Recall=0.0004 (±0.0025)
+2026-05-21 00:56:39,725  INFO      K=10  Precision=0.0038 (±0.0206)  Recall=0.0006 (±0.0033)
+2026-05-21 00:56:39,726  INFO      K=20  Precision=0.0028 (±0.0129)  Recall=0.0009 (±0.0040)
+2026-05-21 00:56:39,726  INFO    Emotion-aware model:
+2026-05-21 00:56:39,727  INFO    [emotion-aware] Evaluating 999 users…
+2026-05-21 00:56:39,738  INFO      K= 5  Precision=0.0038 (±0.0273)  Recall=0.0003 (±0.0023)
+2026-05-21 00:56:39,739  INFO      K=10  Precision=0.0027 (±0.0162)  Recall=0.0004 (±0.0027)
+2026-05-21 00:56:39,739  INFO      K=20  Precision=0.0023 (±0.0109)  Recall=0.0007 (±0.0037)
+2026-05-21 00:56:39,740  INFO  
+[4.6.4] Building shared Warriner VAD emotion profiles…
+2026-05-21 00:56:39,740  INFO    (both models evaluated in shared 3-dim VAD space)
+2026-05-21 00:56:48,041  INFO    Users with non-zero emotion profile: 999 / 1,000
+2026-05-21 00:56:48,042  INFO  
+[4.6.4] Computing emotion alignment (shared lexicon space)…
+2026-05-21 00:56:48,087  INFO    [semantic] Emotion alignment @5: 0.9983 (±0.0145)  n=999  (zero-profile users skipped: 0)
+2026-05-21 00:56:48,140  INFO    [emotion-aware] Emotion alignment @5: 0.9983 (±0.0145)  n=999  (zero-profile users skipped: 0)
+2026-05-21 00:56:48,218  INFO    [semantic] Emotion alignment @10: 0.9983 (±0.0141)  n=999  (zero-profile users skipped: 0)
+2026-05-21 00:56:48,300  INFO    [emotion-aware] Emotion alignment @10: 0.9983 (±0.0141)  n=999  (zero-profile users skipped: 0)
+2026-05-21 00:56:48,450  INFO    [semantic] Emotion alignment @20: 0.9975 (±0.0187)  n=999  (zero-profile users skipped: 0)
+2026-05-21 00:56:48,606  INFO    [emotion-aware] Emotion alignment @20: 0.9979 (±0.0164)  n=999  (zero-profile users skipped: 0)
+2026-05-21 00:56:48,606  INFO  
+[4.6.5] Stratified evaluation by emotional tag density…
+2026-05-21 00:56:54,046  INFO    Stratification median density : 0.6495
+2026-05-21 00:56:54,046  INFO    High-density users            : 500
+2026-05-21 00:56:54,046  INFO    Low-density users             : 499
+2026-05-21 00:56:54,048  INFO    [high_density][semantic] K=5: P=0.0064  R=0.0005  n=500
+2026-05-21 00:56:54,051  INFO    [high_density][semantic] K=10: P=0.0046  R=0.0007  n=500
+2026-05-21 00:56:54,055  INFO    [high_density][semantic] K=20: P=0.0031  R=0.0009  n=500
+2026-05-21 00:56:54,058  INFO    [high_density][emotion-aware] K=5: P=0.0040  R=0.0003  n=500
+2026-05-21 00:56:54,061  INFO    [high_density][emotion-aware] K=10: P=0.0028  R=0.0004  n=500
+2026-05-21 00:56:54,065  INFO    [high_density][emotion-aware] K=20: P=0.0026  R=0.0008  n=500
+2026-05-21 00:56:54,067  INFO    [low_density][semantic] K=5: P=0.0028  R=0.0003  n=499
+2026-05-21 00:56:54,070  INFO    [low_density][semantic] K=10: P=0.0030  R=0.0005  n=499
+2026-05-21 00:56:54,073  INFO    [low_density][semantic] K=20: P=0.0025  R=0.0008  n=499
+2026-05-21 00:56:54,076  INFO    [low_density][emotion-aware] K=5: P=0.0036  R=0.0003  n=499
+2026-05-21 00:56:54,078  INFO    [low_density][emotion-aware] K=10: P=0.0026  R=0.0004  n=499
+2026-05-21 00:56:54,080  INFO    [low_density][emotion-aware] K=20: P=0.0020  R=0.0007  n=499
+2026-05-21 00:56:54,080  INFO  
+Saving results…
+2026-05-21 00:56:54,081  INFO    Evaluation results saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\evaluation_results.csv
+2026-05-21 00:56:54,082  INFO    Emotion alignment results saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\emotion_alignment.csv
+2026-05-21 00:56:54,083  INFO    Stratified results saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\stratified_results.csv
+2026-05-21 00:56:54,085  INFO    Full report saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\full_results_report.txt
+2026-05-21 00:56:54,086  INFO  
+2026-05-21 00:56:54,086  INFO  ============================================================
+2026-05-21 00:56:54,086  INFO  PHASE 4 SUMMARY
+2026-05-21 00:56:54,086  INFO  ============================================================
+2026-05-21 00:56:54,087  INFO    Model                    P@5    P@10    P@20     R@5    R@10    R@20
+2026-05-21 00:56:54,087  INFO    --------------------------------------------------------------
+2026-05-21 00:56:54,087  INFO    popularity            0.0002  0.0008  0.0015  0.0000  0.0001  0.0004
+2026-05-21 00:56:54,087  INFO    semantic              0.0046  0.0038  0.0028  0.0004  0.0006  0.0009
+2026-05-21 00:56:54,088  INFO    emotion-aware         0.0038  0.0027  0.0023  0.0003  0.0004  0.0007
+2026-05-21 00:56:54,088  INFO  
+2026-05-21 00:56:54,088  INFO    Model                  Align@5  Align@10  Align@20
+2026-05-21 00:56:54,088  INFO    --------------------------------------------------
+2026-05-21 00:56:54,088  INFO    semantic                0.9983    0.9983    0.9975
+2026-05-21 00:56:54,088  INFO    emotion-aware           0.9983    0.9983    0.9979
+2026-05-21 00:56:54,089  INFO  
+2026-05-21 00:56:54,089  INFO    STRATIFIED RESULTS (emotion-aware vs semantic, P@10):
+2026-05-21 00:56:54,089  INFO    Group                  Semantic  Emo-Aware   Difference
+2026-05-21 00:56:54,089  INFO    -------------------------------------------------------
+2026-05-21 00:56:54,089  INFO    high_density             0.0046     0.0028      -0.0018
+2026-05-21 00:56:54,090  INFO    low_density              0.0030     0.0026      -0.0004
+2026-05-21 00:56:54,090  INFO  
+2026-05-21 00:56:54,090  INFO    Per-user scores saved to per_user_metrics.pkl for Phase 5.
+2026-05-21 00:56:54,090  INFO  Phase 4 offline evaluation complete.
+2026-05-21 00:56:54,090  INFO  Full report: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\full_results_report.txt
+2026-05-21 02:14:34,954  INFO  ============================================================
+2026-05-21 02:14:34,954  INFO  Phase 4 — Experimental Evaluation (Offline)
+2026-05-21 02:14:34,955  INFO    Output dir : C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output
+2026-05-21 02:14:34,955  INFO  ============================================================
+2026-05-21 02:14:38,430  INFO  generated new fontManager
+2026-05-21 02:14:38,845  INFO  Loading Phase 3 outputs…
+2026-05-21 02:14:40,635  INFO    Test events  : 75,797
+2026-05-21 02:14:40,645  INFO    Test users   : 1,000
+2026-05-21 02:14:40,645  INFO  
+Building ground truth from test events…
+2026-05-21 02:14:40,693  INFO    Users with ground truth: 1,000
+2026-05-21 02:14:40,697  INFO    Avg relevant tracks per user: 65.0
+2026-05-21 02:14:40,698  INFO  
+[4.6.3] Computing Precision@K and Recall@K…
+2026-05-21 02:14:40,698  INFO    Popularity baseline:
+2026-05-21 02:14:40,699  INFO    [popularity] Evaluating 1,000 users…
+2026-05-21 02:14:40,710  INFO      K= 5  Precision=0.0002 (±0.0063)  Recall=0.0000 (±0.0004)
+2026-05-21 02:14:40,711  INFO      K=10  Precision=0.0008 (±0.0089)  Recall=0.0001 (±0.0012)
+2026-05-21 02:14:40,711  INFO      K=20  Precision=0.0015 (±0.0087)  Recall=0.0004 (±0.0025)
+2026-05-21 02:14:40,712  INFO    Semantic model:
+2026-05-21 02:14:40,712  INFO    [semantic] Evaluating 999 users…
+2026-05-21 02:14:40,729  INFO      K= 5  Precision=0.0046 (±0.0313)  Recall=0.0004 (±0.0025)
+2026-05-21 02:14:40,729  INFO      K=10  Precision=0.0038 (±0.0206)  Recall=0.0006 (±0.0033)
+2026-05-21 02:14:40,730  INFO      K=20  Precision=0.0028 (±0.0129)  Recall=0.0009 (±0.0040)
+2026-05-21 02:14:40,730  INFO    Emotion-aware model:
+2026-05-21 02:14:40,730  INFO    [emotion-aware] Evaluating 999 users…
+2026-05-21 02:14:40,745  INFO      K= 5  Precision=0.0038 (±0.0273)  Recall=0.0003 (±0.0023)
+2026-05-21 02:14:40,746  INFO      K=10  Precision=0.0027 (±0.0162)  Recall=0.0004 (±0.0027)
+2026-05-21 02:14:40,746  INFO      K=20  Precision=0.0023 (±0.0109)  Recall=0.0007 (±0.0037)
+2026-05-21 02:14:40,746  INFO  
+[4.6.4] Building shared Warriner VAD emotion profiles…
+2026-05-21 02:14:40,746  INFO    (both models evaluated in shared 3-dim VAD space)
+2026-05-21 02:14:48,157  INFO    Users with non-zero emotion profile: 999 / 1,000
+2026-05-21 02:14:48,157  INFO  
+[4.6.4] Computing emotion alignment (shared lexicon space)…
+2026-05-21 02:14:48,211  INFO    [semantic] Emotion alignment @5: 0.9983 (±0.0145)  n=999  (zero-profile users skipped: 0)
+2026-05-21 02:14:48,263  INFO    [emotion-aware] Emotion alignment @5: 0.9983 (±0.0145)  n=999  (zero-profile users skipped: 0)
+2026-05-21 02:14:48,347  INFO    [semantic] Emotion alignment @10: 0.9983 (±0.0141)  n=999  (zero-profile users skipped: 0)
+2026-05-21 02:14:48,428  INFO    [emotion-aware] Emotion alignment @10: 0.9983 (±0.0141)  n=999  (zero-profile users skipped: 0)
+2026-05-21 02:14:48,614  INFO    [semantic] Emotion alignment @20: 0.9975 (±0.0187)  n=999  (zero-profile users skipped: 0)
+2026-05-21 02:14:48,781  INFO    [emotion-aware] Emotion alignment @20: 0.9979 (±0.0164)  n=999  (zero-profile users skipped: 0)
+2026-05-21 02:14:48,781  INFO  
+[4.6.5] Stratified evaluation by emotional tag density…
+2026-05-21 02:14:54,151  INFO    Stratification median density : 0.6495
+2026-05-21 02:14:54,152  INFO    High-density users            : 500
+2026-05-21 02:14:54,152  INFO    Low-density users             : 499
+2026-05-21 02:14:54,154  INFO    [high_density][semantic] K=5: P=0.0064  R=0.0005  n=500
+2026-05-21 02:14:54,155  INFO    [high_density][semantic] K=10: P=0.0046  R=0.0007  n=500
+2026-05-21 02:14:54,157  INFO    [high_density][semantic] K=20: P=0.0031  R=0.0009  n=500
+2026-05-21 02:14:54,159  INFO    [high_density][emotion-aware] K=5: P=0.0040  R=0.0003  n=500
+2026-05-21 02:14:54,161  INFO    [high_density][emotion-aware] K=10: P=0.0028  R=0.0004  n=500
+2026-05-21 02:14:54,164  INFO    [high_density][emotion-aware] K=20: P=0.0026  R=0.0008  n=500
+2026-05-21 02:14:54,168  INFO    [low_density][semantic] K=5: P=0.0028  R=0.0003  n=499
+2026-05-21 02:14:54,170  INFO    [low_density][semantic] K=10: P=0.0030  R=0.0005  n=499
+2026-05-21 02:14:54,173  INFO    [low_density][semantic] K=20: P=0.0025  R=0.0008  n=499
+2026-05-21 02:14:54,176  INFO    [low_density][emotion-aware] K=5: P=0.0036  R=0.0003  n=499
+2026-05-21 02:14:54,179  INFO    [low_density][emotion-aware] K=10: P=0.0026  R=0.0004  n=499
+2026-05-21 02:14:54,181  INFO    [low_density][emotion-aware] K=20: P=0.0020  R=0.0007  n=499
+2026-05-21 02:14:54,182  INFO  
+Saving results…
+2026-05-21 02:14:54,183  INFO    Evaluation results saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\evaluation_results.csv
+2026-05-21 02:14:54,184  INFO    Emotion alignment results saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\emotion_alignment.csv
+2026-05-21 02:14:54,184  INFO    Stratified results saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\stratified_results.csv
+2026-05-21 02:14:56,255  INFO    Combined graph saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\combined_precision_recall.png
+2026-05-21 02:14:56,257  INFO    Full report saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\full_results_report.txt
+2026-05-21 02:14:56,258  INFO  
+2026-05-21 02:14:56,258  INFO  ============================================================
+2026-05-21 02:14:56,258  INFO  PHASE 4 SUMMARY
+2026-05-21 02:14:56,258  INFO  ============================================================
+2026-05-21 02:14:56,258  INFO    Model                    P@5    P@10    P@20     R@5    R@10    R@20
+2026-05-21 02:14:56,259  INFO    --------------------------------------------------------------
+2026-05-21 02:14:56,259  INFO    popularity            0.0002  0.0008  0.0015  0.0000  0.0001  0.0004
+2026-05-21 02:14:56,259  INFO    semantic              0.0046  0.0038  0.0028  0.0004  0.0006  0.0009
+2026-05-21 02:14:56,259  INFO    emotion-aware         0.0038  0.0027  0.0023  0.0003  0.0004  0.0007
+2026-05-21 02:14:56,259  INFO  
+2026-05-21 02:14:56,259  INFO    Model                  Align@5  Align@10  Align@20
+2026-05-21 02:14:56,260  INFO    --------------------------------------------------
+2026-05-21 02:14:56,260  INFO    semantic                0.9983    0.9983    0.9975
+2026-05-21 02:14:56,260  INFO    emotion-aware           0.9983    0.9983    0.9979
+2026-05-21 02:14:56,260  INFO  
+2026-05-21 02:14:56,260  INFO    STRATIFIED RESULTS (emotion-aware vs semantic, P@10):
+2026-05-21 02:14:56,260  INFO    Group                  Semantic  Emo-Aware   Difference
+2026-05-21 02:14:56,261  INFO    -------------------------------------------------------
+2026-05-21 02:14:56,261  INFO    high_density             0.0046     0.0028      -0.0018
+2026-05-21 02:14:56,261  INFO    low_density              0.0030     0.0026      -0.0004
+2026-05-21 02:14:56,261  INFO  
+2026-05-21 02:14:56,261  INFO    Per-user scores saved to per_user_metrics.pkl for Phase 5.
+2026-05-21 02:14:56,261  INFO  Phase 4 offline evaluation complete.
+2026-05-21 02:14:56,261  INFO  Full report: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\full_results_report.txt
+2026-05-23 14:35:08,915  INFO  ============================================================
+2026-05-23 14:35:08,915  INFO  Phase 4 — Experimental Evaluation (Offline)
+2026-05-23 14:35:08,916  INFO    Output dir : C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output
+2026-05-23 14:35:08,916  INFO  ============================================================
+2026-05-23 14:35:08,916  INFO  Loading Phase 3 outputs…
+2026-05-23 14:35:10,889  INFO    Test events  : 75,797
+2026-05-23 14:35:10,903  INFO    Test users   : 1,000
+2026-05-23 14:35:10,904  INFO  
+Building ground truth from test events…
+2026-05-23 14:35:10,960  INFO    Users with ground truth: 1,000
+2026-05-23 14:35:10,961  INFO    Avg relevant tracks per user: 65.0
+2026-05-23 14:35:10,961  INFO  
+[4.6.3] Computing Precision@K and Recall@K…
+2026-05-23 14:35:10,961  INFO    Popularity baseline:
+2026-05-23 14:35:10,962  INFO    [popularity] Evaluating 1,000 users…
+2026-05-23 14:35:10,977  INFO      K= 5  Precision=0.0002 (±0.0063)  Recall=0.0000 (±0.0004)
+2026-05-23 14:35:10,978  INFO      K=10  Precision=0.0008 (±0.0089)  Recall=0.0001 (±0.0012)
+2026-05-23 14:35:10,978  INFO      K=20  Precision=0.0015 (±0.0087)  Recall=0.0004 (±0.0025)
+2026-05-23 14:35:10,978  INFO    Semantic model:
+2026-05-23 14:35:10,979  INFO    [semantic] Evaluating 999 users…
+2026-05-23 14:35:10,994  INFO      K= 5  Precision=0.0044 (±0.0294)  Recall=0.0004 (±0.0026)
+2026-05-23 14:35:10,995  INFO      K=10  Precision=0.0034 (±0.0192)  Recall=0.0005 (±0.0032)
+2026-05-23 14:35:10,995  INFO      K=20  Precision=0.0027 (±0.0126)  Recall=0.0009 (±0.0040)
+2026-05-23 14:35:10,996  INFO    Emotion-aware model:
+2026-05-23 14:35:10,996  INFO    [emotion-aware] Evaluating 999 users…
+2026-05-23 14:35:11,010  INFO      K= 5  Precision=0.0042 (±0.0301)  Recall=0.0004 (±0.0027)
+2026-05-23 14:35:11,011  INFO      K=10  Precision=0.0032 (±0.0187)  Recall=0.0005 (±0.0032)
+2026-05-23 14:35:11,011  INFO      K=20  Precision=0.0026 (±0.0117)  Recall=0.0009 (±0.0041)
+2026-05-23 14:35:11,011  INFO  
+[4.6.4] Building shared Warriner VAD emotion profiles…
+2026-05-23 14:35:11,011  INFO    (both models evaluated in shared 3-dim VAD space)
+2026-05-23 14:35:19,102  INFO    Users with non-zero emotion profile: 999 / 1,000
+2026-05-23 14:35:19,102  INFO  
+[4.6.4] Computing emotion alignment (shared lexicon space)…
+2026-05-23 14:35:19,152  INFO    [semantic] Emotion alignment @5: 0.9985 (±0.0093)  n=999  (zero-profile users skipped: 0)
+2026-05-23 14:35:19,208  INFO    [emotion-aware] Emotion alignment @5: 0.9985 (±0.0093)  n=999  (zero-profile users skipped: 0)
+2026-05-23 14:35:19,304  INFO    [semantic] Emotion alignment @10: 0.9986 (±0.0058)  n=999  (zero-profile users skipped: 0)
+2026-05-23 14:35:19,391  INFO    [emotion-aware] Emotion alignment @10: 0.9986 (±0.0058)  n=999  (zero-profile users skipped: 0)
+2026-05-23 14:35:19,555  INFO    [semantic] Emotion alignment @20: 0.9983 (±0.0062)  n=999  (zero-profile users skipped: 0)
+2026-05-23 14:35:19,707  INFO    [emotion-aware] Emotion alignment @20: 0.9985 (±0.0051)  n=999  (zero-profile users skipped: 0)
+2026-05-23 14:35:19,707  INFO  
+[4.6.5] Stratified evaluation by emotional tag density…
+2026-05-23 14:35:25,148  INFO    Stratification median density : 0.6495
+2026-05-23 14:35:25,148  INFO    High-density users            : 500
+2026-05-23 14:35:25,148  INFO    Low-density users             : 499
+2026-05-23 14:35:25,150  INFO    [high_density][semantic] K=5: P=0.0040  R=0.0003  n=500
+2026-05-23 14:35:25,152  INFO    [high_density][semantic] K=10: P=0.0030  R=0.0004  n=500
+2026-05-23 14:35:25,154  INFO    [high_density][semantic] K=20: P=0.0022  R=0.0007  n=500
+2026-05-23 14:35:25,157  INFO    [high_density][emotion-aware] K=5: P=0.0048  R=0.0004  n=500
+2026-05-23 14:35:25,161  INFO    [high_density][emotion-aware] K=10: P=0.0026  R=0.0004  n=500
+2026-05-23 14:35:25,164  INFO    [high_density][emotion-aware] K=20: P=0.0021  R=0.0007  n=500
+2026-05-23 14:35:25,167  INFO    [low_density][semantic] K=5: P=0.0048  R=0.0004  n=499
+2026-05-23 14:35:25,170  INFO    [low_density][semantic] K=10: P=0.0038  R=0.0007  n=499
+2026-05-23 14:35:25,175  INFO    [low_density][semantic] K=20: P=0.0032  R=0.0010  n=499
+2026-05-23 14:35:25,178  INFO    [low_density][emotion-aware] K=5: P=0.0036  R=0.0003  n=499
+2026-05-23 14:35:25,181  INFO    [low_density][emotion-aware] K=10: P=0.0038  R=0.0006  n=499
+2026-05-23 14:35:25,184  INFO    [low_density][emotion-aware] K=20: P=0.0030  R=0.0010  n=499
+2026-05-23 14:35:25,184  INFO  
+Saving results…
+2026-05-23 14:35:25,185  INFO    Evaluation results saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\evaluation_results.csv
+2026-05-23 14:35:25,186  INFO    Emotion alignment results saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\emotion_alignment.csv
+2026-05-23 14:35:25,187  INFO    Stratified results saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\stratified_results.csv
+2026-05-23 14:35:25,190  INFO    Full report saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\full_results_report.txt
+2026-05-23 14:35:25,190  INFO  
+2026-05-23 14:35:25,190  INFO  ============================================================
+2026-05-23 14:35:25,191  INFO  PHASE 4 SUMMARY
+2026-05-23 14:35:25,191  INFO  ============================================================
+2026-05-23 14:35:25,191  INFO    Model                    P@5    P@10    P@20     R@5    R@10    R@20
+2026-05-23 14:35:25,191  INFO    --------------------------------------------------------------
+2026-05-23 14:35:25,191  INFO    popularity            0.0002  0.0008  0.0015  0.0000  0.0001  0.0004
+2026-05-23 14:35:25,192  INFO    semantic              0.0044  0.0034  0.0027  0.0004  0.0005  0.0009
+2026-05-23 14:35:25,192  INFO    emotion-aware         0.0042  0.0032  0.0026  0.0004  0.0005  0.0009
+2026-05-23 14:35:25,192  INFO  
+2026-05-23 14:35:25,192  INFO    Model                  Align@5  Align@10  Align@20
+2026-05-23 14:35:25,192  INFO    --------------------------------------------------
+2026-05-23 14:35:25,193  INFO    semantic                0.9985    0.9986    0.9983
+2026-05-23 14:35:25,193  INFO    emotion-aware           0.9985    0.9986    0.9985
+2026-05-23 14:35:25,193  INFO  
+2026-05-23 14:35:25,193  INFO    STRATIFIED RESULTS (emotion-aware vs semantic, P@10):
+2026-05-23 14:35:25,194  INFO    Group                  Semantic  Emo-Aware   Difference
+2026-05-23 14:35:25,194  INFO    -------------------------------------------------------
+2026-05-23 14:35:25,194  INFO    high_density             0.0030     0.0026      -0.0004
+2026-05-23 14:35:25,194  INFO    low_density              0.0038     0.0038      +0.0000
+2026-05-23 14:35:25,194  INFO  
+2026-05-23 14:35:25,194  INFO    Per-user scores saved to per_user_metrics.pkl for Phase 5.
+2026-05-23 14:35:25,195  INFO  Phase 4 offline evaluation complete.
+2026-05-23 14:35:25,195  INFO  Full report: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\full_results_report.txt
+2026-05-23 15:11:07,775  INFO  ============================================================
+2026-05-23 15:11:07,775  INFO  Phase 4 — Experimental Evaluation (Offline)
+2026-05-23 15:11:07,776  INFO    Output dir : C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output
+2026-05-23 15:11:07,776  INFO  ============================================================
+2026-05-23 15:11:07,776  INFO  Loading Phase 3 outputs…
+2026-05-23 15:11:09,604  INFO    Test events  : 75,797
+2026-05-23 15:11:09,615  INFO    Test users   : 1,000
+2026-05-23 15:11:09,615  INFO  
+Building ground truth from test events…
+2026-05-23 15:11:09,668  INFO    Users with ground truth: 1,000
+2026-05-23 15:11:09,668  INFO    Avg relevant tracks per user: 65.0
+2026-05-23 15:11:09,669  INFO  
+[4.6.3] Computing Precision@K and Recall@K…
+2026-05-23 15:11:09,669  INFO    Popularity baseline:
+2026-05-23 15:11:09,669  INFO    [popularity] Evaluating 1,000 users…
+2026-05-23 15:11:09,681  INFO      K= 5  Precision=0.0002 (±0.0063)  Recall=0.0000 (±0.0004)
+2026-05-23 15:11:09,681  INFO      K=10  Precision=0.0008 (±0.0089)  Recall=0.0001 (±0.0012)
+2026-05-23 15:11:09,682  INFO      K=20  Precision=0.0015 (±0.0087)  Recall=0.0004 (±0.0025)
+2026-05-23 15:11:09,682  INFO    Semantic model:
+2026-05-23 15:11:09,683  INFO    [semantic] Evaluating 999 users…
+2026-05-23 15:11:09,697  INFO      K= 5  Precision=0.0040 (±0.0280)  Recall=0.0003 (±0.0024)
+2026-05-23 15:11:09,698  INFO      K=10  Precision=0.0037 (±0.0199)  Recall=0.0006 (±0.0033)
+2026-05-23 15:11:09,698  INFO      K=20  Precision=0.0033 (±0.0142)  Recall=0.0010 (±0.0045)
+2026-05-23 15:11:09,698  INFO    Emotion-aware model:
+2026-05-23 15:11:09,699  INFO    [emotion-aware] Evaluating 999 users…
+2026-05-23 15:11:09,709  INFO      K= 5  Precision=0.0036 (±0.0266)  Recall=0.0003 (±0.0022)
+2026-05-23 15:11:09,710  INFO      K=10  Precision=0.0026 (±0.0165)  Recall=0.0004 (±0.0027)
+2026-05-23 15:11:09,711  INFO      K=20  Precision=0.0027 (±0.0121)  Recall=0.0008 (±0.0039)
+2026-05-23 15:11:09,711  INFO  
+[4.6.4] Building shared Warriner VAD emotion profiles…
+2026-05-23 15:11:09,711  INFO    (both models evaluated in shared 3-dim VAD space)
+2026-05-23 15:11:16,809  INFO    Users with non-zero emotion profile: 999 / 1,000
+2026-05-23 15:11:16,809  INFO  
+[4.6.4] Computing emotion alignment (shared lexicon space)…
+2026-05-23 15:11:16,867  INFO    [semantic] Emotion alignment @5: 0.9988 (±0.0039)  n=999  (zero-profile users skipped: 0)
+2026-05-23 15:11:16,925  INFO    [emotion-aware] Emotion alignment @5: 0.9988 (±0.0040)  n=999  (zero-profile users skipped: 0)
+2026-05-23 15:11:17,025  INFO    [semantic] Emotion alignment @10: 0.9988 (±0.0022)  n=999  (zero-profile users skipped: 0)
+2026-05-23 15:11:17,129  INFO    [emotion-aware] Emotion alignment @10: 0.9989 (±0.0022)  n=999  (zero-profile users skipped: 0)
+2026-05-23 15:11:17,305  INFO    [semantic] Emotion alignment @20: 0.9988 (±0.0015)  n=999  (zero-profile users skipped: 0)
+2026-05-23 15:11:17,470  INFO    [emotion-aware] Emotion alignment @20: 0.9988 (±0.0015)  n=999  (zero-profile users skipped: 0)
+2026-05-23 15:11:17,471  INFO  
+[4.6.5] Stratified evaluation by emotional tag density…
+2026-05-23 15:11:22,875  INFO    Stratification median density : 0.6495
+2026-05-23 15:11:22,876  INFO    High-density users            : 500
+2026-05-23 15:11:22,876  INFO    Low-density users             : 499
+2026-05-23 15:11:22,878  INFO    [high_density][semantic] K=5: P=0.0060  R=0.0005  n=500
+2026-05-23 15:11:22,880  INFO    [high_density][semantic] K=10: P=0.0044  R=0.0007  n=500
+2026-05-23 15:11:22,882  INFO    [high_density][semantic] K=20: P=0.0035  R=0.0011  n=500
+2026-05-23 15:11:22,885  INFO    [high_density][emotion-aware] K=5: P=0.0048  R=0.0004  n=500
+2026-05-23 15:11:22,890  INFO    [high_density][emotion-aware] K=10: P=0.0028  R=0.0004  n=500
+2026-05-23 15:11:22,896  INFO    [high_density][emotion-aware] K=20: P=0.0026  R=0.0008  n=500
+2026-05-23 15:11:22,900  INFO    [low_density][semantic] K=5: P=0.0020  R=0.0002  n=499
+2026-05-23 15:11:22,903  INFO    [low_density][semantic] K=10: P=0.0030  R=0.0005  n=499
+2026-05-23 15:11:22,908  INFO    [low_density][semantic] K=20: P=0.0030  R=0.0009  n=499
+2026-05-23 15:11:22,912  INFO    [low_density][emotion-aware] K=5: P=0.0024  R=0.0002  n=499
+2026-05-23 15:11:22,916  INFO    [low_density][emotion-aware] K=10: P=0.0024  R=0.0004  n=499
+2026-05-23 15:11:22,920  INFO    [low_density][emotion-aware] K=20: P=0.0027  R=0.0009  n=499
+2026-05-23 15:11:22,920  INFO  
+Saving results…
+2026-05-23 15:11:22,921  INFO    Evaluation results saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\evaluation_results.csv
+2026-05-23 15:11:22,922  INFO    Emotion alignment results saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\emotion_alignment.csv
+2026-05-23 15:11:22,923  INFO    Stratified results saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\stratified_results.csv
+2026-05-23 15:11:22,927  INFO    Full report saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\full_results_report.txt
+2026-05-23 15:11:22,927  INFO  
+2026-05-23 15:11:22,927  INFO  ============================================================
+2026-05-23 15:11:22,927  INFO  PHASE 4 SUMMARY
+2026-05-23 15:11:22,928  INFO  ============================================================
+2026-05-23 15:11:22,928  INFO    Model                    P@5    P@10    P@20     R@5    R@10    R@20
+2026-05-23 15:11:22,928  INFO    --------------------------------------------------------------
+2026-05-23 15:11:22,928  INFO    popularity            0.0002  0.0008  0.0015  0.0000  0.0001  0.0004
+2026-05-23 15:11:22,928  INFO    semantic              0.0040  0.0037  0.0033  0.0003  0.0006  0.0010
+2026-05-23 15:11:22,928  INFO    emotion-aware         0.0036  0.0026  0.0027  0.0003  0.0004  0.0008
+2026-05-23 15:11:22,929  INFO  
+2026-05-23 15:11:22,929  INFO    Model                  Align@5  Align@10  Align@20
+2026-05-23 15:11:22,929  INFO    --------------------------------------------------
+2026-05-23 15:11:22,929  INFO    semantic                0.9988    0.9988    0.9988
+2026-05-23 15:11:22,929  INFO    emotion-aware           0.9988    0.9989    0.9988
+2026-05-23 15:11:22,929  INFO  
+2026-05-23 15:11:22,929  INFO    STRATIFIED RESULTS (emotion-aware vs semantic, P@10):
+2026-05-23 15:11:22,929  INFO    Group                  Semantic  Emo-Aware   Difference
+2026-05-23 15:11:22,930  INFO    -------------------------------------------------------
+2026-05-23 15:11:22,930  INFO    high_density             0.0044     0.0028      -0.0016
+2026-05-23 15:11:22,930  INFO    low_density              0.0030     0.0024      -0.0006
+2026-05-23 15:11:22,930  INFO  
+2026-05-23 15:11:22,930  INFO    Per-user scores saved to per_user_metrics.pkl for Phase 5.
+2026-05-23 15:11:22,930  INFO  Phase 4 offline evaluation complete.
+2026-05-23 15:11:22,931  INFO  Full report: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\full_results_report.txt
+2026-05-23 15:15:05,735  INFO  ============================================================
+2026-05-23 15:15:05,736  INFO  Phase 4 — Experimental Evaluation (Offline)
+2026-05-23 15:15:05,736  INFO    [UPDATED: NDCG@K added alongside Precision@K and Recall@K]
+2026-05-23 15:15:05,736  INFO    Output dir : C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output
+2026-05-23 15:15:05,736  INFO  ============================================================
+2026-05-23 15:15:05,736  INFO  Loading Phase 3 outputs…
+2026-05-23 15:15:07,479  INFO    Test events  : 75,797
+2026-05-23 15:15:07,490  INFO    Test users   : 1,000
+2026-05-23 15:15:07,490  INFO  
+Building ground truth from test events…
+2026-05-23 15:15:07,548  INFO    Users with ground truth: 1,000
+2026-05-23 15:15:07,549  INFO    Avg relevant tracks per user: 65.0
+2026-05-23 15:15:07,549  INFO  
+[4.6.3] Computing Precision@K, Recall@K, and NDCG@K…
+2026-05-23 15:15:07,550  INFO    Popularity baseline:
+2026-05-23 15:15:07,550  INFO    [popularity] Evaluating 1,000 users…
+2026-05-23 15:15:07,623  INFO      K= 5  Precision=0.0002 (±0.0063)  Recall=0.0000 (±0.0004)  NDCG=0.0001 (±0.0046)
+2026-05-23 15:15:07,624  INFO      K=10  Precision=0.0008 (±0.0089)  Recall=0.0001 (±0.0012)  NDCG=0.0006 (±0.0064)
+2026-05-23 15:15:07,624  INFO      K=20  Precision=0.0015 (±0.0087)  Recall=0.0004 (±0.0025)  NDCG=0.0011 (±0.0067)
+2026-05-23 15:15:07,624  INFO    Semantic model:
+2026-05-23 15:15:07,625  INFO    [semantic] Evaluating 999 users…
+2026-05-23 15:15:07,697  INFO      K= 5  Precision=0.0040 (±0.0280)  Recall=0.0003 (±0.0024)  NDCG=0.0045 (±0.0340)
+2026-05-23 15:15:07,697  INFO      K=10  Precision=0.0037 (±0.0199)  Recall=0.0006 (±0.0033)  NDCG=0.0041 (±0.0244)
+2026-05-23 15:15:07,698  INFO      K=20  Precision=0.0033 (±0.0142)  Recall=0.0010 (±0.0045)  NDCG=0.0037 (±0.0174)
+2026-05-23 15:15:07,698  INFO    Emotion-aware model:
+2026-05-23 15:15:07,698  INFO    [emotion-aware] Evaluating 999 users…
+2026-05-23 15:15:07,763  INFO      K= 5  Precision=0.0036 (±0.0266)  Recall=0.0003 (±0.0022)  NDCG=0.0041 (±0.0319)
+2026-05-23 15:15:07,763  INFO      K=10  Precision=0.0026 (±0.0165)  Recall=0.0004 (±0.0027)  NDCG=0.0032 (±0.0219)
+2026-05-23 15:15:07,764  INFO      K=20  Precision=0.0027 (±0.0121)  Recall=0.0008 (±0.0039)  NDCG=0.0030 (±0.0156)
+2026-05-23 15:15:07,764  INFO  
+[4.6.4] Building shared Warriner VAD emotion profiles…
+2026-05-23 15:15:07,764  INFO    (both models evaluated in shared 3-dim VAD space)
+2026-05-23 15:15:14,599  INFO    Users with non-zero emotion profile: 999 / 1,000
+2026-05-23 15:15:14,600  INFO  
+[4.6.4] Computing emotion alignment (shared lexicon space)…
+2026-05-23 15:15:14,654  INFO    [semantic] Emotion alignment @5: 0.9988 (±0.0039)  n=999  (zero-profile users skipped: 0)
+2026-05-23 15:15:14,706  INFO    [emotion-aware] Emotion alignment @5: 0.9988 (±0.0040)  n=999  (zero-profile users skipped: 0)
+2026-05-23 15:15:14,797  INFO    [semantic] Emotion alignment @10: 0.9988 (±0.0022)  n=999  (zero-profile users skipped: 0)
+2026-05-23 15:15:14,885  INFO    [emotion-aware] Emotion alignment @10: 0.9989 (±0.0022)  n=999  (zero-profile users skipped: 0)
+2026-05-23 15:15:15,045  INFO    [semantic] Emotion alignment @20: 0.9988 (±0.0015)  n=999  (zero-profile users skipped: 0)
+2026-05-23 15:15:15,211  INFO    [emotion-aware] Emotion alignment @20: 0.9988 (±0.0015)  n=999  (zero-profile users skipped: 0)
+2026-05-23 15:15:15,212  INFO  
+[4.6.5] Stratified evaluation by emotional tag density…
+2026-05-23 15:15:20,797  INFO    Stratification median density : 0.6495
+2026-05-23 15:15:20,797  INFO    High-density users            : 500
+2026-05-23 15:15:20,797  INFO    Low-density users             : 499
+2026-05-23 15:15:20,804  INFO    [high_density][semantic] K=5: P=0.0060  R=0.0005  NDCG=0.0068  n=500
+2026-05-23 15:15:20,819  INFO    [high_density][semantic] K=10: P=0.0044  R=0.0007  NDCG=0.0054  n=500
+2026-05-23 15:15:20,843  INFO    [high_density][semantic] K=20: P=0.0035  R=0.0011  NDCG=0.0044  n=500
+2026-05-23 15:15:20,851  INFO    [high_density][emotion-aware] K=5: P=0.0048  R=0.0004  NDCG=0.0053  n=500
+2026-05-23 15:15:20,862  INFO    [high_density][emotion-aware] K=10: P=0.0028  R=0.0004  NDCG=0.0037  n=500
+2026-05-23 15:15:20,881  INFO    [high_density][emotion-aware] K=20: P=0.0026  R=0.0008  NDCG=0.0032  n=500
+2026-05-23 15:15:20,888  INFO    [low_density][semantic] K=5: P=0.0020  R=0.0002  NDCG=0.0023  n=499
+2026-05-23 15:15:20,902  INFO    [low_density][semantic] K=10: P=0.0030  R=0.0005  NDCG=0.0029  n=499
+2026-05-23 15:15:20,923  INFO    [low_density][semantic] K=20: P=0.0030  R=0.0009  NDCG=0.0029  n=499
+2026-05-23 15:15:20,933  INFO    [low_density][emotion-aware] K=5: P=0.0024  R=0.0002  NDCG=0.0029  n=499
+2026-05-23 15:15:20,946  INFO    [low_density][emotion-aware] K=10: P=0.0024  R=0.0004  NDCG=0.0027  n=499
+2026-05-23 15:15:20,967  INFO    [low_density][emotion-aware] K=20: P=0.0027  R=0.0009  NDCG=0.0029  n=499
+2026-05-23 15:15:20,967  INFO  
+Saving results…
+2026-05-23 15:15:20,968  INFO    Evaluation results saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\evaluation_results.csv
+2026-05-23 15:15:20,968  INFO    Emotion alignment results saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\emotion_alignment.csv
+2026-05-23 15:15:20,969  INFO    Stratified results saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\stratified_results.csv
+2026-05-23 15:15:20,988  INFO    Full report saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\full_results_report.txt
+2026-05-23 15:15:20,988  INFO  
+2026-05-23 15:15:20,988  INFO  ============================================================
+2026-05-23 15:15:20,989  INFO  PHASE 4 SUMMARY
+2026-05-23 15:15:20,989  INFO  ============================================================
+2026-05-23 15:15:20,989  INFO    Model                    P@5    P@10    P@20     R@5    R@10    R@20     N@5    N@10    N@20
+2026-05-23 15:15:20,989  INFO    --------------------------------------------------------------------------------
+2026-05-23 15:15:20,989  INFO    popularity            0.0002  0.0008  0.0015  0.0000  0.0001  0.0004  0.0001  0.0006  0.0011
+2026-05-23 15:15:20,990  INFO    semantic              0.0040  0.0037  0.0033  0.0003  0.0006  0.0010  0.0045  0.0041  0.0037
+2026-05-23 15:15:20,990  INFO    emotion-aware         0.0036  0.0026  0.0027  0.0003  0.0004  0.0008  0.0041  0.0032  0.0030
+2026-05-23 15:15:20,990  INFO  
+2026-05-23 15:15:20,990  INFO    Model                  Align@5  Align@10  Align@20
+2026-05-23 15:15:20,990  INFO    --------------------------------------------------
+2026-05-23 15:15:20,990  INFO    semantic                0.9988    0.9988    0.9988
+2026-05-23 15:15:20,990  INFO    emotion-aware           0.9988    0.9989    0.9988
+2026-05-23 15:15:20,991  INFO  
+2026-05-23 15:15:20,991  INFO    STRATIFIED RESULTS (emotion-aware vs semantic, P@10):
+2026-05-23 15:15:20,991  INFO    Group                  Semantic  Emo-Aware   Difference
+2026-05-23 15:15:20,991  INFO    -------------------------------------------------------
+2026-05-23 15:15:20,991  INFO    high_density             0.0044     0.0028      -0.0016
+2026-05-23 15:15:20,991  INFO    low_density              0.0030     0.0024      -0.0006
+2026-05-23 15:15:20,991  INFO  
+2026-05-23 15:15:20,992  INFO    Per-user scores saved to per_user_metrics.pkl for Phase 5.
+2026-05-23 15:15:20,992  INFO  Phase 4 offline evaluation complete.
+2026-05-23 15:15:20,992  INFO  Full report: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\full_results_report.txt
+2026-05-23 15:31:41,928  INFO  ============================================================
+2026-05-23 15:31:41,928  INFO  Phase 4 — Experimental Evaluation (Offline)
+2026-05-23 15:31:41,928  INFO    Output dir : C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output
+2026-05-23 15:31:41,928  INFO  ============================================================
+2026-05-23 15:31:41,928  INFO  Loading Phase 3 outputs…
+2026-05-23 15:31:43,986  INFO    Test events  : 75,797
+2026-05-23 15:31:43,997  INFO    Test users   : 1,000
+2026-05-23 15:31:43,997  INFO  
+Building ground truth from test events…
+2026-05-23 15:31:44,045  INFO    Users with ground truth: 1,000
+2026-05-23 15:31:44,047  INFO    Avg relevant tracks per user: 65.0
+2026-05-23 15:31:44,048  INFO  
+[4.6.3] Computing Precision@K and Recall@K…
+2026-05-23 15:31:44,048  INFO    Popularity baseline:
+2026-05-23 15:31:44,048  INFO    [popularity] Evaluating 1,000 users…
+2026-05-23 15:31:44,064  INFO      K= 5  Precision=0.0002 (±0.0063)  Recall=0.0000 (±0.0004)
+2026-05-23 15:31:44,065  INFO      K=10  Precision=0.0008 (±0.0089)  Recall=0.0001 (±0.0012)
+2026-05-23 15:31:44,065  INFO      K=20  Precision=0.0015 (±0.0087)  Recall=0.0004 (±0.0025)
+2026-05-23 15:31:44,066  INFO    Semantic model:
+2026-05-23 15:31:44,066  INFO    [semantic] Evaluating 999 users…
+2026-05-23 15:31:44,080  INFO      K= 5  Precision=0.0044 (±0.0307)  Recall=0.0003 (±0.0025)
+2026-05-23 15:31:44,080  INFO      K=10  Precision=0.0036 (±0.0202)  Recall=0.0006 (±0.0033)
+2026-05-23 15:31:44,081  INFO      K=20  Precision=0.0027 (±0.0128)  Recall=0.0008 (±0.0040)
+2026-05-23 15:31:44,081  INFO    Emotion-aware model:
+2026-05-23 15:31:44,082  INFO    [emotion-aware] Evaluating 999 users…
+2026-05-23 15:31:44,099  INFO      K= 5  Precision=0.0036 (±0.0266)  Recall=0.0003 (±0.0023)
+2026-05-23 15:31:44,099  INFO      K=10  Precision=0.0027 (±0.0162)  Recall=0.0004 (±0.0027)
+2026-05-23 15:31:44,100  INFO      K=20  Precision=0.0023 (±0.0109)  Recall=0.0007 (±0.0037)
+2026-05-23 15:31:44,100  INFO  
+[4.6.4] Building shared Warriner VAD emotion profiles…
+2026-05-23 15:31:44,100  INFO    (both models evaluated in shared 3-dim VAD space)
+2026-05-23 15:31:59,046  INFO    Users with non-zero emotion profile: 999 / 1,000
+2026-05-23 15:31:59,046  INFO  
+[4.6.4] Computing emotion alignment (shared lexicon space)…
+2026-05-23 15:31:59,119  INFO    [semantic] Emotion alignment @5: 0.9983 (±0.0145)  n=999  (zero-profile users skipped: 0)
+2026-05-23 15:31:59,179  INFO    [emotion-aware] Emotion alignment @5: 0.9983 (±0.0145)  n=999  (zero-profile users skipped: 0)
+2026-05-23 15:31:59,283  INFO    [semantic] Emotion alignment @10: 0.9983 (±0.0141)  n=999  (zero-profile users skipped: 0)
+2026-05-23 15:31:59,383  INFO    [emotion-aware] Emotion alignment @10: 0.9983 (±0.0141)  n=999  (zero-profile users skipped: 0)
+2026-05-23 15:31:59,547  INFO    [semantic] Emotion alignment @20: 0.9975 (±0.0187)  n=999  (zero-profile users skipped: 0)
+2026-05-23 15:31:59,703  INFO    [emotion-aware] Emotion alignment @20: 0.9979 (±0.0164)  n=999  (zero-profile users skipped: 0)
+2026-05-23 15:31:59,703  INFO  
+[4.6.5] Stratified evaluation by emotional tag density…
+2026-05-23 15:32:14,215  INFO    Stratification median density : 0.6495
+2026-05-23 15:32:14,215  INFO    High-density users            : 500
+2026-05-23 15:32:14,215  INFO    Low-density users             : 499
+2026-05-23 15:32:14,217  INFO    [high_density][semantic] K=5: P=0.0060  R=0.0004  n=500
+2026-05-23 15:32:14,219  INFO    [high_density][semantic] K=10: P=0.0042  R=0.0006  n=500
+2026-05-23 15:32:14,221  INFO    [high_density][semantic] K=20: P=0.0029  R=0.0008  n=500
+2026-05-23 15:32:14,223  INFO    [high_density][emotion-aware] K=5: P=0.0040  R=0.0003  n=500
+2026-05-23 15:32:14,225  INFO    [high_density][emotion-aware] K=10: P=0.0028  R=0.0004  n=500
+2026-05-23 15:32:14,228  INFO    [high_density][emotion-aware] K=20: P=0.0026  R=0.0008  n=500
+2026-05-23 15:32:14,230  INFO    [low_density][semantic] K=5: P=0.0028  R=0.0003  n=499
+2026-05-23 15:32:14,233  INFO    [low_density][semantic] K=10: P=0.0030  R=0.0005  n=499
+2026-05-23 15:32:14,236  INFO    [low_density][semantic] K=20: P=0.0025  R=0.0008  n=499
+2026-05-23 15:32:14,239  INFO    [low_density][emotion-aware] K=5: P=0.0032  R=0.0003  n=499
+2026-05-23 15:32:14,243  INFO    [low_density][emotion-aware] K=10: P=0.0026  R=0.0004  n=499
+2026-05-23 15:32:14,248  INFO    [low_density][emotion-aware] K=20: P=0.0020  R=0.0007  n=499
+2026-05-23 15:32:14,248  INFO  
+Saving results…
+2026-05-23 15:32:14,249  INFO    Evaluation results saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\evaluation_results.csv
+2026-05-23 15:32:14,250  INFO    Emotion alignment results saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\emotion_alignment.csv
+2026-05-23 15:32:14,252  INFO    Stratified results saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\stratified_results.csv
+2026-05-23 15:32:14,254  INFO    Full report saved: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\full_results_report.txt
+2026-05-23 15:32:14,255  INFO  
+2026-05-23 15:32:14,255  INFO  ============================================================
+2026-05-23 15:32:14,255  INFO  PHASE 4 SUMMARY
+2026-05-23 15:32:14,255  INFO  ============================================================
+2026-05-23 15:32:14,255  INFO    Model                    P@5    P@10    P@20     R@5    R@10    R@20
+2026-05-23 15:32:14,255  INFO    --------------------------------------------------------------
+2026-05-23 15:32:14,256  INFO    popularity            0.0002  0.0008  0.0015  0.0000  0.0001  0.0004
+2026-05-23 15:32:14,256  INFO    semantic              0.0044  0.0036  0.0027  0.0003  0.0006  0.0008
+2026-05-23 15:32:14,256  INFO    emotion-aware         0.0036  0.0027  0.0023  0.0003  0.0004  0.0007
+2026-05-23 15:32:14,256  INFO  
+2026-05-23 15:32:14,256  INFO    Model                  Align@5  Align@10  Align@20
+2026-05-23 15:32:14,257  INFO    --------------------------------------------------
+2026-05-23 15:32:14,257  INFO    semantic                0.9983    0.9983    0.9975
+2026-05-23 15:32:14,257  INFO    emotion-aware           0.9983    0.9983    0.9979
+2026-05-23 15:32:14,257  INFO  
+2026-05-23 15:32:14,258  INFO    STRATIFIED RESULTS (emotion-aware vs semantic, P@10):
+2026-05-23 15:32:14,258  INFO    Group                  Semantic  Emo-Aware   Difference
+2026-05-23 15:32:14,258  INFO    -------------------------------------------------------
+2026-05-23 15:32:14,258  INFO    high_density             0.0042     0.0028      -0.0014
+2026-05-23 15:32:14,258  INFO    low_density              0.0030     0.0026      -0.0004
+2026-05-23 15:32:14,258  INFO  
+2026-05-23 15:32:14,258  INFO    Per-user scores saved to per_user_metrics.pkl for Phase 5.
+2026-05-23 15:32:14,258  INFO  Phase 4 offline evaluation complete.
+2026-05-23 15:32:14,259  INFO  Full report: C:\Users\franc\Documents\BETTINA\cmsc198.2\phase4_output\full_results_report.txt

@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-033
+Reported mood  : Mixed / Varies
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Playboi Carti — New Tank  [dataset]
+   2. Enya — Only Time  [dataset]
+   3. Metallica — Nothing Else Matters  [dataset]
+   4. Ariana Grande — Into You  [dataset]
+   5. Nujabes — Feather  [lastfm]
+   6. Eminem — Rap God  [dataset]
+   7. Bon Iver — Calgary  [dataset]
+   8. Doja Cat — Streets  [lastfm]
+   9. Hans Zimmer — Cornfield Chase  [dataset]
+  10. Tyler the Creator — Garden Shed  [lastfm]
+  11. Lana Del Rey — Video Games  [dataset]
+  12. AC/DC — Highway to Hell  [dataset]
+  13. Jhené Aiko — While We're Young  [lastfm]
+  14. Yanni — Santorini  [lastfm]
+  15. SZA — Broken Clocks  [dataset]
+  16. Nirvana — Heart-Shaped Box  [dataset]
+  17. Frank Ocean — Self Control  [dataset]
+  18. Twice — What is Love?  [dataset]
+  19. Massive Attack — Teardrop  [dataset]
+  20. Kendrick Lamar — Father Time  [lastfm]
+
+PLAYLIST A
+----------------------------------------
+   1. Jon Bellion — Eyes To The Sky
+   2. The Internet — It Gets Better (With Time)
+   3. Iann Dior — Sick And Tired (Feat. Machine Gun Kelly & Travis Barker)
+   4. Curtis Waters — Stunnin' (Feat. Harm Franklin)
+   5. Missy Elliott — Work It
+   6. Missy Elliot — Lick Shots
+   7. Blackbear — Dirty Laundry (Acoustic)
+   8. Aby Coulibaly — Taurus
+   9. Bryce Vine — Drew Barrymore (Feat. Wale)
+  10. Cassie — Long Way 2 Go (Acappella)
+
+PLAYLIST B
+----------------------------------------
+   1. Jon Bellion — A Haunted House
+   2. Curtis Waters — Stunnin' (Feat. Harm Franklin)
+   3. Missy Elliott — Bomb Intro / Pass That Dutch
+   4. Missy Elliot — Whatcha Gon' Do F. Timbaland
+   5. Iann Dior — Good Day
+   6. Bryce Vine — Drew Barrymore (Feat. Wale)
+   7. The Internet — Girl
+   8. Black Eyed Peas — On My Own
+   9. The Black Eyed Peas — Meet Me Halfway
+  10. Raury — Amor
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: A → B
+────────────────────────────────────────────────────────────

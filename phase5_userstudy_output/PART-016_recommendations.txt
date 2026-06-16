@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-016
+Reported mood  : Energetic / Motivated
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Eminem — Lose Yourself  [dataset]
+   2. Eminem — Till I Collapse  [dataset]
+   3. Kanye West — Stronger  [dataset]
+   4. Jay-Z — Run This Town  [lastfm]
+   5. The Weeknd — Blinding Lights  [dataset]
+   6. The Weeknd — Can't Feel My Face  [dataset]
+   7. AC/DC — Thunderstruck  [dataset]
+   8. AC/DC — Back in Black  [dataset]
+   9. Survivor — Eye of the Tiger  [dataset]
+  10. Flo Rida — Good Feeling  [dataset]
+  11. David Guetta — Titanium  [lastfm]
+  12. Imagine Dragons — Believer  [dataset]
+  13. Imagine Dragons — Whatever It Takes  [dataset]
+  14. Twenty One Pilots — Heathens  [dataset]
+  15. Skrillex — Bangarang  [lastfm]
+  16. Knife Party — Internet Friends  [dataset]
+  17. Nero — Promises  [dataset]
+  18. Deadmau5 — Strobe  [dataset]
+  19. Martin Garrix — Animals  [dataset]
+  20. Eminem — Not Afraid  [dataset]
+
+PLAYLIST A
+----------------------------------------
+   1. Black Eyed Peas — #Wheresthelove (Feat. The World)
+   2. The Black Eyed Peas — Where Is The Love?
+   3. Will Smith — Black Suits Comin
+   4. Debbie — The Rain Isn'T Over
+   5. Far East Movement — Live My Life
+   6. Missy Elliott — Work It (Remix Featuring 50 Cent)
+   7. Missy Elliot — Whatcha Gon' Do F. Timbaland
+   8. Kevin Rudolf — Don'T Cry
+   9. Solomon — Can I Call You Rose? (Cover)
+  10. Mike Posner — Please Don'T Go
+
+PLAYLIST B
+----------------------------------------
+   1. Black Eyed Peas — Rock That Body (Skrillex Remix)
+   2. The Black Eyed Peas — Where Is The Love?
+   3. Will Smith — Miami (Album Version)
+   4. Debbie — The Rain Isn'T Over
+   5. Far East Movement — Turn Up The Love
+   6. Missy Elliott — Shake Your Pom Pom
+   7. Missy Elliot — Whatcha Gon' Do F. Timbaland
+   8. Kevin Rudolf — Don'T Cry
+   9. Solomon — Can I Call You Rose? (Cover)
+  10. Fergie — M.I.L.F. $
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: A → B
+────────────────────────────────────────────────────────────

@@ -1,16 +1,6 @@
 """
 Phase 4 — Experimental Evaluation (Offline)
 ============================================
-Implements sections 4.6.1 through 4.6.4 of the methodology.
-
-Steps
------
-  4.6.1  Comparative experimental design (3 models)
-  4.6.2  Train-test split already done in Phase 3
-  4.6.3  Precision@K and Recall@K at K = 5, 10, 20
-  4.6.4  Emotion alignment evaluation (cosine similarity
-         between emotional components of user context
-         and recommended track vectors)
 
 Models evaluated
 ----------------
@@ -31,12 +21,13 @@ Outputs (written to phase4_output/)
   evaluation_results.csv     — Precision@K and Recall@K per model per K
   emotion_alignment.csv      — emotion alignment scores per model
   full_results_report.txt    — human-readable summary for thesis write-up
-  per_user_metrics.pkl       — per-user scores for statistical testing
+  per_user_metrics.pkl       — per-user scores for use in Phase 5
+  stratified_results.csv     — per-group scores by emotional tag density
   phase4.log
 
 Requirements
 ------------
-  pip install numpy scipy
+  pip install numpy
 """
 
 import os
@@ -46,13 +37,6 @@ import pickle
 import logging
 import numpy as np
 from collections import defaultdict
-
-try:
-    from scipy import stats
-except ImportError:
-    import subprocess
-    subprocess.run([sys.executable, "-m", "pip", "install", "scipy", "-q"], check=True)
-    from scipy import stats
 
 # ────────────────────────────────────────────────
 # Configuration
@@ -85,7 +69,7 @@ LOG_FILE             = os.path.join(OUTPUT_DIR, "phase4.log")
 
 # Evaluation parameters — Section 4.6.3
 K_VALUES   = [5, 10, 20]
-# VAD dimensions from Warriner — 3-dim continuous (updated from NRC 8-dim binary)
+# VAD dimensions from Warriner — 3-dim continuous
 VAD_DIM    = 3
 VAD_DIMS   = ["valence", "arousal", "dominance"]
 
@@ -177,15 +161,16 @@ def evaluate_model(
     Compute Precision@K and Recall@K for a model across all K values.
     Scores are computed per user then macro-averaged (Section 4.6.3).
     Only users present in both recommendations and ground truth are evaluated.
+
     """
     eval_users = [u for u in recommendations if u in ground_truth]
     log.info(f"  [{model_name}] Evaluating {len(eval_users):,} users…")
 
-    results     = {}
-    per_user_scores = {k: {"precision": [], "recall": []} for k in k_values}
+    results          = {}
+    per_user_scores  = {k: {"precision": [], "recall": []} for k in k_values}
 
     for user in eval_users:
-        recs    = [r[0] for r in recommendations[user]]   # track keys only
+        recs     = [r[0] for r in recommendations[user]]   # track keys only
         relevant = ground_truth[user]
 
         for k in k_values:
@@ -198,13 +183,13 @@ def evaluate_model(
         p_scores = per_user_scores[k]["precision"]
         r_scores = per_user_scores[k]["recall"]
         results[k] = {
-            "precision_mean": float(np.mean(p_scores)),
-            "precision_std":  float(np.std(p_scores)),
-            "recall_mean":    float(np.mean(r_scores)),
-            "recall_std":     float(np.std(r_scores)),
-            "n_users":        len(eval_users),
-            "per_user_precision": p_scores,
-            "per_user_recall":    r_scores,
+            "precision_mean":     float(np.mean(p_scores)),
+            "precision_std":      float(np.std(p_scores)),
+            "recall_mean":        float(np.mean(r_scores)),
+            "recall_std":         float(np.std(r_scores)),
+            "n_users":            len(eval_users),
+            "per_user_precision": p_scores,   # retained for Phase 5
+            "per_user_recall":    r_scores,   # retained for Phase 5
         }
         log.info(f"    K={k:>2}  Precision={results[k]['precision_mean']:.4f} "
                  f"(±{results[k]['precision_std']:.4f})  "
@@ -227,10 +212,6 @@ def build_user_emotion_profile(
     Build each user's emotion profile directly from Warriner VAD vectors,
     independent of any embedding representation.
 
-    Per Section 4.6.4: emotion alignment must be measured in a shared
-    affective space independent of embedding representations.
-    Uses Warriner 3-dim continuous VAD vectors [valence, arousal, dominance].
-    Only tags with non-zero VAD vectors contribute to the profile.
     """
     by_user = defaultdict(list)
     for ev in train_events:
@@ -295,17 +276,14 @@ def compute_emotion_alignment(
     k: int = 10,
 ) -> dict:
     """
-    Emotion alignment computed in a shared Warriner VAD space for BOTH models.
+    Emotion alignment computed in a shared Warriner VAD space for both models.
 
     Alignment = cosine similarity between user's VAD emotion profile
     and each recommended track's VAD emotion profile, averaged over
     top-k recommendations then averaged over all users.
 
-    Per Section 4.6.4: measured in a shared affective space independent
-    of embedding representations. Uses Warriner 3-dim continuous VAD
-    vectors [valence, arousal, dominance].
     """
-    eval_users = [u for u in recommendations if u in user_emotion_profiles]
+    eval_users         = [u for u in recommendations if u in user_emotion_profiles]
     per_user_alignment = []
     zero_vector_users  = 0
 
@@ -343,76 +321,13 @@ def compute_emotion_alignment(
         "std":                std_alignment,
         "n_users":            len(per_user_alignment),
         "zero_profile_users": zero_vector_users,
-        "per_user":           per_user_alignment,
+        "per_user":           per_user_alignment,   # retained for Phase 5
     }
 
 
 # ────────────────────────────────────────────────
-# Statistical comparison (Section 4.6.6)
-# ────────────────────────────────────────────────
-
-def compare_models(scores_a: list[float], scores_b: list[float],
-                   label_a: str, label_b: str, metric: str):
-    """
-    Paired-sample t-test between two models' per-user scores.
-    Falls back to Wilcoxon signed-rank test if normality fails.
-    Reports effect size (Cohen's d).
-    Per Section 4.6.5.4.
-    """
-    # Align user counts
-    n  = min(len(scores_a), len(scores_b))
-    a  = np.array(scores_a[:n])
-    b  = np.array(scores_b[:n])
-    d  = a - b
-
-    # Shapiro-Wilk normality test on differences (sample up to 5000)
-    sample = d[:5000] if len(d) > 5000 else d
-    _, p_normality = stats.shapiro(sample)
-    normal = p_normality > 0.05
-
-    if normal:
-        t_stat, p_val = stats.ttest_rel(a, b)
-        test_name = "paired t-test"
-    else:
-        t_stat, p_val = stats.wilcoxon(a, b, zero_method="wilcox")
-        test_name = "Wilcoxon signed-rank"
-
-    # Cohen's d effect size
-    pooled_std = np.std(d) if np.std(d) > 0 else 1e-9
-    cohens_d   = float(np.mean(d) / pooled_std)
-
-    # Effect size interpretation
-    if abs(cohens_d) < 0.2:
-        magnitude = "negligible"
-    elif abs(cohens_d) < 0.5:
-        magnitude = "small"
-    elif abs(cohens_d) < 0.8:
-        magnitude = "medium"
-    else:
-        magnitude = "large"
-
-    result = {
-        "metric":     metric,
-        "label_a":    label_a,
-        "label_b":    label_b,
-        "test":       test_name,
-        "statistic":  float(t_stat),
-        "p_value":    float(p_val),
-        "cohens_d":   cohens_d,
-        "magnitude":  magnitude,
-        "significant": p_val < 0.05,
-        "n":          n,
-    }
-
-    sig = "✓ significant" if p_val < 0.05 else "✗ not significant"
-    log.info(f"    {label_a} vs {label_b} [{metric}]: "
-             f"{test_name}, p={p_val:.4f} ({sig}), "
-             f"d={cohens_d:.3f} ({magnitude})")
-    return result
-
-
-# ────────────────────────────────────────────────
-# Fix #5 — Stratified analysis by emotional tag density
+# Section 4.6.5 — Stratified analysis by emotional
+#                 tag density
 # ────────────────────────────────────────────────
 
 def compute_emotional_density(
@@ -421,11 +336,11 @@ def compute_emotional_density(
 ) -> dict[str, float]:
     """
     For each user, compute the proportion of their training tags
-    that carry non-zero NRC emotion signal.
+    that carry non-zero Warriner VAD signal.
 
     Users with higher emotional density have more emotionally-tagged
     listening history and are expected to benefit more from emotion-aware
-    recommendations.
+    recommendations (Section 4.6.5).
     """
     by_user = defaultdict(list)
     for ev in train_events:
@@ -433,10 +348,10 @@ def compute_emotional_density(
 
     densities = {}
     for user, evs in by_user.items():
-        all_tags      = [t for ev in evs for t in ev["tags"]]
-        emotional     = sum(1 for t in all_tags
-                            if t in emotion_vectors
-                            and emotion_vectors[t].sum() > 0)
+        all_tags  = [t for ev in evs for t in ev["tags"]]
+        emotional = sum(1 for t in all_tags
+                        if t in emotion_vectors
+                        and emotion_vectors[t].sum() > 0)
         densities[user] = emotional / len(all_tags) if all_tags else 0.0
 
     return densities
@@ -451,10 +366,11 @@ def stratified_evaluation(
 ) -> dict:
     """
     Split users at the median emotional density into HIGH and LOW groups.
-    Evaluate each model separately per group.
+    Evaluate each model separately per group (Section 4.6.5).
 
     Hypothesis: emotion-aware model outperforms semantic model specifically
     for HIGH-density users whose context vectors carry meaningful emotion signal.
+    No significance testing is performed here; that is reserved for Phase 5.
     """
     users_with_data = [u for u in recommendations_sem if u in ground_truth]
     densities       = [emotional_densities.get(u, 0.0) for u in users_with_data]
@@ -473,7 +389,7 @@ def stratified_evaluation(
     for group_name, group_users in [("high_density", high_users),
                                      ("low_density",  low_users)]:
         results[group_name] = {}
-        for model_name, recs in [("semantic",     recommendations_sem),
+        for model_name, recs in [("semantic",      recommendations_sem),
                                    ("emotion-aware", recommendations_emo)]:
             group_results = {}
             for k in k_values:
@@ -502,32 +418,6 @@ def stratified_evaluation(
     return results
 
 
-def save_stratified_csv(stratified_results: dict, output_dir: str):
-    path = os.path.join(output_dir, "stratified_results.csv")
-    rows = []
-    for group in ["high_density", "low_density"]:
-        if group not in stratified_results:
-            continue
-        for model in ["semantic", "emotion-aware"]:
-            if model not in stratified_results[group]:
-                continue
-            for k, metrics in stratified_results[group][model].items():
-                rows.append({
-                    "group":           group,
-                    "model":           model,
-                    "k":               k,
-                    "precision_mean":  round(metrics["precision_mean"], 6),
-                    "recall_mean":     round(metrics["recall_mean"],    6),
-                    "n_users":         metrics["n_users"],
-                })
-    if rows:
-        with open(path, "w", newline="", encoding="utf-8") as f:
-            writer = csv.DictWriter(f, fieldnames=rows[0].keys())
-            writer.writeheader()
-            writer.writerows(rows)
-        log.info(f"  Stratified results saved: {path}")
-
-
 # ────────────────────────────────────────────────
 # Save results
 # ────────────────────────────────────────────────
@@ -538,13 +428,13 @@ def save_evaluation_csv(all_results: dict):
     for model_name, k_results in all_results.items():
         for k, metrics in k_results.items():
             rows.append({
-                "model":           model_name,
-                "k":               k,
-                "precision_mean":  round(metrics["precision_mean"], 6),
-                "precision_std":   round(metrics["precision_std"],  6),
-                "recall_mean":     round(metrics["recall_mean"],    6),
-                "recall_std":      round(metrics["recall_std"],     6),
-                "n_users":         metrics["n_users"],
+                "model":          model_name,
+                "k":              k,
+                "precision_mean": round(metrics["precision_mean"], 6),
+                "precision_std":  round(metrics["precision_std"],  6),
+                "recall_mean":    round(metrics["recall_mean"],    6),
+                "recall_std":     round(metrics["recall_std"],     6),
+                "n_users":        metrics["n_users"],
             })
     with open(EVAL_CSV_FILE, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=rows[0].keys())
@@ -559,11 +449,11 @@ def save_alignment_csv(alignment_results: dict):
     for model_name, k_results in alignment_results.items():
         for k, metrics in k_results.items():
             rows.append({
-                "model":  model_name,
-                "k":      k,
-                "alignment_mean": round(metrics["mean"], 6),
-                "alignment_std":  round(metrics["std"],  6),
-                "n_users":        metrics["n_users"],
+                "model":           model_name,
+                "k":               k,
+                "alignment_mean":  round(metrics["mean"], 6),
+                "alignment_std":   round(metrics["std"],  6),
+                "n_users":         metrics["n_users"],
             })
     with open(ALIGNMENT_CSV_FILE, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=rows[0].keys())
@@ -572,9 +462,38 @@ def save_alignment_csv(alignment_results: dict):
     log.info(f"  Emotion alignment results saved: {ALIGNMENT_CSV_FILE}")
 
 
-def write_report(all_results: dict, alignment_results: dict,
-                 stat_comparisons: list[dict]):
-    """Write a full human-readable report for the thesis."""
+def save_stratified_csv(stratified_results: dict, output_dir: str):
+    path = os.path.join(output_dir, "stratified_results.csv")
+    rows = []
+    for group in ["high_density", "low_density"]:
+        if group not in stratified_results:
+            continue
+        for model in ["semantic", "emotion-aware"]:
+            if model not in stratified_results[group]:
+                continue
+            for k, metrics in stratified_results[group][model].items():
+                rows.append({
+                    "group":          group,
+                    "model":          model,
+                    "k":              k,
+                    "precision_mean": round(metrics["precision_mean"], 6),
+                    "recall_mean":    round(metrics["recall_mean"],    6),
+                    "n_users":        metrics["n_users"],
+                })
+    if rows:
+        with open(path, "w", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=rows[0].keys())
+            writer.writeheader()
+            writer.writerows(rows)
+        log.info(f"  Stratified results saved: {path}")
+
+
+def write_report(all_results: dict, alignment_results: dict):
+    """
+    Write a full human-readable report for the thesis.
+    Reports descriptive statistics only (means ± std, stratified breakdown).
+    Statistical significance testing is deferred to Phase 5 (Section 4.7.4).
+    """
     lines = []
     lines.append("=" * 65)
     lines.append("PHASE 4 — OFFLINE EVALUATION REPORT")
@@ -588,8 +507,7 @@ def write_report(all_results: dict, alignment_results: dict,
     lines.append(header)
     lines.append("-" * 65)
 
-    model_order = ["popularity", "semantic", "emotion-aware"]
-    for model in model_order:
+    for model in ["popularity", "semantic", "emotion-aware"]:
         if model not in all_results:
             continue
         for k in K_VALUES:
@@ -618,25 +536,25 @@ def write_report(all_results: dict, alignment_results: dict,
             )
         lines.append("")
 
-    # ── Statistical Tests ────────────────────────
-    lines.append("4.6.6  COMPARATIVE ANALYSIS (Statistical Tests)")
+    # ── Note on statistical testing ──────────────
+    lines.append("NOTE ON STATISTICAL TESTING")
     lines.append("-" * 65)
-    for comp in stat_comparisons:
-        sig = "SIGNIFICANT" if comp["significant"] else "not significant"
-        lines.append(
-            f"  {comp['label_a']} vs {comp['label_b']} [{comp['metric']}]"
-        )
-        lines.append(
-            f"    Test     : {comp['test']}"
-        )
-        lines.append(
-            f"    Statistic: {comp['statistic']:.4f}   p-value: {comp['p_value']:.4f}  ({sig})"
-        )
-        lines.append(
-            f"    Cohen's d: {comp['cohens_d']:.3f} ({comp['magnitude']} effect)"
-        )
-        lines.append(f"    N users  : {comp['n']}")
-        lines.append("")
+    lines.append(
+        "  Significance testing (paired-sample t-test / Wilcoxon signed-rank)"
+    )
+    lines.append(
+        "  is not conducted here. Per the study methodology (Section 4.7.4),"
+    )
+    lines.append(
+        "  inferential testing is reserved for the Phase 5 user study, where"
+    )
+    lines.append(
+        "  the same participants evaluate both models under identical conditions."
+    )
+    lines.append(
+        "  Per-user scores are saved in per_user_metrics.pkl for that purpose."
+    )
+    lines.append("")
 
     with open(REPORT_FILE, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
@@ -655,7 +573,7 @@ if __name__ == "__main__":
     recs_pop      = load_pickle(RECS_POPULARITY_FILE)
     recs_sem      = load_pickle(RECS_SEMANTIC_FILE)
     recs_emo      = load_pickle(RECS_EMOTION_FILE)
-    train_events  = load_pickle(os.path.join(PHASE3_DIR, "train_events.pkl"))
+    train_events  = load_pickle(TRAIN_FILE)
     track_rep_sem = load_pickle(TRACK_REP_SEM_FILE)
     track_rep_emo = load_pickle(TRACK_REP_EMO_FILE)
     emotion_vecs  = load_pickle(EMOTION_VEC_FILE)
@@ -684,18 +602,19 @@ if __name__ == "__main__":
         "emotion-aware": results_emo,
     }
 
-    # ── Step 4: Build shared NRC emotion space ────
+    # ── Step 4: Build shared Warriner VAD space ───
     log.info("\n[4.6.4] Building shared Warriner VAD emotion profiles…")
     log.info("  (both models evaluated in shared 3-dim VAD space)")
-    user_emo_profiles   = build_user_emotion_profile(
+    user_emo_profiles  = build_user_emotion_profile(
         train_events, emotion_vecs, context_window=50)
-    track_emo_profiles  = build_track_emotion_profile(
+    track_emo_profiles = build_track_emotion_profile(
         list(track_rep_sem.keys()), train_events, emotion_vecs)
 
     users_with_signal = sum(1 for v in user_emo_profiles.values() if v.sum() > 0)
-    log.info(f"  Users with non-zero emotion profile: {users_with_signal:,} / {len(user_emo_profiles):,}")
+    log.info(f"  Users with non-zero emotion profile: "
+             f"{users_with_signal:,} / {len(user_emo_profiles):,}")
 
-    # ── Step 5: Emotion Alignment (FIXED) ────────
+    # ── Step 5: Emotion Alignment ─────────────────
     log.info("\n[4.6.4] Computing emotion alignment (shared lexicon space)…")
     alignment_results = {"semantic": {}, "emotion-aware": {}}
 
@@ -708,51 +627,33 @@ if __name__ == "__main__":
             recs_emo, user_emo_profiles, track_emo_profiles,
             model_name="emotion-aware", k=k)
 
-    # ── Step 6: Statistical comparisons ──────────
-    log.info("\n[4.6.6] Statistical comparisons (semantic vs emotion-aware)…")
-    stat_comparisons = []
-
-    for k in K_VALUES:
-        stat_comparisons.append(compare_models(
-            results_emo[k]["per_user_precision"],
-            results_sem[k]["per_user_precision"],
-            "emotion-aware", "semantic", f"Precision@{k}"))
-        stat_comparisons.append(compare_models(
-            results_emo[k]["per_user_recall"],
-            results_sem[k]["per_user_recall"],
-            "emotion-aware", "semantic", f"Recall@{k}"))
-
-    stat_comparisons.append(compare_models(
-        alignment_results["emotion-aware"][10]["per_user"],
-        alignment_results["semantic"][10]["per_user"],
-        "emotion-aware", "semantic", "EmotionAlignment@10"))
-
-    # ── Step 7: Stratified analysis (Fix #5) ─────
-    log.info("\n[Stratified] Evaluating by emotional tag density…")
+    # ── Step 6: Stratified analysis (Section 4.6.5) ──
+    log.info("\n[4.6.5] Stratified evaluation by emotional tag density…")
     emotional_densities = compute_emotional_density(train_events, emotion_vecs)
     stratified_results  = stratified_evaluation(
         recs_sem, recs_emo, ground_truth,
         emotional_densities, K_VALUES)
 
-    # ── Step 8: Save all outputs ──────────────────
+    # ── Step 7: Save all outputs ──────────────────
     log.info("\nSaving results…")
     save_evaluation_csv(all_results)
     save_alignment_csv(alignment_results)
     save_stratified_csv(stratified_results, OUTPUT_DIR)
+    
 
+    # Per-user scores saved for Phase 5 statistical testing (Section 4.7.4)
     per_user_data = {
-        "popularity":       results_pop,
-        "semantic":         results_sem,
-        "emotion-aware":    results_emo,
-        "alignment":        alignment_results,
-        "stat_comparisons": stat_comparisons,
-        "stratified":       stratified_results,
+        "popularity":          results_pop,
+        "semantic":            results_sem,
+        "emotion-aware":       results_emo,
+        "alignment":           alignment_results,
+        "stratified":          stratified_results,
         "emotional_densities": emotional_densities,
     }
     save_pickle(per_user_data, PER_USER_FILE)
-    write_report(all_results, alignment_results, stat_comparisons)
+    write_report(all_results, alignment_results)
 
-    # ── Step 9: Console summary ───────────────────
+    # ── Step 8: Console summary ───────────────────
     log.info("")
     log.info("=" * 60)
     log.info("PHASE 4 SUMMARY")
@@ -794,5 +695,6 @@ if __name__ == "__main__":
         diff  = emo_p - sem_p
         log.info(f"  {group:<20} {sem_p:>10.4f} {emo_p:>10.4f} {diff:>+12.4f}")
     log.info("")
+    log.info("  Per-user scores saved to per_user_metrics.pkl for Phase 5.")
     log.info("Phase 4 offline evaluation complete.")
     log.info(f"Full report: {REPORT_FILE}")

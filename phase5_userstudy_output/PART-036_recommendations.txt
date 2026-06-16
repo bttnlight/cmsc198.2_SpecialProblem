@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-036
+Reported mood  : Energetic / Motivated
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. 100 gecs — money machine  [dataset]
+   2. Charli XCX — Speed Drive  [dataset]
+   3. Sophie — Immaterial  [dataset]
+   4. Bladee — Iceman  [lastfm]
+   5. Charli XCX — Gone  [lastfm]
+   6. Arca — Puro Quiero  [lastfm]
+   7. 100 gecs — hand crushed by a mallet  [dataset]
+   8. Yeule — Serotonin II  [lastfm]
+   9. Dorian Electra — Flamboyant  [lastfm]
+  10. Kim Petras — Heart to Break  [dataset]
+  11. Caroline Polachek — Bunny Is a Rider  [dataset]
+  12. Charli XCX — Vroom Vroom  [dataset]
+  13. sophie — Is It Cold in the Water?  [dataset]
+  14. Bladee — Fool  [lastfm]
+  15. A.G. Cook — Beautiful  [lastfm]
+  16. Grimes — Oblivion  [dataset]
+  17. Yeule — Ghost of You  [lastfm]
+  18. Caroline Polachek — Welcome to My Island  [dataset]
+  19. 100 gecs — Stupid Horse  [dataset]
+  20. Charli XCX — I Love It  [lastfm]
+
+PLAYLIST B
+----------------------------------------
+   1. 100 Gecs — Hollywood Baby
+   2. Charli Xcx — Delicious (Feat. Tommy Cash)
+   3. Bby Eco — Ivy
+   4. That Kid — Tan Lines
+   5. Hyd — Angel
+   6. Slayyyter — Serial Killer
+   7. Hannah Diamond — Every Night
+   8. Sophie — Lemonade
+   9. Gfoty — Hidden Gem
+  10. A. G. Cook — Lucifer
+
+PLAYLIST A
+----------------------------------------
+   1. 100 Gecs — The Most Wanted Person In The United States
+   2. Charli Xcx — C2.0
+   3. Bby Eco — Ivy
+   4. That Kid — Tan Lines
+   5. Hyd — Angel
+   6. Slayyyter — *Prayer*
+   7. Hannah Diamond — Every Night
+   8. Sophie — Broken Tale
+   9. Gfoty — Cool
+  10. A. G. Cook — Fraud
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: B → A
+────────────────────────────────────────────────────────────

@@ -1,0 +1,76 @@
+======================================================================
+ Phase 5 - DATA ANALYSIS RESULTS
+  Generated : 2026-05-24 14:00:08
+  Input     : Stage_2__Playlist_Evaluation_Survey__Responses_.xlsx
+  Log saved : phase5_data_analysis_results.txt
+======================================================================
+
+Loaded 42 responses.
+
+======================================================================
+1. DESCRIPTIVE STATISTICS  (Median / Mode / Range)
+   Ordinal Likert data — mean and SD not reported
+======================================================================
+Dimension               Med_A  Mode_A  Rng_A    Med_B  Mode_B  Rng_B
+----------------------------------------------------------------------
+Perceived Relevance       4.0       4      3      4.0       4      2
+Emotional Alignment       4.0       4      3      4.0       4      2
+User Satisfaction         4.0       4      3      4.0       4      2
+Everyday Listening        4.0       4      3      4.0       4      3
+Emotional Coherence       4.0       4      3      4.0       4      3
+
+======================================================================
+2. COMPARATIVE / CATEGORICAL QUESTION FREQUENCIES
+======================================================================
+
+Overall, which playlist did you prefer?
+--------------------------------------------------
+  Playlist B                                23  (54.8%)
+  Playlist A                                12  (28.6%)
+  No preference                              7  (16.7%)
+
+Which playlist felt more emotionally appropriate for your current mood?
+--------------------------------------------------
+  Playlist B                                20  (47.6%)
+  Playlist A                                12  (28.6%)
+  Both equally                              10  (23.8%)
+
+Which playlist felt more varied and interesting?
+--------------------------------------------------
+  Both equally                              29  (69.0%)
+  Playlist A                                 7  (16.7%)
+  Playlist B                                 6  (14.3%)
+
+Did the two playlists feel noticeably different from each other?
+--------------------------------------------------
+  Yes, slightly different                   38  (90.5%)
+  Yes, they felt very different              2  (4.8%)
+  No, they felt mostly the same              2  (4.8%)
+
+Which playlist do you feel better understood your taste in music — beyond just mood?
+--------------------------------------------------
+  Playlist B                                17  (40.5%)
+  Both equally                              13  (31.0%)
+  Playlist A                                 9  (21.4%)
+  Neither                                    3  (7.1%)
+
+======================================================================
+3. LIKELIHOOD TO USE AUTOMATIC PLAYLIST FEATURE
+   Ordinal — Median, Mode, and Range reported
+======================================================================
+  N      : 42
+  Median : 4.0
+  Mode   : 4
+  Min    : 2
+  Max    : 5
+  Range  : 3
+
+======================================================================
+4. FULL SUMMARY TABLE
+======================================================================
+          Dimension  N  Median_A Mode_A  Range_A  Median_B Mode_B  Range_B
+Perceived Relevance 42       4.0      4        3       4.0      4        2
+Emotional Alignment 42       4.0      4        3       4.0      4        2
+  User Satisfaction 42       4.0      4        3       4.0      4        2
+ Everyday Listening 42       4.0      4        3       4.0      4        3
+Emotional Coherence 42       4.0      4        3       4.0      4        3

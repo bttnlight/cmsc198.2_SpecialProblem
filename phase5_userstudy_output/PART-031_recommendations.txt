@@ -1,0 +1,62 @@
+============================================================
+USER STUDY — RECOMMENDATIONS
+Participant    : PART-031
+Reported mood  : Mixed / Varies
+Matched tracks : 20 / 20
+Context tracks : 20
+============================================================
+
+PARTICIPANT'S INPUT TRACKS (most recent first):
+   1. Coldplay — Yellow  [dataset]
+   2. Kendrick Lamar — Alright  [dataset]
+   3. Norah Jones — Come Away With Me  [dataset]
+   4. Tame Impala — The Less I Know the Better  [dataset]
+   5. Billie Eilish — Ocean Eyes  [dataset]
+   6. Maroon 5 — Sunday Morning  [dataset]
+   7. Childish Gambino — Sober  [dataset]
+   8. Hozier — Take Me to Church  [dataset]
+   9. Arctic Monkeys — 505.0  [lastfm]
+  10. Adele — Rolling in the Deep  [dataset]
+  11. Rex Orange County — Corduroy Dreams  [lastfm]
+  12. Post Malone — White Iverson  [dataset]
+  13. Fleetwood Mac — Dreams  [dataset]
+  14. Frank Ocean — Thinking Bout You  [lastfm]
+  15. The 1975 — Somebody Else  [dataset]
+  16. SZA — Supermodel  [dataset]
+  17. Radiohead — Creep  [dataset]
+  18. Bruno Mars — Grenade  [dataset]
+  19. Lorde — Royals  [dataset]
+  20. Vampire Weekend — A-Punk  [dataset]
+
+PLAYLIST B
+----------------------------------------
+   1. Poe — Not A Virgin
+   2. Fitz And The Tantrums — Handclap
+   3. Haim — Ready For You
+   4. Gwen Stefani — Serious
+   5. Twenty One Pilots — Formidable
+   6. Christina Perri — A Thousand Years
+   7. Tinashé — Pasadena
+   8. Pomplamoose — Extreme Ways
+   9. Arlo Parks — Senses
+  10. Milck — Take Me To Church
+
+PLAYLIST A
+----------------------------------------
+   1. Poe — Hey Pretty
+   2. Fitz And The Tantrums — Rich Girls
+   3. Haim — Don'T Wanna
+   4. Gwen Stefani — You Make It Feel Like Christmas (With Blake Shelton)
+   5. Twenty One Pilots — One Way
+   6. Christina Perri — A Thousand Years
+   7. Finn Askew — Distance
+   8. Tinashé — Pasadena
+   9. Pomplamoose — Beat The Horse
+  10. Arlo Parks — 2Sided
+
+────────────────────────────────────────────────────────────
+INTERNAL RECORD (researcher only — do not share):
+  Playlist A = Semantic model
+  Playlist B = Emotion-Aware model
+  Order shown to participant: B → A
+────────────────────────────────────────────────────────────
