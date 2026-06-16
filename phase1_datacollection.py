@@ -1,13 +1,46 @@
 """
 Phase 1 — Data Collection and Preprocessing
-============================================
+===========================================
 
-Usage
+Purpose
+-------
+Collect Last.fm listening histories and associated music tags,
+then construct the cleaned listening-event dataset used in
+subsequent phases of the study.
+
+Outputs
+-------
+phase1_output/
+├── eligible_users.txt
+├── raw_events.csv
+├── preprocessed_events.csv
+├── validated_events.csv
+├── clean_events.csv
+└── progress.log
+
+Requirements
+------------
+1. Install project dependencies:
+
+       pip install -r requirements.txt
+
+2. Configure a Last.fm API key:
+
+       Windows:
+           set LASTFM_API_KEY=your_api_key
+
+       Linux/macOS:
+           export LASTFM_API_KEY=your_api_key
+
+3. Run the script:
+
+       python phase1_datacollection.py
+
+Notes
 -----
-  1. pip install requests tqdm
-  2. Set your API_KEY and OUTPUT_DIR below (or via environment variables).
-  3. python phase1_datacollection.py
-  4. If interrupted, just run again — it will skip already-collected users automatically.
+The collection process supports interruption and resumption.
+Previously collected users and cached tag metadata are reused
+automatically when the script is executed again.
 """
 
 # ────────────────────────────────────────────────
@@ -31,9 +64,29 @@ except ImportError:
     subprocess.run([sys.executable, "-m", "pip", "install", "tqdm", "-q"], check=True)
     from tqdm import tqdm
 
-# ── API / sampling settings ──────────────────────
-API_KEY                  = os.getenv("LASTFM_API_KEY", "f4f4b05dcb5e7186c9762534a06a4bda")
-BASE_URL                 = "http://ws.audioscrobbler.com/2.0/"
+# ── Last.fm API configuration ────────────────────
+
+# Set your Last.fm API key through the LASTFM_API_KEY
+# environment variable before running this script.
+#
+# Windows:
+#   set LASTFM_API_KEY=your_api_key
+#
+# Linux/macOS:
+#   export LASTFM_API_KEY=your_api_key
+#
+# A free API key can be obtained from:
+# https://www.last.fm/api/account/create
+API_KEY = os.getenv("LASTFM_API_KEY")
+
+if not API_KEY:
+    raise RuntimeError(
+        "LASTFM_API_KEY environment variable is not set. "
+        "Please configure your Last.fm API key before running this script."
+    )
+
+BASE_URL = "http://ws.audioscrobbler.com/2.0/"
+
 DELAY                    = 0.25          # seconds between API calls
 TARGET_USERS             = 1000
 MIN_LISTENING_EVENTS     = 100
@@ -44,7 +97,7 @@ DUPLICATE_WINDOW_SECONDS = 300           # 5-minute dedup window
 MAX_PAGES_PER_USER       = 2             # ~200 tracks per user
 CACHE_FLUSH_INTERVAL     = 25            # flush tag cache every N users
 
-# ── Paths ────────────────────────────────────────
+# ── Output files and directories ─────────────────
 OUTPUT_DIR       = os.getenv("PHASE1_OUTPUT_DIR", os.path.join(os.path.dirname(__file__), "phase1_output"))
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -79,7 +132,7 @@ log.info("=" * 60)
 
 
 # ────────────────────────────────────────────────
-# 1.  CSV helpers
+# 1. Dataset I/O Utilities
 # ────────────────────────────────────────────────
 CSV_FIELDS = ["user", "track", "artist", "timestamp", "tags", "tag_source"]
 
@@ -130,7 +183,7 @@ def save_csv_events(path: str, events: list[dict]):
 
 
 # ────────────────────────────────────────────────
-# 2.  Done-user registry  (core resume mechanism)
+# 2. Collection Progress Tracking
 # ────────────────────────────────────────────────
 
 def load_done_users() -> set[str]:
@@ -148,7 +201,7 @@ def mark_user_done(username: str):
 
 
 # ────────────────────────────────────────────────
-# 3.  Tag cache
+# 3. Metadata Cache Management
 # ────────────────────────────────────────────────
 
 def load_tag_cache() -> dict:
@@ -168,7 +221,7 @@ log.info(f"Tag cache loaded: {len(tag_cache):,} entries")
 
 
 # ────────────────────────────────────────────────
-# 4.  Last.fm API helpers  (Section 4.3.1)
+# 4. Last.fm Data Retrieval
 # ────────────────────────────────────────────────
 
 def call_api(params: dict, retries: int = 3) -> dict | None:
@@ -256,7 +309,7 @@ def get_tags_for_track(artist: str, track: str) -> tuple[list[str], str]:
 
 
 # ────────────────────────────────────────────────
-# 5.  User sampling — snowball  (Section 4.3.2)
+# 5. Snowball Sampling of Eligible Participants
 # ────────────────────────────────────────────────
 
 def count_user_events(username: str) -> int:
@@ -327,7 +380,7 @@ def run_snowball_sampling(seed_user: str) -> list[str]:
 
 
 # ────────────────────────────────────────────────
-# 6.  Listening event construction  (Section 4.3.3)
+# 6. Listening Event Dataset Construction
 # ────────────────────────────────────────────────
 
 def build_listening_events(username: str) -> list[dict]:
@@ -360,7 +413,7 @@ def build_listening_events(username: str) -> list[dict]:
 
 
 # ────────────────────────────────────────────────
-# 7.  Main collection loop  (Section 4.3)
+# 7. Listening History Collection Pipeline
 # ────────────────────────────────────────────────
 
 def run_collection(eligible_users: list[str]):
@@ -418,7 +471,7 @@ def run_collection(eligible_users: list[str]):
 
 
 # ────────────────────────────────────────────────
-# 8.  Tag preprocessing  (Section 4.3.4)
+# 8. Tag Cleaning and Normalization
 # ────────────────────────────────────────────────
 
 def run_preprocessing():
@@ -459,7 +512,7 @@ def run_preprocessing():
 
 
 # ────────────────────────────────────────────────
-# 9.  Data quality validation  (Section 4.3.5)
+# 9. Dataset Validation and Deduplication
 # ────────────────────────────────────────────────
 
 def run_validation(events: list[dict]) -> list[dict]:
@@ -494,7 +547,7 @@ def run_validation(events: list[dict]) -> list[dict]:
 
 
 # ────────────────────────────────────────────────
-# 10.  Summary and final export
+# 10. Dataset Summary and Export
 # ────────────────────────────────────────────────
 
 def print_summary(events: list[dict]):
@@ -525,25 +578,25 @@ def print_summary(events: list[dict]):
 
 
 # ────────────────────────────────────────────────
-# 11.  Entry point
+# 11. Phase Execution Workflow
 # ────────────────────────────────────────────────
 
 if __name__ == "__main__":
-    # ── Step 1: Snowball sampling ─────────────────
+    # Step 1 — Identify eligible Last.fm users through snowball sampling.
     # Change SEED_USER to any publicly active Last.fm account you want to start from.
     SEED_USER    = "RJ"           # Last.fm founder — large, public friend network
     eligible     = load_eligible_users()
     if len(eligible) < TARGET_USERS:
         eligible = run_snowball_sampling(SEED_USER)
 
-    # ── Step 2: Collect listening events ─────────
+    # Step 2 — Collect listening histories and associated tags.
     run_collection(eligible)
 
-    # ── Step 3: Tag preprocessing ─────────────────
+    # Step 3 — Normalize and filter music tags.
     events = run_preprocessing()
 
-    # ── Step 4: Data quality validation ──────────
+    # Step 4 — Validate and deduplicate listening events.
     events = run_validation(events)
 
-    # ── Step 5: Summary ───────────────────────────
+    # Step 5 — Generate the final cleaned dataset and summary statistics.
     print_summary(events)
